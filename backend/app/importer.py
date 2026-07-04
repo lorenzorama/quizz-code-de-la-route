@@ -1,6 +1,10 @@
 from dataclasses import dataclass
 
 import openpyxl
+from sqlalchemy import select
+from sqlalchemy.orm import Session
+
+from app.models import Option, Question
 
 VALID_LABELS = ["A", "B", "C", "D"]
 VALID_MEDIA_TYPES = {"image", "video", "none"}
@@ -116,3 +120,32 @@ def parse_workbook(path: str) -> list[QuestionRow]:
         )
 
     return result
+
+
+def import_questions(session: Session, rows: list[QuestionRow]) -> dict:
+    created = 0
+    updated = 0
+    for row in rows:
+        question = session.scalar(select(Question).where(Question.ref == row.ref))
+        if question is None:
+            question = Question(ref=row.ref)
+            session.add(question)
+            created += 1
+        else:
+            updated += 1
+
+        question.theme = row.theme
+        question.text = row.text
+        question.explanation = row.explanation
+        question.media_path = row.media_path
+        question.media_type = row.media_type
+
+        question.options.clear()
+        session.flush()
+        for option in row.options:
+            question.options.append(
+                Option(label=option.label, text=option.text, is_correct=option.is_correct)
+            )
+
+    session.commit()
+    return {"created": created, "updated": updated}

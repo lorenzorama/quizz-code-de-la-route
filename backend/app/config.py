@@ -11,6 +11,8 @@ class Settings(BaseSettings):
     session_ttl_seconds: int = 60 * 60 * 24 * 7  # 7 days
     session_cookie_name: str = "session"
     cookie_secure: bool = False
+    exam_question_count: int = 40
+    pass_threshold: int = 35
 
 
 settings = Settings()

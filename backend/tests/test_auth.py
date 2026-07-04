@@ -89,6 +89,11 @@ def test_logout_returns_204(client):
     assert resp.status_code == 204
 
 
+def test_logout_without_session_returns_204(client):
+    resp = client.post("/auth/logout")
+    assert resp.status_code == 204
+
+
 def test_logout_deletes_redis_session(client):
     client.post(
         "/auth/register", json={"email": "g@example.com", "password": "password123"}

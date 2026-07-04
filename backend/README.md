@@ -63,6 +63,31 @@ Tests use a separate `quizz_test` database (created automatically by the
 `initdb` script when the `postgres` container is first initialized) and run
 each test inside a rolled-back transaction.
 
+## Authentication
+
+The API uses cookie-based session authentication:
+
+- `POST /auth/register` — create an account; returns `201` with the new user.
+- `POST /auth/login` — verify credentials; returns `200` with the user and sets an
+  httpOnly session cookie (`SESSION_COOKIE_NAME`, default `session`).
+- `POST /auth/logout` — invalidate the session; returns `204` (also `204` if there
+  was no active session).
+- `GET /auth/me` — return the currently authenticated user.
+
+Passwords are hashed with argon2. Sessions are opaque tokens backed by Redis
+(`SESSION_TTL_SECONDS` controls their lifetime, default 7 days) — no JWTs, so a
+logout or expiry immediately invalidates server-side access.
+
+## Production security notes
+
+- Set `COOKIE_SECURE=true` in production so the session cookie is HTTPS-only.
+- Session cookies are `httpOnly` + `SameSite=Lax`. CSRF risk is mitigated by
+  `SameSite=Lax` provided all state-changing operations stay POST/PUT/DELETE
+  (never GET). For this small private app, not adding a CSRF token is an
+  accepted risk; revisit (double-submit token) if the app becomes public.
+  Phase 3 mutating endpoints (exam start/submit) must keep using non-GET
+  methods.
+
 ## Run the API
 
 Locally (with the venv active and services running):

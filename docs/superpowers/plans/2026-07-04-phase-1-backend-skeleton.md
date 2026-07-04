@@ -10,7 +10,7 @@
 
 ## Global Constraints
 
-- Python version: **3.12** (Docker base `python:3.12-slim`).
+- Python version: **3.12** (Docker base `python:3.12-slim`). Locally, Python 3.12 is provided via **`uv`** (already installed); create the venv with `uv venv --python 3.12 .venv` and install deps with `uv pip install`.
 - Postgres image: **postgres:16**. Redis image: **redis:7**.
 - All backend code lives under `backend/`. Package root is `backend/app/`.
 - SQLAlchemy **2.0 style** only (`DeclarativeBase`, `Mapped`, `mapped_column`).
@@ -162,9 +162,9 @@ def test_root_returns_service_name():
 
 Run:
 ```bash
-cd backend && python3.12 -m venv .venv && . .venv/bin/activate && pip install -r requirements.txt
+cd backend && uv venv --python 3.12 .venv && . .venv/bin/activate && uv pip install -r requirements.txt
 ```
-Expected: installs complete without error.
+Expected: creates a Python 3.12 venv and installs complete without error. (All later `pytest`/`alembic`/`python`/`uvicorn` commands run inside this activated venv.)
 
 - [ ] **Step 11: Run the test**
 

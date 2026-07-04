@@ -8,7 +8,16 @@ from sqlalchemy.orm import Session, selectinload
 from app.config import settings
 from app.db import get_session
 from app.deps import get_current_user
-from app.exam_schemas import ExamQuestionOut, ExamResultOut, StartExamResponse, SubmitExamRequest
+from app.exam_schemas import (
+    AttemptSummaryOut,
+    ExamQuestionOut,
+    ExamResultOut,
+    ReviewOptionOut,
+    ReviewOut,
+    ReviewQuestionOut,
+    StartExamResponse,
+    SubmitExamRequest,
+)
 from app.models import Attempt, AttemptAnswer, Question, User
 from app.scoring import is_answer_correct
 
@@ -100,4 +109,67 @@ def submit_exam(
 
     return ExamResultOut(
         attempt_id=attempt.id, score=score, total=total, passed=attempt.passed
+    )
+
+
+@router.get("/history", response_model=list[AttemptSummaryOut])
+def exam_history(
+    db: Session = Depends(get_session),
+    current_user: User = Depends(get_current_user),
+) -> list[Attempt]:
+    attempts = db.scalars(
+        select(Attempt)
+        .where(Attempt.user_id == current_user.id)
+        .order_by(Attempt.started_at.desc(), Attempt.id.desc())
+    ).all()
+    return list(attempts)
+
+
+@router.get("/{attempt_id}/review", response_model=ReviewOut)
+def review_exam(
+    attempt_id: int,
+    db: Session = Depends(get_session),
+    current_user: User = Depends(get_current_user),
+) -> ReviewOut:
+    attempt = db.scalar(
+        select(Attempt)
+        .where(Attempt.id == attempt_id, Attempt.user_id == current_user.id)
+        .options(
+            selectinload(Attempt.answers)
+            .selectinload(AttemptAnswer.question)
+            .selectinload(Question.options)
+        )
+    )
+    if attempt is None:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND, detail="Attempt not found"
+        )
+    if attempt.status != "completed":
+        raise HTTPException(
+            status_code=status.HTTP_409_CONFLICT, detail="Attempt not completed"
+        )
+
+    questions = []
+    for attempt_answer in attempt.answers:
+        question = attempt_answer.question
+        questions.append(
+            ReviewQuestionOut(
+                id=question.id,
+                theme=question.theme,
+                text=question.text,
+                media_path=question.media_path,
+                media_type=question.media_type,
+                explanation=question.explanation,
+                options=[ReviewOptionOut.model_validate(o) for o in question.options],
+                selected_option_ids=list(attempt_answer.selected_option_ids),
+                is_correct=attempt_answer.is_correct,
+            )
+        )
+
+    return ReviewOut(
+        attempt_id=attempt.id,
+        score=attempt.score,
+        total=len(attempt.answers),
+        passed=attempt.passed,
+        questions=questions,
     )

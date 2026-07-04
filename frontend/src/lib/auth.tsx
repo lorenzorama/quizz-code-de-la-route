@@ -31,8 +31,18 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   }, []);
 
   useEffect(() => {
-    refresh().finally(() => setLoading(false));
-  }, [refresh]);
+    let active = true;
+    (async () => {
+      const me = await api.getMe();
+      if (active) {
+        setUser(me);
+        setLoading(false);
+      }
+    })();
+    return () => {
+      active = false;
+    };
+  }, []);
 
   const login = useCallback(async (email: string, password: string) => {
     const me = await api.login(email, password);

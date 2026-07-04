@@ -1,7 +1,6 @@
 "use client";
 
 import { FormEvent, useState } from "react";
-import Link from "next/link";
 import { ApiError } from "@/lib/api";
 import { Button } from "@/components/ui/Button";
 import { Card } from "@/components/ui/Card";
@@ -72,7 +71,12 @@ export function AuthForm({
               {error}
             </p>
           ) : null}
-          <Button type="submit" disabled={submitting} className="w-full">
+          <Button
+            type="submit"
+            disabled={submitting}
+            aria-busy={submitting}
+            className="w-full"
+          >
             {submitting ? "…" : submitLabel}
           </Button>
         </form>
@@ -81,5 +85,3 @@ export function AuthForm({
     </main>
   );
 }
-
-export { Link };

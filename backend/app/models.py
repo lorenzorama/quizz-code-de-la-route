@@ -109,3 +109,4 @@ class AttemptAnswer(Base):
     time_taken: Mapped[int | None] = mapped_column(Integer, nullable=True)
 
     attempt: Mapped["Attempt"] = relationship(back_populates="answers")
+    question: Mapped["Question"] = relationship()

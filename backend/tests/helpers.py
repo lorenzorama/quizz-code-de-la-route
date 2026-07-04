@@ -29,3 +29,25 @@ def valid_row(ref="Q001", correct="B", **overrides):
     }
     row.update(overrides)
     return row
+
+
+def seed_questions(session, n, correct_label="A"):
+    from app.models import Option, Question
+
+    questions = []
+    for i in range(n):
+        question = Question(
+            ref=f"E{i:03d}",
+            theme="theme",
+            text=f"Question {i}?",
+            media_type="none",
+            explanation=f"Explanation {i}",
+        )
+        question.options = [
+            Option(label=label, text=f"Option {label}", is_correct=(label == correct_label))
+            for label in ["A", "B", "C", "D"]
+        ]
+        session.add(question)
+        questions.append(question)
+    session.flush()
+    return questions

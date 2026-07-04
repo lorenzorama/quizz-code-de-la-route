@@ -1,4 +1,5 @@
 import random
+from datetime import datetime, timezone
 
 from fastapi import APIRouter, Depends, HTTPException, status
 from sqlalchemy import select
@@ -7,8 +8,9 @@ from sqlalchemy.orm import Session, selectinload
 from app.config import settings
 from app.db import get_session
 from app.deps import get_current_user
-from app.exam_schemas import ExamQuestionOut, StartExamResponse
+from app.exam_schemas import ExamQuestionOut, ExamResultOut, StartExamResponse, SubmitExamRequest
 from app.models import Attempt, AttemptAnswer, Question, User
+from app.scoring import is_answer_correct
 
 router = APIRouter(prefix="/exam", tags=["exam"])
 
@@ -47,4 +49,55 @@ def start_exam(
         attempt_id=attempt.id,
         question_count=len(ordered),
         questions=[ExamQuestionOut.model_validate(q) for q in ordered],
+    )
+
+
+@router.post("/{attempt_id}/submit", response_model=ExamResultOut)
+def submit_exam(
+    attempt_id: int,
+    payload: SubmitExamRequest,
+    db: Session = Depends(get_session),
+    current_user: User = Depends(get_current_user),
+) -> ExamResultOut:
+    attempt = db.scalar(
+        select(Attempt)
+        .where(Attempt.id == attempt_id, Attempt.user_id == current_user.id)
+        .options(
+            selectinload(Attempt.answers)
+            .selectinload(AttemptAnswer.question)
+            .selectinload(Question.options)
+        )
+    )
+    if attempt is None:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND, detail="Attempt not found"
+        )
+    if attempt.status == "completed":
+        raise HTTPException(
+            status_code=status.HTTP_409_CONFLICT, detail="Attempt already submitted"
+        )
+
+    submitted = {answer.question_id: answer for answer in payload.answers}
+    score = 0
+    for attempt_answer in attempt.answers:
+        submission = submitted.get(attempt_answer.question_id)
+        selected = set(submission.selected_option_ids) if submission else set()
+        correct_ids = {
+            option.id for option in attempt_answer.question.options if option.is_correct
+        }
+        attempt_answer.selected_option_ids = sorted(selected)
+        attempt_answer.is_correct = is_answer_correct(correct_ids, selected)
+        attempt_answer.time_taken = submission.time_taken if submission else None
+        if attempt_answer.is_correct:
+            score += 1
+
+    total = len(attempt.answers)
+    attempt.score = score
+    attempt.passed = score >= settings.pass_threshold
+    attempt.status = "completed"
+    attempt.finished_at = datetime.now(timezone.utc)
+    db.commit()
+
+    return ExamResultOut(
+        attempt_id=attempt.id, score=score, total=total, passed=attempt.passed
     )

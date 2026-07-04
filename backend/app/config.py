@@ -12,7 +12,7 @@ class Settings(BaseSettings):
     session_cookie_name: str = "session"
     cookie_secure: bool = False
     exam_question_count: int = 40
-    pass_threshold: int = 35
+    pass_ratio: float = 0.875
 
 
 settings = Settings()

@@ -1,3 +1,4 @@
+import math
 import random
 from datetime import datetime, timezone
 
@@ -101,8 +102,9 @@ def submit_exam(
             score += 1
 
     total = len(attempt.answers)
+    required = math.ceil(settings.pass_ratio * total)
     attempt.score = score
-    attempt.passed = score >= settings.pass_threshold
+    attempt.passed = score >= required
     attempt.status = "completed"
     attempt.finished_at = datetime.now(timezone.utc)
     db.commit()

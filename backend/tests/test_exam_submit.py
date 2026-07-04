@@ -1,3 +1,5 @@
+import math
+
 from app.config import settings
 from tests.helpers import seed_questions
 
@@ -45,11 +47,12 @@ def test_pass_threshold_boundary(client, session):
     questions = seed_questions(session, 40)
     _register_and_login(client)
     attempt_id = client.post("/exam/start").json()["attempt_id"]
-    answers = _correct_answers(questions[: settings.pass_threshold]) + _wrong_answers(
-        questions[settings.pass_threshold :]
+    required = math.ceil(settings.pass_ratio * 40)
+    answers = _correct_answers(questions[:required]) + _wrong_answers(
+        questions[required:]
     )
     body = client.post(f"/exam/{attempt_id}/submit", json={"answers": answers}).json()
-    assert body["score"] == settings.pass_threshold
+    assert body["score"] == required
     assert body["passed"] is True
 
 
@@ -57,11 +60,36 @@ def test_one_below_threshold_fails(client, session):
     questions = seed_questions(session, 40)
     _register_and_login(client)
     attempt_id = client.post("/exam/start").json()["attempt_id"]
-    n = settings.pass_threshold - 1
+    required = math.ceil(settings.pass_ratio * 40)
+    n = required - 1
     answers = _correct_answers(questions[:n]) + _wrong_answers(questions[n:])
     body = client.post(f"/exam/{attempt_id}/submit", json={"answers": answers}).json()
     assert body["score"] == n
     assert body["passed"] is False
+
+
+def test_small_bank_perfect_score_passes(client, session):
+    questions = seed_questions(session, 4)
+    _register_and_login(client)
+    attempt_id = client.post("/exam/start").json()["attempt_id"]
+    body = client.post(
+        f"/exam/{attempt_id}/submit", json={"answers": _correct_answers(questions)}
+    ).json()
+    assert body["score"] == 4
+    assert body["total"] == 4
+    assert body["passed"] is True
+
+
+def test_submit_ignores_unknown_question_id(client, session):
+    questions = seed_questions(session, 3)
+    _register_and_login(client)
+    attempt_id = client.post("/exam/start").json()["attempt_id"]
+    answers = _correct_answers(questions) + [
+        {"question_id": 999999, "selected_option_ids": [123456]}
+    ]
+    resp = client.post(f"/exam/{attempt_id}/submit", json={"answers": answers})
+    assert resp.status_code == 200
+    assert resp.json()["score"] == 3
 
 
 def test_unsubmitted_questions_count_wrong(client, session):

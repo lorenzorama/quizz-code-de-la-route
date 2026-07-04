@@ -90,7 +90,9 @@ class Attempt(Base):
     )
 
     answers: Mapped[list["AttemptAnswer"]] = relationship(
-        back_populates="attempt", cascade="all, delete-orphan"
+        back_populates="attempt",
+        cascade="all, delete-orphan",
+        order_by="AttemptAnswer.id",
     )
 
 

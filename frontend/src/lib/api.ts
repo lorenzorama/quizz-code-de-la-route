@@ -63,3 +63,95 @@ export async function getMe(): Promise<User | null> {
     throw error;
   }
 }
+
+export type ExamOption = { id: number; label: string; text: string };
+
+export type ExamQuestion = {
+  id: number;
+  theme: string;
+  text: string;
+  media_path: string | null;
+  media_type: string;
+  options: ExamOption[];
+};
+
+export type StartExamResponse = {
+  attempt_id: number;
+  question_count: number;
+  questions: ExamQuestion[];
+};
+
+export type SubmittedAnswer = {
+  question_id: number;
+  selected_option_ids: number[];
+  time_taken?: number | null;
+};
+
+export type ExamResult = {
+  attempt_id: number;
+  score: number;
+  total: number;
+  passed: boolean;
+};
+
+export type ReviewOption = {
+  id: number;
+  label: string;
+  text: string;
+  is_correct: boolean;
+};
+
+export type ReviewQuestion = {
+  id: number;
+  theme: string;
+  text: string;
+  media_path: string | null;
+  media_type: string;
+  explanation: string;
+  options: ReviewOption[];
+  selected_option_ids: number[];
+  is_correct: boolean;
+};
+
+export type Review = {
+  attempt_id: number;
+  score: number;
+  total: number;
+  passed: boolean;
+  questions: ReviewQuestion[];
+};
+
+export type AttemptSummary = {
+  id: number;
+  started_at: string;
+  finished_at: string | null;
+  score: number | null;
+  passed: boolean | null;
+  status: string;
+};
+
+export function startExam(): Promise<StartExamResponse> {
+  return request<StartExamResponse>("/exam/start", { method: "POST" });
+}
+
+export function submitExam(
+  attemptId: number,
+  answers: SubmittedAnswer[],
+): Promise<ExamResult> {
+  return request<ExamResult>(`/exam/${attemptId}/submit`, {
+    method: "POST",
+    body: JSON.stringify({ answers }),
+  });
+}
+
+export function getReview(attemptId: number): Promise<Review> {
+  return request<Review>(`/exam/${attemptId}/review`);
+}
+
+export function getHistory(): Promise<AttemptSummary[]> {
+  return request<AttemptSummary[]>("/exam/history");
+}
+
+export function mediaUrl(path: string): string {
+  return `${BASE_URL}/media/${path}`;
+}

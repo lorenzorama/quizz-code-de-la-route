@@ -8,6 +8,9 @@ class Settings(BaseSettings):
     test_database_url: str = "postgresql+psycopg://quizz:quizz@localhost:5432/quizz_test"
     redis_url: str = "redis://localhost:6379/0"
     media_dir: str = "media"
+    session_ttl_seconds: int = 60 * 60 * 24 * 7  # 7 days
+    session_cookie_name: str = "session"
+    cookie_secure: bool = False
 
 
 settings = Settings()

@@ -13,6 +13,7 @@ class Settings(BaseSettings):
     cookie_secure: bool = False
     exam_question_count: int = 40
     pass_ratio: float = 0.875
+    cors_origins: list[str] = ["http://localhost:3000"]
 
 
 settings = Settings()

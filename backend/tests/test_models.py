@@ -1,3 +1,6 @@
+import pytest
+from sqlalchemy.exc import IntegrityError
+
 from app.models import Attempt, AttemptAnswer, Option, Question, User
 
 
@@ -36,3 +39,14 @@ def test_attempt_answer_stores_selected_ids(session):
     session.flush()
     assert attempt.answers[0].selected_option_ids == [10, 11]
     assert attempt.status == "in_progress"
+
+
+def test_option_label_unique_per_question(session):
+    q = Question(ref="Q003", theme="priorités", text="Qui passe ?")
+    q.options = [Option(label="A", text="Moi", is_correct=False)]
+    session.add(q)
+    session.flush()
+
+    session.add(Option(question_id=q.id, label="A", text="Doublon", is_correct=False))
+    with pytest.raises(IntegrityError):
+        session.flush()

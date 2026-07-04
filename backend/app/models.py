@@ -8,6 +8,7 @@ from sqlalchemy import (
     JSON,
     String,
     Text,
+    UniqueConstraint,
     func,
 )
 from sqlalchemy.orm import Mapped, mapped_column, relationship
@@ -31,11 +32,13 @@ class Question(Base):
 
     id: Mapped[int] = mapped_column(primary_key=True)
     ref: Mapped[str] = mapped_column(String(50), unique=True, index=True)
-    theme: Mapped[str] = mapped_column(String(100), default="")
+    theme: Mapped[str] = mapped_column(String(100), default="", server_default="")
     text: Mapped[str] = mapped_column(Text)
     media_path: Mapped[str | None] = mapped_column(String(255), nullable=True)
-    media_type: Mapped[str] = mapped_column(String(10), default="none")
-    explanation: Mapped[str] = mapped_column(Text, default="")
+    media_type: Mapped[str] = mapped_column(
+        String(10), default="none", server_default="none"
+    )
+    explanation: Mapped[str] = mapped_column(Text, default="", server_default="")
     created_at: Mapped[datetime] = mapped_column(
         DateTime(timezone=True), server_default=func.now()
     )
@@ -52,6 +55,9 @@ class Question(Base):
 
 class Option(Base):
     __tablename__ = "options"
+    __table_args__ = (
+        UniqueConstraint("question_id", "label", name="uq_option_question_label"),
+    )
 
     id: Mapped[int] = mapped_column(primary_key=True)
     question_id: Mapped[int] = mapped_column(
@@ -79,7 +85,9 @@ class Attempt(Base):
     )
     score: Mapped[int | None] = mapped_column(Integer, nullable=True)
     passed: Mapped[bool | None] = mapped_column(Boolean, nullable=True)
-    status: Mapped[str] = mapped_column(String(20), default="in_progress")
+    status: Mapped[str] = mapped_column(
+        String(20), default="in_progress", server_default="in_progress"
+    )
 
     answers: Mapped[list["AttemptAnswer"]] = relationship(
         back_populates="attempt", cascade="all, delete-orphan"

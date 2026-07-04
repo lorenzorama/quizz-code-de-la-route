@@ -20,11 +20,11 @@ def upgrade() -> None:
     op.create_table('questions',
     sa.Column('id', sa.Integer(), nullable=False),
     sa.Column('ref', sa.String(length=50), nullable=False),
-    sa.Column('theme', sa.String(length=100), nullable=False),
+    sa.Column('theme', sa.String(length=100), server_default=sa.text("''"), nullable=False),
     sa.Column('text', sa.Text(), nullable=False),
     sa.Column('media_path', sa.String(length=255), nullable=True),
-    sa.Column('media_type', sa.String(length=10), nullable=False),
-    sa.Column('explanation', sa.Text(), nullable=False),
+    sa.Column('media_type', sa.String(length=10), server_default=sa.text("'none'"), nullable=False),
+    sa.Column('explanation', sa.Text(), server_default=sa.text("''"), nullable=False),
     sa.Column('created_at', sa.DateTime(timezone=True), server_default=sa.text('now()'), nullable=False),
     sa.Column('updated_at', sa.DateTime(timezone=True), server_default=sa.text('now()'), nullable=False),
     sa.PrimaryKeyConstraint('id')
@@ -45,7 +45,7 @@ def upgrade() -> None:
     sa.Column('finished_at', sa.DateTime(timezone=True), nullable=True),
     sa.Column('score', sa.Integer(), nullable=True),
     sa.Column('passed', sa.Boolean(), nullable=True),
-    sa.Column('status', sa.String(length=20), nullable=False),
+    sa.Column('status', sa.String(length=20), server_default=sa.text("'in_progress'"), nullable=False),
     sa.ForeignKeyConstraint(['user_id'], ['users.id'], ondelete='CASCADE'),
     sa.PrimaryKeyConstraint('id')
     )
@@ -57,7 +57,8 @@ def upgrade() -> None:
     sa.Column('text', sa.Text(), nullable=False),
     sa.Column('is_correct', sa.Boolean(), nullable=False),
     sa.ForeignKeyConstraint(['question_id'], ['questions.id'], ondelete='CASCADE'),
-    sa.PrimaryKeyConstraint('id')
+    sa.PrimaryKeyConstraint('id'),
+    sa.UniqueConstraint('question_id', 'label', name='uq_option_question_label')
     )
     op.create_index(op.f('ix_options_question_id'), 'options', ['question_id'], unique=False)
     op.create_table('attempt_answers',

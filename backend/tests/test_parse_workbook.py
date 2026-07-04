@@ -1,6 +1,7 @@
+import openpyxl
 import pytest
 
-from app.importer import QuestionImportError, parse_workbook
+from app.importer import REQUIRED_COLUMNS, QuestionImportError, parse_workbook
 from tests.helpers import valid_row, write_workbook
 
 
@@ -11,6 +12,9 @@ def test_parses_single_correct(tmp_path):
     q = rows[0]
     assert q.ref == "Q001"
     assert q.media_type == "image"
+    assert q.theme == "priorités"
+    assert q.text == "Qui passe en premier ?"
+    assert q.explanation == "Priorité à droite."
     assert [o.label for o in q.options if o.is_correct] == ["B"]
 
 
@@ -74,3 +78,32 @@ def test_too_few_options_raises(tmp_path):
     )
     with pytest.raises(QuestionImportError, match="at least 2 options"):
         parse_workbook(path)
+
+
+def test_duplicate_correct_label_raises(tmp_path):
+    path = write_workbook(tmp_path / "q.xlsx", [valid_row(correct="A,A")])
+    with pytest.raises(QuestionImportError, match="duplicate correct label"):
+        parse_workbook(path)
+
+
+def test_missing_required_column_raises(tmp_path):
+    path = tmp_path / "q.xlsx"
+    wb = openpyxl.Workbook()
+    ws = wb.active
+    columns = [c for c in REQUIRED_COLUMNS if c != "explanation"]
+    ws.append(columns)
+    row = valid_row()
+    ws.append([row.get(col, "") for col in columns])
+    wb.save(path)
+
+    with pytest.raises(QuestionImportError, match="Missing columns"):
+        parse_workbook(str(path))
+
+
+def test_empty_workbook_raises(tmp_path):
+    path = tmp_path / "q.xlsx"
+    wb = openpyxl.Workbook()
+    wb.save(path)
+
+    with pytest.raises(QuestionImportError, match="empty"):
+        parse_workbook(str(path))

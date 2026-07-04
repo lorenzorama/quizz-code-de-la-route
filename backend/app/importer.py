@@ -76,6 +76,10 @@ def parse_workbook(path: str) -> list[QuestionRow]:
         bad = [c for c in correct if c not in VALID_LABELS]
         if bad:
             raise QuestionImportError(f"Row {line_no} ({ref}): invalid correct labels {bad}")
+        if len(set(correct)) != len(correct):
+            raise QuestionImportError(
+                f"Row {line_no} ({ref}): duplicate correct label(s)"
+            )
 
         options: list[OptionRow] = []
         for label in VALID_LABELS:

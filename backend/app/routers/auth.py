@@ -4,6 +4,7 @@ from sqlalchemy.orm import Session
 
 from app.config import settings
 from app.db import get_session
+from app.deps import get_current_user
 from app.models import User
 from app.schemas import LoginRequest, RegisterRequest, UserOut
 from app.security import hash_password, verify_password
@@ -59,3 +60,8 @@ def logout(request: Request, response: Response) -> None:
         delete_session(token)
     response.delete_cookie(settings.session_cookie_name, path="/")
     return None
+
+
+@router.get("/me", response_model=UserOut)
+def me(current_user: User = Depends(get_current_user)) -> User:
+    return current_user

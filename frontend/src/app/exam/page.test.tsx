@@ -76,6 +76,39 @@ describe("ExamPage runner", () => {
     await waitFor(() => expect(push).toHaveBeenCalledWith("/exam/42/review"));
   });
 
+  it("retries the submit after a failure and navigates to review", async () => {
+    const questions = makeQuestions(2);
+    vi.spyOn(api, "startExam").mockResolvedValue({
+      attempt_id: 42,
+      question_count: 2,
+      questions,
+    });
+    const submit = vi
+      .spyOn(api, "submitExam")
+      .mockRejectedValueOnce(new Error("network error"))
+      .mockResolvedValue({ attempt_id: 42, score: 2, total: 2, passed: true });
+
+    renderExam();
+
+    // Q1: select A, click Suivant
+    await screen.findByText("Question 1");
+    await userEvent.click(screen.getByRole("button", { name: /^A/ }));
+    await userEvent.click(screen.getByRole("button", { name: "Suivant" }));
+
+    // Q2: select B, click Terminer -> submit fails
+    await screen.findByText("Question 2");
+    await userEvent.click(screen.getByRole("button", { name: /^B/ }));
+    await userEvent.click(screen.getByRole("button", { name: "Terminer" }));
+
+    await waitFor(() => expect(submit).toHaveBeenCalledOnce());
+    const retryButton = await screen.findByRole("button", { name: "Réessayer" });
+
+    await userEvent.click(retryButton);
+
+    await waitFor(() => expect(submit).toHaveBeenCalledTimes(2));
+    await waitFor(() => expect(push).toHaveBeenCalledWith("/exam/42/review"));
+  });
+
   it("auto-advances when the timer expires", async () => {
     vi.useFakeTimers();
     const questions = makeQuestions(2);

@@ -18,14 +18,14 @@ export function Countdown({
       <div className="flex items-center justify-between text-sm">
         <span className="font-medium text-slate-600">Temps restant</span>
         <span
-          className={`font-semibold tabular-nums ${low ? "text-red-600" : "text-slate-900"}`}
+          className={`font-semibold tabular-nums ${low ? "text-amber-600" : "text-slate-900"}`}
         >
           {remaining}s
         </span>
       </div>
       <div className="h-2 w-full overflow-hidden rounded-full bg-slate-200">
         <div
-          className={`h-full rounded-full transition-[width] duration-1000 ease-linear ${low ? "bg-red-500" : "bg-indigo-600"}`}
+          className={`h-full rounded-full transition-[width] duration-1000 ease-linear ${low ? "bg-amber-500" : "bg-indigo-600"}`}
           style={{ width: `${pct}%` }}
         />
       </div>

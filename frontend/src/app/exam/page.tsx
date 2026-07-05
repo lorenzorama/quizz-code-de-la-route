@@ -22,11 +22,13 @@ function Runner() {
     "loading",
   );
   const [errorMsg, setErrorMsg] = useState("");
+  const [submitFailed, setSubmitFailed] = useState(false);
   const [attemptId, setAttemptId] = useState<number | null>(null);
   const [questions, setQuestions] = useState<ExamQuestion[]>([]);
   const [index, setIndex] = useState(0);
   const answersRef = useRef<SubmittedAnswer[]>([]);
   const startedAtRef = useRef<number>(0);
+  const advancingRef = useRef(false);
   const [selected, setSelected] = useState<number[]>([]);
 
   useEffect(() => {
@@ -70,7 +72,24 @@ function Runner() {
     );
   }
 
+  async function submitAnswers() {
+    advancingRef.current = false;
+    setSubmitFailed(false);
+    setPhase("submitting");
+    try {
+      const result = await api.submitExam(attemptId as number, answersRef.current);
+      router.push(`/exam/${result.attempt_id}/review`);
+    } catch {
+      setErrorMsg("Échec de l'envoi de l'examen.");
+      setSubmitFailed(true);
+      setPhase("error");
+    }
+  }
+
   async function advance() {
+    if (advancingRef.current) return;
+    advancingRef.current = true;
+
     const elapsed = Math.min(
       SECONDS_PER_QUESTION,
       Math.round((timestamp() - startedAtRef.current) / 1000),
@@ -85,17 +104,11 @@ function Runner() {
       setSelected([]);
       startedAtRef.current = timestamp();
       setIndex((i) => i + 1);
+      advancingRef.current = false;
       return;
     }
 
-    setPhase("submitting");
-    try {
-      const result = await api.submitExam(attemptId as number, answersRef.current);
-      router.push(`/exam/${result.attempt_id}/review`);
-    } catch {
-      setErrorMsg("Échec de l'envoi de l'examen. Réessayez.");
-      setPhase("error");
-    }
+    await submitAnswers();
   }
 
   if (phase === "loading") {
@@ -105,9 +118,15 @@ function Runner() {
     return (
       <Centered>
         <p className="text-slate-700">{errorMsg}</p>
-        <Link href="/" className="mt-4 inline-block">
-          <Button variant="secondary">Retour à l&apos;accueil</Button>
-        </Link>
+        {submitFailed ? (
+          <Button className="mt-4" onClick={submitAnswers}>
+            Réessayer
+          </Button>
+        ) : (
+          <Link href="/" className="mt-4 inline-block">
+            <Button variant="secondary">Retour à l&apos;accueil</Button>
+          </Link>
+        )}
       </Centered>
     );
   }

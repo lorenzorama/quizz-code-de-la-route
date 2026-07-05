@@ -151,7 +151,7 @@ function Runner() {
 
       <Card className="flex min-h-0 flex-1 flex-col gap-4 overflow-hidden md:flex-row md:items-stretch">
         {hasMedia ? (
-          <div className="flex min-h-0 shrink-0 items-center justify-center md:w-1/2">
+          <div className="flex min-h-0 shrink-0 items-center justify-center md:w-3/5">
             <QuestionMedia
               mediaType={question.media_type}
               mediaPath={question.media_path}

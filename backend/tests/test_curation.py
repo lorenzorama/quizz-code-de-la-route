@@ -1,7 +1,12 @@
+import json
+
+import pytest
+from app.importer import parse_workbook
 from PIL import Image
 from tools.curation import DEFAULT_CROPS, crop_frame
 from tools.curation import parse_transcript
 from tools.curation import build_draft, frame_timestamp, video_number
+from tools.curation import build, validate_entry
 
 SINGLE = """[0:15] Question 1.
 [0:19] maintenir la vitesse, réponse A, bloquer, réponse B.
@@ -111,3 +116,65 @@ def test_crop_frame_produces_expected_size(tmp_path):
     assert out.exists()
     with Image.open(out) as img:
         assert img.size == (1920, 632)
+
+
+def _entry(**over):
+    entry = {
+        "ref": "v1q01", "theme": "vitesse",
+        "question_text": "Le régulateur permet de",
+        "options": {"A": "maintenir", "B": "bloquer"},
+        "correct": ["A"], "explanation": "Explication.",
+        "frame": "18.0.jpg", "crop": None,
+    }
+    entry.update(over)
+    return entry
+
+
+def test_validate_entry_rejects_bad_rows():
+    with pytest.raises(ValueError, match="empty question_text"):
+        validate_entry(_entry(question_text=""))
+    with pytest.raises(ValueError, match="no correct answer"):
+        validate_entry(_entry(correct=[]))
+    with pytest.raises(ValueError, match="have no option"):
+        validate_entry(_entry(correct=["C"]))
+    with pytest.raises(ValueError, match="no frame chosen"):
+        validate_entry(_entry(frame=""))
+
+
+def _setup_build(tmp_path):
+    curation = tmp_path / "curation"
+    curation.mkdir()
+    frames = tmp_path / "frames" / "video_1"
+    frames.mkdir(parents=True)
+    Image.new("RGB", (1920, 1080), "white").save(frames / "18.0.jpg")
+    (curation / "video_1.json").write_text(
+        json.dumps([_entry(correct=["A"])]), encoding="utf-8"
+    )
+    media = tmp_path / "media"
+    xlsx = tmp_path / "questions.xlsx"
+    return curation, tmp_path / "frames", media, xlsx
+
+
+def test_build_crops_and_writes_valid_xlsx(tmp_path):
+    curation, frames_root, media, xlsx = _setup_build(tmp_path)
+    n = build(str(curation), str(frames_root), str(media), str(xlsx))
+    assert n == 1
+    # cropped media created at media/video_1/v1q01.jpg
+    cropped = media / "video_1" / "v1q01.jpg"
+    assert cropped.exists()
+    with Image.open(cropped) as img:
+        assert img.size == (1920, 632)
+    # generated xlsx passes the existing importer's validation
+    rows = parse_workbook(str(xlsx))
+    assert len(rows) == 1
+    assert rows[0].ref == "v1q01"
+    assert rows[0].media_path == "video_1/v1q01.jpg"
+    assert rows[0].media_type == "image"
+    assert [o.label for o in rows[0].options if o.is_correct] == ["A"]
+
+
+def test_build_is_idempotent(tmp_path):
+    curation, frames_root, media, xlsx = _setup_build(tmp_path)
+    build(str(curation), str(frames_root), str(media), str(xlsx))
+    build(str(curation), str(frames_root), str(media), str(xlsx))
+    assert len(parse_workbook(str(xlsx))) == 1

@@ -1,10 +1,13 @@
 from __future__ import annotations
 
+import argparse
+import glob
 import json
 import os
 import re
 from dataclasses import dataclass
 
+from openpyxl import Workbook
 from PIL import Image
 
 _TS = re.compile(r"\[(\d+):(\d{2})\]")
@@ -151,3 +154,100 @@ def crop_frame(
     os.makedirs(os.path.dirname(out_path) or ".", exist_ok=True)
     with Image.open(frame_path) as img:
         img.crop((x, y, x + w, y + h)).save(out_path)
+
+
+_XLSX_COLUMNS = [
+    "ref", "theme", "question_text",
+    "option_a", "option_b", "option_c", "option_d",
+    "correct", "explanation", "media_path", "media_type",
+]
+_VALID_LABELS = ["A", "B", "C", "D"]
+
+
+def validate_entry(entry: dict) -> None:
+    ref = entry.get("ref") or "<no ref>"
+    if not entry.get("question_text"):
+        raise ValueError(f"{ref}: empty question_text")
+    options = entry.get("options") or {}
+    if len(options) < 2:
+        raise ValueError(f"{ref}: needs at least 2 options")
+    correct = entry.get("correct") or []
+    if not correct:
+        raise ValueError(f"{ref}: no correct answer")
+    orphan = [c for c in correct if c not in options]
+    if orphan:
+        raise ValueError(f"{ref}: correct label(s) {orphan} have no option")
+    if not entry.get("frame"):
+        raise ValueError(f"{ref}: no frame chosen")
+
+
+def build(
+    curation_dir: str, frames_root: str, media_root: str, xlsx_path: str
+) -> int:
+    workbook = Workbook()
+    sheet = workbook.active
+    sheet.title = "questions"
+    sheet.append(_XLSX_COLUMNS)
+
+    count = 0
+    for path in sorted(glob.glob(os.path.join(curation_dir, "video_*.json"))):
+        number = video_number(os.path.splitext(os.path.basename(path))[0])
+        folder = f"video_{number}"
+        with open(path, encoding="utf-8") as fh:
+            entries = json.load(fh)
+        for entry in entries:
+            validate_entry(entry)
+            frame_path = os.path.join(frames_root, folder, entry["frame"])
+            if not os.path.exists(frame_path):
+                raise ValueError(f"{entry['ref']}: frame not found at {frame_path}")
+            box = tuple(entry["crop"]) if entry.get("crop") else DEFAULT_CROPS[number]
+            media_rel = f"{folder}/{entry['ref']}.jpg"
+            crop_frame(frame_path, box, os.path.join(media_root, media_rel))
+
+            options = entry["options"]
+            sheet.append([
+                entry["ref"],
+                entry.get("theme", ""),
+                entry["question_text"],
+                options.get("A", ""),
+                options.get("B", ""),
+                options.get("C", ""),
+                options.get("D", ""),
+                ",".join(entry["correct"]),
+                entry.get("explanation", ""),
+                media_rel,
+                "image",
+            ])
+            count += 1
+
+    os.makedirs(os.path.dirname(xlsx_path) or ".", exist_ok=True)
+    workbook.save(xlsx_path)
+    return count
+
+
+def main(argv: list[str] | None = None) -> int:
+    parser = argparse.ArgumentParser(prog="curation")
+    sub = parser.add_subparsers(dest="command", required=True)
+
+    p_draft = sub.add_parser("draft")
+    p_draft.add_argument("video_dir")
+    p_draft.add_argument("out_path")
+
+    p_build = sub.add_parser("build")
+    p_build.add_argument("--curation-dir", default="backend/data/curation")
+    p_build.add_argument("--frames-root", default="sources_data")
+    p_build.add_argument("--media-root", default="backend/media")
+    p_build.add_argument("--xlsx-path", default="backend/data/questions.xlsx")
+
+    args = parser.parse_args(argv)
+    if args.command == "draft":
+        draft(args.video_dir, args.out_path)
+        print(f"Wrote draft to {args.out_path}")
+    else:
+        n = build(args.curation_dir, args.frames_root, args.media_root, args.xlsx_path)
+        print(f"Built {n} questions into {args.xlsx_path}")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

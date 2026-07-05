@@ -1,0 +1,396 @@
+[
+  {
+    "ref": "v4q01",
+    "theme": "distances-de-sécurité",
+    "question_text": "Je circule à 50 km/h. La distance d'arrêt de mon véhicule est de",
+    "options": {
+      "A": "15 mètres",
+      "B": "25 mètres",
+      "C": "30 mètres",
+      "D": "50 mètres"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Pour calculer la distance d'arrêt, on multiplie par lui-même le chiffre des dizaines de la vitesse. À 50 km/h, cela donne 5 × 5 = 25 mètres. À titre de comparaison, à 110 km/h la distance d'arrêt serait de 11 × 11 = 121 mètres.",
+    "frame": "45.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "24.0.jpg",
+      "27.0.jpg",
+      "30.0.jpg",
+      "33.0.jpg",
+      "36.0.jpg",
+      "39.0.jpg",
+      "42.0.jpg",
+      "45.0.jpg",
+      "48.0.jpg",
+      "51.0.jpg",
+      "54.0.jpg",
+      "57.0.jpg",
+      "60.0.jpg",
+      "63.0.jpg",
+      "66.0.jpg",
+      "69.0.jpg",
+      "72.0.jpg"
+    ],
+    "window": [
+      22.0,
+      72.0
+    ]
+  },
+  {
+    "ref": "v4q02",
+    "theme": "distances-de-sécurité",
+    "question_text": "Je circule à 50 km/h. La distance de sécurité à laisser avec le véhicule qui me précède doit être d'au moins",
+    "options": {
+      "A": "30 mètres",
+      "B": "40 mètres",
+      "C": "50 mètres",
+      "D": "60 mètres"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Pour calculer la distance de sécurité à laisser avec le véhicule qui précède, on multiplie par 6 le chiffre des dizaines de la vitesse. À 50 km/h, la distance minimale est donc de 5 × 6 = 30 mètres. Pour la retenir : le mot « sécurité » commence par un S, comme le chiffre 6.",
+    "frame": "108.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "81.0.jpg",
+      "84.0.jpg",
+      "87.0.jpg",
+      "90.0.jpg",
+      "93.0.jpg",
+      "96.0.jpg",
+      "99.0.jpg",
+      "102.0.jpg",
+      "105.0.jpg",
+      "108.0.jpg",
+      "111.0.jpg",
+      "114.0.jpg",
+      "117.0.jpg",
+      "120.0.jpg",
+      "123.0.jpg",
+      "126.0.jpg",
+      "129.0.jpg",
+      "132.0.jpg",
+      "135.0.jpg",
+      "138.0.jpg"
+    ],
+    "window": [
+      81.0,
+      139.0
+    ]
+  },
+  {
+    "ref": "v4q03",
+    "theme": "distances-de-sécurité",
+    "question_text": "Je circule à 90 km/h, la distance que parcourt mon véhicule en 1 seconde est de",
+    "options": {
+      "A": "7 mètres",
+      "B": "17 mètres",
+      "C": "27 mètres",
+      "D": "37 mètres"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "Pour calculer la distance parcourue par un véhicule en une seconde, on multiplie par 3 le chiffre des dizaines de la vitesse. À 90 km/h, cela donne 9 × 3 = 27 mètres en une seconde. À 50 km/h, ce serait 5 × 3 = 15 mètres.",
+    "frame": "162.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "141.0.jpg",
+      "144.0.jpg",
+      "147.0.jpg",
+      "150.0.jpg",
+      "153.0.jpg",
+      "156.0.jpg",
+      "159.0.jpg",
+      "162.0.jpg",
+      "165.0.jpg",
+      "168.0.jpg",
+      "171.0.jpg",
+      "174.0.jpg",
+      "177.0.jpg",
+      "180.0.jpg",
+      "183.0.jpg",
+      "186.0.jpg"
+    ],
+    "window": [
+      139.0,
+      187.0
+    ]
+  },
+  {
+    "ref": "v4q04",
+    "theme": "distances-de-sécurité",
+    "question_text": "L'intervalle de temps à laisser entre mon véhicule et celui qui me précède doit être au minimum de",
+    "options": {
+      "A": "1 seconde",
+      "B": "2 secondes",
+      "C": "3 secondes",
+      "D": "4 secondes"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "L'intervalle de temps à laisser avec le véhicule qui précède doit être d'au moins 2 secondes. Pour le vérifier, choisissez un repère fixe au niveau du véhicule qui vous précède, par exemple un arbre, puis prononcez « un éléphant, deux éléphants » : vous ne devez atteindre ce repère qu'après cette phrase, pas avant.",
+    "frame": "219.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "198.0.jpg",
+      "201.0.jpg",
+      "204.0.jpg",
+      "207.0.jpg",
+      "210.0.jpg",
+      "213.0.jpg",
+      "216.0.jpg",
+      "219.0.jpg",
+      "222.0.jpg",
+      "225.0.jpg",
+      "228.0.jpg",
+      "231.0.jpg",
+      "234.0.jpg",
+      "237.0.jpg",
+      "240.0.jpg",
+      "243.0.jpg"
+    ],
+    "window": [
+      196.0,
+      243.0
+    ]
+  },
+  {
+    "ref": "v4q05",
+    "theme": "documents",
+    "question_text": "L'alcoolémie maximale à ne pas dépasser pour un jeune conducteur est de",
+    "options": {
+      "A": "0,1 g/L de sang",
+      "B": "0,2 g/L de sang",
+      "C": "0,4 g/L de sang",
+      "D": "0,5 g/L de sang"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "L'alcoolémie maximale à ne pas dépasser pour un jeune conducteur (en permis probatoire) est de 0,2 g/L de sang, soit 0,1 mg d'alcool pur par litre d'air expiré. Pour passer des grammes par litre de sang aux milligrammes par litre d'air expiré, il suffit de diviser la valeur par deux.",
+    "frame": "270.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "243.0.jpg",
+      "246.0.jpg",
+      "249.0.jpg",
+      "252.0.jpg",
+      "255.0.jpg",
+      "258.0.jpg",
+      "261.0.jpg",
+      "264.0.jpg",
+      "267.0.jpg",
+      "270.0.jpg",
+      "273.0.jpg",
+      "276.0.jpg",
+      "279.0.jpg",
+      "282.0.jpg",
+      "285.0.jpg",
+      "288.0.jpg",
+      "291.0.jpg",
+      "294.0.jpg"
+    ],
+    "window": [
+      243.0,
+      295.0
+    ]
+  },
+  {
+    "ref": "v4q06",
+    "theme": "documents",
+    "question_text": "L'alcoolémie maximale à ne pas dépasser pour un conducteur expérimenté est de",
+    "options": {
+      "A": "0,2 g/L de sang",
+      "B": "0,3 g/L de sang",
+      "C": "0,4 g/L de sang",
+      "D": "0,5 g/L de sang"
+    },
+    "correct": [
+      "D"
+    ],
+    "explanation": "L'alcoolémie maximale à ne pas dépasser pour un conducteur expérimenté est de 0,5 g/L de sang, soit 0,25 mg d'alcool pur par litre d'air expiré.",
+    "frame": "318.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "297.0.jpg",
+      "300.0.jpg",
+      "303.0.jpg",
+      "306.0.jpg",
+      "309.0.jpg",
+      "312.0.jpg",
+      "315.0.jpg",
+      "318.0.jpg",
+      "321.0.jpg",
+      "324.0.jpg",
+      "327.0.jpg",
+      "330.0.jpg",
+      "333.0.jpg",
+      "336.0.jpg"
+    ],
+    "window": [
+      295.0,
+      338.0
+    ]
+  },
+  {
+    "ref": "v4q07",
+    "theme": "équipements-de-sécurité",
+    "question_text": "Pour signaler une panne ou un accident, le triangle de présignalisation doit être posé en amont du véhicule à au moins",
+    "options": {
+      "A": "10 mètres",
+      "B": "30 mètres",
+      "C": "50 mètres",
+      "D": "100 mètres"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Le triangle de présignalisation doit être placé à une distance d'au moins 30 mètres en amont de la panne ou de l'accident. Pour des raisons de sécurité, il est en revanche vivement déconseillé de le placer sur une autoroute.",
+    "frame": "360.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "339.0.jpg",
+      "342.0.jpg",
+      "345.0.jpg",
+      "348.0.jpg",
+      "351.0.jpg",
+      "354.0.jpg",
+      "357.0.jpg",
+      "360.0.jpg",
+      "363.0.jpg",
+      "366.0.jpg",
+      "369.0.jpg",
+      "372.0.jpg",
+      "375.0.jpg",
+      "378.0.jpg",
+      "381.0.jpg"
+    ],
+    "window": [
+      338.0,
+      382.0
+    ]
+  },
+  {
+    "ref": "v4q08",
+    "theme": "premiers-secours",
+    "question_text": "Suite à un accident de la route, un conducteur peut joindre les services de secours en composant le",
+    "options": {
+      "A": "15",
+      "B": "18",
+      "C": "19",
+      "D": "112"
+    },
+    "correct": [
+      "A",
+      "B",
+      "D"
+    ],
+    "explanation": "Selon la nature de l'accident, on peut contacter les services de secours en composant le 15 pour le SAMU, le 18 pour les pompiers, ou le 112, numéro d'urgence valable dans toute l'Union européenne.",
+    "frame": "402.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "384.0.jpg",
+      "387.0.jpg",
+      "390.0.jpg",
+      "393.0.jpg",
+      "396.0.jpg",
+      "399.0.jpg",
+      "402.0.jpg",
+      "405.0.jpg",
+      "408.0.jpg",
+      "411.0.jpg",
+      "414.0.jpg",
+      "417.0.jpg",
+      "420.0.jpg",
+      "423.0.jpg"
+    ],
+    "window": [
+      384.0,
+      423.0
+    ]
+  },
+  {
+    "ref": "v4q09",
+    "theme": "distances-de-sécurité",
+    "question_text": "La distance latérale de sécurité à laisser avec un usager vulnérable doit être d'au moins",
+    "options": {
+      "A": "En ville : 1 mètre",
+      "B": "En ville : 1,5 mètre",
+      "C": "Hors agglomération : 1 mètre",
+      "D": "Hors agglomération : 1,5 mètre"
+    },
+    "correct": [
+      "A",
+      "D"
+    ],
+    "explanation": "Lorsqu'on dépasse un usager vulnérable, la distance latérale de sécurité doit être d'au moins 1 mètre en ville et d'au moins 1,5 mètre hors agglomération. À retenir : en ville, il y a souvent moins de place pour dépasser, on tolère donc 1 mètre au lieu de 1,5 mètre.",
+    "frame": "450.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "426.0.jpg",
+      "429.0.jpg",
+      "432.0.jpg",
+      "435.0.jpg",
+      "438.0.jpg",
+      "441.0.jpg",
+      "444.0.jpg",
+      "447.0.jpg",
+      "450.0.jpg",
+      "453.0.jpg",
+      "456.0.jpg",
+      "459.0.jpg",
+      "462.0.jpg",
+      "465.0.jpg",
+      "468.0.jpg",
+      "471.0.jpg",
+      "474.0.jpg",
+      "477.0.jpg"
+    ],
+    "window": [
+      426.0,
+      479.0
+    ]
+  },
+  {
+    "ref": "v4q10",
+    "theme": "équipements-de-sécurité",
+    "question_text": "Un enfant est autorisé à s'installer à l'avant de la voiture à partir de",
+    "options": {
+      "A": "5 ans",
+      "B": "7 ans",
+      "C": "10 ans",
+      "D": "12 ans"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "Le code de la route autorise un enfant à s'installer à l'avant de la voiture à partir de 10 ans. Par ailleurs, les enfants de moins de 135 cm doivent être transportés dans un siège homologué, adapté à leur poids et à leur taille.",
+    "frame": "501.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "483.0.jpg",
+      "486.0.jpg",
+      "489.0.jpg",
+      "492.0.jpg",
+      "495.0.jpg",
+      "498.0.jpg",
+      "501.0.jpg",
+      "504.0.jpg",
+      "507.0.jpg",
+      "510.0.jpg",
+      "513.0.jpg",
+      "516.0.jpg",
+      "519.0.jpg"
+    ],
+    "window": [
+      481.0,
+      520.0
+    ]
+  }
+]

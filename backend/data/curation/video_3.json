@@ -1,0 +1,367 @@
+[
+  {
+    "ref": "v3q01",
+    "theme": "premiers-secours",
+    "question_text": "En cas d'accident, je peux être accusé de non-assistance à personne en danger si",
+    "options": {
+      "A": "Je ne porte pas secours aux victimes : oui",
+      "B": "Je ne porte pas secours aux victimes : non",
+      "C": "Je ne fais pas de constat amiable : oui",
+      "D": "Je ne fais pas de constat amiable : non"
+    },
+    "correct": [
+      "A",
+      "D"
+    ],
+    "explanation": "Le délit de non-assistance à personne en danger consiste à refuser de porter secours ou d'appeler les secours pour venir en aide à une personne. Ne pas porter secours aux victimes peut donc constituer ce délit. En revanche, ne pas remplir de constat amiable n'est pas un cas de non-assistance. Ce délit expose l'usager à 75 000 euros d'amende et 5 ans d'emprisonnement.",
+    "frame": "30.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "9.0.jpg",
+      "12.0.jpg",
+      "15.0.jpg",
+      "18.0.jpg",
+      "21.0.jpg",
+      "24.0.jpg",
+      "27.0.jpg",
+      "30.0.jpg",
+      "33.0.jpg",
+      "36.0.jpg",
+      "39.0.jpg",
+      "42.0.jpg",
+      "45.0.jpg",
+      "48.0.jpg",
+      "51.0.jpg"
+    ],
+    "window": [
+      9.0,
+      53.0
+    ]
+  },
+  {
+    "ref": "v3q02",
+    "theme": "éclairage-visibilité",
+    "question_text": "Mon rétroviseur intérieur peut posséder une position nuit pour atténuer l'éblouissement engendré par une voiture qui me suit",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Un rétroviseur intérieur possède très souvent une position nuit permettant de réduire l'éblouissement provoqué par les phares d'un véhicule qui suit. Cette position peut être activée manuellement par le conducteur ou, sur les voitures plus modernes, de façon automatique. On parle alors de rétroviseur électrochrome.",
+    "frame": "72.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "57.0.jpg",
+      "60.0.jpg",
+      "63.0.jpg",
+      "66.0.jpg",
+      "69.0.jpg",
+      "72.0.jpg",
+      "75.0.jpg",
+      "78.0.jpg",
+      "81.0.jpg",
+      "84.0.jpg",
+      "87.0.jpg",
+      "90.0.jpg",
+      "93.0.jpg",
+      "96.0.jpg"
+    ],
+    "window": [
+      55.0,
+      96.0
+    ]
+  },
+  {
+    "ref": "v3q03",
+    "theme": "circulation",
+    "question_text": "Je roule à 90 km/h, je suis bien placé",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Comme l'indique le marquage au sol, avec des traits larges et rapprochés, la voie de droite est une voie réservée aux véhicules lents. Seuls les véhicules roulant à moins de 60 km/h doivent y circuler. Roulant à 90 km/h, je suis donc bien placé sur la voie de gauche.",
+    "frame": "114.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "99.0.jpg",
+      "102.0.jpg",
+      "105.0.jpg",
+      "108.0.jpg",
+      "111.0.jpg",
+      "114.0.jpg",
+      "117.0.jpg",
+      "120.0.jpg",
+      "123.0.jpg",
+      "126.0.jpg",
+      "129.0.jpg"
+    ],
+    "window": [
+      98.0,
+      131.0
+    ]
+  },
+  {
+    "ref": "v3q04",
+    "theme": "panneaux",
+    "question_text": "Ces panneaux m'indiquent",
+    "options": {
+      "A": "Un stationnement limité par disque : oui",
+      "B": "Un stationnement limité par disque : non",
+      "C": "Une priorité à droite : oui",
+      "D": "Une priorité à droite : non"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "explanation": "Le panneau d'indication signale un stationnement payant, et non un stationnement limité par disque, comme le montre la présence d'un horodateur sur le panneau. Le panneau de danger, quant à lui, annonce bien une priorité à droite.",
+    "frame": "153.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "135.0.jpg",
+      "138.0.jpg",
+      "141.0.jpg",
+      "144.0.jpg",
+      "147.0.jpg",
+      "150.0.jpg",
+      "153.0.jpg",
+      "156.0.jpg",
+      "159.0.jpg",
+      "162.0.jpg",
+      "165.0.jpg",
+      "168.0.jpg",
+      "171.0.jpg"
+    ],
+    "window": [
+      133.0,
+      171.0
+    ]
+  },
+  {
+    "ref": "v3q05",
+    "theme": "commandes",
+    "question_text": "Ces commandes permettent de contrôler",
+    "options": {
+      "A": "Le limiteur de vitesse",
+      "B": "Le régulateur de vitesse",
+      "C": "L'autoradio",
+      "D": "Le système ABS"
+    },
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "Ces commandes situées sur le volant permettent de contrôler le régulateur et le limiteur de vitesse. On distingue en effet les signes plus et moins qui servent à régler la vitesse souhaitée.",
+    "frame": "192.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "174.0.jpg",
+      "177.0.jpg",
+      "180.0.jpg",
+      "183.0.jpg",
+      "186.0.jpg",
+      "189.0.jpg",
+      "192.0.jpg",
+      "195.0.jpg",
+      "198.0.jpg",
+      "201.0.jpg",
+      "204.0.jpg",
+      "207.0.jpg",
+      "210.0.jpg"
+    ],
+    "window": [
+      174.0,
+      211.0
+    ]
+  },
+  {
+    "ref": "v3q06",
+    "theme": "circulation",
+    "question_text": "Je souhaite aller à Sénart",
+    "options": {
+      "A": "Je me place immédiatement sur la voie de gauche",
+      "B": "Je suis bien placé",
+      "C": "Je continue tout droit"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "Pour aller à Sénart, il aurait fallu se placer sur la voie de gauche. Dans cette situation, il est désormais trop tard pour changer de voie sans risque : je continue donc tout droit dans ma voie.",
+    "frame": "231.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "216.0.jpg",
+      "219.0.jpg",
+      "222.0.jpg",
+      "225.0.jpg",
+      "228.0.jpg",
+      "231.0.jpg",
+      "234.0.jpg",
+      "237.0.jpg",
+      "240.0.jpg",
+      "243.0.jpg",
+      "246.0.jpg",
+      "249.0.jpg"
+    ],
+    "window": [
+      214.0,
+      249.0
+    ]
+  },
+  {
+    "ref": "v3q07",
+    "theme": "éclairage-visibilité",
+    "question_text": "La circulation ralentit fortement devant moi et je suis le dernier véhicule de ma file. J'allume mes feux de détresse",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Lorsque la circulation ralentit fortement devant vous, vous devez allumer vos feux de détresse si vous êtes le dernier véhicule de votre file. Ce comportement permet d'avertir les usagers qui arrivent derrière vous.",
+    "frame": "267.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "252.0.jpg",
+      "255.0.jpg",
+      "258.0.jpg",
+      "261.0.jpg",
+      "264.0.jpg",
+      "267.0.jpg",
+      "270.0.jpg",
+      "273.0.jpg",
+      "276.0.jpg",
+      "279.0.jpg",
+      "282.0.jpg",
+      "285.0.jpg"
+    ],
+    "window": [
+      251.0,
+      287.0
+    ]
+  },
+  {
+    "ref": "v3q08",
+    "theme": "premiers-secours",
+    "question_text": "Une consommation d'alcool excessive",
+    "options": {
+      "A": "Diminue le temps de réaction",
+      "B": "Augmente le temps de réaction",
+      "C": "Multiplie le risque d'accident"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "explanation": "Une consommation d'alcool excessive multiplie le risque d'accident et augmente le temps de réaction du conducteur, qui met alors plus de temps à agir face à une situation à risque. Attention au piège : le temps de réaction ne diminue pas, il augmente.",
+    "frame": "309.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "291.0.jpg",
+      "294.0.jpg",
+      "297.0.jpg",
+      "300.0.jpg",
+      "303.0.jpg",
+      "306.0.jpg",
+      "309.0.jpg",
+      "312.0.jpg",
+      "315.0.jpg",
+      "318.0.jpg",
+      "321.0.jpg",
+      "324.0.jpg",
+      "327.0.jpg",
+      "330.0.jpg"
+    ],
+    "window": [
+      289.0,
+      330.0
+    ]
+  },
+  {
+    "ref": "v3q09",
+    "theme": "permis-à-points",
+    "question_text": "Conduire avec un téléphone à la main, sans commettre une autre infraction, entraine",
+    "options": {
+      "A": "Une amende",
+      "B": "Un retrait de 3 points",
+      "C": "Une suspension de permis"
+    },
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "Téléphoner avec le téléphone à la main représente un fort risque au volant. Ce comportement est interdit et entraîne une amende ainsi qu'un retrait de 3 points sur le permis de conduire. La suspension du permis n'intervient que si le conducteur commet en même temps une autre infraction.",
+    "frame": "354.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "333.0.jpg",
+      "336.0.jpg",
+      "339.0.jpg",
+      "342.0.jpg",
+      "345.0.jpg",
+      "348.0.jpg",
+      "351.0.jpg",
+      "354.0.jpg",
+      "357.0.jpg",
+      "360.0.jpg",
+      "363.0.jpg",
+      "366.0.jpg",
+      "369.0.jpg",
+      "372.0.jpg",
+      "375.0.jpg",
+      "378.0.jpg"
+    ],
+    "window": [
+      333.0,
+      378.0
+    ]
+  },
+  {
+    "ref": "v3q10",
+    "theme": "panneaux",
+    "question_text": "Dans cette situation",
+    "options": {
+      "A": "Je vais entrer sur une autoroute",
+      "B": "Je vais entrer sur une route à accès réglementé",
+      "C": "Je pourrais y rencontrer des véhicules agricoles : oui",
+      "D": "Je pourrais y rencontrer des véhicules agricoles : non"
+    },
+    "correct": [
+      "B",
+      "D"
+    ],
+    "explanation": "Le panneau de signalisation aperçu sur la droite indique que je vais entrer sur une route à accès réglementé, et non sur une autoroute. Comme pour les autoroutes, une route à accès réglementé est interdite aux véhicules lents, tels que les véhicules agricoles.",
+    "frame": "396.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "381.0.jpg",
+      "384.0.jpg",
+      "387.0.jpg",
+      "390.0.jpg",
+      "393.0.jpg",
+      "396.0.jpg",
+      "399.0.jpg",
+      "402.0.jpg",
+      "405.0.jpg",
+      "408.0.jpg",
+      "411.0.jpg",
+      "414.0.jpg",
+      "417.0.jpg",
+      "420.0.jpg",
+      "423.0.jpg",
+      "426.0.jpg",
+      "429.0.jpg",
+      "432.0.jpg"
+    ],
+    "window": [
+      381.0,
+      432.0
+    ]
+  }
+]

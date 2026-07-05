@@ -1,0 +1,315 @@
+[
+  {
+    "ref": "v8q01",
+    "theme": "mécanique-entretien",
+    "question_text": "Sur un même essieu, la différence d'usure entre deux pneumatiques ne doit pas dépasser",
+    "options": {
+      "A": "1 mm",
+      "B": "5 mm",
+      "C": "15 mm"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Sur un même essieu, la différence d'usure entre les deux pneumatiques ne doit pas dépasser 5 mm. Un écart plus important pourrait entraîner un mauvais contact des pneus avec la route et compromettre la tenue de route.",
+    "frame": "24.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "0.0.jpg",
+      "3.0.jpg",
+      "6.0.jpg",
+      "9.0.jpg",
+      "12.0.jpg",
+      "15.0.jpg",
+      "18.0.jpg",
+      "21.0.jpg",
+      "24.0.jpg",
+      "27.0.jpg",
+      "30.0.jpg",
+      "33.0.jpg",
+      "36.0.jpg",
+      "39.0.jpg",
+      "42.0.jpg",
+      "45.0.jpg"
+    ],
+    "window": [
+      0.0,
+      45.0
+    ]
+  },
+  {
+    "ref": "v8q02",
+    "theme": "circulation",
+    "question_text": "Le véhicule de gauche roule moins vite que moi",
+    "options": {
+      "A": "Je ralentis",
+      "B": "Je conserve mon allure",
+      "C": "J'accélère"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Le véhicule de gauche roule moins vite que moi. Si je ne ralentis pas, je vais le dépasser par la droite, ce qui n'est pas autorisé. Je dois donc ralentir et me placer derrière lui pour le dépasser par la gauche.",
+    "frame": "63.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "45.0.jpg",
+      "48.0.jpg",
+      "51.0.jpg",
+      "54.0.jpg",
+      "57.0.jpg",
+      "60.0.jpg",
+      "63.0.jpg",
+      "66.0.jpg",
+      "69.0.jpg",
+      "72.0.jpg",
+      "75.0.jpg",
+      "78.0.jpg",
+      "81.0.jpg"
+    ],
+    "window": [
+      45.0,
+      82.0
+    ]
+  },
+  {
+    "ref": "v8q03",
+    "theme": "signalisation",
+    "question_text": "Le feu est orange clignotant",
+    "options": {
+      "A": "Je m'arrête",
+      "B": "Je ralentis et je passe"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Un feu orange clignotant n'oblige pas à s'arrêter : il signale une intersection ou un passage nécessitant une vigilance particulière. Je ralentis, je redouble d'attention et je passe.",
+    "frame": "96.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "84.0.jpg",
+      "87.0.jpg",
+      "90.0.jpg",
+      "93.0.jpg",
+      "96.0.jpg",
+      "99.0.jpg",
+      "102.0.jpg",
+      "105.0.jpg",
+      "108.0.jpg"
+    ],
+    "window": [
+      82.0,
+      110.0
+    ]
+  },
+  {
+    "ref": "v8q04",
+    "theme": "circulation",
+    "question_text": "Dans cette situation",
+    "options": {
+      "A": "Je ralentis",
+      "B": "Je maintiens l'allure",
+      "C": "J'accélère"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Des piétons sont présents sur le côté droit et créent une zone d'incertitude. Je dois ralentir et faire particulièrement attention, car l'un d'eux pourrait s'engager sur la chaussée.",
+    "frame": "126.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "111.0.jpg",
+      "114.0.jpg",
+      "117.0.jpg",
+      "120.0.jpg",
+      "123.0.jpg",
+      "126.0.jpg",
+      "129.0.jpg",
+      "132.0.jpg",
+      "135.0.jpg",
+      "138.0.jpg",
+      "141.0.jpg",
+      "144.0.jpg"
+    ],
+    "window": [
+      110.0,
+      145.0
+    ]
+  },
+  {
+    "ref": "v8q05",
+    "theme": "éclairage-visibilité",
+    "question_text": "Les feux de croisement éclairent",
+    "options": {
+      "A": "Plus loin à droite qu'à gauche",
+      "B": "Plus loin à gauche qu'à droite",
+      "C": "À la même distance à droite et à gauche"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Les feux de croisement gauche et droit n'éclairent pas à la même distance. Pour ne pas éblouir les usagers arrivant en face, le feu de croisement gauche éclaire moins loin que le droit : ils éclairent donc plus loin à droite qu'à gauche.",
+    "frame": "165.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "147.0.jpg",
+      "150.0.jpg",
+      "153.0.jpg",
+      "156.0.jpg",
+      "159.0.jpg",
+      "162.0.jpg",
+      "165.0.jpg",
+      "168.0.jpg",
+      "171.0.jpg",
+      "174.0.jpg",
+      "177.0.jpg",
+      "180.0.jpg",
+      "183.0.jpg"
+    ],
+    "window": [
+      145.0,
+      185.0
+    ]
+  },
+  {
+    "ref": "v8q07",
+    "theme": "premiers-secours",
+    "question_text": "Laisser seul un enfant au soleil dans une voiture est un comportement très dangereux",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Un enfant laissé seul dans une voiture au soleil risque de suffoquer et de se déshydrater très rapidement, la température montant très vite dans l'habitacle. Même s'il dort, il faut le réveiller et ne jamais le laisser seul.",
+    "frame": "252.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "237.0.jpg",
+      "240.0.jpg",
+      "243.0.jpg",
+      "246.0.jpg",
+      "249.0.jpg",
+      "252.0.jpg",
+      "255.0.jpg",
+      "258.0.jpg",
+      "261.0.jpg",
+      "264.0.jpg",
+      "267.0.jpg"
+    ],
+    "window": [
+      235.0,
+      268.0
+    ]
+  },
+  {
+    "ref": "v8q08",
+    "theme": "circulation",
+    "question_text": "La voiture devant moi a enclenché ses feux de détresse. Je peux dépasser",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Les feux de détresse signalent que le véhicule est à l'arrêt ou en difficulté. Aucun usager n'arrivant en face, je suis autorisé à le dépasser : je mets mon clignotant et je le dépasse en restant très prudent.",
+    "frame": "285.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "270.0.jpg",
+      "273.0.jpg",
+      "276.0.jpg",
+      "279.0.jpg",
+      "282.0.jpg",
+      "285.0.jpg",
+      "288.0.jpg",
+      "291.0.jpg",
+      "294.0.jpg",
+      "297.0.jpg",
+      "300.0.jpg"
+    ],
+    "window": [
+      270.0,
+      302.0
+    ]
+  },
+  {
+    "ref": "v8q09",
+    "theme": "premiers-secours",
+    "question_text": "Je suis témoin d'un accident ayant entraîné des dommages corporels",
+    "options": {
+      "A": "En cas de danger immédiat, je peux déplacer la victime : oui",
+      "B": "En cas de danger immédiat, je peux déplacer la victime : non",
+      "C": "Je peux donner à boire à la victime : oui",
+      "D": "Je peux donner à boire à la victime : non"
+    },
+    "correct": [
+      "A",
+      "D"
+    ],
+    "explanation": "Lors d'un accident corporel, il est recommandé de ne pas déplacer la victime, sauf en cas de danger immédiat où l'on peut alors la mettre à l'abri. Il ne faut jamais lui donner à boire, car cela pourrait compromettre une éventuelle opération médicale.",
+    "frame": "324.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "306.0.jpg",
+      "309.0.jpg",
+      "312.0.jpg",
+      "315.0.jpg",
+      "318.0.jpg",
+      "321.0.jpg",
+      "324.0.jpg",
+      "327.0.jpg",
+      "330.0.jpg",
+      "333.0.jpg",
+      "336.0.jpg",
+      "339.0.jpg",
+      "342.0.jpg",
+      "345.0.jpg"
+    ],
+    "window": [
+      304.0,
+      345.0
+    ]
+  },
+  {
+    "ref": "v8q10",
+    "theme": "mécanique-entretien",
+    "question_text": "Le niveau sonore de mon véhicule",
+    "options": {
+      "A": "Peut être contrôlé par les forces de l'ordre : oui",
+      "B": "Peut être contrôlé par les forces de l'ordre : non",
+      "C": "Peut être mesuré près du moteur",
+      "D": "Peut être mesuré à la sortie du pot d'échappement"
+    },
+    "correct": [
+      "A",
+      "D"
+    ],
+    "explanation": "Le niveau sonore d'un véhicule peut être contrôlé par les forces de l'ordre, à l'aide d'un dispositif placé à la sortie du pot d'échappement. Pour être en conformité avec la réglementation, il ne doit pas dépasser la limite fixée en décibels.",
+    "frame": "369.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "351.0.jpg",
+      "354.0.jpg",
+      "357.0.jpg",
+      "360.0.jpg",
+      "363.0.jpg",
+      "366.0.jpg",
+      "369.0.jpg",
+      "372.0.jpg",
+      "375.0.jpg",
+      "378.0.jpg",
+      "381.0.jpg",
+      "384.0.jpg",
+      "387.0.jpg",
+      "390.0.jpg",
+      "393.0.jpg"
+    ],
+    "window": [
+      349.0,
+      393.0
+    ]
+  }
+]

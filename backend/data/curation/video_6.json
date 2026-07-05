@@ -1,0 +1,317 @@
+[
+  {
+    "ref": "v6q01",
+    "theme": "équipements-de-sécurité",
+    "question_text": "L'éthylotest fait partie des éléments obligatoires à avoir dans la voiture",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Non. Depuis mai 2020, l'éthylotest ne fait plus partie des éléments obligatoires à avoir dans son véhicule. Vous ne risquez donc aucune sanction si vous n'en possédez pas.",
+    "frame": "30.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "18.0.jpg",
+      "21.0.jpg",
+      "24.0.jpg",
+      "27.0.jpg",
+      "30.0.jpg",
+      "33.0.jpg",
+      "36.0.jpg",
+      "39.0.jpg",
+      "42.0.jpg"
+    ],
+    "window": [
+      16.0,
+      44.0
+    ]
+  },
+  {
+    "ref": "v6q02",
+    "theme": "documents",
+    "question_text": "Ayant oublié d'effectuer mon contrôle technique dans les temps, je risque",
+    "options": {
+      "A": "Une amende",
+      "B": "Une perte de points",
+      "C": "Une invalidation de mon permis de conduire"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Si la date de validité de votre contrôle technique est dépassée, vous risquez une amende de 135 euros et une éventuelle immobilisation du véhicule. Il n'y a en revanche ni perte de points, ni invalidation du permis.",
+    "frame": "60.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "45.0.jpg",
+      "48.0.jpg",
+      "51.0.jpg",
+      "54.0.jpg",
+      "57.0.jpg",
+      "60.0.jpg",
+      "63.0.jpg",
+      "66.0.jpg",
+      "69.0.jpg",
+      "72.0.jpg",
+      "75.0.jpg",
+      "78.0.jpg",
+      "81.0.jpg"
+    ],
+    "window": [
+      44.0,
+      83.0
+    ]
+  },
+  {
+    "ref": "v6q03",
+    "theme": "permis-à-points",
+    "question_text": "La perte de tous les points sur le permis de conduire entraîne",
+    "options": {
+      "A": "Une suspension du permis",
+      "B": "Une invalidation du permis"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Attention à ne pas confondre ces deux termes. Lorsqu'il ne reste plus aucun point, le permis est invalidé : la conduite est interdite. L'invalidation s'applique à toutes les catégories : si vous possédez aussi un permis moto ou poids lourd, ceux-ci sont également invalidés.",
+    "frame": "84.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "84.0.jpg",
+      "87.0.jpg",
+      "90.0.jpg",
+      "93.0.jpg",
+      "96.0.jpg",
+      "99.0.jpg",
+      "102.0.jpg",
+      "105.0.jpg",
+      "108.0.jpg",
+      "111.0.jpg",
+      "114.0.jpg",
+      "117.0.jpg",
+      "120.0.jpg",
+      "123.0.jpg",
+      "126.0.jpg",
+      "129.0.jpg"
+    ],
+    "window": [
+      83.0,
+      129.0
+    ]
+  },
+  {
+    "ref": "v6q04",
+    "theme": "circulation",
+    "question_text": "Je suis bien positionné",
+    "options": {
+      "A": "Pour aller à gauche : oui",
+      "B": "Pour aller à gauche : non",
+      "C": "Pour aller tout droit : oui",
+      "D": "Pour aller tout droit : non"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "explanation": "Le marquage au sol indique que je suis dans la bonne voie pour aller tout droit. En revanche, si je souhaite tourner à gauche, je ne suis pas bien placé et je dois changer de voie.",
+    "frame": "141.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "129.0.jpg",
+      "132.0.jpg",
+      "135.0.jpg",
+      "138.0.jpg",
+      "141.0.jpg",
+      "144.0.jpg",
+      "147.0.jpg",
+      "150.0.jpg",
+      "153.0.jpg",
+      "156.0.jpg",
+      "159.0.jpg",
+      "162.0.jpg"
+    ],
+    "window": [
+      129.0,
+      163.0
+    ]
+  },
+  {
+    "ref": "v6q05",
+    "theme": "panneaux",
+    "question_text": "Je circule sur",
+    "options": {
+      "A": "Une départementale",
+      "B": "Une nationale",
+      "C": "Une autoroute"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "Le panneau à fond bleu situé sur la droite indique que je circule sur une autoroute. Il annonce ici la prochaine aire d'autoroute, à 300 mètres.",
+    "frame": "177.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "165.0.jpg",
+      "168.0.jpg",
+      "171.0.jpg",
+      "174.0.jpg",
+      "177.0.jpg",
+      "180.0.jpg",
+      "183.0.jpg",
+      "186.0.jpg",
+      "189.0.jpg",
+      "192.0.jpg",
+      "195.0.jpg"
+    ],
+    "window": [
+      163.0,
+      195.0
+    ]
+  },
+  {
+    "ref": "v6q06",
+    "theme": "vitesse",
+    "question_text": "Les chances de survie d'un piéton percuté à 50 km/h sont de",
+    "options": {
+      "A": "20 %",
+      "B": "40 %",
+      "C": "70 %"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Un piéton percuté à 50 km/h n'a que 20 % de chances de survie. En ville, il faut donc faire particulièrement attention aux usagers vulnérables.",
+    "frame": "210.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "195.0.jpg",
+      "198.0.jpg",
+      "201.0.jpg",
+      "204.0.jpg",
+      "207.0.jpg",
+      "210.0.jpg",
+      "213.0.jpg",
+      "216.0.jpg",
+      "219.0.jpg",
+      "222.0.jpg",
+      "225.0.jpg",
+      "228.0.jpg",
+      "231.0.jpg"
+    ],
+    "window": [
+      195.0,
+      232.0
+    ]
+  },
+  {
+    "ref": "v6q07",
+    "theme": "éclairage-visibilité",
+    "question_text": "La nuit, un véhicule seul en agglomération non éclairée doit utiliser ses feux",
+    "options": {
+      "A": "De brouillard avant",
+      "B": "De croisement",
+      "C": "De route"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "La nuit, dans une agglomération non éclairée et en l'absence d'autres usagers, le véhicule doit utiliser ses feux de route. Pensez cependant à repasser en feux de croisement dès que vous croisez un autre usager.",
+    "frame": "249.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "234.0.jpg",
+      "237.0.jpg",
+      "240.0.jpg",
+      "243.0.jpg",
+      "246.0.jpg",
+      "249.0.jpg",
+      "252.0.jpg",
+      "255.0.jpg",
+      "258.0.jpg",
+      "261.0.jpg",
+      "264.0.jpg",
+      "267.0.jpg",
+      "270.0.jpg"
+    ],
+    "window": [
+      232.0,
+      270.0
+    ]
+  },
+  {
+    "ref": "v6q08",
+    "theme": "priorités",
+    "question_text": "Dans cette situation",
+    "options": {
+      "A": "En cas d'embouteillage, je peux rouler sur la voie la plus à droite : oui",
+      "B": "En cas d'embouteillage, je peux rouler sur la voie la plus à droite : non",
+      "C": "Je reste sur ma voie et je tourne à droite au feu. Je dois laisser la priorité aux usagers roulant sur la voie la plus à droite : oui",
+      "D": "Je reste sur ma voie et je tourne à droite au feu. Je dois laisser la priorité aux usagers roulant sur la voie la plus à droite : non"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "explanation": "La voie la plus à droite est une voie de bus : je ne peux pas y rouler, même en cas d'embouteillage. Si je tourne à droite au feu, je dois rester attentif aux usagers qui l'empruntent et leur laisser la priorité, car je ne suis pas prioritaire sur eux.",
+    "frame": "291.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "270.0.jpg",
+      "273.0.jpg",
+      "276.0.jpg",
+      "279.0.jpg",
+      "282.0.jpg",
+      "285.0.jpg",
+      "288.0.jpg",
+      "291.0.jpg",
+      "294.0.jpg",
+      "297.0.jpg",
+      "300.0.jpg",
+      "303.0.jpg",
+      "306.0.jpg",
+      "309.0.jpg",
+      "312.0.jpg",
+      "315.0.jpg"
+    ],
+    "window": [
+      270.0,
+      317.0
+    ]
+  },
+  {
+    "ref": "v6q10",
+    "theme": "circulation",
+    "question_text": "Il n'y a plus de place disponible pour stationner à gauche. Je peux stationner sur le trottoir de droite",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Non. Aucune signalisation n'autorise le stationnement sur le trottoir de droite : je ne peux donc pas m'y garer. En stationnant ici, je gênerais le passage réservé à la circulation des piétons.",
+    "frame": "381.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "363.0.jpg",
+      "366.0.jpg",
+      "369.0.jpg",
+      "372.0.jpg",
+      "375.0.jpg",
+      "378.0.jpg",
+      "381.0.jpg",
+      "384.0.jpg",
+      "387.0.jpg",
+      "390.0.jpg",
+      "393.0.jpg",
+      "396.0.jpg",
+      "399.0.jpg"
+    ],
+    "window": [
+      362.0,
+      399.0
+    ]
+  }
+]

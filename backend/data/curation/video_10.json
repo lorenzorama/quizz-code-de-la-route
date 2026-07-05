@@ -1,0 +1,167 @@
+[
+  {
+    "ref": "v10q01",
+    "theme": "éclairage-visibilité",
+    "question_text": "Dans cette situation, je peux circuler",
+    "options": {
+      "A": "Sans feux",
+      "B": "En feux de position seuls",
+      "C": "En feux de croisement",
+      "D": "En feux de route"
+    },
+    "correct": ["B", "C"],
+    "explanation": "Je circule en agglomération éclairée. Dans ce cas, je peux rouler soit avec les feux de position seuls, soit avec les feux de croisement. Les feux de route sont interdits en agglomération éclairée, et circuler sans aucun feu n'est pas autorisé.",
+    "frame": "30.0.jpg",
+    "crop": null,
+    "candidate_frames": ["24.0.jpg", "30.0.jpg", "36.0.jpg", "42.0.jpg", "48.0.jpg"],
+    "window": [16.0, 48.0]
+  },
+  {
+    "ref": "v10q02",
+    "theme": "mécanique-entretien",
+    "question_text": "Les caractéristiques des pneumatiques doivent être les mêmes",
+    "options": {
+      "A": "Sur les 4 roues : oui",
+      "B": "Sur les 4 roues : non",
+      "C": "Sur un même essieu : oui",
+      "D": "Sur un même essieu : non"
+    },
+    "correct": ["B", "C"],
+    "explanation": "La réglementation impose que les caractéristiques des pneumatiques (diamètre, structure, etc.) soient identiques sur un même essieu. En revanche, cette obligation ne s'applique pas à l'ensemble des quatre roues du véhicule.",
+    "frame": "54.0.jpg",
+    "crop": null,
+    "candidate_frames": ["54.0.jpg", "63.0.jpg", "72.0.jpg", "81.0.jpg", "90.0.jpg"],
+    "window": [51.0, 93.0]
+  },
+  {
+    "ref": "v10q03",
+    "theme": "permis-à-points",
+    "question_text": "Titulaire du permis B, je peux transporter au maximum",
+    "options": {
+      "A": "6 passagers",
+      "B": "8 passagers",
+      "C": "10 passagers",
+      "D": "12 passagers"
+    },
+    "correct": ["B"],
+    "explanation": "Avec un permis B, je peux transporter au maximum 8 passagers, ce qui fait 9 personnes au total en comptant le conducteur. Au-delà de 9 personnes, un permis de transport en commun est nécessaire.",
+    "frame": "111.0.jpg",
+    "crop": null,
+    "candidate_frames": ["96.0.jpg", "105.0.jpg", "111.0.jpg", "117.0.jpg", "126.0.jpg"],
+    "window": [93.0, 129.0]
+  },
+  {
+    "ref": "v10q04",
+    "theme": "premiers-secours",
+    "question_text": "Un joint de cannabis s'élimine en",
+    "options": {
+      "A": "Quelques heures",
+      "B": "Plusieurs jours"
+    },
+    "correct": ["B"],
+    "explanation": "Un joint de cannabis s'élimine en plusieurs jours. L'élimination peut prendre jusqu'à 5 jours dans les urines, voire davantage en cas de consommation régulière.",
+    "frame": "141.0.jpg",
+    "crop": null,
+    "candidate_frames": ["141.0.jpg", "150.0.jpg", "159.0.jpg", "165.0.jpg"],
+    "window": [129.0, 168.0]
+  },
+  {
+    "ref": "v10q05",
+    "theme": "vitesse",
+    "question_text": "La visibilité est inférieure à 50 mètres. Je peux rouler au maximum à",
+    "options": {
+      "A": "30 km/h",
+      "B": "50 km/h",
+      "C": "60 km/h",
+      "D": "70 km/h"
+    },
+    "correct": ["B"],
+    "explanation": "Lorsque la visibilité est inférieure à 50 mètres, la vitesse est limitée à 50 km/h maximum. Il s'agit d'une limite : si les conditions l'exigent, je dois rouler encore plus lentement.",
+    "frame": "174.0.jpg",
+    "crop": null,
+    "candidate_frames": ["171.0.jpg", "174.0.jpg", "180.0.jpg", "189.0.jpg", "198.0.jpg"],
+    "window": [168.0, 204.0]
+  },
+  {
+    "ref": "v10q06",
+    "theme": "équipements-de-sécurité",
+    "question_text": "L'utilisation prolongée du régulateur de vitesse peut entraîner une baisse de la vigilance",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": ["A"],
+    "explanation": "L'utilisation prolongée du régulateur de vitesse peut entraîner une baisse de la vigilance, à cause de la monotonie de la conduite : aucune action n'est exercée sur les pédales.",
+    "frame": "216.0.jpg",
+    "crop": null,
+    "candidate_frames": ["216.0.jpg", "225.0.jpg", "234.0.jpg"],
+    "window": [204.0, 240.0]
+  },
+  {
+    "ref": "v10q07",
+    "theme": "cyclistes",
+    "question_text": "Dans cette situation",
+    "options": {
+      "A": "Je fais un appel lumineux",
+      "B": "Je reste dans cette voie",
+      "C": "Je dépasse"
+    },
+    "correct": ["B"],
+    "explanation": "Une voiture arrive en sens inverse. Je reste dans ma voie derrière le cycliste. Je pourrai le dépasser une fois que la voiture grise sera passée et que les conditions de sécurité seront réunies.",
+    "frame": "246.0.jpg",
+    "crop": null,
+    "candidate_frames": ["243.0.jpg", "246.0.jpg", "252.0.jpg", "258.0.jpg"],
+    "window": [240.0, 273.0]
+  },
+  {
+    "ref": "v10q08",
+    "theme": "écomobilité",
+    "question_text": "Les voitures électriques n'émettent",
+    "options": {
+      "A": "Aucun polluant : oui",
+      "B": "Aucun polluant : non",
+      "C": "Aucun gaz à effet de serre : oui",
+      "D": "Aucun gaz à effet de serre : non"
+    },
+    "correct": ["A", "C"],
+    "explanation": "En circulation, les voitures électriques n'émettent aucun polluant ni aucun gaz à effet de serre.",
+    "frame": "288.0.jpg",
+    "crop": null,
+    "candidate_frames": ["288.0.jpg", "297.0.jpg", "306.0.jpg", "312.0.jpg"],
+    "window": [273.0, 315.0]
+  },
+  {
+    "ref": "v10q09",
+    "theme": "signalisation",
+    "question_text": "Au feu, je peux",
+    "options": {
+      "A": "Aller tout droit : oui",
+      "B": "Aller tout droit : non",
+      "C": "Tourner à droite : oui",
+      "D": "Tourner à droite : non"
+    },
+    "correct": ["A", "D"],
+    "explanation": "Le marquage au sol indique que je dois aller tout droit, et un panneau interdit de tourner à droite. Je peux donc aller tout droit mais je ne peux pas tourner à droite.",
+    "frame": "321.0.jpg",
+    "crop": null,
+    "candidate_frames": ["318.0.jpg", "321.0.jpg", "327.0.jpg", "330.0.jpg", "333.0.jpg"],
+    "window": [315.0, 334.0]
+  },
+  {
+    "ref": "v10q10",
+    "theme": "circulation",
+    "question_text": "Je suis un jeune conducteur",
+    "options": {
+      "A": "Je suis capable de lire tous les indices de conduite en même temps : oui",
+      "B": "Je suis capable de lire tous les indices de conduite en même temps : non",
+      "C": "L'expérience permet de choisir les indices les plus importants : oui",
+      "D": "L'expérience permet de choisir les indices les plus importants : non"
+    },
+    "correct": ["B", "C"],
+    "explanation": "En tant que jeune conducteur, il est difficile de lire de nombreux indices de conduite en même temps : cela vient avec l'expérience. C'est d'ailleurs pour cette raison que les vitesses maximales sont réduites pour les jeunes conducteurs.",
+    "frame": "345.0.jpg",
+    "crop": null,
+    "candidate_frames": ["336.0.jpg", "345.0.jpg", "348.0.jpg", "384.0.jpg"],
+    "window": [334.0, 405.5]
+  }
+]

@@ -1,0 +1,357 @@
+[
+  {
+    "ref": "v5q01",
+    "theme": "signalisation",
+    "question_text": "Dans 400 mètres, au péage, je pourrai payer",
+    "options": {
+      "A": "En carte restaurant",
+      "B": "En espèces",
+      "C": "En carte bancaire",
+      "D": "Avec un télépéage"
+    },
+    "correct": [
+      "B",
+      "C",
+      "D"
+    ],
+    "explanation": "Le panneau situé sur la droite annonce le péage et indique les moyens de paiement acceptés. On peut y régler avec un télépéage, une carte bancaire ou en espèces. Le paiement en carte restaurant n'est en revanche pas prévu.",
+    "frame": "27.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "0.0.jpg",
+      "3.0.jpg",
+      "6.0.jpg",
+      "9.0.jpg",
+      "12.0.jpg",
+      "15.0.jpg",
+      "18.0.jpg",
+      "21.0.jpg",
+      "24.0.jpg",
+      "27.0.jpg",
+      "30.0.jpg",
+      "33.0.jpg",
+      "36.0.jpg",
+      "39.0.jpg",
+      "42.0.jpg",
+      "45.0.jpg",
+      "48.0.jpg"
+    ],
+    "window": [
+      0.0,
+      48.0
+    ]
+  },
+  {
+    "ref": "v5q02",
+    "theme": "vitesse",
+    "question_text": "Je circule à 130 km/h, j'arriverai à Blois dans environ",
+    "options": {
+      "A": "15 minutes",
+      "B": "30 minutes",
+      "C": "1h"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Le panneau indique que Blois se situe à environ 62 km. À 130 km/h, je parcours 130 km en une heure ; il me faut donc à peu près la moitié de ce temps pour couvrir un peu moins de la moitié de cette distance, soit environ 30 minutes.",
+    "frame": "72.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "54.0.jpg",
+      "57.0.jpg",
+      "60.0.jpg",
+      "63.0.jpg",
+      "66.0.jpg",
+      "69.0.jpg",
+      "72.0.jpg",
+      "75.0.jpg",
+      "78.0.jpg",
+      "81.0.jpg",
+      "84.0.jpg",
+      "87.0.jpg",
+      "90.0.jpg"
+    ],
+    "window": [
+      52.0,
+      90.0
+    ]
+  },
+  {
+    "ref": "v5q03",
+    "theme": "priorités",
+    "question_text": "Le véhicule gris souhaite tourner à droite",
+    "options": {
+      "A": "Je lui cède le passage",
+      "B": "Je continue"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Le véhicule gris souhaite tourner à droite, mais le marquage au sol montre qu'il n'est pas prioritaire. Je bénéficie donc de la priorité de passage et je peux continuer ma route.",
+    "frame": "105.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "90.0.jpg",
+      "93.0.jpg",
+      "96.0.jpg",
+      "99.0.jpg",
+      "102.0.jpg",
+      "105.0.jpg",
+      "108.0.jpg",
+      "111.0.jpg",
+      "114.0.jpg",
+      "117.0.jpg",
+      "120.0.jpg"
+    ],
+    "window": [
+      90.0,
+      120.0
+    ]
+  },
+  {
+    "ref": "v5q04",
+    "theme": "mécanique-entretien",
+    "question_text": "Aucune contrainte (dimensions, couleur, marque...) n'existe pour le remplacement d'un pneumatique",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "C'est faux : lors du remplacement d'un pneumatique, de nombreux critères doivent être respectés, comme la largeur, la hauteur ou le diamètre du pneu. Ces informations sont généralement indiquées sur le flanc du pneumatique.",
+    "frame": "138.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "120.0.jpg",
+      "123.0.jpg",
+      "126.0.jpg",
+      "129.0.jpg",
+      "132.0.jpg",
+      "135.0.jpg",
+      "138.0.jpg",
+      "141.0.jpg",
+      "144.0.jpg",
+      "147.0.jpg",
+      "150.0.jpg",
+      "153.0.jpg"
+    ],
+    "window": [
+      120.0,
+      155.0
+    ]
+  },
+  {
+    "ref": "v5q05",
+    "theme": "commandes",
+    "question_text": "Je souhaite me garer à droite",
+    "options": {
+      "A": "Le stationnement se fait en bataille",
+      "B": "Le stationnement se fait en créneau",
+      "C": "Je dois me garer en marche avant",
+      "D": "Je dois me garer en marche arrière"
+    },
+    "correct": [
+      "B",
+      "D"
+    ],
+    "explanation": "Les voitures stationnées à droite sont parallèles au trottoir : il s'agit donc d'un stationnement en créneau. Pour m'y garer, je dois effectuer ma manœuvre en marche arrière.",
+    "frame": "174.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "156.0.jpg",
+      "159.0.jpg",
+      "162.0.jpg",
+      "165.0.jpg",
+      "168.0.jpg",
+      "171.0.jpg",
+      "174.0.jpg",
+      "177.0.jpg",
+      "180.0.jpg",
+      "183.0.jpg",
+      "186.0.jpg",
+      "189.0.jpg",
+      "192.0.jpg"
+    ],
+    "window": [
+      155.0,
+      194.0
+    ]
+  },
+  {
+    "ref": "v5q06",
+    "theme": "équipements-de-sécurité",
+    "question_text": "Je suis dans un véhicule ne possédant pas de place à l'arrière. Je peux placer mon enfant de moins de 10 ans à l'avant",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "En principe, un enfant de moins de 10 ans doit être installé à l'arrière du véhicule. Cependant, si le véhicule ne possède pas de banquette arrière, l'enfant peut exceptionnellement prendre place à l'avant.",
+    "frame": "213.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "198.0.jpg",
+      "201.0.jpg",
+      "204.0.jpg",
+      "207.0.jpg",
+      "210.0.jpg",
+      "213.0.jpg",
+      "216.0.jpg",
+      "219.0.jpg",
+      "222.0.jpg",
+      "225.0.jpg",
+      "228.0.jpg"
+    ],
+    "window": [
+      197.0,
+      228.0
+    ]
+  },
+  {
+    "ref": "v5q07",
+    "theme": "permis-à-points",
+    "question_text": "Mon permis de conduire vient d'être invalidé. Je peux suivre un stage de sensibilisation pour regagner mes points",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "C'est faux : lorsque le permis est invalidé, il n'est plus possible de récupérer des points en suivant un stage de sensibilisation. Le stage ne permet de récupérer des points que sur un permis encore valide.",
+    "frame": "243.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "228.0.jpg",
+      "231.0.jpg",
+      "234.0.jpg",
+      "237.0.jpg",
+      "240.0.jpg",
+      "243.0.jpg",
+      "246.0.jpg",
+      "249.0.jpg",
+      "252.0.jpg",
+      "255.0.jpg",
+      "258.0.jpg"
+    ],
+    "window": [
+      228.0,
+      260.0
+    ]
+  },
+  {
+    "ref": "v5q08",
+    "theme": "mécanique-entretien",
+    "question_text": "Mon véhicule Diesel indique un régime moteur à 3500 tours/minute",
+    "options": {
+      "A": "Je rétrograde à la vitesse inférieure",
+      "B": "Je conserve mon rapport de vitesse",
+      "C": "Je passe la vitesse supérieure"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "Le régime d'un moteur Diesel doit rester autour de 1500 tours/minute. À 3500 tours/minute, le régime est trop élevé : je dois passer la vitesse supérieure pour réduire le nombre de tours par minute et adopter une conduite plus économique.",
+    "frame": "279.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "261.0.jpg",
+      "264.0.jpg",
+      "267.0.jpg",
+      "270.0.jpg",
+      "273.0.jpg",
+      "276.0.jpg",
+      "279.0.jpg",
+      "282.0.jpg",
+      "285.0.jpg",
+      "288.0.jpg",
+      "291.0.jpg",
+      "294.0.jpg",
+      "297.0.jpg",
+      "300.0.jpg"
+    ],
+    "window": [
+      260.0,
+      301.0
+    ]
+  },
+  {
+    "ref": "v5q09",
+    "theme": "premiers-secours",
+    "question_text": "Pour éviter la somnolence, je peux",
+    "options": {
+      "A": "Augmenter le son de l'autoradio : oui",
+      "B": "Augmenter le son de l'autoradio : non",
+      "C": "Ouvrir la vitre pour faire entrer l'air : oui",
+      "D": "Ouvrir la vitre pour faire entrer l'air : non"
+    },
+    "correct": [
+      "B",
+      "D"
+    ],
+    "explanation": "Augmenter le son de l'autoradio ou ouvrir la vitre ne sont pas des moyens efficaces pour lutter contre la somnolence. Le seul remède réellement efficace est de faire une pause : il faut s'arrêter au moins 15 minutes toutes les deux heures de conduite.",
+    "frame": "318.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "303.0.jpg",
+      "306.0.jpg",
+      "309.0.jpg",
+      "312.0.jpg",
+      "315.0.jpg",
+      "318.0.jpg",
+      "321.0.jpg",
+      "324.0.jpg",
+      "327.0.jpg",
+      "330.0.jpg",
+      "333.0.jpg",
+      "336.0.jpg",
+      "339.0.jpg"
+    ],
+    "window": [
+      302.0,
+      340.0
+    ]
+  },
+  {
+    "ref": "v5q10",
+    "theme": "assurance-constat",
+    "question_text": "Je viens d'acheter un véhicule",
+    "options": {
+      "A": "Mon véhicule doit obligatoirement être assuré : oui",
+      "B": "Mon véhicule doit obligatoirement être assuré : non",
+      "C": "L'assurance à \"Responsabilité Civile\" est le minimum obligatoire : oui",
+      "D": "L'assurance à \"Responsabilité Civile\" est le minimum obligatoire : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Après l'achat d'un véhicule, celui-ci doit obligatoirement être assuré pour pouvoir circuler. Le minimum obligatoire est l'assurance à responsabilité civile, dite \"au tiers\", qui couvre les dommages causés aux autres usagers impliqués dans un accident.",
+    "frame": "360.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "342.0.jpg",
+      "345.0.jpg",
+      "348.0.jpg",
+      "351.0.jpg",
+      "354.0.jpg",
+      "357.0.jpg",
+      "360.0.jpg",
+      "363.0.jpg",
+      "366.0.jpg",
+      "369.0.jpg",
+      "372.0.jpg",
+      "375.0.jpg",
+      "378.0.jpg",
+      "381.0.jpg",
+      "384.0.jpg"
+    ],
+    "window": [
+      342.0,
+      385.0
+    ]
+  }
+]

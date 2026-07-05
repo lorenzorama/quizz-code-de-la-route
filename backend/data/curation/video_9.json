@@ -1,0 +1,252 @@
+[
+  {
+    "ref": "v9q01",
+    "theme": "équipements-de-sécurité",
+    "question_text": "Je risque une amende",
+    "options": {
+      "A": "Si mon enfant n'est pas installé dans un siège adapté à sa corpulence : oui",
+      "B": "Si mon enfant n'est pas installé dans un siège adapté à sa corpulence : non",
+      "C": "Si je n'ai pas activé la sécurité enfant : oui",
+      "D": "Si je n'ai pas activé la sécurité enfant : non"
+    },
+    "correct": [
+      "A",
+      "D"
+    ],
+    "explanation": "Je risque effectivement une amende si mon enfant n'est pas installé dans un siège homologué et adapté à son poids et à sa taille. En revanche, la sécurité enfant n'est pas un dispositif obligatoire : ne pas l'avoir activée n'expose à aucune amende.",
+    "frame": "42.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "21.0.jpg",
+      "30.0.jpg",
+      "42.0.jpg",
+      "51.0.jpg",
+      "60.0.jpg"
+    ],
+    "window": [
+      21.0,
+      63.0
+    ]
+  },
+  {
+    "ref": "v9q02",
+    "theme": "équipements-de-sécurité",
+    "question_text": "Mes passagers n'ont pas attaché leur ceinture de sécurité. Je risque une amende",
+    "options": {
+      "A": "Pour le passager majeur : oui",
+      "B": "Pour le passager majeur : non",
+      "C": "Pour le passager mineur : oui",
+      "D": "Pour le passager mineur : non"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "explanation": "En tant que conducteur, je dois m'assurer que tous les passagers ont bien attaché leur ceinture avant de partir. Cependant, je ne risque une amende que pour un passager mineur non attaché. Un passager majeur non attaché devra s'acquitter lui-même de sa propre amende.",
+    "frame": "90.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "66.0.jpg",
+      "78.0.jpg",
+      "90.0.jpg",
+      "99.0.jpg",
+      "108.0.jpg"
+    ],
+    "window": [
+      66.0,
+      108.0
+    ]
+  },
+  {
+    "ref": "v9q03",
+    "theme": "premiers-secours",
+    "question_text": "La consommation d'alcool",
+    "options": {
+      "A": "Augmente les effets de l'éblouissement : oui",
+      "B": "Augmente les effets de l'éblouissement : non",
+      "C": "Rétrécit le champ visuel du conducteur : oui",
+      "D": "Rétrécit le champ visuel du conducteur : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "La consommation d'alcool a plusieurs effets néfastes sur la conduite. Parmi eux, on retrouve l'augmentation des effets de l'éblouissement et la diminution (le rétrécissement) du champ visuel du conducteur.",
+    "frame": "126.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "111.0.jpg",
+      "120.0.jpg",
+      "126.0.jpg",
+      "135.0.jpg",
+      "144.0.jpg"
+    ],
+    "window": [
+      111.0,
+      144.0
+    ]
+  },
+  {
+    "ref": "v9q04",
+    "theme": "signalisation",
+    "question_text": "Pour signaler un ralentissement aux usagers qui me suivent, je peux",
+    "options": {
+      "A": "Faire un appel de phare",
+      "B": "Appuyer par intermittence sur la pédale de frein",
+      "C": "Klaxonner"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Pour signaler un ralentissement aux usagers qui me suivent, je peux appuyer légèrement et par intermittence sur la pédale de frein. Cela allume mes feux stop de façon discontinue et attire ainsi l'attention du conducteur qui me suit.",
+    "frame": "165.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "147.0.jpg",
+      "159.0.jpg",
+      "165.0.jpg",
+      "177.0.jpg",
+      "189.0.jpg"
+    ],
+    "window": [
+      147.0,
+      189.0
+    ]
+  },
+  {
+    "ref": "v9q05",
+    "theme": "éclairage-visibilité",
+    "question_text": "Dans ce tunnel, j'allume mes feux",
+    "options": {
+      "A": "De croisement",
+      "B": "De route"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Dans ce tunnel éclairé, je dois obligatoirement allumer mes feux de croisement. Les feux de route sont réservés aux situations où la chaussée n'est pas éclairée, hors agglomération.",
+    "frame": "195.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "192.0.jpg",
+      "195.0.jpg",
+      "201.0.jpg",
+      "210.0.jpg",
+      "216.0.jpg"
+    ],
+    "window": [
+      192.0,
+      216.0
+    ]
+  },
+  {
+    "ref": "v9q06",
+    "theme": "permis-à-points",
+    "question_text": "Durant ma période probatoire, j'ai commis une infraction entrainant un retrait de 3 points. Je dois obligatoirement suivre un stage de sensibilisation à la sécurité routière",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Le stage de sensibilisation à la sécurité routière est obligatoire pour tout retrait de points supérieur ou égal à 3 durant la période probatoire. Je dois donc suivre ce stage.",
+    "frame": "234.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "219.0.jpg",
+      "228.0.jpg",
+      "234.0.jpg",
+      "246.0.jpg",
+      "258.0.jpg",
+      "267.0.jpg"
+    ],
+    "window": [
+      219.0,
+      267.0
+    ]
+  },
+  {
+    "ref": "v9q07",
+    "theme": "documents",
+    "question_text": "À la vente du véhicule, le contrôle technique doit dater au maximum de",
+    "options": {
+      "A": "3 mois",
+      "B": "6 mois",
+      "C": "8 mois",
+      "D": "1 an"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Lors de la vente d'un véhicule, le contrôle technique doit être fourni par le vendeur et dater de moins de 6 mois.",
+    "frame": "276.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "270.0.jpg",
+      "276.0.jpg",
+      "282.0.jpg",
+      "288.0.jpg",
+      "294.0.jpg"
+    ],
+    "window": [
+      270.0,
+      294.0
+    ]
+  },
+  {
+    "ref": "v9q08",
+    "theme": "circulation",
+    "question_text": "Dans cette situation",
+    "options": {
+      "A": "Je dépasse",
+      "B": "Je reste derrière le bus"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Le bus est en train de quitter son arrêt : il a activé son clignotant gauche. Je lui facilite le passage en restant derrière lui. De plus, la visibilité est trop mauvaise pour dépasser en sécurité.",
+    "frame": "300.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "297.0.jpg",
+      "300.0.jpg",
+      "306.0.jpg",
+      "312.0.jpg",
+      "324.0.jpg"
+    ],
+    "window": [
+      297.0,
+      324.0
+    ]
+  },
+  {
+    "ref": "v9q10",
+    "theme": "panneaux",
+    "question_text": "Dans cette rue",
+    "options": {
+      "A": "Je pourrais croiser des véhicules venant en sens inverse : oui",
+      "B": "Je pourrais croiser des véhicules venant en sens inverse : non",
+      "C": "Je pourrais croiser des vélos venant en sens inverse : oui",
+      "D": "Je pourrais croiser des vélos venant en sens inverse : non"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "explanation": "Le panneau carré bleu indique une voie à double sens dont le sens opposé est réservé à la circulation des cyclistes. Je pourrais donc croiser des vélos venant en sens inverse, mais pas de voiture.",
+    "frame": "378.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "366.0.jpg",
+      "372.0.jpg",
+      "378.0.jpg",
+      "387.0.jpg",
+      "396.0.jpg"
+    ],
+    "window": [
+      366.0,
+      397.0
+    ]
+  }
+]

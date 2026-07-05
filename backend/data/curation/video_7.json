@@ -1,0 +1,312 @@
+[
+  {
+    "ref": "v7q01",
+    "theme": "vitesse",
+    "question_text": "Le premier facteur d'accident mortel au volant est",
+    "options": {
+      "A": "L'alcool",
+      "B": "La drogue",
+      "C": "La vitesse"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "Le premier facteur d'accident mortel au volant en France est la vitesse. Elle allonge la distance de freinage et aggrave la violence des chocs.",
+    "frame": "21.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "9.0.jpg",
+      "12.0.jpg",
+      "15.0.jpg",
+      "18.0.jpg",
+      "21.0.jpg",
+      "24.0.jpg",
+      "27.0.jpg",
+      "30.0.jpg",
+      "33.0.jpg"
+    ],
+    "window": [
+      7.0,
+      36.0
+    ]
+  },
+  {
+    "ref": "v7q02",
+    "theme": "panneaux",
+    "question_text": "Un panneau de fin d'interdiction peut mettre fin à",
+    "options": {
+      "A": "Une limitation de vitesse",
+      "B": "Une interdiction de stationner",
+      "C": "Une interdiction de dépasser"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Le panneau de fin d'interdiction met fin à toutes les interdictions signalées précédemment pour un véhicule en mouvement. Il peut donc lever une limitation de vitesse ou une interdiction de dépasser, mais pas une interdiction de stationner, car un véhicule stationné est à l'arrêt et non en mouvement.",
+    "frame": "54.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "39.0.jpg",
+      "42.0.jpg",
+      "48.0.jpg",
+      "54.0.jpg",
+      "60.0.jpg",
+      "66.0.jpg",
+      "72.0.jpg",
+      "78.0.jpg",
+      "84.0.jpg"
+    ],
+    "window": [
+      36.0,
+      84.0
+    ]
+  },
+  {
+    "ref": "v7q03",
+    "theme": "écomobilité",
+    "question_text": "Une allure constante permet d'éviter une surconsommation de carburant",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Rouler à une allure constante permet d'éviter la surconsommation de carburant. C'est en roulant à une vitesse irrégulière, avec des accélérations et des freinages répétés, que l'on consomme le plus.",
+    "frame": "93.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "87.0.jpg",
+      "90.0.jpg",
+      "93.0.jpg",
+      "96.0.jpg",
+      "99.0.jpg",
+      "102.0.jpg",
+      "105.0.jpg",
+      "108.0.jpg",
+      "111.0.jpg"
+    ],
+    "window": [
+      84.0,
+      114.0
+    ]
+  },
+  {
+    "ref": "v7q04",
+    "theme": "éclairage-visibilité",
+    "question_text": "L'éblouissement perturbe la vision du conducteur",
+    "options": {
+      "A": "Environ 1 seconde",
+      "B": "Environ 5 secondes"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "L'éblouissement est un phénomène dangereux car il perturbe la vision du conducteur pendant environ 5 secondes. Durant ce laps de temps, le conducteur ne perçoit plus toutes les informations et son temps de réaction est allongé.",
+    "frame": "135.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "117.0.jpg",
+      "120.0.jpg",
+      "123.0.jpg",
+      "129.0.jpg",
+      "135.0.jpg",
+      "141.0.jpg",
+      "147.0.jpg"
+    ],
+    "window": [
+      114.0,
+      149.0
+    ]
+  },
+  {
+    "ref": "v7q05",
+    "theme": "commandes",
+    "question_text": "Le régulateur de vitesse est adapté pour une conduite",
+    "options": {
+      "A": "En ville : oui",
+      "B": "En ville : non",
+      "C": "Sur autoroute : oui",
+      "D": "Sur autoroute : non"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "explanation": "En ville, l'utilisation du régulateur de vitesse n'est pas adaptée car il faut sans cesse ajuster sa vitesse à cause des nombreuses intersections, feux rouges et ronds-points. Le régulateur est en revanche bien adapté sur autoroute, où l'allure reste stable.",
+    "frame": "174.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "153.0.jpg",
+      "159.0.jpg",
+      "165.0.jpg",
+      "171.0.jpg",
+      "174.0.jpg",
+      "180.0.jpg",
+      "186.0.jpg",
+      "192.0.jpg"
+    ],
+    "window": [
+      149.0,
+      196.0
+    ]
+  },
+  {
+    "ref": "v7q06",
+    "theme": "documents",
+    "question_text": "La MMTA (anciennement PTAC) de ma remorque est de 600 kg",
+    "options": {
+      "A": "Le permis B est suffisant : oui",
+      "B": "Le permis B est suffisant : non",
+      "C": "La remorque doit avoir sa propre plaque d'immatriculation : oui",
+      "D": "La remorque doit avoir sa propre plaque d'immatriculation : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "La MMTA (masse maximale techniquement admissible) remplace l'ancien terme PTAC. Le permis B suffit pour tracter une remorque jusqu'à 750 kg, donc il est suffisant ici. De plus, dès que la MMTA dépasse 500 kg, la remorque doit posséder sa propre carte grise et sa propre plaque d'immatriculation.",
+    "frame": "216.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "201.0.jpg",
+      "207.0.jpg",
+      "216.0.jpg",
+      "222.0.jpg",
+      "228.0.jpg",
+      "234.0.jpg",
+      "240.0.jpg",
+      "246.0.jpg"
+    ],
+    "window": [
+      196.0,
+      250.0
+    ]
+  },
+  {
+    "ref": "v7q07",
+    "theme": "premiers-secours",
+    "question_text": "Si je suis témoin d'un accident, je dois (dans l'ordre)",
+    "options": {
+      "A": "Secourir, Protéger, Alerter",
+      "B": "Protéger, Alerter, Secourir",
+      "C": "Secourir, Alerter, Protéger",
+      "D": "Alerter, Protéger, Secourir"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Face à un accident, la conduite à tenir dans l'ordre est : protéger la zone de l'accident et les victimes, alerter les secours, puis secourir la victime. La séquence correcte est donc Protéger, Alerter, Secourir.",
+    "frame": "261.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "252.0.jpg",
+      "258.0.jpg",
+      "261.0.jpg",
+      "267.0.jpg",
+      "273.0.jpg",
+      "279.0.jpg",
+      "285.0.jpg",
+      "294.0.jpg"
+    ],
+    "window": [
+      250.0,
+      301.0
+    ]
+  },
+  {
+    "ref": "v7q08",
+    "theme": "panneaux",
+    "question_text": "Ce panneau indique",
+    "options": {
+      "A": "L'entrée dans une zone de rencontre : oui",
+      "B": "L'entrée dans une zone de rencontre : non",
+      "C": "Je pourrais y rencontrer : des voitures",
+      "D": "Je pourrais y rencontrer : des cyclistes"
+    },
+    "correct": [
+      "A",
+      "C",
+      "D"
+    ],
+    "explanation": "Ce panneau signale l'entrée dans une zone de rencontre, où la vitesse est limitée à 20 km/h. On peut notamment y croiser des voitures et des cyclistes. Attention : une même sous-question peut comporter deux bonnes réponses.",
+    "frame": "324.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "306.0.jpg",
+      "312.0.jpg",
+      "318.0.jpg",
+      "324.0.jpg",
+      "330.0.jpg",
+      "336.0.jpg",
+      "342.0.jpg",
+      "348.0.jpg"
+    ],
+    "window": [
+      301.0,
+      349.0
+    ]
+  },
+  {
+    "ref": "v7q09",
+    "theme": "assurance-constat",
+    "question_text": "À jeun, le pic d'alcoolémie est atteint après environ",
+    "options": {
+      "A": "30 minutes",
+      "B": "1 heure",
+      "C": "2 heures"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "À jeun, le pic d'alcoolémie est atteint après environ 30 minutes. Ce délai passe à environ une heure si l'on a mangé avant de consommer de l'alcool.",
+    "frame": "366.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "354.0.jpg",
+      "357.0.jpg",
+      "360.0.jpg",
+      "363.0.jpg",
+      "366.0.jpg",
+      "369.0.jpg",
+      "372.0.jpg",
+      "378.0.jpg"
+    ],
+    "window": [
+      349.0,
+      389.0
+    ]
+  },
+  {
+    "ref": "v7q10",
+    "theme": "circulation",
+    "question_text": "Sur une place de livraison partagée, je peux",
+    "options": {
+      "A": "M'arrêter",
+      "B": "Stationner sous certaines conditions",
+      "C": "Stationner tout le temps"
+    },
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "Sur une place de livraison partagée, il est possible de s'arrêter. On peut également y stationner, mais seulement sous certaines conditions, par exemple les jours fériés et le dimanche.",
+    "frame": "405.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "393.0.jpg",
+      "396.0.jpg",
+      "399.0.jpg",
+      "402.0.jpg",
+      "405.0.jpg",
+      "408.0.jpg",
+      "411.0.jpg",
+      "417.0.jpg"
+    ],
+    "window": [
+      389.0,
+      423.0
+    ]
+  }
+]

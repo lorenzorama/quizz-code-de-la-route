@@ -155,3 +155,35 @@ export function getHistory(): Promise<AttemptSummary[]> {
 export function mediaUrl(path: string): string {
   return `${BASE_URL}/media/${path}`;
 }
+
+export type ThemeCount = { theme: string; count: number };
+
+export type PracticeOption = {
+  id: number;
+  label: string;
+  text: string;
+  is_correct: boolean;
+};
+
+export type PracticeQuestion = {
+  id: number;
+  theme: string;
+  text: string;
+  media_path: string | null;
+  media_type: string;
+  explanation: string;
+  options: PracticeOption[];
+};
+
+export function getPracticeThemes(): Promise<ThemeCount[]> {
+  return request<ThemeCount[]>("/practice/themes");
+}
+
+export function getPracticeQuestions(
+  themes: string[],
+): Promise<PracticeQuestion[]> {
+  const query = themes
+    .map((t) => `theme=${encodeURIComponent(t)}`)
+    .join("&");
+  return request<PracticeQuestion[]>(`/practice/questions?${query}`);
+}

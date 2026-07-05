@@ -6,6 +6,7 @@ import { TopBar } from "@/components/TopBar";
 import { Button } from "@/components/ui/Button";
 import { Card } from "@/components/ui/Card";
 import { PracticeRunner } from "@/components/practice/PracticeRunner";
+import { QuitToHome } from "@/components/QuitToHome";
 import * as api from "@/lib/api";
 import type { PracticeQuestion, ThemeCount } from "@/lib/api";
 
@@ -63,7 +64,10 @@ function PracticeView() {
 
   if (questions !== null) {
     return (
-      <main className="mx-auto max-w-2xl px-4 py-8">
+      <main className="mx-auto max-w-2xl space-y-4 px-4 py-8">
+        <div className="flex justify-start">
+          <QuitToHome message="Votre session d'entraînement sera interrompue." />
+        </div>
         <PracticeRunner
           questions={questions}
           onFinish={() => {

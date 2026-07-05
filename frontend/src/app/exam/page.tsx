@@ -11,6 +11,7 @@ import { Countdown } from "@/components/exam/Countdown";
 import { OptionCard } from "@/components/exam/OptionCard";
 import { ProgressIndicator } from "@/components/exam/ProgressIndicator";
 import { QuestionMedia } from "@/components/exam/QuestionMedia";
+import { QuitToHome } from "@/components/QuitToHome";
 import * as api from "@/lib/api";
 import type { ExamQuestion, SubmittedAnswer } from "@/lib/api";
 
@@ -176,7 +177,8 @@ function Runner() {
         </div>
       </Card>
 
-      <div className="flex shrink-0 justify-end">
+      <div className="flex shrink-0 items-center justify-between">
+        <QuitToHome message="Votre examen en cours sera perdu." />
         <Button onClick={advance}>{isLast ? "Terminer" : "Suivant"}</Button>
       </div>
     </main>

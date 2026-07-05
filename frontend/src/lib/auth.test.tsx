@@ -29,6 +29,17 @@ describe("AuthProvider", () => {
     await waitFor(() => expect(screen.getByText("user: none")).toBeInTheDocument());
   });
 
+  it("settles to logged-out when getMe fails (backend unreachable)", async () => {
+    vi.spyOn(api, "getMe").mockRejectedValue(new TypeError("Failed to fetch"));
+    render(
+      <AuthProvider>
+        <Probe />
+      </AuthProvider>,
+    );
+    // Loading must resolve (no hang) and the user is treated as logged-out.
+    await waitFor(() => expect(screen.getByText("user: none")).toBeInTheDocument());
+  });
+
   it("login sets the user, logout clears it", async () => {
     vi.spyOn(api, "getMe").mockResolvedValue(null);
     vi.spyOn(api, "login").mockResolvedValue({ id: 1, email: "a@b.com" });

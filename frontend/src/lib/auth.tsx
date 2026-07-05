@@ -33,7 +33,14 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     let active = true;
     (async () => {
-      const me = await api.getMe();
+      let me: User | null = null;
+      try {
+        me = await api.getMe();
+      } catch {
+        // Backend unreachable or an unexpected error: treat as logged-out
+        // rather than hanging on the loading state or throwing.
+        me = null;
+      }
       if (active) {
         setUser(me);
         setLoading(false);

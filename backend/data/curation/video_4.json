@@ -162,7 +162,7 @@
   },
   {
     "ref": "v4q05",
-    "theme": "documents",
+    "theme": "alcool-stupéfiants",
     "question_text": "L'alcoolémie maximale à ne pas dépasser pour un jeune conducteur est de",
     "options": {
       "A": "0,1 g/L de sang",
@@ -203,7 +203,7 @@
   },
   {
     "ref": "v4q06",
-    "theme": "documents",
+    "theme": "alcool-stupéfiants",
     "question_text": "L'alcoolémie maximale à ne pas dépasser pour un conducteur expérimenté est de",
     "options": {
       "A": "0,2 g/L de sang",

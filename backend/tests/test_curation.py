@@ -47,3 +47,26 @@ def test_inline_question_markers_and_multi():
 
 def test_empty_transcript():
     assert parse_transcript("") == []
+
+
+STRAY = """[0:30] Question 1.
+[0:34] rouler vite, réponse A, ralentir, réponse B.
+[0:50] La bonne attitude. Bonne réponse, réponse B. À vitesse élevée le risque augmente.
+"""
+
+NO_LABEL = """[0:30] Question 1.
+[0:34] a, réponse A, b, réponse B.
+[0:50] Explication sans lettre finale. Bonne réponse évidente.
+"""
+
+
+def test_stray_uppercase_prose_not_captured_as_answer():
+    qs = parse_transcript(STRAY)
+    assert len(qs) == 1
+    assert qs[0].correct == ["B"]
+
+
+def test_missing_answer_letter_yields_empty_correct():
+    qs = parse_transcript(NO_LABEL)
+    assert len(qs) == 1
+    assert qs[0].correct == []

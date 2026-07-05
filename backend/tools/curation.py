@@ -6,7 +6,10 @@ from dataclasses import dataclass
 _TS = re.compile(r"\[(\d+):(\d{2})\]")
 _QUESTION = re.compile(r"question\s+(\d+)", re.IGNORECASE)
 _BONNE = re.compile(r"bonne\s+r[eé]ponse", re.IGNORECASE)
-_LABEL = re.compile(r"\b([A-D])\b")
+_ANSWER_RUN = re.compile(
+    r"\s*[,:]?\s*(?:r[eé]ponses?\s*)?([A-D](?:\s*(?:et|,|/)\s*[A-D])*)",
+    re.IGNORECASE,
+)
 
 
 @dataclass
@@ -41,8 +44,12 @@ def parse_transcript(text: str) -> list[ParsedQuestion]:
 
     answers: list[tuple[int, float, list[str]]] = []
     for match in _BONNE.finditer(full):
-        tail = full[match.end(): match.end() + 60].split(".")[0]
-        labels = list(dict.fromkeys(_LABEL.findall(tail.upper())))
+        run = _ANSWER_RUN.match(full, match.end())
+        labels = (
+            list(dict.fromkeys(re.findall(r"[A-D]", run.group(1).upper())))
+            if run
+            else []
+        )
         answers.append((match.start(), char_time[match.start()], labels))
 
     qmarks = [(q.start(), char_time[q.start()]) for q in _QUESTION.finditer(full)]

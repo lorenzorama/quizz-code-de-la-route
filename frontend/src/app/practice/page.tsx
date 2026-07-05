@@ -133,6 +133,7 @@ function PracticeView() {
             <Button
               onClick={start}
               disabled={selected.size === 0 || loadingQuestions}
+              aria-busy={loadingQuestions}
             >
               {loadingQuestions ? "…" : "Commencer"}
             </Button>

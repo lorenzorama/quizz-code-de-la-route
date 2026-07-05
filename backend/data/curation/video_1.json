@@ -1,14 +1,17 @@
 [
   {
     "ref": "v1q01",
-    "theme": "",
-    "question_text": "",
-    "options": {},
+    "theme": "vitesse",
+    "question_text": "Le régulateur de vitesse permet de",
+    "options": {
+      "A": "Maintenir le véhicule à une vitesse constante",
+      "B": "Bloquer le véhicule à une vitesse maximale"
+    },
     "correct": [
       "A"
     ],
-    "explanation": "Salut à tous ! Aujourd'hui, on est parti pour une série d'entraînement au code de la route de 10 questions. Ce format vous permet d'apprendre de manière efficace en restant concentrés plus longtemps. Et si vous voulez savoir comment obtenir votre code de la route en 27 jours, tout est dans la description. Allez, c'est parti, on y va ! Question 1. Le régulateur de vitesse permet de maintenir le véhicule à une vitesse constante, réponse A, bloquer le véhicule à une vitesse maximale, réponse B. Question 2. Retenez que le régulateur de vitesse permet à la voiture de garder une vitesse constante sans que l'usage est à appuyer sur la pédale d'accélérateur. Contrairement au limiteur de vitesse, il ne bloque pas la vitesse du véhicule. Ainsi, même avec le régulateur de vitesse activé, le conducteur peut accélérer.",
-    "frame": "",
+    "explanation": "Le régulateur de vitesse permet à la voiture de garder une vitesse constante sans que le conducteur ait à appuyer sur la pédale d'accélérateur. Contrairement au limiteur de vitesse, il ne bloque pas la vitesse du véhicule : même régulateur activé, le conducteur peut accélérer.",
+    "frame": "27.0.jpg",
     "crop": null,
     "candidate_frames": [
       "15.0.jpg",
@@ -33,14 +36,18 @@
   },
   {
     "ref": "v1q02",
-    "theme": "",
-    "question_text": "",
-    "options": {},
+    "theme": "cyclistes",
+    "question_text": "Pour limiter le risque d'accident",
+    "options": {
+      "A": "Je ralentis",
+      "B": "Je klaxonne",
+      "C": "Je fais un appel lumineux"
+    },
     "correct": [
       "A"
     ],
-    "explanation": "Bonne réponse, réponse A. Question 2. Pour limiter le risque d'accident, je ralenti, réponse A, je claxonne, réponse B. Je fais un appel lumine, réponse C. Dans cette situation, le cycliste à contre-sense vous a aperçu. Pour limiter le risque d'accident, je ralenti. Il est en effet inutile de claxonner ou de faire un appel lumineux.",
-    "frame": "",
+    "explanation": "Le cycliste arrivant à contre-sens vous a aperçu. Pour limiter le risque d'accident, il suffit de ralentir. Il est inutile de klaxonner ou de faire un appel lumineux.",
+    "frame": "72.0.jpg",
     "crop": null,
     "candidate_frames": [
       "57.0.jpg",
@@ -63,14 +70,17 @@
   },
   {
     "ref": "v1q03",
-    "theme": "",
-    "question_text": "",
-    "options": {},
+    "theme": "mécanique-entretien",
+    "question_text": "Je souhaite contrôler mon niveau d'huile. Ce contrôle s'effectue lorsque le moteur est",
+    "options": {
+      "A": "Froid",
+      "B": "Chaud"
+    },
     "correct": [
       "A"
     ],
-    "explanation": "Bonne réponse, réponse A. Question 3. Je souhaite contrôler mon niveau d'huile. Ce contrôle s'effectue lorsque le moteur est. Froid, réponse A, chaud, réponse B. Pour assurer l'entretien, la fiabilité et la longévité d'un véhicule, il est important de contrôler les niveaux des différents liquides essentiels à son fonctionnement. Ainsi, le contrôle des niveaux doit se faire dans des conditions bien particulières. Sur seul plat, pour ne pas fosser les mesures, et quelques minutes après avoir coupé le moteur, donc lorsque le moteur est froid, pour éviter les risques de brûlure.",
-    "frame": "",
+    "explanation": "Pour préserver l'entretien, la fiabilité et la longévité du véhicule, le contrôle des niveaux doit se faire dans des conditions précises : sur sol plat, pour ne pas fausser la mesure, et quelques minutes après avoir coupé le moteur, donc moteur froid, afin d'éviter tout risque de brûlure.",
+    "frame": "114.0.jpg",
     "crop": null,
     "candidate_frames": [
       "96.0.jpg",
@@ -95,15 +105,20 @@
   },
   {
     "ref": "v1q04",
-    "theme": "",
-    "question_text": "",
-    "options": {},
+    "theme": "cyclistes",
+    "question_text": "La cycliste à gauche",
+    "options": {
+      "A": "Circule sur une piste cyclable",
+      "B": "Circule sur une bande cyclable",
+      "C": "Est autorisée à circuler à contre-sens",
+      "D": "N'est pas autorisée à circuler à contre-sens"
+    },
     "correct": [
       "B",
       "C"
     ],
-    "explanation": "Bonne réponse, réponse A. Question 4. La cycliste à gauche circule sur une piste cyclable, réponse A, une bande cyclable, réponse B, est autorisée à circuler en contrôle sens, oui, réponse C, non, réponse D. Dans cette situation, la cycliste sur la gauche circule sur une bande cyclable. En effet, il n'y a aucune séparation physique entre la zone pour les cyclistes et la chaussée, contrairement à une piste cyclable. Celle-ci est autorisée à circuler en contrôle sens, en effet, la flèche sur la bande cyclable permet de l'indiquer.",
-    "frame": "",
+    "explanation": "La cycliste de gauche circule sur une bande cyclable : il n'y a aucune séparation physique entre la zone réservée aux cyclistes et la chaussée, contrairement à une piste cyclable. Elle est autorisée à circuler à contre-sens, comme l'indique la flèche tracée sur la bande cyclable.",
+    "frame": "162.0.jpg",
     "crop": null,
     "candidate_frames": [
       "141.0.jpg",
@@ -130,15 +145,20 @@
   },
   {
     "ref": "v1q05",
-    "theme": "",
-    "question_text": "",
-    "options": {},
+    "theme": "assurance-constat",
+    "question_text": "Avant d'envoyer mon constat amiable à l'assurance, il m'est possible de modifier les informations",
+    "options": {
+      "A": "Au recto : oui",
+      "B": "Au recto : non",
+      "C": "Au verso : oui",
+      "D": "Au verso : non"
+    },
     "correct": [
       "B",
       "C"
     ],
-    "explanation": "Bonne réponse B et C. Question 5. Avant d'envoyer mon constat amiable à l'assurance, il m'est possible de modifier les informations. Au recto, oui, réponse A, non, réponse B, au verso, oui, réponse C, non, réponse D. Une fois le constat amiable signé par les deux parties, il est possible de modifier les informations au verso uniquement. En effet, au recto se trouve les informations conjointes que je ne peux pas modifier et au verso, les informations personnelles modifiables.",
-    "frame": "",
+    "explanation": "Une fois le constat amiable signé par les deux parties, on ne peut modifier que les informations du verso. Le recto contient les informations conjointes, non modifiables, tandis que le verso regroupe les informations personnelles, elles modifiables.",
+    "frame": "210.0.jpg",
     "crop": null,
     "candidate_frames": [
       "189.0.jpg",
@@ -164,14 +184,18 @@
   },
   {
     "ref": "v1q06",
-    "theme": "",
-    "question_text": "",
-    "options": {},
+    "theme": "éclairage-visibilité",
+    "question_text": "Dans ces conditions, j'allume mes feux",
+    "options": {
+      "A": "De croisement",
+      "B": "De route",
+      "C": "De brouillard"
+    },
     "correct": [
       "A"
     ],
-    "explanation": "Bonne réponse B et C. Question 6. Dans sa condition, j'alume mes feux de croisements, réponse A, de route, réponse B, de brouillard, réponse C. Dans cette situation, vous pouvez constater qu'il pleut avec l'utilisation des essuies glaces. En cas de pluie, je dois allumer au minimum mes feux de croisements. Ici, les feux de brouillard sont trop puissants pour cette petite pluie.",
-    "frame": "",
+    "explanation": "Ici, l'usage des essuie-glaces montre qu'il pleut. En cas de pluie, il faut allumer au minimum les feux de croisement. Les feux de brouillard seraient trop puissants pour cette pluie légère.",
+    "frame": "252.0.jpg",
     "crop": null,
     "candidate_frames": [
       "234.0.jpg",
@@ -195,14 +219,18 @@
   },
   {
     "ref": "v1q07",
-    "theme": "",
-    "question_text": "",
-    "options": {},
+    "theme": "panneaux",
+    "question_text": "La vitesse sera limitée à 70 km/h",
+    "options": {
+      "A": "À partir du panneau",
+      "B": "Dans 50 m",
+      "C": "Dans 150 m"
+    },
     "correct": [
       "A"
     ],
-    "explanation": "Bonne réponse A. Question 7. La vitesse sera limitée à 70 kmh. A partir du panneau, réponse A, dans 50 m, réponse B, dans 150 m, réponse C. Lorsque le panneau de limitation de vitesse n'est pas complété par un panneau saut, la limitation s'applique à partir du panneau.",
-    "frame": "",
+    "explanation": "Lorsqu'un panneau de limitation de vitesse n'est pas complété par un panonceau de distance, la limitation s'applique dès le panneau.",
+    "frame": "288.0.jpg",
     "crop": null,
     "candidate_frames": [
       "273.0.jpg",
@@ -224,14 +252,17 @@
   },
   {
     "ref": "v1q08",
-    "theme": "",
-    "question_text": "",
-    "options": {},
+    "theme": "documents",
+    "question_text": "Je conduis un véhicule prêté. En cas de contrôle, j'ai l'obligation de présenter les papiers du véhicule",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
     "correct": [
       "A"
     ],
-    "explanation": "Bonne réponse A. Question 8. Je conduis un véhicule prêté. En cas de contrôle, j'ai l'obligation de présenter les papiers du véhicule. Oui, réponse A, non, réponse B. Même sur le véhicule que je conduis m'a été prêté, je dois avoir en ma possession les papiers du véhicule. Il est important, avant de prendre le véhicule, de vérifier que les papiers m'ont également été fournies.",
-    "frame": "",
+    "explanation": "Même si le véhicule que je conduis m'a été prêté, je dois avoir en ma possession les papiers du véhicule. Avant de prendre le volant, il faut donc vérifier que ces documents m'ont bien été confiés.",
+    "frame": "321.0.jpg",
     "crop": null,
     "candidate_frames": [
       "306.0.jpg",
@@ -253,15 +284,20 @@
   },
   {
     "ref": "v1q09",
-    "theme": "",
-    "question_text": "",
-    "options": {},
+    "theme": "distances-de-sécurité",
+    "question_text": "La distance de sécurité avec le véhicule qui me précède",
+    "options": {
+      "A": "Dépend de ma vitesse : oui",
+      "B": "Dépend de ma vitesse : non",
+      "C": "L'intervalle doit être équivalent à au moins 1 seconde",
+      "D": "L'intervalle doit être équivalent à au moins 2 secondes"
+    },
     "correct": [
       "A",
       "D"
     ],
-    "explanation": "Bonne réponse A. Question 9. La distance de sécurité avec le véhicule qui me précède. Dépend de ma vitesse. Oui, réponse A, non, réponse B. L'interval doit être équivalent à au moins. Une seconde, réponse C. De seconde, réponse D. La distance de sécurité dépend de la vitesse. En effet, plus je circule vite et plus ma distance de sécurité doit être importante. L'interval avec le véhicule qui me précède doit tout le temps être de moins de seconde. Je dois donc adapter ma distance de sécurité en fonction de ma vitesse pour respecter cette interval.",
-    "frame": "",
+    "explanation": "La distance de sécurité dépend de la vitesse : plus je roule vite, plus elle doit être importante. L'intervalle avec le véhicule qui me précède doit toujours être d'au moins deux secondes ; j'adapte donc ma distance en fonction de ma vitesse pour respecter cet intervalle.",
+    "frame": "363.0.jpg",
     "crop": null,
     "candidate_frames": [
       "342.0.jpg",
@@ -288,14 +324,17 @@
   },
   {
     "ref": "v1q10",
-    "theme": "",
-    "question_text": "",
-    "options": {},
+    "theme": "équipements-de-sécurité",
+    "question_text": "Le système AFU peut remplacer l'ABS",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
     "correct": [
       "B"
     ],
-    "explanation": "Bonne réponse A et D. Question 10. Le système AFU peut remplacer la BS. Oui, réponse A, non, réponse B. Le système AFU, pour aide au freinage d'urgence, permet d'amplifier au maximum le freinage du conducteur lors d'une situation de freinage d'urgence. Il ne peut pas remplacer la BS pour anti-blockage des roues, mais il est toujours combiné à celui-ci. La BS peut, quant à lui, être présent sans AFU.",
-    "frame": "",
+    "explanation": "Le système AFU (aide au freinage d'urgence) amplifie au maximum le freinage du conducteur lors d'un freinage d'urgence. Il ne peut pas remplacer l'ABS (anti-blocage des roues), auquel il est toujours associé ; l'ABS, en revanche, peut équiper un véhicule sans AFU.",
+    "frame": "408.0.jpg",
     "crop": null,
     "candidate_frames": [
       "393.0.jpg",

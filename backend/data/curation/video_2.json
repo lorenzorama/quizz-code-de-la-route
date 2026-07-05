@@ -1,14 +1,18 @@
 [
   {
     "ref": "v2q01",
-    "theme": "",
-    "question_text": "",
-    "options": {},
+    "theme": "commandes",
+    "question_text": "Dans une voiture à boîte manuelle, le frein se trouve sur la pédale",
+    "options": {
+      "A": "De droite",
+      "B": "Du milieu",
+      "C": "De gauche"
+    },
     "correct": [
       "B"
     ],
-    "explanation": "Salut à tous, bienvenue dans cette série de 10 questions du code de la route. Chaque question sera corrigeée et expliqué en détail. Pour ne pas rater les prochaines vidéos, abonnez-vous. Allez, c'est parti, on y va ! Dans une voiture à boîte manuelle, le frein se trouve sur la pédale du milieu. Retenez que la pédale de gauche s'élambriage, la pédale du milieu, le frein et la pédale de droite, l'accélérateur.",
-    "frame": "",
+    "explanation": "Sur une voiture à boîte manuelle, les trois pédales se répartissent ainsi : à gauche l'embrayage, au milieu le frein et à droite l'accélérateur. Le frein se trouve donc sur la pédale du milieu.",
+    "frame": "24.0.jpg",
     "crop": null,
     "candidate_frames": [
       "0.0.jpg",
@@ -35,15 +39,20 @@
   },
   {
     "ref": "v2q02",
-    "theme": "",
-    "question_text": "",
-    "options": {},
+    "theme": "priorités",
+    "question_text": "À cette intersection, je serai prioritaire sur",
+    "options": {
+      "A": "Les véhicules venant de gauche : oui",
+      "B": "Les véhicules venant de gauche : non",
+      "C": "Les véhicules venant de droite : oui",
+      "D": "Les véhicules venant de droite : non"
+    },
     "correct": [
       "A",
       "D"
     ],
-    "explanation": "Bonne réponse, B, question 2. À cette intersection, je serai prioritaire sur les véhicules venant de gauche. Oui, réponse A, non, réponse B, la véhicule venant de droite. Oui, réponse C, non, réponse D. À cette intersection, aucun marquage au sol ni panneau ne m'indique une priorité particulière à respecter. J'applique la règle de la priorité à droite. Les véhicules venant de gauche doivent me céder le passage et je dois céder le passage au véhicule venant de droite.",
-    "frame": "",
+    "explanation": "À cette intersection, aucun marquage au sol ni panneau n'indique de priorité particulière : j'applique la priorité à droite. Les véhicules venant de ma gauche doivent donc me céder le passage (je suis prioritaire), tandis que je dois céder le passage à ceux venant de ma droite.",
+    "frame": "69.0.jpg",
     "crop": null,
     "candidate_frames": [
       "48.0.jpg",
@@ -70,15 +79,20 @@
   },
   {
     "ref": "v2q03",
-    "theme": "",
-    "question_text": "",
-    "options": {},
+    "theme": "permis-à-points",
+    "question_text": "Pour le permis probatoire",
+    "options": {
+      "A": "Le capital initial est de 6 points",
+      "B": "Le capital initial est de 12 points",
+      "C": "En conduite accompagnée et sans commettre d'infraction, j'obtiendrai la totalité de mes points en 2 ans",
+      "D": "En conduite accompagnée et sans commettre d'infraction, j'obtiendrai la totalité de mes points en 3 ans"
+    },
     "correct": [
       "A",
       "C"
     ],
-    "explanation": "Bonne réponse A et D, question 3. Pour le perlit probatoire, le capital initial est de 6 points, réponse A, 12 points, réponse B. En conduite à compagniez et sans commettre d'infraction, je obtiendrai la totalité de mes points en 2 ans, réponse C, 3 ans, réponse D. Retenez que le capital initial pour tout conducteur venant d'obtenir son permis de conduire à 2 6 points. Pour obtenir les 12 points, il me faut 2 ans en conduite à compagniez et 3 ans en formation traditionnelle sans commettre d'infraction.",
-    "frame": "",
+    "explanation": "Le capital initial de tout conducteur venant d'obtenir son permis est de 6 points. Pour atteindre les 12 points sans commettre d'infraction, il faut 2 ans en conduite accompagnée et 3 ans en filière traditionnelle.",
+    "frame": "117.0.jpg",
     "crop": null,
     "candidate_frames": [
       "93.0.jpg",
@@ -106,15 +120,20 @@
   },
   {
     "ref": "v2q04",
-    "theme": "",
-    "question_text": "",
-    "options": {},
+    "theme": "panneaux",
+    "question_text": "L'accès sous le pont est interdit aux véhicules",
+    "options": {
+      "A": "Mesurant plus de 3,2 mètres de longueur : oui",
+      "B": "Mesurant plus de 3,2 mètres de longueur : non",
+      "C": "Mesurant plus de 3,2 mètres de hauteur : oui",
+      "D": "Mesurant plus de 3,2 mètres de hauteur : non"
+    },
     "correct": [
       "B",
       "C"
     ],
-    "explanation": "Bonne réponse A et C, question 4. L'accès sous le pont est interdit aux véhicules. Mesurant plus de 3,2 m de longueur. Oui, réponse A, non, réponse B. Mesurant plus de 3,2 m de hauteur. Oui, réponse C, non, réponse D. Ici, vous pouvez constater la présence d'un panneau d'interdiction. Celui-ci interdit l'accès sous le pont aux véhicules mesurant plus de 3,2 m de hauteur. En effet, cette 2 flèche noire indique une limitation en hauteur. Si les flèches étaient positionnées sur les côtés, la limitation concernerait la largeur du véhicule.",
-    "frame": "",
+    "explanation": "Le panneau d'interdiction présent ici interdit l'accès sous le pont aux véhicules de plus de 3,2 m de hauteur : la flèche noire est verticale, elle concerne donc la hauteur. Si les flèches étaient placées sur les côtés, la limitation porterait sur la largeur.",
+    "frame": "165.0.jpg",
     "crop": null,
     "candidate_frames": [
       "141.0.jpg",
@@ -143,15 +162,20 @@
   },
   {
     "ref": "v2q05",
-    "theme": "",
-    "question_text": "",
-    "options": {},
+    "theme": "panneaux",
+    "question_text": "Sur l'image ci-dessus, ce panneau m'indique un radar",
+    "options": {
+      "A": "Fixe",
+      "B": "Mobile",
+      "C": "La vitesse n'est limitée à 70 km/h qu'au niveau du radar : oui",
+      "D": "La vitesse n'est limitée à 70 km/h qu'au niveau du radar : non"
+    },
     "correct": [
       "A",
       "D"
     ],
-    "explanation": "Bonne réponse B et C. Question 5. Sur l'image si dessus. Ce panneau m'indique un radar. Fix, réponse A, mobile, réponse B. La vitesse n'est limitée à 70 kmh, conniveau du radar. Oui, réponse C, non, réponse D. Ce panneau de signalisation indique un radar fixe. Le panneau de limitation de vitesse à 70 kmh ne s'applique pas cause à bord du radar. Je dois continuer de rouler à 70 kmh maximum, même après avoir dépassé le radar.",
-    "frame": "",
+    "explanation": "Ce panneau de signalisation annonce un radar fixe. La limitation à 70 km/h ne s'applique pas seulement au niveau du radar : je dois continuer à rouler à 70 km/h maximum, même après l'avoir dépassé.",
+    "frame": "216.0.jpg",
     "crop": null,
     "candidate_frames": [
       "195.0.jpg",
@@ -177,15 +201,19 @@
   },
   {
     "ref": "v2q06",
-    "theme": "",
-    "question_text": "",
-    "options": {},
+    "theme": "écomobilité",
+    "question_text": "Je souhaite effectuer un petit trajet en ville. Le(s) moyen(s) de transport à privilégier est (sont)",
+    "options": {
+      "A": "La marche à pied",
+      "B": "Le vélo",
+      "C": "La voiture"
+    },
     "correct": [
       "A",
       "B"
     ],
-    "explanation": "Bonne réponse A et D. Question 6. Je souhaite effectuer un petit ranger en ville. Les moyens de transport à privé légiaient son. La marche à pied, réponse A, le vélo, réponse B. La voiture, réponse C. Lorsque je souhaite effectuer un petit ranger en ville, je dois privé légiaient la marche à pied ou le vélo. Ce comportement permet de réduire la pollution et le trafic. C'est ce que l'on appelle l'écomobilité.",
-    "frame": "",
+    "explanation": "Pour un petit trajet en ville, mieux vaut privilégier la marche à pied ou le vélo. Ce comportement réduit la pollution et le trafic : c'est ce qu'on appelle l'écomobilité.",
+    "frame": "258.0.jpg",
     "crop": null,
     "candidate_frames": [
       "243.0.jpg",
@@ -208,14 +236,17 @@
   },
   {
     "ref": "v2q07",
-    "theme": "",
-    "question_text": "",
-    "options": {},
+    "theme": "circulation",
+    "question_text": "Dans cette situation, je peux m'avancer en dépassant le véhicule par la droite",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
     "correct": [
       "A"
     ],
-    "explanation": "Bonne réponse A et B. Question 7. Dans cette situation, je peux m'avancer en dépassant le véhicule par la droite. Oui, réponse A, non, réponse B. Dans cette situation, vous êtes un feu rouge avec affectation des voies de direction. Vous pouvez donc avancer dans la fille. Dans ce qui apprécie, ce comportement n'est pas considéré comme un dépassement par la droite.",
-    "frame": "",
+    "explanation": "Vous êtes à un feu rouge avec affectation de voies par direction. Vous pouvez donc avancer dans votre file : ce comportement n'est pas considéré comme un dépassement par la droite.",
+    "frame": "297.0.jpg",
     "crop": null,
     "candidate_frames": [
       "282.0.jpg",
@@ -237,15 +268,20 @@
   },
   {
     "ref": "v2q08",
-    "theme": "",
-    "question_text": "",
-    "options": {},
+    "theme": "cyclistes",
+    "question_text": "Je souhaite continuer tout droit",
+    "options": {
+      "A": "Pour dépasser, je dois laisser un intervalle d'au moins 1 m",
+      "B": "Pour dépasser, je dois laisser un intervalle d'au moins 1,5 m",
+      "C": "Dans cette situation, je dépasse",
+      "D": "Dans cette situation, je reste derrière les cyclistes"
+    },
     "correct": [
       "A",
       "D"
     ],
-    "explanation": "Bonne réponse A, question 8. Je souhaite continuer tout droit. Pour dépasser, je dois laisser un intervalle de monde. Un maître, réponse A, 1,5 m, réponse B. Dans cette situation, je dépasse, réponse C. Je reste derrière les cyclistes, réponse D. En ville, pour pouvoir dépasser un deux roues, je dois laisser un intervalle de moins 1 m. Dans cette situation, je n'ai pas assez d'espace pour dépasser. Je reste derrière les cyclistes en attendant de pouvoir dépasser en toute sécurité.",
-    "frame": "",
+    "explanation": "En ville, pour dépasser un deux-roues, je dois laisser un intervalle d'au moins 1 m. Ici, je n'ai pas assez d'espace pour le faire en sécurité : je reste donc derrière les cyclistes en attendant de pouvoir dépasser.",
+    "frame": "336.0.jpg",
     "crop": null,
     "candidate_frames": [
       "315.0.jpg",
@@ -271,15 +307,20 @@
   },
   {
     "ref": "v2q09",
-    "theme": "",
-    "question_text": "",
-    "options": {},
+    "theme": "premiers-secours",
+    "question_text": "La PLS (position latérale de sécurité) se pratique sur une victime",
+    "options": {
+      "A": "Qui est consciente : oui",
+      "B": "Qui est consciente : non",
+      "C": "Qui respire : oui",
+      "D": "Qui respire : non"
+    },
     "correct": [
       "B",
       "C"
     ],
-    "explanation": "Bonne réponse A et D. Question 9. La PLS, pour position l'atéral de sécurité, se pratique sur une victime. Qui est consciente ? Oui, réponse A, non, réponse B, qui est respire ? Oui, réponse C, non, réponse D. Rétonnez que la position l'atéral de sécurité se pratique sur une victime inconsciente et qui respire. En effet, elle permet notamment de ne pas obstruer les voies aériennes et de faciliter l'écoulement des liquides dans la gorge.",
-    "frame": "",
+    "explanation": "La position latérale de sécurité (PLS) se pratique sur une victime inconsciente mais qui respire. Elle permet notamment de ne pas obstruer les voies aériennes et de faciliter l'écoulement des liquides hors de la gorge.",
+    "frame": "381.0.jpg",
     "crop": null,
     "candidate_frames": [
       "363.0.jpg",
@@ -304,15 +345,20 @@
   },
   {
     "ref": "v2q10",
-    "theme": "",
-    "question_text": "",
-    "options": {},
+    "theme": "distances-de-sécurité",
+    "question_text": "Je circule à 130 km/h",
+    "options": {
+      "A": "Ma distance de sécurité est suffisante : oui",
+      "B": "Ma distance de sécurité est suffisante : non",
+      "C": "À cette vitesse, ma distance d'arrêt est de 90 mètres",
+      "D": "À cette vitesse, ma distance d'arrêt est de 170 mètres"
+    },
     "correct": [
       "B",
       "D"
     ],
-    "explanation": "Bonne réponse B et C. Question 10. Je circule la 130 kmh, ma distance de sécurité est suffisante. Oui, réponse A, non, réponse B. À cette vitesse, ma distance d'arrêt A2, 90 m, réponse C, 170 m, réponse D. À 130 kmh, je dois laisser un interval de sécurité d'au moins deux bornes d'arrêt d'urgence. Dans cette situation, je dois ralentir pour respecter la distance de sécurité. Comment calculer la distance d'arrêt ? Faisons un peu de mathématiques. Pour calculer la distance d'arrêt, il faut prendre le chiffre des dizaines de la vitesse, donc ici 13 et le multiplier par lui-même donc 13. Ainsi, la distance d'arrêt à 130 kmh est d'environ 170 m, car 13 fois 13 est égal à 169.",
-    "frame": "",
+    "explanation": "À 130 km/h, l'intervalle de sécurité doit être d'au moins deux traits (bornes d'arrêt d'urgence) : ici la distance est insuffisante, je dois ralentir. Pour estimer la distance d'arrêt, on prend le chiffre des dizaines de la vitesse (13) et on le multiplie par lui-même : 13 × 13 = 169, soit environ 170 m.",
+    "frame": "435.0.jpg",
     "crop": null,
     "candidate_frames": [
       "405.0.jpg",

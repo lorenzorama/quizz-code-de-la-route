@@ -1,3 +1,5 @@
+from PIL import Image
+from tools.curation import DEFAULT_CROPS, crop_frame
 from tools.curation import parse_transcript
 from tools.curation import build_draft, frame_timestamp, video_number
 
@@ -95,3 +97,17 @@ def test_build_draft_seeds_refs_and_candidate_frames(tmp_path):
     # q2 window [57, 91] → frames 60.0 and 90.0
     assert entries[1]["candidate_frames"] == ["60.0.jpg", "90.0.jpg"]
     assert entries[0]["question_text"] == "" and entries[0]["frame"] == ""
+
+
+def test_default_crops_present():
+    assert DEFAULT_CROPS[1] == (0, 0, 1920, 632)
+
+
+def test_crop_frame_produces_expected_size(tmp_path):
+    src = tmp_path / "frame.jpg"
+    Image.new("RGB", (1920, 1080), "white").save(src)
+    out = tmp_path / "out" / "q01.jpg"
+    crop_frame(str(src), (0, 0, 1920, 632), str(out))
+    assert out.exists()
+    with Image.open(out) as img:
+        assert img.size == (1920, 632)

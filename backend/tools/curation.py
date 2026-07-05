@@ -5,6 +5,8 @@ import os
 import re
 from dataclasses import dataclass
 
+from PIL import Image
+
 _TS = re.compile(r"\[(\d+):(\d{2})\]")
 _QUESTION = re.compile(r"question\s+(\d+)", re.IGNORECASE)
 _BONNE = re.compile(r"bonne\s+r[eé]ponse", re.IGNORECASE)
@@ -132,3 +134,20 @@ def draft(video_dir: str, out_path: str) -> None:
     os.makedirs(os.path.dirname(out_path) or ".", exist_ok=True)
     with open(out_path, "w", encoding="utf-8") as fh:
         json.dump(entries, fh, ensure_ascii=False, indent=2)
+
+
+# Situation photo sits above the yellow divider (~y=632) for this producer's
+# 1920x1080 template. Tune per video after viewing frames if needed.
+DEFAULT_CROPS: dict[int, tuple[int, int, int, int]] = {
+    1: (0, 0, 1920, 632),
+    2: (0, 0, 1920, 632),
+}
+
+
+def crop_frame(
+    frame_path: str, box: tuple[int, int, int, int], out_path: str
+) -> None:
+    x, y, w, h = box
+    os.makedirs(os.path.dirname(out_path) or ".", exist_ok=True)
+    with Image.open(frame_path) as img:
+        img.crop((x, y, x + w, y + h)).save(out_path)

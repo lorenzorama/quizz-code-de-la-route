@@ -1,4 +1,5 @@
 from tools.curation import parse_transcript
+from tools.curation import build_draft, frame_timestamp, video_number
 
 SINGLE = """[0:15] Question 1.
 [0:19] maintenir la vitesse, réponse A, bloquer, réponse B.
@@ -70,3 +71,27 @@ def test_missing_answer_letter_yields_empty_correct():
     qs = parse_transcript(NO_LABEL)
     assert len(qs) == 1
     assert qs[0].correct == []
+
+
+def test_frame_timestamp_and_video_number():
+    assert frame_timestamp("78.0.jpg") == 78.0
+    assert frame_timestamp("/a/b/102.0.jpg") == 102.0
+    assert video_number("video_1") == 1
+    assert video_number("sources_data/video_12/") == 12
+
+
+def test_build_draft_seeds_refs_and_candidate_frames(tmp_path):
+    video = tmp_path / "video_3"
+    video.mkdir()
+    (video / "transcript.txt").write_text(SINGLE, encoding="utf-8")
+    for name in ["12.0.jpg", "18.0.jpg", "54.0.jpg", "60.0.jpg", "90.0.jpg"]:
+        (video / name).write_bytes(b"")
+
+    entries = build_draft(str(video))
+    assert [e["ref"] for e in entries] == ["v3q01", "v3q02"]
+    assert entries[0]["correct"] == ["A"]
+    # q1 window [15, 55] → frames 18.0 and 54.0
+    assert entries[0]["candidate_frames"] == ["18.0.jpg", "54.0.jpg"]
+    # q2 window [57, 91] → frames 60.0 and 90.0
+    assert entries[1]["candidate_frames"] == ["60.0.jpg", "90.0.jpg"]
+    assert entries[0]["question_text"] == "" and entries[0]["frame"] == ""

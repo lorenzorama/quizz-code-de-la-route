@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import json
+import os
 import re
 from dataclasses import dataclass
 
@@ -76,3 +78,57 @@ def parse_transcript(text: str) -> list[ParsedQuestion]:
         prev_pos = apos
         prev_time = atime
     return questions
+
+
+def frame_timestamp(filename: str) -> float:
+    return float(os.path.splitext(os.path.basename(filename))[0])
+
+
+def video_number(name: str) -> int:
+    match = re.search(r"(\d+)\s*$", os.path.basename(name.rstrip("/")))
+    if not match:
+        raise ValueError(f"Cannot find a video number in {name!r}")
+    return int(match.group(1))
+
+
+def build_draft(video_dir: str) -> list[dict]:
+    with open(os.path.join(video_dir, "transcript.txt"), encoding="utf-8") as fh:
+        questions = parse_transcript(fh.read())
+
+    frames = sorted(
+        (f for f in os.listdir(video_dir) if f.endswith(".jpg")),
+        key=frame_timestamp,
+    )
+    number = video_number(video_dir)
+
+    entries = []
+    for q in questions:
+        candidates = [
+            f for f in frames if q.display_start <= frame_timestamp(f) <= q.end_time
+        ]
+        entries.append(
+            {
+                "ref": f"v{number}q{q.index:02d}",
+                "theme": "",
+                "question_text": "",
+                "options": {},
+                "correct": q.correct,
+                "explanation": q.explanation_raw,
+                "frame": "",
+                "crop": None,
+                "candidate_frames": candidates,
+                "window": [q.display_start, q.end_time],
+            }
+        )
+    return entries
+
+
+def draft(video_dir: str, out_path: str) -> None:
+    if os.path.exists(out_path):
+        raise FileExistsError(
+            f"{out_path} already exists — refusing to overwrite curated data"
+        )
+    entries = build_draft(video_dir)
+    os.makedirs(os.path.dirname(out_path) or ".", exist_ok=True)
+    with open(out_path, "w", encoding="utf-8") as fh:
+        json.dump(entries, fh, ensure_ascii=False, indent=2)

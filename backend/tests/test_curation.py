@@ -178,3 +178,22 @@ def test_build_is_idempotent(tmp_path):
     build(str(curation), str(frames_root), str(media), str(xlsx))
     build(str(curation), str(frames_root), str(media), str(xlsx))
     assert len(parse_workbook(str(xlsx))) == 1
+
+
+def test_build_unknown_video_without_crop_fails_by_ref(tmp_path):
+    curation = tmp_path / "curation"
+    curation.mkdir()
+    frames = tmp_path / "frames" / "video_9"
+    frames.mkdir(parents=True)
+    Image.new("RGB", (1920, 1080), "white").save(frames / "18.0.jpg")
+    (curation / "video_9.json").write_text(
+        json.dumps([_entry(ref="v9q01", correct=["A"], crop=None)]),
+        encoding="utf-8",
+    )
+    with pytest.raises(ValueError, match="no crop for video_9"):
+        build(
+            str(curation),
+            str(tmp_path / "frames"),
+            str(tmp_path / "media"),
+            str(tmp_path / "questions.xlsx"),
+        )

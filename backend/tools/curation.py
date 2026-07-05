@@ -200,7 +200,15 @@ def build(
             frame_path = os.path.join(frames_root, folder, entry["frame"])
             if not os.path.exists(frame_path):
                 raise ValueError(f"{entry['ref']}: frame not found at {frame_path}")
-            box = tuple(entry["crop"]) if entry.get("crop") else DEFAULT_CROPS[number]
+            if entry.get("crop"):
+                box = tuple(entry["crop"])
+            elif number in DEFAULT_CROPS:
+                box = DEFAULT_CROPS[number]
+            else:
+                raise ValueError(
+                    f"{entry['ref']}: no crop for video_{number} — add it to "
+                    f"DEFAULT_CROPS or set the entry's \"crop\""
+                )
             media_rel = f"{folder}/{entry['ref']}.jpg"
             crop_frame(frame_path, box, os.path.join(media_root, media_rel))
 

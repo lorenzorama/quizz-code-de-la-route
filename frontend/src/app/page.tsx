@@ -38,6 +38,17 @@ export default function HomePage() {
               </Button>
             </Link>
           </Card>
+          <Card className="flex flex-col gap-3">
+            <h2 className="text-lg font-semibold text-slate-900">Mode entraînement</h2>
+            <p className="text-sm text-slate-600">
+              Entraînez-vous par thème, sans chrono, avec les corrections.
+            </p>
+            <Link href="/practice" className="mt-auto">
+              <Button variant="secondary" className="w-full">
+                S&apos;entraîner
+              </Button>
+            </Link>
+          </Card>
         </div>
       </main>
     </RequireAuth>

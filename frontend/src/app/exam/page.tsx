@@ -136,29 +136,47 @@ function Runner() {
 
   const question = questions[index];
   const isLast = index + 1 === questions.length;
+  const hasMedia = question.media_type !== "none" && Boolean(question.media_path);
 
   return (
-    <main className="mx-auto max-w-2xl space-y-6 px-4 py-8">
-      <ProgressIndicator current={index + 1} total={questions.length} />
-      <Countdown key={index} seconds={SECONDS_PER_QUESTION} onExpire={advance} />
-      <Card className="space-y-4">
-        <span className="inline-block rounded-full bg-indigo-50 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-indigo-700">
-          {question.theme}
-        </span>
-        <h1 className="text-lg font-semibold text-slate-900">{question.text}</h1>
-        <QuestionMedia mediaType={question.media_type} mediaPath={question.media_path} />
-        <div className="space-y-2">
-          {question.options.map((opt) => (
-            <OptionCard
-              key={opt.id}
-              option={opt}
-              selected={selected.includes(opt.id)}
-              onToggle={() => toggle(opt.id)}
+    <main className="mx-auto flex min-h-0 w-full max-w-4xl flex-1 flex-col gap-3 px-4 py-3">
+      <div className="flex flex-col gap-2 sm:flex-row sm:items-end sm:gap-6">
+        <div className="sm:flex-1">
+          <ProgressIndicator current={index + 1} total={questions.length} />
+        </div>
+        <div className="sm:flex-1">
+          <Countdown key={index} seconds={SECONDS_PER_QUESTION} onExpire={advance} />
+        </div>
+      </div>
+
+      <Card className="flex min-h-0 flex-1 flex-col gap-4 overflow-hidden md:flex-row md:items-stretch">
+        {hasMedia ? (
+          <div className="flex min-h-0 shrink-0 items-center justify-center md:w-1/2">
+            <QuestionMedia
+              mediaType={question.media_type}
+              mediaPath={question.media_path}
             />
-          ))}
+          </div>
+        ) : null}
+        <div className="flex min-h-0 flex-1 flex-col gap-3">
+          <span className="w-fit rounded-full bg-indigo-50 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-indigo-700">
+            {question.theme}
+          </span>
+          <h1 className="text-lg font-semibold text-slate-900">{question.text}</h1>
+          <div className="flex min-h-0 flex-1 flex-col gap-2 overflow-y-auto">
+            {question.options.map((opt) => (
+              <OptionCard
+                key={opt.id}
+                option={opt}
+                selected={selected.includes(opt.id)}
+                onToggle={() => toggle(opt.id)}
+              />
+            ))}
+          </div>
         </div>
       </Card>
-      <div className="flex justify-end">
+
+      <div className="flex shrink-0 justify-end">
         <Button onClick={advance}>{isLast ? "Terminer" : "Suivant"}</Button>
       </div>
     </main>
@@ -167,7 +185,7 @@ function Runner() {
 
 function Centered({ children }: { children: React.ReactNode }) {
   return (
-    <div className="flex min-h-[60vh] flex-col items-center justify-center px-4 text-center text-slate-600">
+    <div className="flex min-h-0 flex-1 flex-col items-center justify-center px-4 text-center text-slate-600">
       {children}
     </div>
   );
@@ -176,8 +194,10 @@ function Centered({ children }: { children: React.ReactNode }) {
 export default function ExamPage() {
   return (
     <RequireAuth>
-      <TopBar />
-      <Runner />
+      <div className="flex h-dvh flex-col overflow-hidden">
+        <TopBar />
+        <Runner />
+      </div>
     </RequireAuth>
   );
 }

@@ -15,7 +15,7 @@ export function QuestionMedia({
       <video
         controls
         src={src}
-        className="w-full rounded-xl border border-slate-200 bg-black"
+        className="mx-auto max-h-[38vh] w-auto max-w-full rounded-xl border border-slate-200 bg-black object-contain"
       />
     );
   }
@@ -24,7 +24,7 @@ export function QuestionMedia({
     <img
       src={src}
       alt="Illustration de la question"
-      className="w-full rounded-xl border border-slate-200 object-cover"
+      className="mx-auto max-h-[38vh] w-auto max-w-full rounded-xl border border-slate-200 object-contain"
     />
   );
 }

@@ -3,9 +3,9 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/Button";
 import { Card } from "@/components/ui/Card";
-import { OptionCard } from "@/components/exam/OptionCard";
-import { QuestionMedia } from "@/components/exam/QuestionMedia";
+import { QuestionStage } from "@/components/exam/QuestionStage";
 import { ReviewQuestionCard } from "@/components/exam/ReviewQuestionCard";
+import { QuitToHome } from "@/components/QuitToHome";
 import type { PracticeQuestion, ReviewQuestion } from "@/lib/api";
 
 export function PracticeRunner({
@@ -21,15 +21,12 @@ export function PracticeRunner({
 
   if (questions.length === 0) {
     return (
-      <Card className="text-center text-slate-600">
-        Aucune question pour ces thèmes.{" "}
-        <button
-          onClick={onFinish}
-          className="font-semibold text-indigo-700 hover:underline"
-        >
+      <main className="mx-auto flex min-h-0 w-full max-w-5xl flex-1 flex-col items-center justify-center gap-4 px-4 py-3 text-center text-slate-600">
+        <p>Aucune question pour ces thèmes.</p>
+        <Button variant="secondary" onClick={onFinish}>
           Retour
-        </button>
-      </Card>
+        </Button>
+      </main>
     );
   }
 
@@ -76,43 +73,40 @@ export function PracticeRunner({
   };
 
   return (
-    <div className="space-y-4">
-      <p className="text-sm font-medium text-slate-600">
+    <main className="mx-auto flex min-h-0 w-full max-w-5xl flex-1 flex-col gap-3 px-4 py-3">
+      <p className="shrink-0 text-sm font-medium text-slate-600">
         Question {index + 1} / {questions.length}
       </p>
       {revealed ? (
-        <ReviewQuestionCard question={reviewQuestion} index={index} />
+        <div className="min-h-0 flex-1 overflow-y-auto">
+          <ReviewQuestionCard question={reviewQuestion} index={index} />
+        </div>
       ) : (
-        <Card className="space-y-4">
-          <span className="w-fit rounded-full bg-indigo-50 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-indigo-700">
-            {question.theme}
-          </span>
-          <h1 className="text-lg font-semibold text-slate-900">{question.text}</h1>
-          <QuestionMedia
+        <Card className="flex min-h-0 flex-1 flex-col overflow-hidden">
+          <QuestionStage
+            theme={question.theme}
+            text={question.text}
             mediaType={question.media_type}
             mediaPath={question.media_path}
+            options={question.options}
+            selectedIds={selected}
+            onToggle={toggle}
           />
-          <div className="space-y-2">
-            {question.options.map((opt) => (
-              <OptionCard
-                key={opt.id}
-                option={opt}
-                selected={selected.includes(opt.id)}
-                onToggle={() => toggle(opt.id)}
-              />
-            ))}
-          </div>
         </Card>
       )}
-      <div className="flex justify-end">
+      <div className="flex shrink-0 items-center justify-between">
+        <QuitToHome message="Votre session d'entraînement sera interrompue." />
         {revealed ? (
           <Button onClick={next}>{isLast ? "Terminer" : "Suivant"}</Button>
         ) : (
-          <Button onClick={() => setRevealed(true)} disabled={selected.length === 0}>
+          <Button
+            onClick={() => setRevealed(true)}
+            disabled={selected.length === 0}
+          >
             Vérifier
           </Button>
         )}
       </div>
-    </div>
+    </main>
   );
 }

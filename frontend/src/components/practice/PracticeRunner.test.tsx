@@ -4,6 +4,11 @@ import { describe, expect, it, vi } from "vitest";
 import { PracticeRunner } from "./PracticeRunner";
 import type { PracticeQuestion } from "@/lib/api";
 
+// PracticeRunner renders QuitToHome, which uses the Next.js router.
+vi.mock("next/navigation", () => ({
+  useRouter: () => ({ push: vi.fn(), replace: vi.fn() }),
+}));
+
 const questions: PracticeQuestion[] = [
   {
     id: 1, theme: "panneaux", text: "Q1 ?", media_path: null, media_type: "none",

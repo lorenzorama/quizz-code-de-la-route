@@ -8,9 +8,8 @@ import { TopBar } from "@/components/TopBar";
 import { Button } from "@/components/ui/Button";
 import { Card } from "@/components/ui/Card";
 import { Countdown } from "@/components/exam/Countdown";
-import { OptionCard } from "@/components/exam/OptionCard";
 import { ProgressIndicator } from "@/components/exam/ProgressIndicator";
-import { QuestionMedia } from "@/components/exam/QuestionMedia";
+import { QuestionStage } from "@/components/exam/QuestionStage";
 import { QuitToHome } from "@/components/QuitToHome";
 import * as api from "@/lib/api";
 import type { ExamQuestion, SubmittedAnswer } from "@/lib/api";
@@ -137,10 +136,9 @@ function Runner() {
 
   const question = questions[index];
   const isLast = index + 1 === questions.length;
-  const hasMedia = question.media_type !== "none" && Boolean(question.media_path);
 
   return (
-    <main className="mx-auto flex min-h-0 w-full max-w-4xl flex-1 flex-col gap-3 px-4 py-3">
+    <main className="mx-auto flex min-h-0 w-full max-w-5xl flex-1 flex-col gap-3 px-4 py-3">
       <div className="flex flex-col gap-2 sm:flex-row sm:items-end sm:gap-6">
         <div className="sm:flex-1">
           <ProgressIndicator current={index + 1} total={questions.length} />
@@ -150,31 +148,16 @@ function Runner() {
         </div>
       </div>
 
-      <Card className="flex min-h-0 flex-1 flex-col gap-4 overflow-hidden md:flex-row md:items-stretch">
-        {hasMedia ? (
-          <div className="flex min-h-0 shrink-0 items-center justify-center md:w-3/5">
-            <QuestionMedia
-              mediaType={question.media_type}
-              mediaPath={question.media_path}
-            />
-          </div>
-        ) : null}
-        <div className="flex min-h-0 flex-1 flex-col gap-3">
-          <span className="w-fit rounded-full bg-indigo-50 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-indigo-700">
-            {question.theme}
-          </span>
-          <h1 className="text-lg font-semibold text-slate-900">{question.text}</h1>
-          <div className="flex min-h-0 flex-1 flex-col gap-2 overflow-y-auto">
-            {question.options.map((opt) => (
-              <OptionCard
-                key={opt.id}
-                option={opt}
-                selected={selected.includes(opt.id)}
-                onToggle={() => toggle(opt.id)}
-              />
-            ))}
-          </div>
-        </div>
+      <Card className="flex min-h-0 flex-1 flex-col overflow-hidden">
+        <QuestionStage
+          theme={question.theme}
+          text={question.text}
+          mediaType={question.media_type}
+          mediaPath={question.media_path}
+          options={question.options}
+          selectedIds={selected}
+          onToggle={toggle}
+        />
       </Card>
 
       <div className="flex shrink-0 items-center justify-between">

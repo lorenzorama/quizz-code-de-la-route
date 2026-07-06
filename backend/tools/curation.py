@@ -201,19 +201,29 @@ def build(
         for entry in entries:
             validate_entry(entry)
             frame_path = os.path.join(frames_root, folder, entry["frame"])
-            if not os.path.exists(frame_path):
-                raise ValueError(f"{entry['ref']}: frame not found at {frame_path}")
-            if entry.get("crop"):
-                box = tuple(entry["crop"])
-            elif number in DEFAULT_CROPS:
-                box = DEFAULT_CROPS[number]
-            else:
-                raise ValueError(
-                    f"{entry['ref']}: no crop for video_{number} — add it to "
-                    f"DEFAULT_CROPS or set the entry's \"crop\""
-                )
             media_rel = f"{folder}/{entry['ref']}.jpg"
-            crop_frame(frame_path, box, os.path.join(media_root, media_rel))
+            dest_path = os.path.join(media_root, media_rel)
+            if not os.path.exists(frame_path):
+                # The raw source frame can be rotated out of sources_data after
+                # its crop has already been built (e.g. a video re-numbered or
+                # replaced). Reuse the existing crop instead of failing, since
+                # there's nothing left to re-crop from.
+                if not os.path.exists(dest_path):
+                    raise ValueError(
+                        f"{entry['ref']}: frame not found at {frame_path}, and "
+                        f"no existing crop at {dest_path} to fall back on"
+                    )
+            else:
+                if entry.get("crop"):
+                    box = tuple(entry["crop"])
+                elif number in DEFAULT_CROPS:
+                    box = DEFAULT_CROPS[number]
+                else:
+                    raise ValueError(
+                        f"{entry['ref']}: no crop for video_{number} — add it to "
+                        f"DEFAULT_CROPS or set the entry's \"crop\""
+                    )
+                crop_frame(frame_path, box, dest_path)
 
             options = entry["options"]
             sheet.append([

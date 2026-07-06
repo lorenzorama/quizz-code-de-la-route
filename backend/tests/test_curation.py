@@ -183,17 +183,39 @@ def test_build_is_idempotent(tmp_path):
 def test_build_unknown_video_without_crop_fails_by_ref(tmp_path):
     curation = tmp_path / "curation"
     curation.mkdir()
-    frames = tmp_path / "frames" / "video_9"
+    frames = tmp_path / "frames" / "video_99"
     frames.mkdir(parents=True)
     Image.new("RGB", (1920, 1080), "white").save(frames / "18.0.jpg")
-    (curation / "video_9.json").write_text(
-        json.dumps([_entry(ref="v9q01", correct=["A"], crop=None)]),
+    (curation / "video_99.json").write_text(
+        json.dumps([_entry(ref="v99q01", correct=["A"], crop=None)]),
         encoding="utf-8",
     )
-    with pytest.raises(ValueError, match="no crop for video_9"):
+    with pytest.raises(ValueError, match="no crop for video_99"):
         build(
             str(curation),
             str(tmp_path / "frames"),
             str(tmp_path / "media"),
             str(tmp_path / "questions.xlsx"),
         )
+
+
+def test_build_reuses_existing_crop_when_source_frame_is_gone(tmp_path):
+    curation, frames_root, media, xlsx = _setup_build(tmp_path)
+    build(str(curation), str(frames_root), str(media), str(xlsx))
+
+    # The raw source frame gets rotated out (e.g. sources_data replaced by a
+    # later batch), but the crop built earlier is still on disk.
+    (frames_root / "video_1" / "18.0.jpg").unlink()
+
+    n = build(str(curation), str(frames_root), str(media), str(xlsx))
+    assert n == 1
+    rows = parse_workbook(str(xlsx))
+    assert rows[0].media_path == "video_1/v1q01.jpg"
+
+
+def test_build_fails_when_frame_and_crop_are_both_missing(tmp_path):
+    curation, frames_root, media, xlsx = _setup_build(tmp_path)
+    (frames_root / "video_1" / "18.0.jpg").unlink()
+
+    with pytest.raises(ValueError, match="v1q01"):
+        build(str(curation), str(frames_root), str(media), str(xlsx))

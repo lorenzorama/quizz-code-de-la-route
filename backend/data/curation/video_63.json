@@ -1,0 +1,82 @@
+[
+  {
+    "ref": "v63q01",
+    "theme": "mécanique-entretien",
+    "question_text": "Un pneu sous gonflé augmente la consommation de carburant",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Un pneu sous-gonflé augmente les frottements avec la route. Par conséquent, il augmente la consommation de carburant du véhicule.",
+    "frame": "24.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "0.0.jpg",
+      "12.0.jpg",
+      "24.0.jpg",
+      "36.0.jpg"
+    ],
+    "window": [
+      0.0,
+      60.0
+    ]
+  },
+  {
+    "ref": "v63q04",
+    "theme": "cyclistes",
+    "question_text": "Dans cette rue, je peux croiser",
+    "options": {
+      "A": "Des vélos venant d'en face : oui",
+      "B": "Des vélos venant d'en face : non",
+      "C": "Des voitures venant d'en face : oui",
+      "D": "Des voitures venant d'en face : non"
+    },
+    "correct": [
+      "A",
+      "D"
+    ],
+    "explanation": "Ce panneau indique que je circule sur une route à double sens de circulation, dont le sens opposé est réservé aux cyclistes. Je peux donc croiser des vélos venant en face, mais pas de voitures.",
+    "frame": "246.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "240.0.jpg",
+      "246.0.jpg",
+      "264.0.jpg",
+      "282.0.jpg"
+    ],
+    "window": [
+      240.0,
+      291.0
+    ]
+  },
+  {
+    "ref": "v63q08",
+    "theme": "éclairage-visibilité",
+    "question_text": "Lorsque j'active un clignotant, celui-ci clignote anormalement rapidement. Cela signifie",
+    "options": {
+      "A": "Qu'une ampoule est grillée",
+      "B": "Que le niveau d'essence est très bas",
+      "C": "Que la batterie ne charge plus",
+      "D": "Que les feux de route sont allumés"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Lorsqu'une ampoule est grillée, un voyant peut le signaler sur le tableau de bord. De plus, la fréquence du clignotement peut s'accélérer pour signaler le problème.",
+    "frame": "444.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "441.0.jpg",
+      "444.0.jpg",
+      "465.0.jpg",
+      "486.0.jpg"
+    ],
+    "window": [
+      441.0,
+      495.0
+    ]
+  }
+]

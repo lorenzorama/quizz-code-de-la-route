@@ -1,0 +1,670 @@
+[
+  {
+    "ref": "v93q01",
+    "theme": "panneaux",
+    "question_text": "Dans cette situation, ce panneau m'indique un risque de dérapage plus important",
+    "options": {
+      "A": "Dans les virages : Oui",
+      "B": "Dans les virages : Non",
+      "C": "Lors du freinage : Oui",
+      "D": "Lors du freinage : Non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Ce panneau temporaire indique la présence de gravillons sur la chaussée. Les risques associés à ces projections de gravillons sont un dérapage à la fois dans les virages et lors du freinage, ainsi que des projections pouvant endommager le pare-brise. Je ralentis et reste particulièrement attentif.",
+    "frame": "24.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "24.0.jpg"
+    ],
+    "window": [
+      24.0,
+      60.0
+    ]
+  },
+  {
+    "ref": "v93q03",
+    "theme": "écomobilité",
+    "question_text": "Le GPS peut me permettre de réduire",
+    "options": {
+      "A": "Les risques d'accidents",
+      "B": "Le temps de parcours",
+      "C": "La distance parcourue"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "explanation": "Le GPS guide le conducteur vers une destination choisie. Il permet d'optimiser son trajet en réduisant la distance parcourue ainsi que le temps de parcours.",
+    "frame": "96.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "96.0.jpg"
+    ],
+    "window": [
+      96.0,
+      132.0
+    ]
+  },
+  {
+    "ref": "v93q04",
+    "theme": "commandes",
+    "question_text": "L'usage du kit main libre en conduisant est",
+    "options": {
+      "A": "Autorisé",
+      "B": "Interdit"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "L'usage du kit main libre est interdit en conduisant. La technologie Bluetooth intégrée au véhicule est la seule solution pour passer des appels téléphoniques en conduisant.",
+    "frame": "168.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "168.0.jpg"
+    ],
+    "window": [
+      168.0,
+      204.0
+    ]
+  },
+  {
+    "ref": "v93q05",
+    "theme": "permis",
+    "question_text": "Avec le permis B, je peux conduire un véhicule dont la MMTA (anciennement PTAC) est inférieure ou égale à",
+    "options": {
+      "A": "1,5 tonne",
+      "B": "3,5 tonnes",
+      "C": "4,5 tonnes"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "La MMTA, masse maximale techniquement admissible, est le poids maximal qu'un véhicule peut atteindre en tenant compte de son poids à vide ainsi que de celui de son chargement. Avec un permis de catégorie B, il est possible de conduire un véhicule dont la MMTA est inférieure ou égale à 3,5 tonnes.",
+    "frame": "204.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "204.0.jpg"
+    ],
+    "window": [
+      204.0,
+      240.0
+    ]
+  },
+  {
+    "ref": "v93q07",
+    "theme": "vitesse",
+    "question_text": "Avec la vitesse, le champ visuel du conducteur",
+    "options": {
+      "A": "Reste le même",
+      "B": "S'élargit",
+      "C": "Se rétrécit"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "Plus la vitesse augmente, plus le champ visuel utile du conducteur se rétrécit. En effet, plus le véhicule roule vite, plus le conducteur se concentre sur ce qui se passe devant lui. C'est ce que l'on appelle l'effet tunnel.",
+    "frame": "384.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "384.0.jpg"
+    ],
+    "window": [
+      384.0,
+      420.0
+    ]
+  },
+  {
+    "ref": "v93q08",
+    "theme": "éclairage-visibilité",
+    "question_text": "Les feux de croisement éclairent plus loin à droite qu'à gauche",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "La particularité des feux de croisement est que les faisceaux lumineux éclairent plus loin à droite qu'à gauche. Ainsi, l'éclairage évite d'éblouir les véhicules circulant en sens inverse.",
+    "frame": "420.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "420.0.jpg"
+    ],
+    "window": [
+      420.0,
+      456.0
+    ]
+  },
+  {
+    "ref": "v93q09",
+    "theme": "panneaux",
+    "question_text": "Je suis autorisé à dépasser un deux-roues sans side-car avec",
+    "options": {
+      "A": "Le panneau A : Oui",
+      "B": "Le panneau A : Non",
+      "C": "Le panneau B : Oui",
+      "D": "Le panneau B : Non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Le panneau A interdit le dépassement de tous les véhicules à moteur autres que les deux-roues sans side-car. Le panneau B interdit le dépassement par les véhicules de transport de marchandises de plus de 3,5 tonnes. Ainsi, avec un véhicule particulier, je suis autorisé à dépasser un deux-roues sans side-car avec le panneau A et le panneau B.",
+    "frame": "456.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "456.0.jpg"
+    ],
+    "window": [
+      456.0,
+      492.0
+    ]
+  },
+  {
+    "ref": "v93q10",
+    "theme": "assurance-constat",
+    "question_text": "Suite à un accident matériel, le constat amiable doit être rempli",
+    "options": {
+      "A": "À mon domicile",
+      "B": "Sur le lieu de l'accident"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Suite à un accident matériel, le constat amiable doit être rempli sur le lieu de l'accident, de manière à ne pas gêner la circulation.",
+    "frame": "492.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "492.0.jpg"
+    ],
+    "window": [
+      492.0,
+      528.0
+    ]
+  },
+  {
+    "ref": "v93q12",
+    "theme": "commandes",
+    "question_text": "Je dois actionner mon clignotant",
+    "options": {
+      "A": "Lors d'un changement de direction : Oui",
+      "B": "Lors d'un changement de direction : Non",
+      "C": "Même si aucun usager n'est visible : Oui",
+      "D": "Même si aucun usager n'est visible : Non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Je dois actionner mon clignotant à chaque changement de direction, même si aucun usager n'est visible.",
+    "frame": "636.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "636.0.jpg"
+    ],
+    "window": [
+      636.0,
+      672.0
+    ]
+  },
+  {
+    "ref": "v93q14",
+    "theme": "distances-de-sécurité",
+    "question_text": "Ici, la signalisation m'autorise à dépasser",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Une flèche de rabattement de voie indique qu'il ne reste plus assez de distance pour dépasser un véhicule. Dès la première flèche de rabattement, la distance n'est plus suffisante pour dépasser un véhicule circulant normalement. Il est donc interdit de dépasser : je ralentis et reste derrière le véhicule.",
+    "frame": "708.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "708.0.jpg",
+      "744.0.jpg"
+    ],
+    "window": [
+      708.0,
+      744.0
+    ]
+  },
+  {
+    "ref": "v93q15",
+    "theme": "priorités",
+    "question_text": "Ce véhicule qui tourne bénéficie de la priorité de passage",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Cette voiture souhaite tourner à gauche et va inévitablement me couper la route en tournant. Dans ce cas, la règle de la priorité à droite s'applique : j'ai la priorité et ce véhicule doit me laisser passer avant de s'engager.",
+    "frame": "780.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "780.0.jpg"
+    ],
+    "window": [
+      780.0,
+      816.0
+    ]
+  },
+  {
+    "ref": "v93q16",
+    "theme": "priorités",
+    "question_text": "Je dois céder le passage à droite dans",
+    "options": {
+      "A": "La situation A",
+      "B": "La situation B",
+      "C": "Aucune des deux situations"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Dans la situation A, j'ai la priorité car les véhicules venant de droite doivent s'arrêter au stop. Dans la situation B, aucune signalisation n'est présente : la règle de la priorité à droite s'applique, je dois donc céder le passage aux véhicules venant de la droite.",
+    "frame": "816.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "816.0.jpg"
+    ],
+    "window": [
+      816.0,
+      852.0
+    ]
+  },
+  {
+    "ref": "v93q17",
+    "theme": "circulation",
+    "question_text": "Dans une zone 30",
+    "options": {
+      "A": "Seuls les véhicules à moteur sont autorisés : Oui",
+      "B": "Seuls les véhicules à moteur sont autorisés : Non",
+      "C": "Le dépassement est interdit : Oui",
+      "D": "Le dépassement est interdit : Non"
+    },
+    "correct": [
+      "B",
+      "D"
+    ],
+    "explanation": "Dans une zone 30, la vitesse maximale autorisée est de 30 km/h. Tous les usagers peuvent y circuler, c'est-à-dire les piétons, les cyclistes ou encore les véhicules à moteur. Par ailleurs, il n'y a pas de restriction concernant le dépassement dans cette zone.",
+    "frame": "852.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "852.0.jpg",
+      "888.0.jpg"
+    ],
+    "window": [
+      852.0,
+      888.0
+    ]
+  },
+  {
+    "ref": "v93q18",
+    "theme": "premiers-secours",
+    "question_text": "Je viens de me stationner sur cette place de parking pour aller effectuer une course. Je peux laisser mon enfant seul dans la voiture",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Il ne faut jamais laisser un enfant seul dans la voiture, ni en été ni en hiver. C'est très dangereux : l'enfant pourrait se déshydrater ou suffoquer.",
+    "frame": "924.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "924.0.jpg"
+    ],
+    "window": [
+      924.0,
+      960.0
+    ]
+  },
+  {
+    "ref": "v93q20",
+    "theme": "documents",
+    "question_text": "Lors de la vente d'un véhicule de plus de 4 ans, le contrôle technique doit dater de moins de",
+    "options": {
+      "A": "3 mois",
+      "B": "6 mois",
+      "C": "1 an"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Lors de la vente d'un véhicule de plus de 4 ans, le contrôle technique est à la charge du vendeur. Il doit avoir été réalisé dans les 6 mois précédant la vente. Pour un véhicule de moins de 4 ans, il est possible de le vendre sans contrôle technique.",
+    "frame": "1032.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1032.0.jpg",
+      "1068.0.jpg"
+    ],
+    "window": [
+      1032.0,
+      1068.0
+    ]
+  },
+  {
+    "ref": "v93q21",
+    "theme": "priorités",
+    "question_text": "Je continue tout droit. Je cède le passage au bus",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "On voit ici la présence d'un arrêt de bus. Le bus doit donc marquer un arrêt complet et céder le passage à la circulation venant de la gauche et de la droite. J'ai la priorité, je continue mon chemin.",
+    "frame": "1104.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1104.0.jpg"
+    ],
+    "window": [
+      1104.0,
+      1140.0
+    ]
+  },
+  {
+    "ref": "v93q22",
+    "theme": "distances-de-sécurité",
+    "question_text": "Le temps de réaction du conducteur dure en moyenne 1 seconde",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Lorsqu'un danger survient sur la route et oblige le conducteur à freiner, un certain temps s'écoule entre l'apparition du danger et l'action sur la pédale de frein. Le conducteur doit notamment analyser la situation et prendre la décision de freiner. C'est ce qu'on appelle le temps de réaction, qui dure en moyenne 1 seconde lorsqu'on conduit.",
+    "frame": "1140.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1140.0.jpg"
+    ],
+    "window": [
+      1140.0,
+      1176.0
+    ]
+  },
+  {
+    "ref": "v93q23",
+    "theme": "écomobilité",
+    "question_text": "L'auto-partage",
+    "options": {
+      "A": "Permet d'utiliser des voitures en libre-service : Oui",
+      "B": "Permet d'utiliser des voitures en libre-service : Non",
+      "C": "Nécessite un permis spécifique autre que le B : Oui",
+      "D": "Nécessite un permis spécifique autre que le B : Non"
+    },
+    "correct": [
+      "A",
+      "D"
+    ],
+    "explanation": "L'auto-partage est un service qui permet de louer une voiture en libre-service, souvent pour une courte durée. Pour l'utiliser, il faut être titulaire du permis de catégorie B, sans besoin d'un permis spécifique.",
+    "frame": "1176.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1176.0.jpg"
+    ],
+    "window": [
+      1176.0,
+      1212.0
+    ]
+  },
+  {
+    "ref": "v93q28",
+    "theme": "premiers-secours",
+    "question_text": "Je suis en présence d'un motard accidenté, en attendant les secours je peux",
+    "options": {
+      "A": "Lui donner à boire : Oui",
+      "B": "Lui donner à boire : Non",
+      "C": "Lui parler pour le rassurer : Oui",
+      "D": "Lui parler pour le rassurer : Non"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "explanation": "En cas d'accident corporel, je ne dois pas donner à boire à la victime, cela pourrait empêcher une éventuelle intervention médicale. Si la personne blessée est un motard, son casque ne doit pas être retiré. En revanche, je peux lui parler pour le rassurer.",
+    "frame": "1428.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1428.0.jpg",
+      "1464.0.jpg"
+    ],
+    "window": [
+      1428.0,
+      1464.0
+    ]
+  },
+  {
+    "ref": "v93q29",
+    "theme": "équipements-de-sécurité",
+    "question_text": "Le siège homologué n'est plus obligatoire pour les enfants mesurant plus de",
+    "options": {
+      "A": "90 cm",
+      "B": "100 cm",
+      "C": "135 cm",
+      "D": "150 cm"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "Le siège homologué n'est plus obligatoire pour les enfants mesurant plus de 135 cm.",
+    "frame": "1500.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1500.0.jpg"
+    ],
+    "window": [
+      1500.0,
+      1536.0
+    ]
+  },
+  {
+    "ref": "v93q30",
+    "theme": "cyclistes",
+    "question_text": "Un cycliste",
+    "options": {
+      "A": "Est un usager vulnérable : Oui",
+      "B": "Est un usager vulnérable : Non",
+      "C": "Possède une zone d'incertitude sur les côtés",
+      "D": "Possède une zone d'incertitude devant lui"
+    },
+    "correct": [
+      "A",
+      "C",
+      "D"
+    ],
+    "explanation": "Les cyclistes sont des usagers vulnérables car ils ne sont pas protégés par une carrosserie. Leur zone d'incertitude est l'espace dans lequel un usager vulnérable peut se déplacer d'un instant à l'autre. Pour un cycliste, cela signifie qu'il peut se déplacer sur les côtés et devant lui, mais pas derrière : il ne peut pas reculer. Sa zone d'incertitude est donc sur les côtés et devant lui.",
+    "frame": "1536.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1536.0.jpg",
+      "1572.0.jpg",
+      "1608.0.jpg"
+    ],
+    "window": [
+      1536.0,
+      1608.0
+    ]
+  },
+  {
+    "ref": "v93q32",
+    "theme": "équipements-de-sécurité",
+    "question_text": "Le système de sécurité eCall se déclenche automatiquement lors d'un accident grave",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Le système eCall est un dispositif d'appel d'urgence conçu pour alerter les secours de manière manuelle ou automatique. Son fonctionnement permet un contact rapide avec les équipes de secours, réduisant ainsi les délais d'intervention et le taux de mortalité. Grâce à une carte SIM, le véhicule transmet automatiquement au centre d'appel des informations sur le contexte de l'accident : localisation, nombre de passagers, etc.",
+    "frame": "1716.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1716.0.jpg",
+      "1752.0.jpg"
+    ],
+    "window": [
+      1716.0,
+      1752.0
+    ]
+  },
+  {
+    "ref": "v93q33",
+    "theme": "commandes",
+    "question_text": "J'active cette commande",
+    "options": {
+      "A": "En cas d'embouteillage dans un tunnel : Oui",
+      "B": "En cas d'embouteillage dans un tunnel : Non",
+      "C": "Lorsque je suis un véhicule très polluant : Oui",
+      "D": "Lorsque je suis un véhicule très polluant : Non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Cette commande active la recirculation de l'air dans l'habitacle. Son rôle est de recycler l'air présent à l'intérieur de l'habitacle et donc de ne pas récupérer l'air extérieur. Cette fonction peut être très utile dans de nombreuses situations pour préserver la qualité de l'air respiré par le conducteur et les passagers, par exemple en cas d'embouteillage dans un tunnel ou lorsque je suis derrière un véhicule très polluant.",
+    "frame": "1788.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1788.0.jpg",
+      "1824.0.jpg"
+    ],
+    "window": [
+      1788.0,
+      1824.0
+    ]
+  },
+  {
+    "ref": "v93q34",
+    "theme": "écomobilité",
+    "question_text": "Un parking relais est un parking prévu pour",
+    "options": {
+      "A": "Le covoiturage",
+      "B": "Faire une course de moins de 30 minutes",
+      "C": "Réduire la pollution",
+      "D": "Réduire l'encombrement des villes"
+    },
+    "correct": [
+      "C",
+      "D"
+    ],
+    "explanation": "Un parking relais permet d'utiliser plusieurs modes de transport pour effectuer son trajet. Le conducteur peut par exemple se rendre à la gare en voiture, la stationner dans un parking relais, puis prendre le train pour rejoindre la ville. Ces parkings contribuent à réduire l'encombrement urbain et la pollution.",
+    "frame": "1860.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1860.0.jpg"
+    ],
+    "window": [
+      1860.0,
+      1896.0
+    ]
+  },
+  {
+    "ref": "v93q35",
+    "theme": "permis-à-points",
+    "question_text": "En tant que conducteur avec permis probatoire, ma vitesse maximale autorisée est de",
+    "options": {
+      "A": "90 km/h",
+      "B": "110 km/h",
+      "C": "130 km/h"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Sur une route limitée à 130 km/h, la vitesse maximale autorisée pour les jeunes conducteurs est de 110 km/h.",
+    "frame": "1896.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1896.0.jpg",
+      "1932.0.jpg"
+    ],
+    "window": [
+      1896.0,
+      1932.0
+    ]
+  },
+  {
+    "ref": "v93q36",
+    "theme": "premiers-secours",
+    "question_text": "Suite à un accident, une victime est inconsciente, mais respire encore. Je place la victime",
+    "options": {
+      "A": "En position latérale de sécurité",
+      "B": "Sur le dos"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "En cas de perte de conscience, c'est-à-dire lorsque la victime est inconsciente mais respire encore, je place la victime en position latérale de sécurité (PLS).",
+    "frame": "1968.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1968.0.jpg"
+    ],
+    "window": [
+      1968.0,
+      2004.0
+    ]
+  },
+  {
+    "ref": "v93q37",
+    "theme": "éclairage-visibilité",
+    "question_text": "Le voyant qui doit être allumé au tableau de bord est",
+    "options": {
+      "A": "Le A",
+      "B": "Le B",
+      "C": "Le C",
+      "D": "Le D"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Le voyant qui doit être allumé au tableau de bord est le A. En effet, il fait nuit et je circule dans une agglomération éclairée : les feux de croisement sont particulièrement adaptés à cette situation.",
+    "frame": "2004.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "2004.0.jpg",
+      "2040.0.jpg"
+    ],
+    "window": [
+      2004.0,
+      2040.0
+    ]
+  },
+  {
+    "ref": "v93q38",
+    "theme": "signalisation",
+    "question_text": "La voie de détresse",
+    "options": {
+      "A": "Se situe à 1000 m : Oui",
+      "B": "Se situe à 1000 m : Non",
+      "C": "S'étend sur 1000 m : Oui",
+      "D": "S'étend sur 1000 m : Non"
+    },
+    "correct": [
+      "A",
+      "D"
+    ],
+    "explanation": "Ce panneau indique la présence d'une voie de détresse à 1000 m. Attention à ne pas la confondre avec le panneau précisant une zone et comportant deux flèches blanches sur les côtés, qui indique par exemple une zone de 50 m.",
+    "frame": "2076.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "2076.0.jpg"
+    ],
+    "window": [
+      2076.0,
+      2112.0
+    ]
+  }
+]

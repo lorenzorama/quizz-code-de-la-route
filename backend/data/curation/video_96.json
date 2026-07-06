@@ -1,0 +1,224 @@
+[
+  {
+    "ref": "v96q05",
+    "theme": "circulation",
+    "question_text": "Dans cette situation",
+    "options": {
+      "A": "Je dépasse",
+      "B": "Je reste derrière le bus"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Le bus est arrêté à hauteur de son arrêt, mais la signalisation interdit formellement le dépassement à cause de la ligne blanche continue. Il faut donc rester derrière le bus.",
+    "frame": "267.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "267.0.jpg",
+      "279.0.jpg"
+    ],
+    "window": [
+      262.0,
+      310.0
+    ]
+  },
+  {
+    "ref": "v96q06",
+    "theme": "signalisation",
+    "question_text": "Je circule sur",
+    "options": {
+      "A": "Une autoroute",
+      "B": "Une route départementale",
+      "C": "Une route nationale",
+      "D": "Une route métropolitaine"
+    },
+    "correct": [
+      "D"
+    ],
+    "explanation": "Le cartouche au-dessus des panneaux de direction indique que la voie est une route métropolitaine, reconnaissable à sa couleur et à la lettre M.",
+    "frame": "315.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "315.0.jpg",
+      "330.0.jpg"
+    ],
+    "window": [
+      310.0,
+      362.0
+    ]
+  },
+  {
+    "ref": "v96q19",
+    "theme": "signalisation",
+    "question_text": "La signalisation m'annonce : un premier virage (A. À gauche, B. À droite) et je serai prioritaire à la prochaine intersection (C. Oui, D. Non)",
+    "options": {
+      "A": "À gauche",
+      "B": "À droite",
+      "C": "Oui",
+      "D": "Non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Ce panneau annonce un virage à gauche. Le panneau de danger juste au-dessus indique que le conducteur sera prioritaire à la prochaine intersection.",
+    "frame": "993.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "993.0.jpg",
+      "1011.0.jpg"
+    ],
+    "window": [
+      989.0,
+      1042.0
+    ]
+  },
+  {
+    "ref": "v96q21",
+    "theme": "distances-de-sécurité",
+    "question_text": "Anticiper sur une zone de danger potentiel permet de réduire : le temps de réaction (A. Oui, B. Non) et la distance d'arrêt (C. Oui, D. Non)",
+    "options": {
+      "A": "Oui",
+      "B": "Non",
+      "C": "Oui",
+      "D": "Non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Anticiper, c'est être capable de percevoir qu'un danger peut survenir grâce aux différents indices relevés pendant la conduite. Par exemple, si la visibilité est masquée par une camionnette, anticiper permet d'agir plus tôt et donc de réduire le temps de réaction, ainsi que la distance d'arrêt qui en dépend directement.",
+    "frame": "1098.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1098.0.jpg",
+      "1110.0.jpg"
+    ],
+    "window": [
+      1094.0,
+      1174.0
+    ]
+  },
+  {
+    "ref": "v96q25",
+    "theme": "priorités",
+    "question_text": "Dans cette situation : je bénéficie de la priorité de passage (A. Oui, B. Non) et je m'arrête (C. Oui, D. Non)",
+    "options": {
+      "A": "Oui",
+      "B": "Non",
+      "C": "Oui",
+      "D": "Non"
+    },
+    "correct": [
+      "A",
+      "D"
+    ],
+    "explanation": "La signalisation indique que le conducteur possède la priorité de passage : la flèche dans son sens de circulation est blanche et épaisse, ce qui le rend prioritaire sur le véhicule venant en face. Il peut donc continuer et passer.",
+    "frame": "1341.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1341.0.jpg",
+      "1350.0.jpg"
+    ],
+    "window": [
+      1339.0,
+      1389.0
+    ]
+  },
+  {
+    "ref": "v96q30",
+    "theme": "distances-de-sécurité",
+    "question_text": "La distance d'arrêt dépend : de la vitesse du véhicule (A. Oui, B. Non) et de la vigilance du conducteur (C. Oui, D. Non)",
+    "options": {
+      "A": "Oui",
+      "B": "Non",
+      "C": "Oui",
+      "D": "Non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "La distance d'arrêt dépend de la vigilance du conducteur, c'est-à-dire de son temps de réaction, de l'adhérence de la chaussée, ainsi que de la vitesse du véhicule. Plus on roule vite et plus on met de temps pour s'arrêter ; de même, plus on est distrait et plus on met de temps pour s'arrêter.",
+    "frame": "1650.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1650.0.jpg",
+      "1656.0.jpg"
+    ],
+    "window": [
+      1599.0,
+      1662.0
+    ]
+  },
+  {
+    "ref": "v96q31",
+    "theme": "commandes",
+    "question_text": "Le port d'un casque audio est autorisé au volant",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Le port d'un casque audio n'est pas autorisé au volant. Seul un dispositif Bluetooth intégré au véhicule permet de téléphoner en conduisant, car il facilite la prise d'appel sans que le conducteur ait à quitter la route des yeux.",
+    "frame": "1698.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1698.0.jpg"
+    ],
+    "window": [
+      1662.0,
+      1710.0
+    ]
+  },
+  {
+    "ref": "v96q36",
+    "theme": "alcool-stupéfiants",
+    "question_text": "La consommation d'alcool : augmente les effets de l'éblouissement (A. Oui, B. Non) et rétrécit le champ visuel du conducteur (C. Oui, D. Non)",
+    "options": {
+      "A": "Oui",
+      "B": "Non",
+      "C": "Oui",
+      "D": "Non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "La consommation d'alcool a plusieurs effets néfastes sur la conduite : elle augmente notamment les effets de l'éblouissement et diminue le champ visuel du conducteur.",
+    "frame": "1956.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1956.0.jpg"
+    ],
+    "window": [
+      1908.0,
+      1965.0
+    ]
+  },
+  {
+    "ref": "v96q37",
+    "theme": "mécanique-entretien",
+    "question_text": "Le réservoir du liquide de frein est correctement rempli en",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Le liquide de frein doit être situé en dessous du repère maxi et au-dessus du repère mini. C'est le réservoir B qui présente un niveau correctement rempli.",
+    "frame": "2004.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "2004.0.jpg"
+    ],
+    "window": [
+      1965.0,
+      2024.0
+    ]
+  }
+]

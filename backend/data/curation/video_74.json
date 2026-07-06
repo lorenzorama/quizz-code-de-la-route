@@ -1,0 +1,171 @@
+[
+  {
+    "ref": "v74q01",
+    "theme": "équipements-de-sécurité",
+    "question_text": "Les accessoires obligatoires à avoir dans sa voiture sont",
+    "options": {
+      "A": "Un triangle de présignalisation",
+      "B": "Un gilet rétroréfléchissant",
+      "C": "Un kit de premiers secours",
+      "D": "Un constat amiable"
+    },
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "Il est obligatoire d'avoir un triangle de présignalisation et un gilet rétroréfléchissant dans sa voiture. Le kit de premiers secours et le constat amiable ne sont en revanche pas obligatoires.",
+    "frame": "12.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "12.0.jpg",
+      "24.0.jpg",
+      "36.0.jpg",
+      "48.0.jpg"
+    ],
+    "window": [
+      12.0,
+      66.0
+    ]
+  },
+  {
+    "ref": "v74q02",
+    "theme": "panneaux",
+    "question_text": "La succession de virages",
+    "options": {
+      "A": "Débute dans 2000 mètres : oui",
+      "B": "Débute dans 2000 mètres : non",
+      "C": "S'étend sur 2000 mètres : oui",
+      "D": "S'étend sur 2000 mètres : non"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "explanation": "Le panonceau complète tous les panneaux de danger : placé au-dessus, il indique que le danger annoncé s'étend sur une certaine distance, ici sur 2000 mètres, et non qu'il débute dans 2000 mètres.",
+    "frame": "72.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "72.0.jpg",
+      "84.0.jpg",
+      "96.0.jpg",
+      "108.0.jpg",
+      "120.0.jpg"
+    ],
+    "window": [
+      72.0,
+      129.0
+    ]
+  },
+  {
+    "ref": "v74q04",
+    "theme": "documents",
+    "question_text": "Je souhaite vendre ma voiture qui a 5 ans",
+    "options": {
+      "A": "Le contrôle technique est à ma charge : oui",
+      "B": "Le contrôle technique est à ma charge : non",
+      "C": "Lors de la vente, le contrôle technique doit dater de moins de 6 mois",
+      "D": "Lors de la vente, le contrôle technique doit dater de moins de 1 an"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Lors de la vente d'un véhicule, le contrôle technique est à la charge du vendeur. Il doit dater de moins de 6 mois au moment de la vente.",
+    "frame": "180.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "180.0.jpg",
+      "192.0.jpg",
+      "204.0.jpg",
+      "216.0.jpg"
+    ],
+    "window": [
+      180.0,
+      228.0
+    ]
+  },
+  {
+    "ref": "v74q05",
+    "theme": "cyclistes",
+    "question_text": "Dans cette situation",
+    "options": {
+      "A": "Je quitte une autoroute",
+      "B": "Je quitte une route à accès réglementé",
+      "C": "Je pourrais rencontrer des cyclistes : oui",
+      "D": "Je pourrais rencontrer des cyclistes : non"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "explanation": "Ce panneau indique que je quitte une route à accès réglementé où les cyclistes étaient interdits. En sortant de cette route, je pourrais donc à nouveau rencontrer des cyclistes.",
+    "frame": "240.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "240.0.jpg",
+      "252.0.jpg",
+      "264.0.jpg"
+    ],
+    "window": [
+      240.0,
+      288.0
+    ]
+  },
+  {
+    "ref": "v74q08",
+    "theme": "mécanique-entretien",
+    "question_text": "Un pneu sous-gonflé",
+    "options": {
+      "A": "Augmente la consommation de carburant : oui",
+      "B": "Augmente la consommation de carburant : non",
+      "C": "Est conseillé en cas de pluie : oui",
+      "D": "Est conseillé en cas de pluie : non"
+    },
+    "correct": [
+      "A",
+      "D"
+    ],
+    "explanation": "Un pneu sous-gonflé augmente la résistance au roulement et donc la consommation de carburant. Il n'est jamais conseillé de rouler avec un pneu sous-gonflé sous la pluie, car cela empêche une bonne évacuation de l'eau, ce qui réduit l'adhérence et augmente le risque d'aquaplaning.",
+    "frame": "432.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "432.0.jpg",
+      "444.0.jpg",
+      "456.0.jpg",
+      "468.0.jpg"
+    ],
+    "window": [
+      432.0,
+      480.0
+    ]
+  },
+  {
+    "ref": "v74q10",
+    "theme": "distances-de-sécurité",
+    "question_text": "La distance d'arrêt dépend",
+    "options": {
+      "A": "De la vitesse du véhicule",
+      "B": "De l'adhérence de la chaussée",
+      "C": "De l'expérience du conducteur",
+      "D": "De la vigilance du conducteur"
+    },
+    "correct": [
+      "A",
+      "B",
+      "D"
+    ],
+    "explanation": "La distance d'arrêt dépend de la vigilance du conducteur, qui influence le temps de réaction, ainsi que de l'adhérence de la chaussée et de la vitesse du véhicule. L'expérience du conducteur n'entre pas directement en compte dans ce calcul.",
+    "frame": "528.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "528.0.jpg",
+      "540.0.jpg",
+      "552.0.jpg",
+      "564.0.jpg"
+    ],
+    "window": [
+      528.0,
+      573.0
+    ]
+  }
+]

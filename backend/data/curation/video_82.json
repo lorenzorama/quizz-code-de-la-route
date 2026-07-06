@@ -1,0 +1,269 @@
+[
+  {
+    "ref": "v82q01",
+    "theme": "priorités",
+    "question_text": "Dans cette situation",
+    "options": {
+      "A": "Je bénéficie de la priorité de passage : oui",
+      "B": "Je bénéficie de la priorité de passage : non",
+      "C": "Je m'arrête : oui",
+      "D": "Je m'arrête : non"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "explanation": "Le panneau de signalisation m'indique que je dois céder le passage aux usagers venant en face. Je ne bénéficie donc pas de la priorité de passage et je dois m'arrêter pour laisser passer la voiture qui arrive en face.",
+    "frame": "12.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "12.0.jpg",
+      "15.0.jpg",
+      "18.0.jpg",
+      "21.0.jpg",
+      "24.0.jpg",
+      "27.0.jpg",
+      "30.0.jpg",
+      "33.0.jpg",
+      "36.0.jpg",
+      "39.0.jpg",
+      "42.0.jpg",
+      "45.0.jpg",
+      "48.0.jpg",
+      "51.0.jpg",
+      "54.0.jpg"
+    ],
+    "window": [
+      10.0,
+      56.0
+    ]
+  },
+  {
+    "ref": "v82q02",
+    "theme": "circulation",
+    "question_text": "Je suis bien positionné pour circuler sur la chaussée",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "En marche normale de circulation, je dois circuler sur la voie la plus à droite. Cependant, dans cette situation, la voie la plus à droite est réservée aux bus. Je suis donc bien positionné.",
+    "frame": "60.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "57.0.jpg",
+      "60.0.jpg",
+      "63.0.jpg",
+      "66.0.jpg",
+      "69.0.jpg",
+      "72.0.jpg",
+      "75.0.jpg",
+      "78.0.jpg",
+      "81.0.jpg",
+      "84.0.jpg",
+      "87.0.jpg",
+      "90.0.jpg",
+      "93.0.jpg",
+      "96.0.jpg"
+    ],
+    "window": [
+      56.0,
+      98.0
+    ]
+  },
+  {
+    "ref": "v82q04",
+    "theme": "panneaux",
+    "question_text": "Ce panneau m'indique",
+    "options": {
+      "A": "L'orientation du vent",
+      "B": "Une zone exposée au vent",
+      "C": "La force du vent"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Ce panneau permet de signaler une zone particulièrement exposée au vent, mais il ne permet pas de connaître l'orientation ni la force du vent. Pour connaître ces paramètres, la présence d'une manche à air est nécessaire.",
+    "frame": "156.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "141.0.jpg",
+      "144.0.jpg",
+      "147.0.jpg",
+      "150.0.jpg",
+      "153.0.jpg",
+      "156.0.jpg",
+      "159.0.jpg",
+      "162.0.jpg",
+      "165.0.jpg",
+      "168.0.jpg",
+      "171.0.jpg",
+      "174.0.jpg",
+      "177.0.jpg",
+      "180.0.jpg",
+      "183.0.jpg",
+      "186.0.jpg",
+      "189.0.jpg"
+    ],
+    "window": [
+      141.0,
+      189.0
+    ]
+  },
+  {
+    "ref": "v82q05",
+    "theme": "circulation",
+    "question_text": "La circulation en inter-files est autorisée dans toute la France",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Circuler en inter-files permet au motard de se déplacer plus rapidement lorsqu'il y a des embouteillages sur la route. Cette pratique est autorisée sur tout le territoire national depuis janvier 2025, à condition de respecter les règles qui l'encadrent.",
+    "frame": "204.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "189.0.jpg",
+      "192.0.jpg",
+      "195.0.jpg",
+      "198.0.jpg",
+      "201.0.jpg",
+      "204.0.jpg",
+      "207.0.jpg",
+      "210.0.jpg",
+      "213.0.jpg",
+      "216.0.jpg",
+      "219.0.jpg",
+      "222.0.jpg",
+      "225.0.jpg",
+      "228.0.jpg",
+      "231.0.jpg",
+      "234.0.jpg"
+    ],
+    "window": [
+      189.0,
+      235.0
+    ]
+  },
+  {
+    "ref": "v82q06",
+    "theme": "chargement",
+    "question_text": "Lors du chargement d'un véhicule, il existe des limitations concernant",
+    "options": {
+      "A": "La largeur du chargement",
+      "B": "La longueur du chargement",
+      "C": "La hauteur du chargement"
+    },
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "Les limitations existantes du chargement d'un véhicule concernent la longueur (3 mètres maximum à l'arrière et aucun dépassement à l'avant) et la largeur (2,55 mètres maximum). Aucune limitation n'existe pour la hauteur, seul un panneau peut interdire l'accès d'une route aux véhicules trop hauts.",
+    "frame": "240.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "237.0.jpg",
+      "240.0.jpg",
+      "243.0.jpg",
+      "246.0.jpg",
+      "249.0.jpg",
+      "252.0.jpg",
+      "255.0.jpg",
+      "258.0.jpg",
+      "261.0.jpg",
+      "264.0.jpg",
+      "267.0.jpg",
+      "270.0.jpg",
+      "273.0.jpg",
+      "276.0.jpg",
+      "279.0.jpg",
+      "282.0.jpg",
+      "285.0.jpg",
+      "288.0.jpg",
+      "291.0.jpg",
+      "294.0.jpg"
+    ],
+    "window": [
+      235.0,
+      294.0
+    ]
+  },
+  {
+    "ref": "v82q08",
+    "theme": "écomobilité",
+    "question_text": "Une conduite souple permet de réduire",
+    "options": {
+      "A": "Le temps de réaction",
+      "B": "La consommation de carburant",
+      "C": "Les nuisances sonores"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "explanation": "Une conduite souple permet de réduire la consommation de carburant ainsi que les nuisances sonores.",
+    "frame": "342.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "339.0.jpg",
+      "342.0.jpg",
+      "345.0.jpg",
+      "348.0.jpg",
+      "351.0.jpg",
+      "354.0.jpg",
+      "357.0.jpg",
+      "360.0.jpg",
+      "363.0.jpg",
+      "366.0.jpg",
+      "369.0.jpg",
+      "372.0.jpg",
+      "375.0.jpg",
+      "378.0.jpg"
+    ],
+    "window": [
+      338.0,
+      379.0
+    ]
+  },
+  {
+    "ref": "v82q09",
+    "theme": "alcool-stupéfiants",
+    "question_text": "Les médicaments pouvant provoquer des effets incompatibles avec la conduite ne sont vendus que sur ordonnance",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Certains médicaments vendus sans ordonnance peuvent provoquer des effets incompatibles avec la conduite. Les médicaments provoquant de tels effets portent sur leur boîte un pictogramme indiquant le niveau de risque.",
+    "frame": "390.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "381.0.jpg",
+      "384.0.jpg",
+      "387.0.jpg",
+      "390.0.jpg",
+      "393.0.jpg",
+      "396.0.jpg",
+      "399.0.jpg",
+      "402.0.jpg",
+      "405.0.jpg",
+      "408.0.jpg",
+      "411.0.jpg",
+      "414.0.jpg",
+      "417.0.jpg",
+      "420.0.jpg",
+      "423.0.jpg",
+      "426.0.jpg"
+    ],
+    "window": [
+      379.0,
+      427.0
+    ]
+  }
+]

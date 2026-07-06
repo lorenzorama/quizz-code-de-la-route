@@ -1,0 +1,90 @@
+[
+  {
+    "ref": "v101q02",
+    "theme": "panneaux",
+    "question_text": "Je circule sur",
+    "options": {
+      "A": "Une autoroute",
+      "B": "Une route départementale",
+      "C": "Une route nationale",
+      "D": "Une route métropolitaine"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Le cartouche au-dessus des panneaux de direction m'indique que je circule sur une autoroute. On peut le reconnaître grâce à sa couleur verte et à la lettre A qui précède le numéro de la voie.",
+    "frame": "84.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "84.0.jpg",
+      "87.0.jpg",
+      "90.0.jpg",
+      "96.0.jpg",
+      "102.0.jpg",
+      "108.0.jpg",
+      "114.0.jpg",
+      "120.0.jpg"
+    ],
+    "window": [
+      83.0,
+      128.0
+    ]
+  },
+  {
+    "ref": "v101q05",
+    "theme": "équipements-de-sécurité",
+    "question_text": "Ce conducteur a bien mis sa ceinture de sécurité",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Ce conducteur n'a pas correctement mis sa ceinture de sécurité : elle est brûlée, c'est-à-dire vrillée sur elle-même au lieu d'être bien à plat contre le corps, ce qui réduit fortement son efficacité en cas de choc.",
+    "frame": "255.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "249.0.jpg",
+      "255.0.jpg",
+      "261.0.jpg",
+      "267.0.jpg",
+      "273.0.jpg"
+    ],
+    "window": [
+      247.0,
+      281.0
+    ]
+  },
+  {
+    "ref": "v101q07",
+    "theme": "cyclistes",
+    "question_text": "Dans cette situation, je peux dépasser cette cycliste",
+    "options": {
+      "A": "Sans chevaucher la ligne continue : Oui",
+      "B": "Sans chevaucher la ligne continue : Non",
+      "C": "En chevauchant la ligne continue : Oui",
+      "D": "En chevauchant la ligne continue : Non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Il est interdit de franchir ou même de chevaucher une ligne continue pour dépasser, sauf exception pour dépasser un cycliste. Ici, afin de laisser l'intervalle latéral réglementaire de 1,50 m pour dépasser un usager vulnérable, je suis dans l'obligation de chevaucher la ligne continue si j'effectue le dépassement.",
+    "frame": "342.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "333.0.jpg",
+      "342.0.jpg",
+      "348.0.jpg",
+      "354.0.jpg",
+      "366.0.jpg",
+      "378.0.jpg",
+      "390.0.jpg"
+    ],
+    "window": [
+      333.0,
+      395.0
+    ]
+  }
+]

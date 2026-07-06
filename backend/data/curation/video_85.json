@@ -1,0 +1,260 @@
+[
+  {
+    "ref": "v85q01",
+    "theme": "mécanique-entretien",
+    "question_text": "En période hivernale, je peux remplacer le liquide lave-glace par de l'eau",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Il ne faut pas utiliser d'eau à la place du liquide lave-glace, surtout en hiver, car l'eau risque de geler. Il vaut mieux utiliser un liquide lave-glace prévu pour ne pas geler en hiver.",
+    "frame": "24.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "0.0.jpg",
+      "3.0.jpg",
+      "6.0.jpg",
+      "9.0.jpg",
+      "12.0.jpg",
+      "15.0.jpg",
+      "18.0.jpg",
+      "21.0.jpg",
+      "24.0.jpg",
+      "48.0.jpg"
+    ],
+    "window": [
+      0.0,
+      62.0
+    ]
+  },
+  {
+    "ref": "v85q03",
+    "theme": "priorités",
+    "question_text": "Le véhicule A, qui tourne à gauche, bénéficie de la priorité de passage par rapport au véhicule B",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Les voitures A et B ont toutes les deux un panneau stop à cette intersection. Puisque la voiture A va devoir couper la route à la voiture B qui continue tout droit, elle doit lui céder la priorité : l'ordre de passage est B puis A.",
+    "frame": "126.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "117.0.jpg",
+      "120.0.jpg",
+      "123.0.jpg",
+      "126.0.jpg",
+      "129.0.jpg",
+      "132.0.jpg",
+      "135.0.jpg"
+    ],
+    "window": [
+      117.0,
+      167.0
+    ]
+  },
+  {
+    "ref": "v85q04",
+    "theme": "signalisation",
+    "question_text": "Après ce panneau",
+    "options": {
+      "A": "Je risque de trouver des ouvriers : oui",
+      "B": "Je risque de trouver des ouvriers : non",
+      "C": "Je dois faire particulièrement attention : oui",
+      "D": "Je dois faire particulièrement attention : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Ce panneau temporaire indique la présence de travaux dans la zone. Je risque donc de trouver des ouvriers et je dois faire particulièrement attention.",
+    "frame": "171.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "171.0.jpg",
+      "174.0.jpg",
+      "177.0.jpg",
+      "180.0.jpg",
+      "183.0.jpg",
+      "186.0.jpg",
+      "210.0.jpg"
+    ],
+    "window": [
+      168.0,
+      214.0
+    ]
+  },
+  {
+    "ref": "v85q05",
+    "theme": "éclairage-visibilité",
+    "question_text": "Les feux de croisement éclairent",
+    "options": {
+      "A": "Aussi loin à droite et à gauche",
+      "B": "Plus loin à gauche",
+      "C": "Plus loin à droite"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "Les feux de croisement éclairent plus loin à droite qu'à gauche, afin d'éviter d'éblouir les usagers venant en face.",
+    "frame": "222.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "216.0.jpg",
+      "219.0.jpg",
+      "222.0.jpg",
+      "225.0.jpg",
+      "228.0.jpg"
+    ],
+    "window": [
+      214.0,
+      258.0
+    ]
+  },
+  {
+    "ref": "v85q06",
+    "theme": "premiers-secours",
+    "question_text": "Le temps de réaction d'un conducteur est d'environ",
+    "options": {
+      "A": "1 seconde",
+      "B": "2 secondes",
+      "C": "3 secondes"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Le temps de réaction est le temps que met un individu avant d'agir. Il est d'environ 1 seconde, mais peut augmenter avec certains facteurs comme la consommation d'alcool ou la fatigue.",
+    "frame": "303.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "285.0.jpg",
+      "288.0.jpg",
+      "291.0.jpg",
+      "294.0.jpg",
+      "297.0.jpg",
+      "300.0.jpg",
+      "303.0.jpg"
+    ],
+    "window": [
+      258.0,
+      336.0
+    ]
+  },
+  {
+    "ref": "v85q07",
+    "theme": "priorités",
+    "question_text": "À ce croisement, je passe avant la voiture blanche",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Le panneau de signalisation indique que je ne suis pas prioritaire sur les usagers venant en face. Je dois céder le passage à la voiture blanche.",
+    "frame": "348.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "339.0.jpg",
+      "342.0.jpg",
+      "345.0.jpg",
+      "348.0.jpg",
+      "351.0.jpg",
+      "354.0.jpg"
+    ],
+    "window": [
+      338.0,
+      376.0
+    ]
+  },
+  {
+    "ref": "v85q08",
+    "theme": "permis-à-points",
+    "question_text": "Je viens d'obtenir mon permis, je possède 6 points. Je peux perdre mon permis suite à",
+    "options": {
+      "A": "Une alcoolémie positive",
+      "B": "Un non-respect d'une priorité à droite",
+      "C": "Le non-port de la ceinture de sécurité",
+      "D": "Un refus de priorité à un piéton"
+    },
+    "correct": [
+      "A",
+      "D"
+    ],
+    "explanation": "La première année, un jeune conducteur dispose de 6 points sur son permis. Une alcoolémie positive ou un refus de priorité à un piéton entraîne la perte des 6 points. Le non-respect d'une priorité à droite entraîne un retrait de 4 points, et le non-port de la ceinture de sécurité un retrait de 3 points.",
+    "frame": "396.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "378.0.jpg",
+      "381.0.jpg",
+      "384.0.jpg",
+      "387.0.jpg",
+      "390.0.jpg",
+      "393.0.jpg",
+      "396.0.jpg"
+    ],
+    "window": [
+      378.0,
+      440.0
+    ]
+  },
+  {
+    "ref": "v85q09",
+    "theme": "mécanique-entretien",
+    "question_text": "L'ESP est un dispositif qui permet",
+    "options": {
+      "A": "D'empêcher le blocage des roues lors d'un freinage d'urgence",
+      "B": "De corriger une perte d'adhérence"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "L'ESP (Electronic Stability Program) est un dispositif de sécurité qui détecte automatiquement une perte d'adhérence et permet de ramener la voiture sur la bonne trajectoire.",
+    "frame": "450.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "444.0.jpg",
+      "447.0.jpg",
+      "450.0.jpg",
+      "453.0.jpg",
+      "456.0.jpg"
+    ],
+    "window": [
+      442.0,
+      488.0
+    ]
+  },
+  {
+    "ref": "v85q10",
+    "theme": "signalisation",
+    "question_text": "Ces balises me signalent",
+    "options": {
+      "A": "Une intersection",
+      "B": "Un virage"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Ces balises signalent un virage et le rendent plus visible, afin d'aider le conducteur à l'aborder en toute sécurité.",
+    "frame": "504.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "489.0.jpg",
+      "492.0.jpg",
+      "495.0.jpg",
+      "498.0.jpg",
+      "501.0.jpg",
+      "504.0.jpg",
+      "507.0.jpg"
+    ],
+    "window": [
+      488.0,
+      526.0
+    ]
+  }
+]

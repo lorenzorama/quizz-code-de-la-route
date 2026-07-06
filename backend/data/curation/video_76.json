@@ -1,0 +1,82 @@
+[
+  {
+    "ref": "v76q04",
+    "theme": "panneaux",
+    "question_text": "Le panneau de signalisation qui indique une issue de secours est",
+    "options": {
+      "A": "Le A",
+      "B": "Le B",
+      "C": "Le C",
+      "D": "Le D"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "Le panneau de signalisation qui indique une issue de secours est le panneau C : un pictogramme vert représentant une personne courant vers une sortie.",
+    "frame": "192.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "192.0.jpg",
+      "195.0.jpg",
+      "198.0.jpg",
+      "201.0.jpg",
+      "204.0.jpg"
+    ],
+    "window": [
+      190.0,
+      233.0
+    ]
+  },
+  {
+    "ref": "v76q09",
+    "theme": "piétons",
+    "question_text": "Un usager qui circule en trottinette est un usager vulnérable",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Les usagers circulant en trottinette sont considérés comme des usagers vulnérables. En effet, ils ne disposent pas de carrosserie pour les protéger en cas d'accident.",
+    "frame": "441.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "435.0.jpg",
+      "438.0.jpg",
+      "441.0.jpg",
+      "444.0.jpg",
+      "447.0.jpg"
+    ],
+    "window": [
+      435.0,
+      474.0
+    ]
+  },
+  {
+    "ref": "v76q10",
+    "theme": "vitesse",
+    "question_text": "Ma vitesse est limitée à 80 km/h",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "La signalisation indique que la limitation de vitesse à 80 km/h ne s'applique qu'aux usagers de plus de 3,5 tonnes. Ma vitesse à moi n'est donc pas limitée à 80 km/h.",
+    "frame": "480.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "477.0.jpg",
+      "480.0.jpg",
+      "483.0.jpg",
+      "486.0.jpg",
+      "489.0.jpg"
+    ],
+    "window": [
+      474.0,
+      519.0
+    ]
+  }
+]

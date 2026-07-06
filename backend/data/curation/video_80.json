@@ -1,0 +1,193 @@
+[
+  {
+    "ref": "v80q01",
+    "theme": "éclairage-visibilité",
+    "question_text": "Ce voyant indique le fonctionnement des feux",
+    "options": {
+      "A": "De croisement",
+      "B": "De route",
+      "C": "De brouillard avant",
+      "D": "De brouillard arrière"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Ce voyant bleu indique le fonctionnement des feux de route : c'est le seul voyant de feux de signalisation à être bleu. Si l'on regarde bien ces faisceaux, on constate qu'ils sont droits et parfaitement à l'horizontale. Cela signifie qu'ils éblouissent les autres usagers, il faut donc être vigilant.",
+    "frame": "15.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "0.0.jpg",
+      "3.0.jpg",
+      "6.0.jpg",
+      "9.0.jpg",
+      "12.0.jpg",
+      "15.0.jpg"
+    ],
+    "window": [
+      0.0,
+      52.0
+    ]
+  },
+  {
+    "ref": "v80q02",
+    "theme": "cyclistes",
+    "question_text": "Cet usager en trottinette électrique",
+    "options": {
+      "A": "Commet une infraction : oui",
+      "B": "Commet une infraction : non",
+      "C": "Je klaxonne : oui",
+      "D": "Je klaxonne : non"
+    },
+    "correct": [
+      "B",
+      "D"
+    ],
+    "explanation": "Cet usager en trottinette électrique ne commet aucune infraction. Il circule sur une bande cyclable réservée aux cyclistes et aux EDPM (engins de déplacement personnel motorisé), qui roule à contre-sens de la circulation, comme l'indique le marquage au sol. Dans cette situation, il n'y a donc aucune raison de klaxonner.",
+    "frame": "60.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "54.0.jpg",
+      "57.0.jpg",
+      "60.0.jpg",
+      "63.0.jpg",
+      "66.0.jpg",
+      "93.0.jpg"
+    ],
+    "window": [
+      52.0,
+      106.0
+    ]
+  },
+  {
+    "ref": "v80q05",
+    "theme": "panneaux",
+    "question_text": "Je circule sur",
+    "options": {
+      "A": "Une autoroute",
+      "B": "Une route départementale",
+      "C": "Une route nationale",
+      "D": "Une route métropolitaine"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "Le cartouche au-dessus du panneau de direction indique que je circule sur une route nationale, et plus précisément sur la route nationale 137.",
+    "frame": "252.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "213.0.jpg",
+      "216.0.jpg",
+      "252.0.jpg",
+      "255.0.jpg"
+    ],
+    "window": [
+      211.0,
+      257.0
+    ]
+  },
+  {
+    "ref": "v80q06",
+    "theme": "signalisation",
+    "question_text": "Ici, la route est à sens unique",
+    "options": {
+      "A": "Immédiatement",
+      "B": "Dans 700 mètres",
+      "C": "Sur 700 mètres"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Le panneau carré bleu accompagné de la flèche indique que je circule sur une route à sens unique. De plus, le panonceau qui l'accompagne indique que la route est à sens unique sur une distance de 700 mètres. La route est donc à sens unique immédiatement et pour 700 mètres.",
+    "frame": "300.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "258.0.jpg",
+      "261.0.jpg",
+      "264.0.jpg",
+      "297.0.jpg",
+      "300.0.jpg"
+    ],
+    "window": [
+      257.0,
+      305.0
+    ]
+  },
+  {
+    "ref": "v80q08",
+    "theme": "commandes",
+    "question_text": "Téléphoner à l'arrêt lorsque je suis à un feu rouge est",
+    "options": {
+      "A": "Interdit",
+      "B": "Autorisé"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Il est interdit de téléphoner au volant, même lorsque le véhicule est à l'arrêt à un feu rouge.",
+    "frame": "351.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "348.0.jpg",
+      "351.0.jpg",
+      "354.0.jpg"
+    ],
+    "window": [
+      347.0,
+      384.0
+    ]
+  },
+  {
+    "ref": "v80q09",
+    "theme": "signalisation",
+    "question_text": "Ce feu de circulation est",
+    "options": {
+      "A": "Temporaire",
+      "B": "Permanent"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Ce feu de circulation est temporaire : il est de couleur jaune et a été installé pour réguler le trafic à cause des travaux en cours.",
+    "frame": "417.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "384.0.jpg",
+      "387.0.jpg",
+      "417.0.jpg",
+      "420.0.jpg"
+    ],
+    "window": [
+      384.0,
+      422.0
+    ]
+  },
+  {
+    "ref": "v80q10",
+    "theme": "mécanique-entretien",
+    "question_text": "Ce voyant vient de s'allumer. Il indique que",
+    "options": {
+      "A": "Le moteur est en surchauffe",
+      "B": "La batterie ne charge plus",
+      "C": "Je peux rouler jusqu'au prochain garage : oui",
+      "D": "Je peux rouler jusqu'au prochain garage : non"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "explanation": "Ce voyant signifie que la batterie ne charge plus. J'ai donc la possibilité de rouler jusqu'au prochain garage, mais il faut faire vérifier le véhicule rapidement.",
+    "frame": "423.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "423.0.jpg",
+      "426.0.jpg",
+      "429.0.jpg",
+      "465.0.jpg"
+    ],
+    "window": [
+      422.0,
+      468.0
+    ]
+  }
+]

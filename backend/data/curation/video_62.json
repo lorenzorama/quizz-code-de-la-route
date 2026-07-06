@@ -1,0 +1,194 @@
+[
+  {
+    "ref": "v62q02",
+    "theme": "permis-à-points",
+    "question_text": "En tant que jeune conducteur, mon capital initial est de",
+    "options": {
+      "A": "4 points",
+      "B": "6 points",
+      "C": "8 points",
+      "D": "12 points"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "En tant que jeune conducteur, le capital initial de points est de 6 points. Un conducteur expérimenté qui n'a commis aucune infraction possède quant à lui un capital de 12 points.",
+    "frame": "66.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "63.0.jpg",
+      "66.0.jpg",
+      "69.0.jpg",
+      "72.0.jpg",
+      "90.0.jpg"
+    ],
+    "window": [
+      63.0,
+      111.0
+    ]
+  },
+  {
+    "ref": "v62q03",
+    "theme": "priorités",
+    "question_text": "Je peux dépasser la voiture grise devant moi",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "La ligne continue au milieu de la chaussée indique que je ne suis pas autorisé à dépasser. De plus, un véhicule arrive en face, donc je reste dans ma voie.",
+    "frame": "114.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "114.0.jpg",
+      "117.0.jpg",
+      "126.0.jpg",
+      "144.0.jpg",
+      "153.0.jpg"
+    ],
+    "window": [
+      111.0,
+      156.0
+    ]
+  },
+  {
+    "ref": "v62q06",
+    "theme": "panneaux",
+    "question_text": "L'accès sous le pont est interdit aux véhicules",
+    "options": {
+      "A": "Mesurant plus de 3,2 mètres de longueur : oui",
+      "B": "Mesurant plus de 3,2 mètres de longueur : non",
+      "C": "Mesurant plus de 3,2 mètres de hauteur : oui",
+      "D": "Mesurant plus de 3,2 mètres de hauteur : non"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "explanation": "L'accès sous le pont est interdit aux véhicules mesurant plus de 3,2 mètres de hauteur. On le sait car les petites flèches noires du panneau sont positionnées en haut et en bas, ce qui indique la hauteur. Si elles avaient été à gauche et à droite, l'interdiction aurait concerné la largeur.",
+    "frame": "270.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "270.0.jpg",
+      "282.0.jpg",
+      "297.0.jpg",
+      "315.0.jpg"
+    ],
+    "window": [
+      267.0,
+      333.0
+    ]
+  },
+  {
+    "ref": "v62q07",
+    "theme": "distances-de-sécurité",
+    "question_text": "Le champ visuel d'un conducteur est d'environ",
+    "options": {
+      "A": "De 180 degrés à l'arrêt : oui",
+      "B": "De 180 degrés à l'arrêt : non",
+      "C": "De 50 degrés à 100 km/h : oui",
+      "D": "De 50 degrés à 100 km/h : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Le champ visuel d'un conducteur est d'environ 180 degrés à l'arrêt, et se réduit à environ 50 degrés à 100 km/h. Le champ visuel diminue en effet lorsque la vitesse augmente.",
+    "frame": "336.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "336.0.jpg",
+      "351.0.jpg",
+      "366.0.jpg",
+      "378.0.jpg"
+    ],
+    "window": [
+      333.0,
+      384.0
+    ]
+  },
+  {
+    "ref": "v62q08",
+    "theme": "mécanique-entretien",
+    "question_text": "En cas de panne de batterie, je peux redémarrer le véhicule en panne en reliant les batteries des deux véhicules, de la façon suivante",
+    "options": {
+      "A": "Le - avec le +",
+      "B": "Le - avec le -",
+      "C": "Le + avec le -",
+      "D": "Le + avec le +"
+    },
+    "correct": [
+      "B",
+      "D"
+    ],
+    "explanation": "En cas de panne de batterie, il est possible de démarrer le véhicule en panne à l'aide d'un autre véhicule et de câbles prévus à cet effet. Il faut veiller à ce que les deux véhicules aient des batteries de tension équivalente, puis relier les bornes positives entre elles et les bornes négatives entre elles.",
+    "frame": "390.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "390.0.jpg",
+      "408.0.jpg",
+      "426.0.jpg",
+      "441.0.jpg",
+      "450.0.jpg"
+    ],
+    "window": [
+      384.0,
+      453.0
+    ]
+  },
+  {
+    "ref": "v62q09",
+    "theme": "piétons",
+    "question_text": "Dans cette situation",
+    "options": {
+      "A": "Ce piéton crée une zone d'incertitude : oui",
+      "B": "Ce piéton crée une zone d'incertitude : non",
+      "C": "Je place le pied devant le frein : oui",
+      "D": "Je place le pied devant le frein : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Ce piéton crée une zone d'incertitude car il ne regarde pas devant lui, avec son téléphone à la main. Je place donc mon pied devant le frein pour anticiper au maximum un éventuel freinage d'urgence.",
+    "frame": "456.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "456.0.jpg",
+      "462.0.jpg",
+      "474.0.jpg",
+      "492.0.jpg"
+    ],
+    "window": [
+      453.0,
+      498.0
+    ]
+  },
+  {
+    "ref": "v62q10",
+    "theme": "vitesse",
+    "question_text": "Étant en période probatoire, je circule à la vitesse maximale autorisée",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Sur cette route limitée à 80 km/h, il n'y a pas de réduction de vitesse imposée pour les jeunes conducteurs en période probatoire. Ici, je circule à 70 km/h, donc en dessous de la vitesse maximale autorisée.",
+    "frame": "504.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "504.0.jpg",
+      "516.0.jpg",
+      "528.0.jpg",
+      "540.0.jpg"
+    ],
+    "window": [
+      498.0,
+      546.0
+    ]
+  }
+]

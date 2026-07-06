@@ -1,0 +1,83 @@
+[
+  {
+    "ref": "v61q02",
+    "theme": "mécanique-entretien",
+    "question_text": "Cette étiquette me donne des renseignements sur",
+    "options": {
+      "A": "Le type de carburant",
+      "B": "La pression des pneumatiques",
+      "C": "Le chargement du coffre"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "L'étiquette porte la mention « pressions pneus froids » et des symboles désignant les roues de la voiture. Le symbole représentant une roue de secours peut prêter à confusion, mais il rappelle seulement de ne pas oublier de vérifier la pression de cette roue. Cette étiquette donne donc des renseignements sur la pression des pneumatiques.",
+    "frame": "78.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "63.0.jpg",
+      "72.0.jpg",
+      "78.0.jpg",
+      "90.0.jpg",
+      "108.0.jpg"
+    ],
+    "window": [
+      59.0,
+      136.0
+    ]
+  },
+  {
+    "ref": "v61q07",
+    "theme": "priorités",
+    "question_text": "Le camion et la moto tournent à gauche, la voiture tourne à droite. L'usager qui passe en premier est",
+    "options": {
+      "A": "Le camion",
+      "B": "La moto",
+      "C": "La voiture"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "La moto est située devant un cédez-le-passage : elle doit céder le passage aux véhicules venant de gauche et de droite, et passe donc en dernier. Pour tourner à gauche, le camion doit couper la route à la voiture, qui passe donc avant lui. La voiture passe en première, le camion peut ensuite tourner à gauche, et la moto passe en dernier.",
+    "frame": "420.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "420.0.jpg",
+      "432.0.jpg",
+      "444.0.jpg",
+      "456.0.jpg",
+      "468.0.jpg"
+    ],
+    "window": [
+      408.0,
+      469.0
+    ]
+  },
+  {
+    "ref": "v61q10",
+    "theme": "priorités",
+    "question_text": "Je souhaite tourner à droite. Dans cette situation",
+    "options": {
+      "A": "Je conserve mon allure",
+      "B": "Je ralentis",
+      "C": "Je m'arrête"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "Un piéton s'engage sur le passage protégé situé sur ma droite. Je dois m'arrêter pour lui permettre de traverser en sécurité avant de tourner.",
+    "frame": "603.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "603.0.jpg",
+      "615.0.jpg",
+      "621.0.jpg",
+      "624.0.jpg",
+      "630.0.jpg"
+    ],
+    "window": [
+      594.0,
+      636.0
+    ]
+  }
+]

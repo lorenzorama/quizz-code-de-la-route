@@ -1,0 +1,219 @@
+[
+  {
+    "ref": "v77q01",
+    "theme": "priorités",
+    "question_text": "À cette intersection, je dois céder le passage",
+    "options": {
+      "A": "À gauche : Oui",
+      "B": "À gauche : Non",
+      "C": "À droite : Oui",
+      "D": "À droite : Non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Le panneau cédez-le-passage m'indique que je dois céder le passage aux usagers venant aussi bien de la gauche que de la droite. Il faut donc bien vérifier les deux côtés avant de s'engager dans l'intersection.",
+    "frame": "18.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "18.0.jpg",
+      "21.0.jpg",
+      "24.0.jpg",
+      "27.0.jpg",
+      "30.0.jpg"
+    ],
+    "window": [
+      15.0,
+      58.0
+    ]
+  },
+  {
+    "ref": "v77q03",
+    "theme": "distances-de-sécurité",
+    "question_text": "Je circule à 130 km/h, je suis à bonne distance du véhicule qui me précède",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Sur autoroute, à 130 km/h, je dois laisser un intervalle de sécurité d'au moins deux bandes d'arrêt d'urgence avec le véhicule qui me précède. Ici, la distance de sécurité est respectée.",
+    "frame": "99.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "96.0.jpg",
+      "99.0.jpg",
+      "102.0.jpg",
+      "105.0.jpg",
+      "108.0.jpg"
+    ],
+    "window": [
+      96.0,
+      148.0
+    ]
+  },
+  {
+    "ref": "v77q04",
+    "theme": "stationnement",
+    "question_text": "Ces voitures sont garées",
+    "options": {
+      "A": "En bataille",
+      "B": "En épi",
+      "C": "En créneau"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "On peut voir sur la photo que les voitures sont garées perpendiculairement au trottoir. On dit qu'elles sont garées en bataille.",
+    "frame": "195.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "189.0.jpg",
+      "192.0.jpg",
+      "195.0.jpg",
+      "198.0.jpg",
+      "201.0.jpg"
+    ],
+    "window": [
+      150.0,
+      223.0
+    ]
+  },
+  {
+    "ref": "v77q05",
+    "theme": "signalisation",
+    "question_text": "Je circule sur",
+    "options": {
+      "A": "Une autoroute",
+      "B": "Une route départementale",
+      "C": "Une route nationale"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "Le cartouche rouge au-dessus des panneaux de direction m'indique, grâce à la lettre N, que je circule sur une route nationale.",
+    "frame": "231.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "225.0.jpg",
+      "228.0.jpg",
+      "231.0.jpg",
+      "234.0.jpg",
+      "237.0.jpg"
+    ],
+    "window": [
+      223.0,
+      267.0
+    ]
+  },
+  {
+    "ref": "v77q06",
+    "theme": "éclairage-visibilité",
+    "question_text": "Je dois circuler",
+    "options": {
+      "A": "En feux de position seuls",
+      "B": "En feux de croisement",
+      "C": "En feux de route"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Dans un tunnel, je dois allumer mes feux de croisement, même en plein jour, afin d'être bien vu des autres usagers.",
+    "frame": "282.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "270.0.jpg",
+      "273.0.jpg",
+      "276.0.jpg",
+      "279.0.jpg",
+      "282.0.jpg"
+    ],
+    "window": [
+      269.0,
+      306.0
+    ]
+  },
+  {
+    "ref": "v77q07",
+    "theme": "premiers-secours",
+    "question_text": "Un excès de stress augmente le risque d'accident",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Un excès de stress diminue la capacité de concentration, ralentit les réflexes et peut entraîner des décisions impulsives, ce qui augmente le risque d'accident.",
+    "frame": "324.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "309.0.jpg",
+      "312.0.jpg",
+      "315.0.jpg",
+      "318.0.jpg",
+      "324.0.jpg"
+    ],
+    "window": [
+      308.0,
+      348.0
+    ]
+  },
+  {
+    "ref": "v77q09",
+    "theme": "commandes",
+    "question_text": "Le régulateur de vitesse est particulièrement adapté pour la conduite",
+    "options": {
+      "A": "En ville",
+      "B": "Sur autoroute"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Le régulateur de vitesse est particulièrement adapté à la conduite sur autoroute. En agglomération, les changements de vitesse fréquents rendent son utilisation peu pratique et inadaptée.",
+    "frame": "414.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "402.0.jpg",
+      "405.0.jpg",
+      "408.0.jpg",
+      "411.0.jpg",
+      "414.0.jpg"
+    ],
+    "window": [
+      401.0,
+      445.0
+    ]
+  },
+  {
+    "ref": "v77q10",
+    "theme": "cyclistes",
+    "question_text": "Pour dépasser un cycliste, je peux",
+    "options": {
+      "A": "Franchir une ligne continue : Oui",
+      "B": "Franchir une ligne continue : Non",
+      "C": "Chevaucher une ligne continue : Oui",
+      "D": "Chevaucher une ligne continue : Non"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "explanation": "Pour dépasser un cycliste, le chevauchement de la ligne blanche continue est autorisé, mais pas son franchissement. Le chevauchement, c'est quand une partie du véhicule passe de l'autre côté de la ligne ; le franchissement, c'est quand la totalité du véhicule la traverse.",
+    "frame": "456.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "447.0.jpg",
+      "450.0.jpg",
+      "453.0.jpg",
+      "456.0.jpg",
+      "459.0.jpg"
+    ],
+    "window": [
+      445.0,
+      509.0
+    ]
+  }
+]

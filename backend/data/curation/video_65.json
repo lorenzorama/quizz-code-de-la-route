@@ -1,0 +1,172 @@
+[
+  {
+    "ref": "v65q02",
+    "theme": "mécanique-entretien",
+    "question_text": "Le régulateur de vitesse permet de diminuer la consommation en carburant",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Le régulateur de vitesse est une aide à la conduite qui permet de stabiliser le véhicule à une vitesse constante. En évitant les accélérations et décélérations fréquentes, il permet de diminuer la consommation en carburant.",
+    "frame": "66.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "60.0.jpg",
+      "63.0.jpg",
+      "66.0.jpg",
+      "72.0.jpg",
+      "78.0.jpg",
+      "90.0.jpg"
+    ],
+    "window": [
+      59.0,
+      105.0
+    ]
+  },
+  {
+    "ref": "v65q03",
+    "theme": "panneaux",
+    "question_text": "La signalisation interdit l'accès aux véhicules",
+    "options": {
+      "A": "De plus de 4 tonnes",
+      "B": "De plus de 4 mètres de long",
+      "C": "De plus de 4 mètres de hauteur"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "Le panneau de signalisation interdit l'accès à tous les véhicules de plus de 4 mètres de hauteur. Les deux petites flèches noires en haut et en bas du panneau indiquent que l'interdiction concerne la hauteur du véhicule.",
+    "frame": "114.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "108.0.jpg",
+      "114.0.jpg",
+      "120.0.jpg",
+      "132.0.jpg",
+      "144.0.jpg",
+      "150.0.jpg"
+    ],
+    "window": [
+      108.0,
+      160.0
+    ]
+  },
+  {
+    "ref": "v65q04",
+    "theme": "stationnement",
+    "question_text": "Je ne dispose pas d'une carte de stationnement pour handicapés, ce panneau m'indique que je peux",
+    "options": {
+      "A": "M'arrêter : oui",
+      "B": "M'arrêter : non",
+      "C": "Stationner : oui",
+      "D": "Stationner : non"
+    },
+    "correct": [
+      "B",
+      "D"
+    ],
+    "explanation": "Ce panneau rond barré de deux traits rouges m'indique que l'arrêt et le stationnement sont interdits. Il précise toutefois que cette interdiction ne concerne pas les personnes handicapées titulaires d'une carte de stationnement.",
+    "frame": "165.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "162.0.jpg",
+      "165.0.jpg",
+      "171.0.jpg",
+      "180.0.jpg",
+      "192.0.jpg",
+      "204.0.jpg"
+    ],
+    "window": [
+      162.0,
+      219.0
+    ]
+  },
+  {
+    "ref": "v65q05",
+    "theme": "équipements-de-sécurité",
+    "question_text": "En cas de panne ou d'accident sur autoroute",
+    "options": {
+      "A": "Le gilet de haute visibilité est obligatoire : oui",
+      "B": "Le gilet de haute visibilité est obligatoire : non",
+      "C": "La pose du triangle de présignalisation est obligatoire : oui",
+      "D": "La pose du triangle de présignalisation est obligatoire : non"
+    },
+    "correct": [
+      "A",
+      "D"
+    ],
+    "explanation": "Sur autoroute, en cas de panne ou d'accident, le port du gilet de haute visibilité est obligatoire. En revanche, si la pose du triangle de présignalisation ne peut pas être effectuée en toute sécurité, elle n'est pas obligatoire, ce qui est le cas sur autoroute à cause de la vitesse élevée des véhicules.",
+    "frame": "252.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "246.0.jpg",
+      "252.0.jpg",
+      "261.0.jpg",
+      "270.0.jpg",
+      "288.0.jpg",
+      "300.0.jpg"
+    ],
+    "window": [
+      244.0,
+      308.0
+    ]
+  },
+  {
+    "ref": "v65q06",
+    "theme": "mécanique-entretien",
+    "question_text": "Le régulateur de vitesse est particulièrement adapté pour la conduite",
+    "options": {
+      "A": "En agglomération",
+      "B": "Sur autoroute"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Le régulateur de vitesse est particulièrement adapté sur autoroute lorsque la circulation est fluide, car on y roule globalement à une vitesse constante. Il n'est cependant pas vraiment adapté à la circulation en agglomération, où les changements de vitesse sont très fréquents.",
+    "frame": "318.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "312.0.jpg",
+      "318.0.jpg",
+      "324.0.jpg",
+      "336.0.jpg",
+      "348.0.jpg",
+      "357.0.jpg"
+    ],
+    "window": [
+      311.0,
+      361.0
+    ]
+  },
+  {
+    "ref": "v65q08",
+    "theme": "priorités",
+    "question_text": "Le camion tourne à gauche. L'usager qui passe en dernier est",
+    "options": {
+      "A": "Le camion",
+      "B": "La moto",
+      "C": "La voiture"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "Dans cette situation, la voiture est arrêtée devant un cédez-le-passage. Elle doit donc céder le passage à gauche et à droite et passera en dernier. Pour tourner, le camion doit couper la route à la moto : il n'a donc pas la priorité sur elle. Ainsi, la moto passe en première, le camion tourne ensuite à gauche, et enfin la voiture peut passer.",
+    "frame": "408.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "408.0.jpg",
+      "414.0.jpg",
+      "420.0.jpg",
+      "432.0.jpg",
+      "444.0.jpg",
+      "456.0.jpg"
+    ],
+    "window": [
+      407.0,
+      464.0
+    ]
+  }
+]

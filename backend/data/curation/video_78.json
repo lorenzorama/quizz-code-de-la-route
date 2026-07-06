@@ -1,0 +1,228 @@
+[
+  {
+    "ref": "v78q01",
+    "theme": "panneaux",
+    "question_text": "Je suis bien placé",
+    "options": {
+      "A": "Pour aller à Lyon : oui",
+      "B": "Pour aller à Lyon : non",
+      "C": "Pour aller à Paris : oui",
+      "D": "Pour aller à Paris : non"
+    },
+    "correct": [
+      "A",
+      "D"
+    ],
+    "explanation": "Il faut observer attentivement la signalisation au-dessus des voies. Les deux voies de droite permettent de rejoindre Lyon, donc je suis bien placé pour y aller. En revanche, pour aller à Paris, je dois me positionner sur l'une des trois voies de gauche.",
+    "frame": "45.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "24.0.jpg",
+      "45.0.jpg",
+      "57.0.jpg"
+    ],
+    "window": [
+      22.0,
+      78.0
+    ]
+  },
+  {
+    "ref": "v78q02",
+    "theme": "piétons",
+    "question_text": "On considère comme piéton",
+    "options": {
+      "A": "Une personne à roller : oui",
+      "B": "Une personne à roller : non",
+      "C": "Un cycliste qui tient son vélo à la main et marche à côté : oui",
+      "D": "Un cycliste qui tient son vélo à la main et marche à côté : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Une personne à roller est considérée comme un piéton. De même, un cycliste qui n'est pas sur son vélo mais le tient à la main en marchant à côté est également considéré comme un piéton.",
+    "frame": "93.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "81.0.jpg",
+      "93.0.jpg",
+      "105.0.jpg"
+    ],
+    "window": [
+      81.0,
+      117.0
+    ]
+  },
+  {
+    "ref": "v78q03",
+    "theme": "mécanique-entretien",
+    "question_text": "La cause principale de l'éclatement d'un pneu est",
+    "options": {
+      "A": "Le sous-gonflage",
+      "B": "Le surgonflage",
+      "C": "L'usure"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "La cause principale de l'éclatement d'un pneu est le sous-gonflage. Un pneu sous-gonflé chauffe anormalement, ce qui provoque une surchauffe puis l'éclatement du pneu.",
+    "frame": "126.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "126.0.jpg",
+      "141.0.jpg"
+    ],
+    "window": [
+      120.0,
+      160.0
+    ]
+  },
+  {
+    "ref": "v78q04",
+    "theme": "écomobilité",
+    "question_text": "Afin de limiter le bruit et la pollution, je peux",
+    "options": {
+      "A": "Faire du covoiturage : oui",
+      "B": "Faire du covoiturage : non",
+      "C": "Utiliser les transports en commun : oui",
+      "D": "Utiliser les transports en commun : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Pour limiter le bruit et la pollution, je peux utiliser les transports en commun ou faire du covoiturage. Ces solutions réduisent le nombre de véhicules en circulation et donc les nuisances associées.",
+    "frame": "165.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "165.0.jpg",
+      "177.0.jpg"
+    ],
+    "window": [
+      161.0,
+      198.0
+    ]
+  },
+  {
+    "ref": "v78q06",
+    "theme": "commandes",
+    "question_text": "En général, un volant peut être réglé",
+    "options": {
+      "A": "En hauteur : oui",
+      "B": "En hauteur : non",
+      "C": "En profondeur : oui",
+      "D": "En profondeur : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Afin de garantir une position de conduite correcte, le volant peut généralement être réglé en hauteur et en profondeur. Ce réglage permet au conducteur d'adopter une posture sûre et confortable.",
+    "frame": "300.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "285.0.jpg",
+      "300.0.jpg",
+      "315.0.jpg"
+    ],
+    "window": [
+      285.0,
+      330.0
+    ]
+  },
+  {
+    "ref": "v78q07",
+    "theme": "commandes",
+    "question_text": "Pour signaler un ralentissement aux usagers qui me suivent, je peux",
+    "options": {
+      "A": "Faire un appel de phare",
+      "B": "Allumer mes feux de détresse",
+      "C": "Appuyer par intermittence sur la pédale de frein"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "explanation": "Pour signaler un ralentissement aux usagers qui me suivent, je peux allumer mes feux de détresse ou appuyer légèrement et par intermittence sur la pédale de frein. Ces actions attirent l'attention des conducteurs derrière moi.",
+    "frame": "330.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "330.0.jpg",
+      "345.0.jpg"
+    ],
+    "window": [
+      330.0,
+      365.0
+    ]
+  },
+  {
+    "ref": "v78q08",
+    "theme": "circulation",
+    "question_text": "Les véhicules agricoles sont autorisés à circuler sur une route à accès règlementée",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Une route à accès réglementé est une voie où les véhicules circulent à vitesse élevée, ce qui interdit l'accès aux usagers trop lents. Sont donc exclus les piétons, les véhicules lents, les cyclistes et les véhicules agricoles.",
+    "frame": "375.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "375.0.jpg",
+      "390.0.jpg"
+    ],
+    "window": [
+      365.0,
+      425.0
+    ]
+  },
+  {
+    "ref": "v78q09",
+    "theme": "cyclistes",
+    "question_text": "Je souhaite tourner à droite à la prochaine intersection. En présence d'un cycliste sur la bande cyclable, je dois lui céder le passage",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Souhaitant tourner à droite au prochain carrefour, je dois rester particulièrement vigilant. En effet, lorsque je tourne à droite, je dois céder le passage à tous les usagers présents sur la bande cyclable.",
+    "frame": "435.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "435.0.jpg",
+      "450.0.jpg"
+    ],
+    "window": [
+      425.0,
+      465.0
+    ]
+  },
+  {
+    "ref": "v78q10",
+    "theme": "distances-de-sécurité",
+    "question_text": "Dans cette situation, si je dois m'arrêter, il est préférable de freiner",
+    "options": {
+      "A": "Sur la voie où je circule",
+      "B": "Sur la bande d'arrêt d'urgence"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Dans cette situation, la bande d'arrêt d'urgence est enneigée et glissante. Pour limiter le danger, je ralentis autant que possible sur la voie où je circule avant de me rabattre. Une fois ma vitesse suffisamment réduite, je peux m'engager prudemment sur la bande d'arrêt d'urgence pour m'arrêter.",
+    "frame": "480.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "465.0.jpg",
+      "480.0.jpg",
+      "495.0.jpg"
+    ],
+    "window": [
+      465.0,
+      519.0
+    ]
+  }
+]

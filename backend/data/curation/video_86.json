@@ -1,0 +1,210 @@
+[
+  {
+    "ref": "v86q01",
+    "theme": "commandes",
+    "question_text": "Lors d'une manœuvre en marche arrière, et disposant d'une caméra de recul, tourner la tête est",
+    "options": {
+      "A": "Indispensable",
+      "B": "Non nécessaire"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "La caméra de recul est une aide à la conduite, mais elle ne remplace pas une vérification directe. Même équipé de cette assistance, le conducteur doit tourner la tête et regarder ses rétroviseurs pour s'assurer de la bonne réalisation de la manœuvre. Cela permet de repérer les angles morts que la caméra ne couvre pas toujours.",
+    "frame": "21.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "15.0.jpg",
+      "18.0.jpg",
+      "21.0.jpg",
+      "24.0.jpg",
+      "27.0.jpg"
+    ],
+    "window": [
+      14.0,
+      57.0
+    ]
+  },
+  {
+    "ref": "v86q02",
+    "theme": "éclairage-visibilité",
+    "question_text": "En présence de neige sur ma voiture, déneiger uniquement le pare-brise est suffisant",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "En cas de neige sur ma voiture, déneiger uniquement le pare-brise est indispensable mais pas suffisant. Je dois également retirer toute la neige pouvant entraîner des problèmes de visibilité, notamment sur le toit, les rétroviseurs ou encore les autres vitres du véhicule.",
+    "frame": "63.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "60.0.jpg",
+      "63.0.jpg",
+      "66.0.jpg",
+      "69.0.jpg",
+      "72.0.jpg"
+    ],
+    "window": [
+      60.0,
+      108.0
+    ]
+  },
+  {
+    "ref": "v86q04",
+    "theme": "circulation",
+    "question_text": "Dans un tunnel, faire demi-tour est",
+    "options": {
+      "A": "Déconseillé",
+      "B": "Interdit",
+      "C": "Toléré"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Faire demi-tour dans un tunnel est interdit, car cela représente un danger majeur : une visibilité réduite, un espace restreint et une circulation difficile à anticiper pour les autres usagers.",
+    "frame": "177.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "168.0.jpg",
+      "171.0.jpg",
+      "174.0.jpg",
+      "177.0.jpg"
+    ],
+    "window": [
+      168.0,
+      212.0
+    ]
+  },
+  {
+    "ref": "v86q05",
+    "theme": "piétons",
+    "question_text": "Ces piétons peuvent facilement détecter ma présence",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Lorsque des piétons ont le dos tourné à la circulation, ils ne peuvent ni voir les véhicules arrivés ni les entendre facilement, surtout s'il y a du bruit ambiant ou s'ils sont distraits. Il est donc faux de penser qu'ils détectent facilement ma présence, je dois redoubler de prudence.",
+    "frame": "216.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "216.0.jpg",
+      "219.0.jpg",
+      "222.0.jpg",
+      "225.0.jpg"
+    ],
+    "window": [
+      214.0,
+      259.0
+    ]
+  },
+  {
+    "ref": "v86q06",
+    "theme": "cyclistes",
+    "question_text": "Les motos, se déplaçant en inter-files entre des véhicules à l'arrêt, doivent circuler à",
+    "options": {
+      "A": "20 km/h maximum",
+      "B": "30 km/h maximum",
+      "C": "50 km/h maximum"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Lorsqu'un motard circule en inter-files entre des véhicules à l'arrêt, la circulation inter-files est limitée à 30 km/h afin de garantir la sécurité de tous les usagers.",
+    "frame": "270.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "261.0.jpg",
+      "264.0.jpg",
+      "267.0.jpg",
+      "270.0.jpg"
+    ],
+    "window": [
+      259.0,
+      309.0
+    ]
+  },
+  {
+    "ref": "v86q07",
+    "theme": "distances-de-sécurité",
+    "question_text": "À 110 km/h, je parcours en une seconde environ",
+    "options": {
+      "A": "13 m",
+      "B": "33 m",
+      "C": "53 m"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Pour connaître la distance parcourue en une seconde par mon véhicule, je peux multiplier par 3 le chiffre des dizaines de la vitesse. À 110 km/h, je parcours donc 11 fois 3, soit environ 33 mètres en une seconde.",
+    "frame": "318.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "309.0.jpg",
+      "312.0.jpg",
+      "315.0.jpg",
+      "318.0.jpg"
+    ],
+    "window": [
+      309.0,
+      362.0
+    ]
+  },
+  {
+    "ref": "v86q08",
+    "theme": "écomobilité",
+    "question_text": "Pour économiser du carburant dans une longue descente",
+    "options": {
+      "A": "Je me mets au point mort : oui",
+      "B": "Je me mets au point mort : non",
+      "C": "J'utilise mon frein moteur : oui",
+      "D": "J'utilise mon frein moteur : non"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "explanation": "En descente, se mettre au point mort est dangereux et n'économise pas de carburant, car le moteur continue de tourner inutilement. Au contraire, en gardant une vitesse enclenchée, le frein moteur agit, ce qui permet de mieux contrôler le véhicule sans trop solliciter les freins.",
+    "frame": "372.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "363.0.jpg",
+      "366.0.jpg",
+      "369.0.jpg",
+      "372.0.jpg"
+    ],
+    "window": [
+      362.0,
+      418.0
+    ]
+  },
+  {
+    "ref": "v86q10",
+    "theme": "piétons",
+    "question_text": "En agglomération, deux tiers des tués sont des usagers vulnérables",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "En agglomération, les usagers vulnérables comme les piétons, les cyclistes ou les motards représentent près de deux tiers des tués. Leur fragilité face aux véhicules motorisés explique ce chiffre élevé. Il est donc essentiel de redoubler de vigilance en ville, notamment près des passages piétons, des écoles ou des pistes cyclables.",
+    "frame": "480.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "480.0.jpg",
+      "483.0.jpg",
+      "486.0.jpg",
+      "489.0.jpg"
+    ],
+    "window": [
+      477.0,
+      522.0
+    ]
+  }
+]

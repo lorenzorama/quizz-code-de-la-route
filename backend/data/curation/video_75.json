@@ -1,0 +1,223 @@
+[
+  {
+    "ref": "v75q02",
+    "theme": "priorités",
+    "question_text": "Un convoi exceptionnel qui se déplace",
+    "options": {
+      "A": "Est prioritaire aux intersections : oui",
+      "B": "Est prioritaire aux intersections : non",
+      "C": "Les véhicules qui l'accompagnent sont prioritaires aux intersections : oui",
+      "D": "Les véhicules qui l'accompagnent sont prioritaires aux intersections : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Un convoi exceptionnel en mouvement, ainsi que les véhicules qui l'accompagnent, sont prioritaires aux intersections.",
+    "frame": "78.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "75.0.jpg",
+      "78.0.jpg",
+      "81.0.jpg",
+      "84.0.jpg",
+      "87.0.jpg",
+      "90.0.jpg"
+    ],
+    "window": [
+      74.0,
+      120.0
+    ]
+  },
+  {
+    "ref": "v75q03",
+    "theme": "éclairage-visibilité",
+    "question_text": "En cas de chute de neige, je peux",
+    "options": {
+      "A": "Allumer les feux de route : oui",
+      "B": "Allumer les feux de route : non",
+      "C": "Allumer les feux de brouillard arrière : oui",
+      "D": "Allumer les feux de brouillard arrière : non"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "explanation": "En cas de chute de neige, il faut au minimum utiliser les feux de croisement. Lorsque les conditions sont difficiles avec présence de neige ou de brouillard, il est fortement déconseillé d'allumer les feux de route : leur éclairage aurait l'effet inverse et diminuerait la visibilité en formant un mur opaque devant la voiture. Les feux de brouillard arrière peuvent quant à eux être allumés pour compléter les feux de croisement.",
+    "frame": "123.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "123.0.jpg",
+      "126.0.jpg",
+      "129.0.jpg",
+      "132.0.jpg",
+      "135.0.jpg"
+    ],
+    "window": [
+      123.0,
+      188.0
+    ]
+  },
+  {
+    "ref": "v75q04",
+    "theme": "distances-de-sécurité",
+    "question_text": "Dans cette situation",
+    "options": {
+      "A": "La distance de sécurité avec le véhicule qui précède est : insuffisante",
+      "B": "La distance de sécurité avec le véhicule qui précède est : suffisante",
+      "C": "Je ralentis : oui",
+      "D": "Je ralentis : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Je circule sur autoroute, comme l'indique le panneau bleu présent. Sur autoroute, à 130 km/h, la distance de sécurité doit être d'au moins deux traits de bande d'arrêt d'urgence. Dans cette situation, ma distance de sécurité est insuffisante et donc dangereuse : je dois ralentir.",
+    "frame": "195.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "192.0.jpg",
+      "195.0.jpg",
+      "198.0.jpg",
+      "201.0.jpg",
+      "204.0.jpg"
+    ],
+    "window": [
+      191.0,
+      251.0
+    ]
+  },
+  {
+    "ref": "v75q06",
+    "theme": "vitesse",
+    "question_text": "Dans cette situation",
+    "options": {
+      "A": "Ma vitesse est limitée à : 80 km/h",
+      "B": "Ma vitesse est limitée à : 90 km/h",
+      "C": "Je vais aborder un virage à droite dans : 50 mètres",
+      "D": "Je vais aborder un virage à droite dans : 150 mètres"
+    },
+    "correct": [
+      "A",
+      "D"
+    ],
+    "explanation": "Je circule sur une route à double sens de circulation, hors agglomération et sans séparateur central. Sauf indication contraire, ma vitesse est donc limitée à 80 km/h. De plus, je croise un panneau m'indiquant la présence d'un virage à droite ; circulant hors agglomération, ce virage se trouve à 150 mètres.",
+    "frame": "312.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "300.0.jpg",
+      "312.0.jpg",
+      "324.0.jpg",
+      "336.0.jpg",
+      "348.0.jpg"
+    ],
+    "window": [
+      298.0,
+      365.0
+    ]
+  },
+  {
+    "ref": "v75q07",
+    "theme": "équipements-de-sécurité",
+    "question_text": "Je ne dispose pas de chaînes ni de chaussettes à neige. Nous sommes le 2 février, mon véhicule doit obligatoirement être équipé d'au moins",
+    "options": {
+      "A": "2 pneus hiver",
+      "B": "4 pneus hiver"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Une obligation de posséder des chaussettes à neige, des chaînes ou d'avoir 4 pneus hiver a été instaurée dans une trentaine de départements situés dans des massifs montagneux pendant la période hivernale. Des panneaux comme celui-ci rappellent cette obligation dans les zones concernées. Deux pneus hiver ne sont donc pas suffisants comme équipement obligatoire.",
+    "frame": "408.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "375.0.jpg",
+      "393.0.jpg",
+      "408.0.jpg",
+      "420.0.jpg"
+    ],
+    "window": [
+      366.0,
+      428.0
+    ]
+  },
+  {
+    "ref": "v75q08",
+    "theme": "chargement",
+    "question_text": "La présence d'un coffre de toit peut avoir un impact sur",
+    "options": {
+      "A": "Le freinage",
+      "B": "La consommation de carburant",
+      "C": "La somnolence du conducteur",
+      "D": "La prise au vent"
+    },
+    "correct": [
+      "A",
+      "B",
+      "D"
+    ],
+    "explanation": "Le chargement du véhicule influe de façon importante sur la consommation. Un coffre de toit augmente la consommation de carburant d'environ 15 %, notamment à cause de la prise au vent qui augmente en sa présence. De plus, il peut également impacter le freinage du véhicule, par exemple en cas de coffre de toit surchargé : attention à l'équilibre du véhicule dans les virages.",
+    "frame": "432.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "429.0.jpg",
+      "432.0.jpg",
+      "435.0.jpg",
+      "438.0.jpg"
+    ],
+    "window": [
+      428.0,
+      493.0
+    ]
+  },
+  {
+    "ref": "v75q09",
+    "theme": "circulation",
+    "question_text": "Dans cette situation, le conducteur du camion peut me voir",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Le camion est un véhicule encombrant qui comporte de nombreux angles morts. Cependant, dans cette situation, je suis assez loin du camion pour ne pas être dans son angle mort : le conducteur peut donc me voir grâce à ses rétroviseurs extérieurs.",
+    "frame": "501.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "498.0.jpg",
+      "501.0.jpg",
+      "504.0.jpg",
+      "507.0.jpg"
+    ],
+    "window": [
+      497.0,
+      542.0
+    ]
+  },
+  {
+    "ref": "v75q10",
+    "theme": "vitesse",
+    "question_text": "Je réduis ma vitesse à 50 km/h dès l'apparition des premières habitations",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Sauf mention contraire, le panneau d'entrée d'agglomération limite la vitesse à 50 km/h. Je dois réduire immédiatement ma vitesse dès ce panneau, même si aucune habitation n'est encore présente.",
+    "frame": "549.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "543.0.jpg",
+      "546.0.jpg",
+      "549.0.jpg",
+      "552.0.jpg"
+    ],
+    "window": [
+      542.0,
+      586.0
+    ]
+  }
+]

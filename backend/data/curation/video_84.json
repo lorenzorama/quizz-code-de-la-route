@@ -1,0 +1,128 @@
+[
+  {
+    "ref": "v84q05",
+    "theme": "premiers-secours",
+    "question_text": "Une borne d'appel d'urgence indique automatiquement votre position aux services d'urgence",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Une borne d'appel d'urgence indique automatiquement votre position aux services de secours. Les sorties de secours sur autoroute sont placées tous les 2 kilomètres.",
+    "frame": "243.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "243.0.jpg",
+      "249.0.jpg"
+    ],
+    "window": [
+      240.0,
+      284.0
+    ]
+  },
+  {
+    "ref": "v84q06",
+    "theme": "commandes",
+    "question_text": "Le levier de vitesse est sur la position D, je peux",
+    "options": {
+      "A": "Avancer",
+      "B": "Reculer",
+      "C": "Sortir de mon véhicule"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Sur une voiture à boîte automatique, la position D permet d'avancer. La position R sert à reculer, P correspond au frein de stationnement et N au point mort.",
+    "frame": "291.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "291.0.jpg",
+      "297.0.jpg"
+    ],
+    "window": [
+      284.0,
+      333.0
+    ]
+  },
+  {
+    "ref": "v84q07",
+    "theme": "priorités",
+    "question_text": "Dans cette situation",
+    "options": {
+      "A": "La signalisation indique que je suis prioritaire : Oui",
+      "B": "La signalisation indique que je suis prioritaire : Non",
+      "C": "Ici, je passe",
+      "D": "Ici, je m'arrête"
+    },
+    "correct": [
+      "B",
+      "D"
+    ],
+    "explanation": "Ici, la signalisation indique que je ne suis pas prioritaire. En effet, ce panneau avec la flèche rouge indique que mon sens de circulation doit céder le passage au véhicule venant en sens inverse. Comme un cycliste arrive en face, je dois m'arrêter.",
+    "frame": "339.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "339.0.jpg",
+      "345.0.jpg"
+    ],
+    "window": [
+      333.0,
+      389.0
+    ]
+  },
+  {
+    "ref": "v84q08",
+    "theme": "écomobilité",
+    "question_text": "Afin de limiter le bruit et la pollution, je peux",
+    "options": {
+      "A": "Circuler plus vite",
+      "B": "Faire du covoiturage",
+      "C": "Effectuer mes courts trajets à vélo",
+      "D": "Prendre les transports en commun"
+    },
+    "correct": [
+      "B",
+      "C",
+      "D"
+    ],
+    "explanation": "Afin de limiter le bruit et la pollution, je peux effectuer mes courts trajets à vélo, prendre les transports en commun ou encore faire du covoiturage. Rouler plus vite, au contraire, va augmenter le bruit et la pollution.",
+    "frame": "393.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "393.0.jpg",
+      "399.0.jpg"
+    ],
+    "window": [
+      389.0,
+      446.0
+    ]
+  },
+  {
+    "ref": "v84q10",
+    "theme": "signalisation",
+    "question_text": "Dans cette situation",
+    "options": {
+      "A": "La signalisation autorise le dépassement : Oui",
+      "B": "La signalisation autorise le dépassement : Non",
+      "C": "Je dépasse : Oui",
+      "D": "Je dépasse : Non"
+    },
+    "correct": [
+      "A",
+      "D"
+    ],
+    "explanation": "Ici, la signalisation indique que je circule sur une route à double sens : la ligne discontinue à gauche de la chaussée me donne cette information. Le dépassement est donc autorisé, mais dans cette situation ma visibilité n'est pas suffisante pour dépasser. Je reste donc derrière le véhicule.",
+    "frame": "504.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "504.0.jpg",
+      "510.0.jpg"
+    ],
+    "window": [
+      500.0,
+      576.0
+    ]
+  }
+]

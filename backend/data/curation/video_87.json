@@ -1,0 +1,210 @@
+[
+  {
+    "ref": "v87q01",
+    "theme": "priorités",
+    "question_text": "Je continue tout droit",
+    "options": {
+      "A": "Je ralentis",
+      "B": "Je cède le passage à gauche",
+      "C": "Je cède le passage à droite",
+      "D": "Je passe"
+    },
+    "correct": [
+      "A",
+      "D"
+    ],
+    "explanation": "Dans cette situation, je ralentis car j'approche d'une intersection. Mon feu est vert, donc je suis prioritaire sur les usagers venant de droite et de gauche, je peux donc passer.",
+    "frame": "63.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "30.0.jpg",
+      "45.0.jpg",
+      "57.0.jpg",
+      "60.0.jpg",
+      "63.0.jpg",
+      "66.0.jpg"
+    ],
+    "window": [
+      0.0,
+      69.0
+    ]
+  },
+  {
+    "ref": "v87q03",
+    "theme": "mécanique-entretien",
+    "question_text": "L'AFU (Assistance au Freinage d'Urgence) permet",
+    "options": {
+      "A": "D'augmenter la puissance de freinage : oui",
+      "B": "D'augmenter la puissance de freinage : non",
+      "C": "D'éviter une sortie de route : oui",
+      "D": "D'éviter une sortie de route : non"
+    },
+    "correct": [
+      "A",
+      "D"
+    ],
+    "explanation": "L'AFU, ou assistance au freinage d'urgence, est un dispositif de sécurité automatique. Son rôle est de détecter un freinage d'urgence et d'amplifier la puissance de freinage au maximum, ce qui augmente la puissance de freinage mais ne permet pas d'éviter une sortie de route.",
+    "frame": "198.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "123.0.jpg",
+      "150.0.jpg",
+      "177.0.jpg",
+      "198.0.jpg",
+      "201.0.jpg"
+    ],
+    "window": [
+      121.0,
+      204.0
+    ]
+  },
+  {
+    "ref": "v87q04",
+    "theme": "signalisation",
+    "question_text": "La ligne de dissuasion interdit le dépassement d'un cycliste",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Une ligne de dissuasion n'interdit pas de dépasser un véhicule dont la vitesse est très faible, comme un tracteur ou un cycliste.",
+    "frame": "207.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "207.0.jpg",
+      "219.0.jpg",
+      "231.0.jpg",
+      "240.0.jpg"
+    ],
+    "window": [
+      204.0,
+      243.0
+    ]
+  },
+  {
+    "ref": "v87q06",
+    "theme": "cyclistes",
+    "question_text": "À ce feu tricolore, les cyclistes peuvent passer même si le feu est rouge",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Les cyclistes ont l'obligation de respecter les feux de signalisation. Un panonceau peut être présent sous le feu pour autoriser les cyclistes, sous certaines conditions, à passer lorsque le feu est rouge. Ici, ce panonceau n'est pas présent, les cyclistes doivent donc s'arrêter au feu rouge.",
+    "frame": "297.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "291.0.jpg",
+      "297.0.jpg",
+      "315.0.jpg",
+      "330.0.jpg"
+    ],
+    "window": [
+      290.0,
+      337.0
+    ]
+  },
+  {
+    "ref": "v87q07",
+    "theme": "commandes",
+    "question_text": "Le régulateur de vitesse permet de",
+    "options": {
+      "A": "Maintenir la vitesse du véhicule constante",
+      "B": "Bloquer la vitesse maximale du véhicule"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Le régulateur de vitesse permet de maintenir le véhicule à une vitesse constante. Il ne bloque pas la vitesse du véhicule : ainsi, même avec le régulateur activé, le conducteur peut accélérer.",
+    "frame": "342.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "339.0.jpg",
+      "342.0.jpg",
+      "360.0.jpg",
+      "378.0.jpg"
+    ],
+    "window": [
+      339.0,
+      384.0
+    ]
+  },
+  {
+    "ref": "v87q08",
+    "theme": "priorités",
+    "question_text": "La voiture bénéficie de la priorité de passage sur la moto",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "La voiture se trouve devant un panneau cédez-le-passage, elle doit donc céder le passage à la moto. C'est ainsi la moto qui bénéficie de la priorité de passage.",
+    "frame": "420.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "387.0.jpg",
+      "402.0.jpg",
+      "420.0.jpg",
+      "426.0.jpg"
+    ],
+    "window": [
+      387.0,
+      426.0
+    ]
+  },
+  {
+    "ref": "v87q09",
+    "theme": "piétons",
+    "question_text": "Dans cette situation",
+    "options": {
+      "A": "Je m'arrête",
+      "B": "Je continue"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Dans cette situation, un piéton manifeste son intention de traverser à un passage piéton. Je m'arrête donc pour le laisser passer.",
+    "frame": "429.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "429.0.jpg",
+      "441.0.jpg",
+      "462.0.jpg"
+    ],
+    "window": [
+      428.0,
+      464.0
+    ]
+  },
+  {
+    "ref": "v87q10",
+    "theme": "mécanique-entretien",
+    "question_text": "Le verglas se forme principalement",
+    "options": {
+      "A": "En agglomération",
+      "B": "Dans les endroits humides"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Le verglas se forme principalement dans les endroits humides, comme en forêt, sur les ponts ou dans les vallées.",
+    "frame": "477.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "465.0.jpg",
+      "477.0.jpg",
+      "495.0.jpg",
+      "501.0.jpg"
+    ],
+    "window": [
+      464.0,
+      502.0
+    ]
+  }
+]

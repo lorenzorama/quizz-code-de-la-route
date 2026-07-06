@@ -1,0 +1,846 @@
+[
+  {
+    "ref": "v88q01",
+    "theme": "panneaux",
+    "question_text": "Cette balise indique",
+    "options": {
+      "A": "Un obstacle temporaire",
+      "B": "Un obstacle permanent"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Ce type de balise indique la présence d'un obstacle temporaire. On la retrouve généralement à proximité des zones de travaux.",
+    "frame": "99.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "96.0.jpg",
+      "99.0.jpg",
+      "102.0.jpg",
+      "105.0.jpg"
+    ],
+    "window": [
+      93.0,
+      117.0
+    ]
+  },
+  {
+    "ref": "v88q02",
+    "theme": "priorités",
+    "question_text": "Le camion tourne à gauche. Quel usager passe en premier ?",
+    "options": {
+      "A": "Le camion",
+      "B": "La moto",
+      "C": "La voiture"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "La voiture est située devant un stop, elle doit donc céder le passage à gauche et à droite. Le camion devra céder le passage à la moto car il va devoir lui couper la route pour tourner. C'est donc la moto qui passe en premier.",
+    "frame": "120.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "120.0.jpg",
+      "135.0.jpg",
+      "150.0.jpg"
+    ],
+    "window": [
+      117.0,
+      158.0
+    ]
+  },
+  {
+    "ref": "v88q03",
+    "theme": "signalisation",
+    "question_text": "Je vais à Bordeaux",
+    "options": {
+      "A": "La signalisation m'autorise à aller sur la voie de droite : oui",
+      "B": "La signalisation m'autorise à aller sur la voie de droite : non",
+      "C": "Ma vitesse est limitée à 110 km/h",
+      "D": "Ma vitesse est limitée à 130 km/h"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "La signalisation horizontale, c'est-à-dire les lignes au sol, autorise à changer de voie pour aller sur la voie qui va à Bordeaux. Je circule actuellement sur autoroute, où la vitesse maximale par défaut est de 130 km/h, mais un panneau limite ici la vitesse à 110 km/h.",
+    "frame": "165.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "162.0.jpg",
+      "165.0.jpg",
+      "168.0.jpg"
+    ],
+    "window": [
+      158.0,
+      222.0
+    ]
+  },
+  {
+    "ref": "v88q05",
+    "theme": "priorités",
+    "question_text": "À la prochaine intersection",
+    "options": {
+      "A": "Je serai prioritaire",
+      "B": "Je devrai céder le passage"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Le panneau indique que la prochaine intersection est un carrefour à sens giratoire. Je devrai céder le passage aux usagers déjà présents dans le carrefour.",
+    "frame": "270.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "267.0.jpg",
+      "270.0.jpg",
+      "273.0.jpg"
+    ],
+    "window": [
+      262.0,
+      304.0
+    ]
+  },
+  {
+    "ref": "v88q06",
+    "theme": "cyclistes",
+    "question_text": "Les cyclistes peuvent circuler sur cette voie de bus",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Le marquage au sol sur la voie de bus indique que les cyclistes sont effectivement autorisés à emprunter cette voie.",
+    "frame": "315.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "312.0.jpg",
+      "315.0.jpg",
+      "318.0.jpg"
+    ],
+    "window": [
+      304.0,
+      343.0
+    ]
+  },
+  {
+    "ref": "v88q07",
+    "theme": "priorités",
+    "question_text": "À ce carrefour à sens giratoire, cet usager",
+    "options": {
+      "A": "Est prioritaire",
+      "B": "Doit me céder le passage"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Au carrefour à sens giratoire, c'est le véhicule qui est dans l'anneau qui est prioritaire. Comme je suis actuellement dans le giratoire, cet usager doit me céder le passage.",
+    "frame": "360.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "357.0.jpg",
+      "360.0.jpg",
+      "363.0.jpg"
+    ],
+    "window": [
+      343.0,
+      386.0
+    ]
+  },
+  {
+    "ref": "v88q09",
+    "theme": "vitesse",
+    "question_text": "La vitesse est limitée à",
+    "options": {
+      "A": "50 km/h",
+      "B": "70 km/h",
+      "C": "80 km/h"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "On vient de voir passer un panneau mettant fin à la limitation de 70 km/h. La vitesse est maintenant limitée par la limitation par défaut de ce type de route : hors agglomération, à double sens de circulation et sans séparateur central, la vitesse est donc limitée à 80 km/h.",
+    "frame": "465.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "462.0.jpg",
+      "465.0.jpg",
+      "468.0.jpg"
+    ],
+    "window": [
+      443.0,
+      507.0
+    ]
+  },
+  {
+    "ref": "v88q10",
+    "theme": "assurance-constat",
+    "question_text": "Je possède uniquement l'assurance à responsabilité civile. Si je suis responsable d'un accident avec un autre véhicule, mon assurance prendra en charge les dégâts matériels pour",
+    "options": {
+      "A": "L'autre véhicule accidenté : oui",
+      "B": "L'autre véhicule accidenté : non",
+      "C": "Mon véhicule : oui",
+      "D": "Mon véhicule : non"
+    },
+    "correct": [
+      "A",
+      "D"
+    ],
+    "explanation": "Avec une assurance responsabilité civile, seuls les dommages causés aux tiers sont remboursés, matériels et corporels. Les dégâts sur mon propre véhicule ne seront pas pris en charge, car je suis responsable de l'accident.",
+    "frame": "525.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "522.0.jpg",
+      "525.0.jpg",
+      "528.0.jpg"
+    ],
+    "window": [
+      507.0,
+      573.0
+    ]
+  },
+  {
+    "ref": "v88q11",
+    "theme": "éclairage-visibilité",
+    "question_text": "Dans cette situation, j'utilise",
+    "options": {
+      "A": "Les feux de brouillard avant",
+      "B": "Les feux de brouillard arrière",
+      "C": "Les feux de route",
+      "D": "Les feux de croisement"
+    },
+    "correct": [
+      "D"
+    ],
+    "explanation": "Je circule de nuit en agglomération éclairée, j'utilise donc les feux de croisement. Il n'y a pas de brouillard, je n'allume donc pas mes feux de brouillard. Notez que de nuit en agglomération éclairée, il est aussi possible d'utiliser ses feux de position.",
+    "frame": "585.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "582.0.jpg",
+      "585.0.jpg",
+      "588.0.jpg"
+    ],
+    "window": [
+      573.0,
+      626.0
+    ]
+  },
+  {
+    "ref": "v88q12",
+    "theme": "signalisation",
+    "question_text": "Dans cette situation",
+    "options": {
+      "A": "Je vais entrer sur une autoroute",
+      "B": "Je vais entrer sur une route à accès réglementé",
+      "C": "Je pourrais y croiser des cyclistes : oui",
+      "D": "Je pourrais y croiser des cyclistes : non"
+    },
+    "correct": [
+      "B",
+      "D"
+    ],
+    "explanation": "La signalisation m'annonce que je vais entrer sur une route à accès réglementé. Ce type de voie n'est autorisé qu'à certaines catégories de véhicules : les cyclistes y sont interdits.",
+    "frame": "645.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "642.0.jpg",
+      "645.0.jpg",
+      "648.0.jpg"
+    ],
+    "window": [
+      626.0,
+      679.0
+    ]
+  },
+  {
+    "ref": "v88q14",
+    "theme": "circulation",
+    "question_text": "Dans cette situation",
+    "options": {
+      "A": "La signalisation autorise le dépassement : oui",
+      "B": "La signalisation autorise le dépassement : non",
+      "C": "Je dépasse : oui",
+      "D": "Je dépasse : non"
+    },
+    "correct": [
+      "A",
+      "D"
+    ],
+    "explanation": "La ligne blanche discontinue au sol autorise le dépassement. Mais un autre véhicule est déjà en train de me dépasser, je reste donc derrière le véhicule qui me précède et j'attends de pouvoir dépasser en toute sécurité.",
+    "frame": "735.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "732.0.jpg",
+      "735.0.jpg",
+      "738.0.jpg"
+    ],
+    "window": [
+      723.0,
+      778.0
+    ]
+  },
+  {
+    "ref": "v88q15",
+    "theme": "piétons",
+    "question_text": "Je cède le passage à ce piéton",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Ce piéton souhaite traverser la rue à un passage piéton sans feu. Dans cette situation, le piéton est prioritaire, je lui cède donc le passage.",
+    "frame": "795.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "792.0.jpg",
+      "795.0.jpg",
+      "798.0.jpg"
+    ],
+    "window": [
+      778.0,
+      815.0
+    ]
+  },
+  {
+    "ref": "v88q16",
+    "theme": "équipements-de-sécurité",
+    "question_text": "Mon enfant de 8 ans peut s'installer à l'avant",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Un enfant de moins de 10 ans doit être installé à l'arrière du véhicule.",
+    "frame": "825.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "822.0.jpg",
+      "825.0.jpg",
+      "828.0.jpg"
+    ],
+    "window": [
+      815.0,
+      851.0
+    ]
+  },
+  {
+    "ref": "v88q17",
+    "theme": "circulation",
+    "question_text": "Un niveau de stress élevé augmente le risque d'accident",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Le stress augmente le risque d'accident car il altère le comportement du conducteur.",
+    "frame": "870.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "867.0.jpg",
+      "870.0.jpg",
+      "873.0.jpg"
+    ],
+    "window": [
+      851.0,
+      887.0
+    ]
+  },
+  {
+    "ref": "v88q19",
+    "theme": "documents",
+    "question_text": "Je vends un véhicule de plus de 4 ans, le contrôle technique",
+    "options": {
+      "A": "Doit dater de moins de 3 mois",
+      "B": "Doit dater de moins de 6 mois",
+      "C": "Doit être réalisé par l'acheteur",
+      "D": "Doit être réalisé par le vendeur"
+    },
+    "correct": [
+      "B",
+      "D"
+    ],
+    "explanation": "En cas de vente d'un véhicule de plus de 4 ans, le dernier contrôle technique doit dater de moins de 6 mois. C'est le vendeur qui doit s'occuper de la réalisation du contrôle technique.",
+    "frame": "960.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "957.0.jpg",
+      "960.0.jpg",
+      "963.0.jpg"
+    ],
+    "window": [
+      940.0,
+      993.0
+    ]
+  },
+  {
+    "ref": "v88q20",
+    "theme": "commandes",
+    "question_text": "Mes clignotants clignotent anormalement rapidement. Cela signifie",
+    "options": {
+      "A": "Que les feux de détresse sont activés",
+      "B": "Qu'une ampoule est grillée",
+      "C": "Que la batterie est faible",
+      "D": "Qu'un pneu est sous-gonflé"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Lorsque les clignotants se mettent à clignoter anormalement vite, cela signale qu'une des ampoules des clignotants est grillée.",
+    "frame": "1020.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1017.0.jpg",
+      "1020.0.jpg",
+      "1023.0.jpg"
+    ],
+    "window": [
+      993.0,
+      1040.0
+    ]
+  },
+  {
+    "ref": "v88q21",
+    "theme": "équipements-de-sécurité",
+    "question_text": "Il est conseillé de faire monter et descendre les enfants de la voiture",
+    "options": {
+      "A": "Côté trottoir",
+      "B": "Côté route",
+      "C": "Peu importe le côté"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Par mesure de sécurité, il est conseillé de toujours faire monter et descendre les enfants côté trottoir.",
+    "frame": "1050.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1047.0.jpg",
+      "1050.0.jpg",
+      "1053.0.jpg"
+    ],
+    "window": [
+      1040.0,
+      1081.0
+    ]
+  },
+  {
+    "ref": "v88q22",
+    "theme": "premiers-secours",
+    "question_text": "Je suis le premier témoin d'un accident. Je dois",
+    "options": {
+      "A": "Protéger la zone de l'accident",
+      "B": "Donner à boire aux victimes",
+      "C": "Alerter les secours",
+      "D": "Essayer de relever les victimes"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Si je suis témoin d'un accident, je dois protéger la zone de l'accident, en installant par exemple le triangle de pré-signalisation, et alerter les secours. Je ne dois pas donner à boire aux victimes et je ne dois surtout pas les déplacer, sauf si un danger réel, immédiat et non contrôlable l'exige.",
+    "frame": "1110.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1107.0.jpg",
+      "1110.0.jpg",
+      "1113.0.jpg"
+    ],
+    "window": [
+      1083.0,
+      1147.0
+    ]
+  },
+  {
+    "ref": "v88q23",
+    "theme": "distances-de-sécurité",
+    "question_text": "Je circule en agglomération. Pour dépasser ce piéton, je dois laisser un intervalle latéral de sécurité d'au minimum",
+    "options": {
+      "A": "0 mètre",
+      "B": "0,5 mètre",
+      "C": "1 mètre",
+      "D": "1,5 mètre"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "Pour dépasser un piéton en agglomération, je dois laisser un intervalle latéral de sécurité d'au minimum 1 mètre. Dans cette situation, je serre à droite pour pouvoir dépasser en toute sécurité.",
+    "frame": "1170.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1167.0.jpg",
+      "1170.0.jpg",
+      "1173.0.jpg"
+    ],
+    "window": [
+      1147.0,
+      1200.0
+    ]
+  },
+  {
+    "ref": "v88q24",
+    "theme": "permis-à-points",
+    "question_text": "Je viens d'obtenir mon permis de conduire. Je dispose d'un capital initial de",
+    "options": {
+      "A": "3 points",
+      "B": "4 points",
+      "C": "6 points",
+      "D": "12 points"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "Lorsque l'on obtient son permis de conduire, celui-ci est crédité de 6 points.",
+    "frame": "1215.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1212.0.jpg",
+      "1215.0.jpg",
+      "1218.0.jpg"
+    ],
+    "window": [
+      1200.0,
+      1244.0
+    ]
+  },
+  {
+    "ref": "v88q26",
+    "theme": "mécanique-entretien",
+    "question_text": "Avec un rapport de vitesse haut, je possède",
+    "options": {
+      "A": "Une faible allure",
+      "B": "Une vive allure",
+      "C": "Une puissance d'accélération réduite",
+      "D": "Une puissance d'accélération élevée"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "explanation": "Avec un rapport de vitesse haut, je possède une vive allure mais une puissance d'accélération réduite. Par exemple, sur autoroute à 130 km/h en 5e, un rapport de vitesse haut, je circule à vive allure mais ma puissance d'accélération est réduite.",
+    "frame": "1320.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1317.0.jpg",
+      "1320.0.jpg",
+      "1350.0.jpg"
+    ],
+    "window": [
+      1296.0,
+      1349.0
+    ]
+  },
+  {
+    "ref": "v88q27",
+    "theme": "écomobilité",
+    "question_text": "Avant un long trajet en voiture électrique, je vérifie l'état de charge des batteries",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Avant d'effectuer un long trajet en voiture électrique, il est important de contrôler la charge des batteries.",
+    "frame": "1362.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1359.0.jpg",
+      "1362.0.jpg",
+      "1365.0.jpg"
+    ],
+    "window": [
+      1349.0,
+      1379.0
+    ]
+  },
+  {
+    "ref": "v88q28",
+    "theme": "chargement",
+    "question_text": "Lors d'un accident, un camion qui possède cette plaque est susceptible",
+    "options": {
+      "A": "De s'enflammer",
+      "B": "D'exploser",
+      "C": "Je dois signaler cette information aux secours : oui",
+      "D": "Je dois signaler cette information aux secours : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Cette plaque indique que le véhicule transporte des liquides inflammables. En cas d'accident, il est important d'indiquer aux secours la présence de cette plaque.",
+    "frame": "1395.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1392.0.jpg",
+      "1395.0.jpg",
+      "1398.0.jpg"
+    ],
+    "window": [
+      1379.0,
+      1438.0
+    ]
+  },
+  {
+    "ref": "v88q29",
+    "theme": "circulation",
+    "question_text": "Je conduis depuis 2 heures consécutives, je fais une pause",
+    "options": {
+      "A": "Dès que possible",
+      "B": "Quand je me sentirai fatigué"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Pour prévenir le risque de somnolence et la baisse de vigilance, je dois faire au minimum une pause d'un quart d'heure toutes les deux heures. Puisque je roule depuis deux heures, je fais donc une pause dès que possible.",
+    "frame": "1455.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1452.0.jpg",
+      "1455.0.jpg",
+      "1485.0.jpg"
+    ],
+    "window": [
+      1438.0,
+      1468.0
+    ]
+  },
+  {
+    "ref": "v88q30",
+    "theme": "cyclistes",
+    "question_text": "Dans cette situation",
+    "options": {
+      "A": "Ces enfants créent une zone d'incertitude : oui",
+      "B": "Ces enfants créent une zone d'incertitude : non",
+      "C": "Je mets le pied devant le frein : oui",
+      "D": "Je mets le pied devant le frein : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Les cyclistes sont des usagers vulnérables car ils n'ont aucune protection en cas de choc. Leur comportement peut être imprévisible, ce qui crée une zone d'incertitude autour d'eux. Je dois donc rester particulièrement vigilant et garder le pied devant le frein pour pouvoir réagir rapidement.",
+    "frame": "1500.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1497.0.jpg",
+      "1500.0.jpg",
+      "1503.0.jpg"
+    ],
+    "window": [
+      1468.0,
+      1534.0
+    ]
+  },
+  {
+    "ref": "v88q31",
+    "theme": "circulation",
+    "question_text": "Chez un conducteur en pleine possession de ses capacités, le temps de réaction moyen est d'environ 1 seconde",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Le temps de réaction est en moyenne d'une seconde lorsque nous conduisons.",
+    "frame": "1560.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1557.0.jpg",
+      "1560.0.jpg",
+      "1563.0.jpg"
+    ],
+    "window": [
+      1534.0,
+      1564.0
+    ]
+  },
+  {
+    "ref": "v88q32",
+    "theme": "stationnement",
+    "question_text": "Un parking relais est un parking prévu pour",
+    "options": {
+      "A": "Le covoiturage",
+      "B": "Faire une course de moins de 30 minutes",
+      "C": "Favoriser l'usage des transports en commun",
+      "D": "Stationner uniquement les véhicules électriques"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "Un parking relais permet de stationner son véhicule à proximité des transports en commun afin d'en faciliter l'utilisation.",
+    "frame": "1590.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1587.0.jpg",
+      "1590.0.jpg",
+      "1593.0.jpg"
+    ],
+    "window": [
+      1564.0,
+      1620.0
+    ]
+  },
+  {
+    "ref": "v88q35",
+    "theme": "commandes",
+    "question_text": "Je m'installe au poste de conduite, je procède au réglage des équipements dans l'ordre suivant",
+    "options": {
+      "A": "Ceinture, siège, rétroviseurs, dossier",
+      "B": "Dossier, rétroviseurs, ceinture, siège",
+      "C": "Rétroviseurs, siège, dossier, ceinture",
+      "D": "Siège, dossier, rétroviseurs, ceinture"
+    },
+    "correct": [
+      "D"
+    ],
+    "explanation": "Le réglage des différents équipements s'effectue dans l'ordre suivant : siège, dossier, rétroviseurs, puis ceinture de sécurité.",
+    "frame": "1740.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1737.0.jpg",
+      "1740.0.jpg",
+      "1743.0.jpg"
+    ],
+    "window": [
+      1678.0,
+      1722.0
+    ]
+  },
+  {
+    "ref": "v88q36",
+    "theme": "mécanique-entretien",
+    "question_text": "La limite à ne pas dépasser pour le bruit de mon véhicule est de",
+    "options": {
+      "A": "54 dB",
+      "B": "74 dB",
+      "C": "94 dB",
+      "D": "114 dB"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Pour être en conformité avec la réglementation, la limite à ne pas dépasser pour le bruit de mon véhicule est de 74 décibels.",
+    "frame": "1785.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1782.0.jpg",
+      "1785.0.jpg",
+      "1830.0.jpg"
+    ],
+    "window": [
+      1722.0,
+      1779.0
+    ]
+  },
+  {
+    "ref": "v88q37",
+    "theme": "distances-de-sécurité",
+    "question_text": "La distance d'arrêt inclut",
+    "options": {
+      "A": "La distance parcourue durant le temps de réaction : oui",
+      "B": "La distance parcourue durant le temps de réaction : non",
+      "C": "La distance de freinage : oui",
+      "D": "La distance de freinage : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "La distance d'arrêt, c'est la distance parcourue durant le temps de réaction, plus la distance de freinage.",
+    "frame": "1848.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1845.0.jpg",
+      "1848.0.jpg",
+      "1851.0.jpg"
+    ],
+    "window": [
+      1779.0,
+      1829.0
+    ]
+  },
+  {
+    "ref": "v88q38",
+    "theme": "distances-de-sécurité",
+    "question_text": "Je circule à 130 km/h",
+    "options": {
+      "A": "Ma distance de sécurité avec le véhicule qui me précède est suffisante : oui",
+      "B": "Ma distance de sécurité avec le véhicule qui me précède est suffisante : non",
+      "C": "Je ralentis : oui",
+      "D": "Je ralentis : non"
+    },
+    "correct": [
+      "A",
+      "D"
+    ],
+    "explanation": "Circulant à 130 km/h, je dois laisser une distance de sécurité avec le véhicule qui me précède d'au moins deux bandes d'arrêt d'urgence. Ici, ma distance de sécurité est suffisante, je n'ai donc pas besoin de ralentir.",
+    "frame": "1890.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1887.0.jpg",
+      "1890.0.jpg",
+      "1893.0.jpg"
+    ],
+    "window": [
+      1829.0,
+      1942.0
+    ]
+  },
+  {
+    "ref": "v88q39",
+    "theme": "éclairage-visibilité",
+    "question_text": "À la sortie d'un tunnel, l'éblouissement perturbe ma vision pendant environ",
+    "options": {
+      "A": "1 seconde",
+      "B": "5 secondes"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "L'éblouissement à la sortie d'un tunnel est un phénomène dangereux, car il perturbe la vision pendant environ cinq secondes.",
+    "frame": "1950.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1947.0.jpg",
+      "1950.0.jpg",
+      "1953.0.jpg"
+    ],
+    "window": [
+      1942.0,
+      1982.0
+    ]
+  },
+  {
+    "ref": "v88q40",
+    "theme": "alcool-stupéfiants",
+    "question_text": "Un verre d'alcool, servi dans un bar, correspond à une alcoolémie d'environ",
+    "options": {
+      "A": "0,1 g/l de sang",
+      "B": "0,25 g/l de sang",
+      "C": "0,5 g/l de sang"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Dans un bar, tous les verres contiennent la même quantité d'alcool pur. Un verre correspond à une alcoolémie d'environ 0,25 gramme par litre de sang.",
+    "frame": "2010.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "2007.0.jpg",
+      "2010.0.jpg",
+      "2013.0.jpg"
+    ],
+    "window": [
+      1982.0,
+      2031.0
+    ]
+  }
+]

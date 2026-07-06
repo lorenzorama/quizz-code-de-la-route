@@ -1,0 +1,101 @@
+[
+  {
+    "ref": "v67q03",
+    "theme": "passage-à-niveau",
+    "question_text": "Si je constate un problème de fonctionnement du passage à niveau, je peux utiliser ce téléphone.",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "En cas de problème à un passage à niveau (véhicule immobilisé sur les voies, barrières fermées trop longtemps ou barrières endommagées), je dois utiliser le téléphone orange d'alerte et d'urgence situé à proximité. Un agent de la SNCF indiquera alors la marche à suivre.",
+    "frame": "108.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "108.0.jpg",
+      "126.0.jpg",
+      "144.0.jpg",
+      "153.0.jpg"
+    ],
+    "window": [
+      108.0,
+      153.0
+    ]
+  },
+  {
+    "ref": "v67q06",
+    "theme": "stationnement",
+    "question_text": "Je suis stationné, je peux descendre immédiatement de mon véhicule.",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Une voiture est en approche derrière moi. Avant d'ouvrir la portière, je dois toujours m'assurer que je ne vais pas gêner un autre usager : j'attends que la voiture passe avant d'ouvrir ma portière.",
+    "frame": "288.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "288.0.jpg",
+      "300.0.jpg",
+      "318.0.jpg"
+    ],
+    "window": [
+      288.0,
+      324.0
+    ]
+  },
+  {
+    "ref": "v67q08",
+    "theme": "écomobilité",
+    "question_text": "Un usager qui circule en trottinette est un usager vulnérable, car",
+    "options": {
+      "A": "Son faible gabarit le rend moins visible : oui",
+      "B": "Son faible gabarit le rend moins visible : non",
+      "C": "Son équilibre est précaire : oui",
+      "D": "Son équilibre est précaire : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Les usagers circulant en trottinette sont considérés comme des usagers vulnérables. En effet, leur faible gabarit les rend moins détectables, ils ne possèdent pas de carrosserie pour les protéger et leur équilibre est précaire.",
+    "frame": "396.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "396.0.jpg",
+      "411.0.jpg",
+      "420.0.jpg"
+    ],
+    "window": [
+      411.0,
+      432.0
+    ]
+  },
+  {
+    "ref": "v67q09",
+    "theme": "stationnement",
+    "question_text": "Ce véhicule est stationné correctement",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "La route est à double sens de circulation. Ce véhicule est mal stationné, car il est interdit de stationner à contre-sens de la circulation.",
+    "frame": "432.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "432.0.jpg",
+      "450.0.jpg"
+    ],
+    "window": [
+      432.0,
+      468.0
+    ]
+  }
+]

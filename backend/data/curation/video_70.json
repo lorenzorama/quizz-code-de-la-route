@@ -1,0 +1,165 @@
+[
+  {
+    "ref": "v70q02",
+    "theme": "vitesse",
+    "question_text": "La signalisation indique",
+    "options": {
+      "A": "La présence d'un radar fixe",
+      "B": "La présence d'un radar mobile",
+      "C": "La vitesse est limitée à 70 km/h uniquement aux abords du radar : oui",
+      "D": "La vitesse est limitée à 70 km/h uniquement aux abords du radar : non"
+    },
+    "correct": [
+      "A",
+      "D"
+    ],
+    "explanation": "Ce panneau signale un radar fixe. La limitation à 70 km/h ne s'applique pas uniquement aux abords du radar : je dois continuer de rouler au maximum à cette vitesse même une fois le radar passé.",
+    "frame": "108.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "78.0.jpg",
+      "81.0.jpg",
+      "84.0.jpg",
+      "90.0.jpg",
+      "96.0.jpg",
+      "102.0.jpg",
+      "108.0.jpg",
+      "111.0.jpg",
+      "114.0.jpg",
+      "120.0.jpg"
+    ],
+    "window": [
+      75.0,
+      130.0
+    ]
+  },
+  {
+    "ref": "v70q03",
+    "theme": "signalisation",
+    "question_text": "Je circule sur",
+    "options": {
+      "A": "Une autoroute",
+      "B": "Une route départementale",
+      "C": "Une route nationale",
+      "D": "Une route métropolitaine"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "Le cartouche affiché au-dessus des panneaux de direction indique la mention N104, ce qui signifie que je circule sur une route nationale.",
+    "frame": "135.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "132.0.jpg",
+      "135.0.jpg",
+      "138.0.jpg",
+      "141.0.jpg",
+      "144.0.jpg",
+      "147.0.jpg",
+      "150.0.jpg",
+      "156.0.jpg",
+      "162.0.jpg",
+      "165.0.jpg"
+    ],
+    "window": [
+      130.0,
+      176.0
+    ]
+  },
+  {
+    "ref": "v70q04",
+    "theme": "priorités",
+    "question_text": "Ici",
+    "options": {
+      "A": "Je circule sur une route à caractère prioritaire : oui",
+      "B": "Je circule sur une route à caractère prioritaire : non",
+      "C": "Je serai prioritaire à la prochaine intersection uniquement : oui",
+      "D": "Je serai prioritaire à la prochaine intersection uniquement : non"
+    },
+    "correct": [
+      "A",
+      "D"
+    ],
+    "explanation": "Le panneau de priorité m'indique que tant que je reste sur cette route, et sauf indication contraire, je circule sur une route à caractère prioritaire. Cette priorité ne se limite donc pas à la prochaine intersection.",
+    "frame": "183.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "177.0.jpg",
+      "180.0.jpg",
+      "183.0.jpg",
+      "186.0.jpg",
+      "189.0.jpg",
+      "192.0.jpg",
+      "195.0.jpg",
+      "198.0.jpg",
+      "201.0.jpg",
+      "204.0.jpg"
+    ],
+    "window": [
+      176.0,
+      224.0
+    ]
+  },
+  {
+    "ref": "v70q05",
+    "theme": "éclairage-visibilité",
+    "question_text": "Je viens de croiser un autre véhicule. Je repasse immédiatement en feux de route",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Les feux de route doivent être remplacés par des feux de croisement en présence d'un autre véhicule, afin d'éviter d'éblouir les autres conducteurs. Une fois le véhicule croisé, je peux rallumer mes feux de route, notamment hors agglomération sur une chaussée non éclairée.",
+    "frame": "228.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "225.0.jpg",
+      "228.0.jpg",
+      "231.0.jpg",
+      "234.0.jpg",
+      "237.0.jpg",
+      "240.0.jpg",
+      "243.0.jpg",
+      "246.0.jpg",
+      "249.0.jpg",
+      "252.0.jpg"
+    ],
+    "window": [
+      224.0,
+      277.0
+    ]
+  },
+  {
+    "ref": "v70q07",
+    "theme": "commandes",
+    "question_text": "Sur le tableau de bord, les voyants verts ou bleus indiquent les feux qui sont allumés",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Sur le tableau de bord, les voyants de couleur verte ou bleue indiquent effectivement quels feux du véhicule sont actuellement allumés.",
+    "frame": "342.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "339.0.jpg",
+      "342.0.jpg",
+      "345.0.jpg",
+      "348.0.jpg",
+      "351.0.jpg",
+      "354.0.jpg",
+      "357.0.jpg",
+      "360.0.jpg",
+      "363.0.jpg",
+      "366.0.jpg"
+    ],
+    "window": [
+      339.0,
+      374.0
+    ]
+  }
+]

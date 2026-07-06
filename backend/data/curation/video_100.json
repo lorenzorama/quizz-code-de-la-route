@@ -1,0 +1,102 @@
+[
+  {
+    "ref": "v100q09",
+    "theme": "écomobilité",
+    "question_text": "Lors d'un embouteillage",
+    "options": {
+      "A": "La pollution de l'air ambiant est importante : oui",
+      "B": "La pollution de l'air ambiant est importante : non",
+      "C": "Le système Stop & Start permet de réduire les émissions polluantes : oui",
+      "D": "Le système Stop & Start permet de réduire les émissions polluantes : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "En cas d'embouteillage, de nombreux véhicules sont présents, souvent avec le moteur allumé, ce qui génère de la pollution atmosphérique. Le système Stop & Start éteint automatiquement le moteur à l'arrêt, ce qui permet de réduire les nuisances sonores, d'économiser du carburant et de diminuer les émissions polluantes.",
+    "frame": "477.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "441.0.jpg",
+      "459.0.jpg",
+      "477.0.jpg"
+    ],
+    "window": [
+      412.0,
+      486.0
+    ]
+  },
+  {
+    "ref": "v100q19",
+    "theme": "équipements-de-sécurité",
+    "question_text": "Je peux installer mon bébé, dos à la route, sur le siège avant",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Un bébé peut être transporté à l'avant dans un siège adapté, dos à la route. Dans ce cas, il est très important de désactiver l'airbag côté passager.",
+    "frame": "1029.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1011.0.jpg",
+      "1029.0.jpg",
+      "1044.0.jpg"
+    ],
+    "window": [
+      1011.0,
+      1052.0
+    ]
+  },
+  {
+    "ref": "v100q28",
+    "theme": "mécanique-entretien",
+    "question_text": "La pression des pneus doit être contrôlée au moins",
+    "options": {
+      "A": "Une fois par semaine",
+      "B": "Une fois par mois",
+      "C": "Une fois par an"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "La pression des pneus doit être contrôlée au moins une fois par mois : c'est une information à retenir pour l'examen du code.",
+    "frame": "1509.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1497.0.jpg",
+      "1509.0.jpg",
+      "1518.0.jpg"
+    ],
+    "window": [
+      1492.0,
+      1521.0
+    ]
+  },
+  {
+    "ref": "v100q29",
+    "theme": "signalisation",
+    "question_text": "La signalisation est",
+    "options": {
+      "A": "Temporaire",
+      "B": "Permanente"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Le marquage au sol est de couleur jaune, ce qui indique que la signalisation est temporaire.",
+    "frame": "1554.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1548.0.jpg",
+      "1554.0.jpg",
+      "1566.0.jpg"
+    ],
+    "window": [
+      1541.0,
+      1576.0
+    ]
+  }
+]

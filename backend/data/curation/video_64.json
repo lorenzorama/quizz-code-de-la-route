@@ -1,0 +1,79 @@
+[
+  {
+    "ref": "v64q06",
+    "theme": "priorités",
+    "question_text": "Dans cette situation, l'usager qui bénéficie de la priorité de passage est",
+    "options": {
+      "A": "Le motard",
+      "B": "Le cycliste"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Lorsqu'un usager souhaite tourner à droite sur une route croisant une bande cyclable, il doit céder le passage aux usagers qui s'y trouvent. Ainsi, le cycliste bénéficie de la priorité de passage sur le motard.",
+    "frame": "294.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "288.0.jpg",
+      "294.0.jpg",
+      "306.0.jpg"
+    ],
+    "window": [
+      285.0,
+      333.0
+    ]
+  },
+  {
+    "ref": "v64q07",
+    "theme": "piétons",
+    "question_text": "Les usagers que l'on considère comme vulnérables sont",
+    "options": {
+      "A": "Les piétons",
+      "B": "Les cyclistes",
+      "C": "Les conducteurs de voiture sans permis",
+      "D": "Les motards"
+    },
+    "correct": [
+      "A",
+      "B",
+      "D"
+    ],
+    "explanation": "Les usagers vulnérables sont ceux qui ne possèdent pas de carrosserie pour les protéger en cas d'accident. Il peut s'agir des piétons, des cyclistes ou encore des motards.",
+    "frame": "348.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "336.0.jpg",
+      "348.0.jpg",
+      "360.0.jpg"
+    ],
+    "window": [
+      333.0,
+      384.0
+    ]
+  },
+  {
+    "ref": "v64q10",
+    "theme": "passage-à-niveau",
+    "question_text": "Je circule en agglomération. La signalisation m'indique que je vais croiser un passage à niveau dans",
+    "options": {
+      "A": "16 mètres",
+      "B": "50 mètres",
+      "C": "150 mètres"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "La signalisation annonce la présence d'un passage à niveau à signal automatique. En agglomération, trois traits rouges correspondent à une distance de 50 mètres, donc un trait rouge correspond à environ 16 mètres. Hors agglomération, trois traits rouges correspondent à 150 mètres, soit 50 mètres par trait.",
+    "frame": "480.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "480.0.jpg",
+      "492.0.jpg",
+      "504.0.jpg"
+    ],
+    "window": [
+      474.0,
+      528.0
+    ]
+  }
+]

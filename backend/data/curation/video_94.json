@@ -1,0 +1,180 @@
+[
+  {
+    "ref": "v94q01",
+    "theme": "piétons",
+    "question_text": "Dans une zone de rencontre, les piétons sont prioritaires (excepté sur les tramways)",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Dans une zone de rencontre, les piétons sont prioritaires sur tous les autres usagers, à l'exception des tramways. Le conducteur doit donc rouler au pas et être particulièrement vigilant vis-à-vis des piétons.",
+    "frame": "30.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "21.0.jpg",
+      "30.0.jpg",
+      "42.0.jpg",
+      "48.0.jpg"
+    ],
+    "window": [
+      21.0,
+      57.0
+    ]
+  },
+  {
+    "ref": "v94q03",
+    "theme": "priorités",
+    "question_text": "Dans cette situation, la voiture qui passe en première est la voiture",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "En l'absence de panneau de signalisation, la règle de la priorité à droite s'applique. La voiture A doit laisser passer la voiture B qui est à sa droite, et la voiture B doit elle-même laisser passer la voiture C qui est à sa droite. La voiture qui passe en première est donc la voiture C, suivie de la B puis de la A.",
+    "frame": "132.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "132.0.jpg",
+      "168.0.jpg",
+      "186.0.jpg"
+    ],
+    "window": [
+      129.0,
+      195.0
+    ]
+  },
+  {
+    "ref": "v94q04",
+    "theme": "mécanique-entretien",
+    "question_text": "L'AFU",
+    "options": {
+      "A": "Est un système permettant d'éviter la perte de contrôle du véhicule en virage : oui",
+      "B": "Est un système permettant d'éviter la perte de contrôle du véhicule en virage : non",
+      "C": "Est obligatoirement combinée à l'ABS : oui",
+      "D": "Est obligatoirement combinée à l'ABS : non"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "explanation": "L'AFU, l'aide au freinage d'urgence, permet d'amplifier au maximum le freinage du conducteur et est obligatoirement combinée à l'ABS afin d'éviter le blocage des roues lors du freinage. En revanche, elle ne permet pas d'éviter la perte de contrôle du véhicule en virage.",
+    "frame": "198.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "198.0.jpg",
+      "210.0.jpg",
+      "222.0.jpg"
+    ],
+    "window": [
+      198.0,
+      255.0
+    ]
+  },
+  {
+    "ref": "v94q05",
+    "theme": "écomobilité",
+    "question_text": "Un parking relais est un parking prévu pour",
+    "options": {
+      "A": "Le covoiturage : oui",
+      "B": "Le covoiturage : non",
+      "C": "Réduire la pollution : oui",
+      "D": "Réduire la pollution : non"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "explanation": "Un parking relais permet d'utiliser plusieurs modes de transport pour effectuer un déplacement : par exemple, se rendre en voiture jusqu'à la gare, stationner son véhicule au parking relais, puis prendre le train vers le centre-ville. Il permet ainsi de réduire l'encombrement des villes ainsi que la pollution, mais il n'est pas prévu pour faire du covoiturage.",
+    "frame": "258.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "258.0.jpg",
+      "282.0.jpg",
+      "312.0.jpg"
+    ],
+    "window": [
+      258.0,
+      315.0
+    ]
+  },
+  {
+    "ref": "v94q08",
+    "theme": "équipements-de-sécurité",
+    "question_text": "À la place du conducteur, avant de sortir du véhicule et pour ouvrir la portière il est préférable d'utiliser",
+    "options": {
+      "A": "La main gauche",
+      "B": "La main droite"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Avant de sortir du véhicule, il est très important de vérifier qu'aucun usager ne s'approche, qu'il s'agisse d'une voiture, d'un piéton, d'une moto ou d'un vélo. Prendre l'habitude d'ouvrir la portière avec la main droite (la main opposée à la portière) oblige à se contorsionner et donc à mieux regarder ce qui se passe autour du véhicule.",
+    "frame": "438.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "438.0.jpg",
+      "456.0.jpg"
+    ],
+    "window": [
+      438.0,
+      474.0
+    ]
+  },
+  {
+    "ref": "v94q09",
+    "theme": "signalisation",
+    "question_text": "Je suis bien placé",
+    "options": {
+      "A": "Pour aller tout droit : oui",
+      "B": "Pour aller tout droit : non",
+      "C": "Pour aller à droite : oui",
+      "D": "Pour aller à droite : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Les flèches peintes au sol indiquent que la voie de circulation empruntée est affectée aux usagers souhaitant continuer tout droit ou tourner à droite. Je suis donc bien placé pour aller tout droit ou pour tourner à droite.",
+    "frame": "477.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "477.0.jpg",
+      "504.0.jpg"
+    ],
+    "window": [
+      477.0,
+      528.0
+    ]
+  },
+  {
+    "ref": "v94q10",
+    "theme": "permis-à-points",
+    "question_text": "Je viens d'avoir mon permis de conduire. Je dispose de",
+    "options": {
+      "A": "4 points",
+      "B": "6 points",
+      "C": "8 points",
+      "D": "12 points"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Suite à l'obtention du permis de conduire, celui-ci est crédité de 6 points.",
+    "frame": "540.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "540.0.jpg",
+      "570.0.jpg"
+    ],
+    "window": [
+      531.0,
+      572.0
+    ]
+  }
+]

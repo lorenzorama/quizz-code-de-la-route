@@ -1,0 +1,160 @@
+[
+  {
+    "ref": "v59q01",
+    "theme": "commandes",
+    "question_text": "Ce conducteur est bien installé",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Ce conducteur est mal installé au poste de conduite : il est beaucoup trop proche du volant. Ses coudes sont trop pliés et ses épaules touchent le dossier du siège au lieu d'avoir les bras légèrement fléchis.",
+    "frame": "18.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "12.0.jpg",
+      "15.0.jpg",
+      "18.0.jpg",
+      "24.0.jpg"
+    ],
+    "window": [
+      9.0,
+      33.0
+    ]
+  },
+  {
+    "ref": "v59q02",
+    "theme": "mécanique-entretien",
+    "question_text": "Je possède un véhicule qui a été mis en circulation il y a plus de 4 ans, je dois effectuer un contrôle technique",
+    "options": {
+      "A": "Tous les ans",
+      "B": "Tous les deux ans",
+      "C": "Tous les trois ans",
+      "D": "Tous les quatre ans"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Si mon véhicule a été mis en circulation il y a plus de 4 ans, je dois faire contrôler son état technique tous les deux ans.",
+    "frame": "48.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "36.0.jpg",
+      "48.0.jpg",
+      "60.0.jpg",
+      "72.0.jpg",
+      "84.0.jpg"
+    ],
+    "window": [
+      36.0,
+      108.0
+    ]
+  },
+  {
+    "ref": "v59q03",
+    "theme": "vitesse",
+    "question_text": "La visibilité est inférieure à 50 mètres. Je peux rouler au maximum à",
+    "options": {
+      "A": "30 km/h",
+      "B": "50 km/h",
+      "C": "60 km/h",
+      "D": "70 km/h"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Lorsque la visibilité est inférieure à 50 mètres, en raison du brouillard par exemple, je ne dois pas dépasser 50 km/h.",
+    "frame": "108.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "108.0.jpg",
+      "120.0.jpg",
+      "132.0.jpg",
+      "144.0.jpg"
+    ],
+    "window": [
+      108.0,
+      150.0
+    ]
+  },
+  {
+    "ref": "v59q04",
+    "theme": "priorités",
+    "question_text": "La voiture devant moi a enclenché ses feux de détresse. Je suis autorisé à dépasser",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Dans cette situation, je suis autorisé à dépasser le véhicule arrêté devant moi qui a mis ses feux de détresse, car aucun autre usager n'arrive en sens inverse. Je mets mon clignotant et je dépasse.",
+    "frame": "192.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "180.0.jpg",
+      "192.0.jpg",
+      "204.0.jpg"
+    ],
+    "window": [
+      180.0,
+      213.0
+    ]
+  },
+  {
+    "ref": "v59q09",
+    "theme": "vitesse",
+    "question_text": "Sauf indication contraire, la vitesse sur cette route est limitée à",
+    "options": {
+      "A": "70 km/h",
+      "B": "80 km/h",
+      "C": "90 km/h",
+      "D": "110 km/h"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Je circule sur une route bidirectionnelle hors agglomération, sans séparateur central. Sauf indication contraire, ma vitesse est limitée à 80 km/h.",
+    "frame": "420.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "420.0.jpg",
+      "432.0.jpg",
+      "444.0.jpg",
+      "456.0.jpg"
+    ],
+    "window": [
+      414.0,
+      468.0
+    ]
+  },
+  {
+    "ref": "v59q10",
+    "theme": "passage-à-niveau",
+    "question_text": "En cas d'incendie dans un tunnel, je peux",
+    "options": {
+      "A": "Me réfugier dans une niche de sécurité : oui",
+      "B": "Me réfugier dans une niche de sécurité : non",
+      "C": "Emprunter une issue de secours : oui",
+      "D": "Emprunter une issue de secours : non"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "explanation": "Il faut noter que les niches de sécurité ne sont pas des issues de secours : elles ne protègent pas de la fumée ni de la chaleur. En cas d'incendie dans un tunnel, je dois emprunter une issue de secours.",
+    "frame": "492.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "492.0.jpg",
+      "504.0.jpg",
+      "516.0.jpg"
+    ],
+    "window": [
+      486.0,
+      534.0
+    ]
+  }
+]

@@ -1,0 +1,891 @@
+[
+  {
+    "ref": "v90q01",
+    "theme": "distances-de-sécurité",
+    "question_text": "À 130 km/h, le champ de vision est d'environ",
+    "options": {
+      "A": "30°",
+      "B": "45°",
+      "C": "90°",
+      "D": "180°"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "À 130 km/h, le champ de vision du conducteur se réduit fortement et n'est plus que d'environ 30 degrés. Plus la vitesse augmente, plus le champ de vision périphérique se rétrécit, ce qui réduit la capacité à détecter les dangers sur les côtés.",
+    "frame": "108.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "0.0.jpg",
+      "60.0.jpg",
+      "90.0.jpg",
+      "108.0.jpg"
+    ],
+    "window": [
+      0.0,
+      110.0
+    ]
+  },
+  {
+    "ref": "v90q02",
+    "theme": "mécanique-entretien",
+    "question_text": "Le choix des pneus a un impact sur la consommation en carburant",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Le choix des pneus a effectivement un impact sur la consommation de carburant. Pour aider les conducteurs dans leur choix, il existe une étiquette énergie, comme celle que l'on trouve sur un réfrigérateur ou une télévision, indiquant la consommation et les émissions de CO2.",
+    "frame": "117.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "111.0.jpg",
+      "117.0.jpg",
+      "150.0.jpg",
+      "153.0.jpg"
+    ],
+    "window": [
+      110.0,
+      153.0
+    ]
+  },
+  {
+    "ref": "v90q03",
+    "theme": "passage-à-niveau",
+    "question_text": "En présence d'une barrière de passage à niveau endommagée, il est possible d'utiliser ce téléphone pour signaler l'anomalie",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "En cas de problème à un passage à niveau, je peux utiliser le téléphone d'urgence situé à proximité pour signaler l'anomalie. Ce téléphone permet aux services de secours de localiser précisément le passage à niveau concerné afin d'intervenir rapidement.",
+    "frame": "174.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "153.0.jpg",
+      "174.0.jpg",
+      "198.0.jpg"
+    ],
+    "window": [
+      153.0,
+      204.0
+    ]
+  },
+  {
+    "ref": "v90q04",
+    "theme": "stationnement",
+    "question_text": "Sur cet emplacement, je peux",
+    "options": {
+      "A": "Stationner : oui",
+      "B": "Stationner : non",
+      "C": "M'arrêter : oui",
+      "D": "M'arrêter : non"
+    },
+    "correct": [
+      "B",
+      "D"
+    ],
+    "explanation": "Ce marquage au sol indique un emplacement réservé, notamment un arrêt de bus. Il est interdit d'y stationner ou de s'y arrêter, même pour une courte durée, afin de ne pas gêner la circulation des bus.",
+    "frame": "222.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "204.0.jpg",
+      "222.0.jpg",
+      "246.0.jpg",
+      "249.0.jpg"
+    ],
+    "window": [
+      204.0,
+      250.0
+    ]
+  },
+  {
+    "ref": "v90q05",
+    "theme": "priorités",
+    "question_text": "Je bénéficie de la priorité de passage",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Ce panneau indique que je dois céder le passage aux usagers venant en sens inverse, notamment dans les passages étroits ou les zones à circulation alternée. Je ne bénéficie donc pas de la priorité de passage.",
+    "frame": "258.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "255.0.jpg",
+      "258.0.jpg",
+      "285.0.jpg"
+    ],
+    "window": [
+      253.0,
+      288.0
+    ]
+  },
+  {
+    "ref": "v90q06",
+    "theme": "permis-à-points",
+    "question_text": "Je viens d'obtenir mon permis de conduire. Je possède",
+    "options": {
+      "A": "4 points",
+      "B": "6 points",
+      "C": "9 points",
+      "D": "12 points"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Le capital initial de points pour un jeune conducteur titulaire du permis probatoire est de 6 points. Ce capital augmente progressivement chaque année sans infraction, jusqu'à atteindre les 12 points au bout de trois ans (ou deux ans avec la conduite accompagnée).",
+    "frame": "294.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "288.0.jpg",
+      "294.0.jpg",
+      "330.0.jpg"
+    ],
+    "window": [
+      288.0,
+      331.0
+    ]
+  },
+  {
+    "ref": "v90q07",
+    "theme": "signalisation",
+    "question_text": "Je circule sur",
+    "options": {
+      "A": "Une route métropolitaine",
+      "B": "Une route départementale",
+      "C": "Une route nationale",
+      "D": "Une autoroute"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Le cartouche situé au-dessus du panneau de direction indique le type de route. Ici, la lettre D signifie que je circule sur une route départementale.",
+    "frame": "336.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "333.0.jpg",
+      "336.0.jpg",
+      "378.0.jpg"
+    ],
+    "window": [
+      331.0,
+      379.0
+    ]
+  },
+  {
+    "ref": "v90q08",
+    "theme": "piétons",
+    "question_text": "Je dois plus particulièrement faire attention à la zone",
+    "options": {
+      "A": "A",
+      "B": "B"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Le bus est à l'arrêt. Les passagers qui viennent de descendre du bus risquent de traverser la route, même en l'absence de passage piéton. Je dois particulièrement faire attention à la zone B, d'autant plus que ma visibilité est fortement gênée par la présence du bus.",
+    "frame": "384.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "381.0.jpg",
+      "384.0.jpg",
+      "423.0.jpg"
+    ],
+    "window": [
+      379.0,
+      426.0
+    ]
+  },
+  {
+    "ref": "v90q10",
+    "theme": "stationnement",
+    "question_text": "Je peux sortir de mon véhicule immédiatement",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Avant de pouvoir sortir de mon véhicule, je dois vérifier que ma sortie ne va gêner aucun autre usager. Dans cette situation, je peux voir dans le rétroviseur qu'une voiture arrive. Je dois donc la laisser passer avant de pouvoir sortir de mon véhicule.",
+    "frame": "492.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "483.0.jpg",
+      "492.0.jpg",
+      "525.0.jpg"
+    ],
+    "window": [
+      483.0,
+      527.0
+    ]
+  },
+  {
+    "ref": "v90q11",
+    "theme": "alcool-stupéfiants",
+    "question_text": "En tant que conducteur avec un permis probatoire, la limite d'alcoolémie à ne pas dépasser est de",
+    "options": {
+      "A": "0 g/l de sang",
+      "B": "0,20 g/l de sang",
+      "C": "0,50 g/l de sang"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Pour un conducteur titulaire d'un permis probatoire, la limite d'alcoolémie à ne pas dépasser est de 0,20 gramme par litre de sang, contre 0,50 gramme par litre pour un conducteur en permis définitif.",
+    "frame": "540.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "531.0.jpg",
+      "540.0.jpg",
+      "576.0.jpg"
+    ],
+    "window": [
+      529.0,
+      578.0
+    ]
+  },
+  {
+    "ref": "v90q12",
+    "theme": "éclairage-visibilité",
+    "question_text": "Les feux de croisement éclairent",
+    "options": {
+      "A": "Plus loin à gauche",
+      "B": "Plus loin à droite"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Afin d'éviter d'éblouir les usagers venant en face, les feux de croisement éclairent plus loin à droite qu'à gauche. Cette dissymétrie permet de mieux voir le bord de la route tout en limitant l'éblouissement des véhicules venant en sens inverse.",
+    "frame": "591.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "582.0.jpg",
+      "591.0.jpg",
+      "612.0.jpg"
+    ],
+    "window": [
+      580.0,
+      615.0
+    ]
+  },
+  {
+    "ref": "v90q13",
+    "theme": "panneaux",
+    "question_text": "Ce panneau m'autorise à dépasser un camion",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Ce panneau interdit le dépassement uniquement aux véhicules de transport de marchandises dont le poids est supérieur à 3,5 tonnes. Ainsi, avec un véhicule de tourisme, je suis autorisé à dépasser un camion même en présence de ce panneau.",
+    "frame": "636.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "618.0.jpg",
+      "636.0.jpg",
+      "660.0.jpg"
+    ],
+    "window": [
+      617.0,
+      662.0
+    ]
+  },
+  {
+    "ref": "v90q14",
+    "theme": "priorités",
+    "question_text": "À la prochaine intersection, je devrai céder le passage",
+    "options": {
+      "A": "À gauche : oui",
+      "B": "À gauche : non",
+      "C": "À droite : oui",
+      "D": "À droite : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Ce panneau annonce la présence d'un cédez-le-passage dans 100 mètres. Je devrai donc céder le passage aux usagers venant à la fois de gauche et de droite à la prochaine intersection.",
+    "frame": "684.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "666.0.jpg",
+      "684.0.jpg",
+      "708.0.jpg",
+      "711.0.jpg"
+    ],
+    "window": [
+      665.0,
+      711.0
+    ]
+  },
+  {
+    "ref": "v90q15",
+    "theme": "circulation",
+    "question_text": "La circulation des motards en inter-files est autorisée lorsque",
+    "options": {
+      "A": "La circulation est fluide : oui",
+      "B": "La circulation est fluide : non",
+      "C": "La circulation ne dépasse pas les 50 km/h : oui",
+      "D": "La circulation ne dépasse pas les 50 km/h : non"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "explanation": "La circulation des motards en inter-files est autorisée lorsque la circulation est établie en file ininterrompue sur toutes les voies et que les véhicules ne circulent pas à plus de 50 km/h. Une circulation fluide ne correspond donc pas à ces conditions.",
+    "frame": "732.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "714.0.jpg",
+      "732.0.jpg",
+      "765.0.jpg"
+    ],
+    "window": [
+      713.0,
+      766.0
+    ]
+  },
+  {
+    "ref": "v90q16",
+    "theme": "éclairage-visibilité",
+    "question_text": "En cas de neige, je peux allumer mes feux",
+    "options": {
+      "A": "De croisement",
+      "B": "De brouillard avant",
+      "C": "De brouillard arrière",
+      "D": "De position seuls"
+    },
+    "correct": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "En cas de chute de neige, j'allume obligatoirement mes feux de croisement. Si mon véhicule possède des feux de brouillard avant et arrière, je peux également les allumer en cas de chute de neige importante pour améliorer ma visibilité.",
+    "frame": "786.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "771.0.jpg",
+      "786.0.jpg",
+      "816.0.jpg"
+    ],
+    "window": [
+      769.0,
+      817.0
+    ]
+  },
+  {
+    "ref": "v90q19",
+    "theme": "priorités",
+    "question_text": "Les véhicules faisant partie des véhicules d'urgence prioritaires sont",
+    "options": {
+      "A": "Les pompiers",
+      "B": "Les ambulances privées",
+      "C": "La police",
+      "D": "Les véhicules de la mairie"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Les pompiers, la police ou encore le SAMU font partie des véhicules d'urgence prioritaires. En règle générale, les ambulances privées bénéficient de facilités de passage mais ne sont pas des véhicules d'urgence prioritaires. Les véhicules de la mairie ne sont pas non plus considérés comme prioritaires.",
+    "frame": "921.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "912.0.jpg",
+      "921.0.jpg",
+      "966.0.jpg"
+    ],
+    "window": [
+      910.0,
+      966.0
+    ]
+  },
+  {
+    "ref": "v90q20",
+    "theme": "éclairage-visibilité",
+    "question_text": "Mon véhicule est équipé de pneus été. En période hivernale, je suis en règle si j'ai à bord des chaînes à neige",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Ce panneau oblige à posséder des chaînes, des chaussettes à neige ou des pneus hiver. Je suis donc en règle si je possède des chaînes à neige à bord, même sans pneus hiver.",
+    "frame": "975.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "969.0.jpg",
+      "975.0.jpg",
+      "1011.0.jpg"
+    ],
+    "window": [
+      969.0,
+      1012.0
+    ]
+  },
+  {
+    "ref": "v90q21",
+    "theme": "piétons",
+    "question_text": "Les usagers vulnérables sont",
+    "options": {
+      "A": "Les piétons",
+      "B": "Les utilisateurs de trottinettes électriques",
+      "C": "Les automobilistes en agglomération",
+      "D": "Les motards"
+    },
+    "correct": [
+      "A",
+      "B",
+      "D"
+    ],
+    "explanation": "Les usagers vulnérables sont les usagers qui ne possèdent pas de carrosserie pour les protéger en cas d'accident. Il peut s'agir des piétons, des utilisateurs de trottinette électrique ou encore des motards.",
+    "frame": "1017.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1014.0.jpg",
+      "1017.0.jpg",
+      "1065.0.jpg"
+    ],
+    "window": [
+      1014.0,
+      1065.0
+    ]
+  },
+  {
+    "ref": "v90q22",
+    "theme": "équipements-de-sécurité",
+    "question_text": "Ce conducteur a bien mis sa ceinture de sécurité",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Pour assurer une protection optimale, une ceinture de sécurité doit être bien ajustée sur l'épaule et le bassin. Ici, elle est mal mise car elle est vrillée.",
+    "frame": "1074.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1071.0.jpg",
+      "1074.0.jpg",
+      "1107.0.jpg"
+    ],
+    "window": [
+      1069.0,
+      1107.0
+    ]
+  },
+  {
+    "ref": "v90q23",
+    "theme": "équipements-de-sécurité",
+    "question_text": "Je transporte un enfant de 12 ans dans ma voiture. Pour lui, le port de la ceinture est",
+    "options": {
+      "A": "Optionnel",
+      "B": "Obligatoire",
+      "C": "Je risque une amende s'il ne porte pas sa ceinture : oui",
+      "D": "Je risque une amende s'il ne porte pas sa ceinture : non"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "explanation": "Le port de la ceinture est obligatoire pour tous les passagers. C'est le conducteur qui est responsable des passagers mineurs. S'il transporte un mineur non attaché, il est responsable et risque une amende.",
+    "frame": "1113.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1110.0.jpg",
+      "1113.0.jpg",
+      "1161.0.jpg"
+    ],
+    "window": [
+      1109.0,
+      1161.0
+    ]
+  },
+  {
+    "ref": "v90q24",
+    "theme": "distances-de-sécurité",
+    "question_text": "Sur l'autoroute, je peux trouver une borne d'appel d'urgence tous les",
+    "options": {
+      "A": "2 km",
+      "B": "5 kilomètres",
+      "C": "10 kilomètres"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Sur l'autoroute, il existe une borne d'appel d'urgence tous les 2 kilomètres. Ces bornes orange permettent de contacter rapidement les services de secours en cas de besoin.",
+    "frame": "1167.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1164.0.jpg",
+      "1167.0.jpg",
+      "1203.0.jpg"
+    ],
+    "window": [
+      1164.0,
+      1203.0
+    ]
+  },
+  {
+    "ref": "v90q25",
+    "theme": "équipements-de-sécurité",
+    "question_text": "L'A.F.U permet",
+    "options": {
+      "A": "De freiner de manière autonome",
+      "B": "De renforcer un freinage d'urgence",
+      "C": "D'empêcher le blocage des roues"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "L'AFU, pour Aide au Freinage d'Urgence, permet de renforcer un freinage d'urgence, ce qui permet d'atteindre très rapidement la pression de freinage maximale en cas de besoin.",
+    "frame": "1209.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1206.0.jpg",
+      "1209.0.jpg",
+      "1248.0.jpg"
+    ],
+    "window": [
+      1205.0,
+      1249.0
+    ]
+  },
+  {
+    "ref": "v90q27",
+    "theme": "mécanique-entretien",
+    "question_text": "Des pneus sous-gonflés améliorent l'adhérence",
+    "options": {
+      "A": "Sur une route sèche : oui",
+      "B": "Sur une route sèche : non",
+      "C": "Sur une route mouillée : oui",
+      "D": "Sur une route mouillée : non"
+    },
+    "correct": [
+      "B",
+      "D"
+    ],
+    "explanation": "Des pneus sous-gonflés ne permettent jamais d'améliorer l'adhérence, que ce soit sur route sèche ou mouillée. Rouler avec des pneus sous-gonflés est un comportement dangereux qui augmente le risque d'éclatement.",
+    "frame": "1305.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1302.0.jpg",
+      "1305.0.jpg",
+      "1344.0.jpg"
+    ],
+    "window": [
+      1300.0,
+      1346.0
+    ]
+  },
+  {
+    "ref": "v90q28",
+    "theme": "assurance-constat",
+    "question_text": "Je peux utiliser mon constat amiable en cas d'accident en Italie",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Le constat amiable est un document européen : même si la langue change, le format reste le même. Je peux donc utiliser mon constat amiable dans tous les pays de l'Union européenne, y compris en Italie.",
+    "frame": "1356.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1350.0.jpg",
+      "1356.0.jpg",
+      "1389.0.jpg"
+    ],
+    "window": [
+      1349.0,
+      1391.0
+    ]
+  },
+  {
+    "ref": "v90q29",
+    "theme": "alcool-stupéfiants",
+    "question_text": "Les médicaments pouvant présenter un risque pour la conduite sont uniquement délivrés sur ordonnance",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Qu'ils soient délivrés avec ou sans ordonnance, certains médicaments peuvent présenter des risques pour la conduite. Il faut toujours consulter le pictogramme présent sur les boîtes de médicaments avant de prendre le volant.",
+    "frame": "1398.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1395.0.jpg",
+      "1398.0.jpg",
+      "1437.0.jpg"
+    ],
+    "window": [
+      1393.0,
+      1437.0
+    ]
+  },
+  {
+    "ref": "v90q30",
+    "theme": "écomobilité",
+    "question_text": "Avec une voiture diesel, pour réduire ma consommation en carburant, je change de vitesse dès",
+    "options": {
+      "A": "1000 tours/minute",
+      "B": "2000 tours/minute",
+      "C": "3000 tours/minute",
+      "D": "3500 tours/minute"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Pour réduire ma consommation en carburant avec une voiture diesel, je change de vitesse dès 2000 tours par minute. Un régime moteur plus élevé consomme davantage de carburant inutilement.",
+    "frame": "1443.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1440.0.jpg",
+      "1443.0.jpg",
+      "1488.0.jpg"
+    ],
+    "window": [
+      1439.0,
+      1488.0
+    ]
+  },
+  {
+    "ref": "v90q31",
+    "theme": "équipements-de-sécurité",
+    "question_text": "Je peux installer mon bébé, dos à la route, sur le siège avant",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Les bébés peuvent être transportés à l'avant dans des sièges adaptés, dos à la route. Dans ce cas, il est très important de désactiver l'airbag du côté passager afin d'éviter tout risque en cas de déclenchement de l'airbag.",
+    "frame": "1494.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1491.0.jpg",
+      "1494.0.jpg",
+      "1530.0.jpg"
+    ],
+    "window": [
+      1490.0,
+      1531.0
+    ]
+  },
+  {
+    "ref": "v90q32",
+    "theme": "assurance-constat",
+    "question_text": "Le constat amiable doit être rempli",
+    "options": {
+      "A": "Sur le lieu de l'accident",
+      "B": "À son domicile"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Le constat amiable doit être rempli sur le lieu de l'accident, et de façon à ne pas gêner la circulation. Il ne faut pas attendre d'être rentré chez soi pour le compléter.",
+    "frame": "1536.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1533.0.jpg",
+      "1536.0.jpg",
+      "1569.0.jpg"
+    ],
+    "window": [
+      1533.0,
+      1570.0
+    ]
+  },
+  {
+    "ref": "v90q33",
+    "theme": "mécanique-entretien",
+    "question_text": "Je fais le tour de mon véhicule avant de prendre le volant",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Faire le tour du véhicule prend peu de temps et est très efficace pour contrôler qu'un pneu n'est pas dégonflé ou pour repérer la présence d'un obstacle à proximité avant de démarrer.",
+    "frame": "1578.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1572.0.jpg",
+      "1578.0.jpg",
+      "1611.0.jpg"
+    ],
+    "window": [
+      1572.0,
+      1611.0
+    ]
+  },
+  {
+    "ref": "v90q35",
+    "theme": "circulation",
+    "question_text": "L'habitude d'un trajet quotidien peut entraîner",
+    "options": {
+      "A": "Un sentiment de sécurité : oui",
+      "B": "Un sentiment de sécurité : non",
+      "C": "Une diminution de la vigilance : oui",
+      "D": "Une diminution de la vigilance : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Trop bien connaître un trajet que l'on fait régulièrement peut entraîner un sentiment de sécurité et de facilité. Le conducteur peut alors sous-estimer les risques et perdre en vigilance.",
+    "frame": "1674.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1668.0.jpg",
+      "1674.0.jpg",
+      "1716.0.jpg"
+    ],
+    "window": [
+      1667.0,
+      1716.0
+    ]
+  },
+  {
+    "ref": "v90q36",
+    "theme": "circulation",
+    "question_text": "Un conducteur expérimenté identifie plus rapidement les indices importants qu'un jeune conducteur",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Face à une grande quantité d'informations sur la route, l'expérience permet d'identifier plus rapidement les indices importants. Un conducteur expérimenté trie plus efficacement ce qui mérite son attention.",
+    "frame": "1725.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1719.0.jpg",
+      "1725.0.jpg",
+      "1758.0.jpg"
+    ],
+    "window": [
+      1719.0,
+      1759.0
+    ]
+  },
+  {
+    "ref": "v90q37",
+    "theme": "permis",
+    "question_text": "Pour obtenir le permis B, l'acuité visuelle pour l'ensemble des deux yeux doit être d'au moins",
+    "options": {
+      "A": "3/10",
+      "B": "5/10",
+      "C": "7/10",
+      "D": "9/10"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Pour pouvoir conduire avec le permis B, l'acuité visuelle de l'ensemble des deux yeux doit être d'au moins 5/10.",
+    "frame": "1764.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1761.0.jpg",
+      "1764.0.jpg",
+      "1806.0.jpg",
+      "1809.0.jpg"
+    ],
+    "window": [
+      1761.0,
+      1808.0
+    ]
+  },
+  {
+    "ref": "v90q38",
+    "theme": "distances-de-sécurité",
+    "question_text": "À 70 km/h, je dois garder une distance de sécurité d'au moins",
+    "options": {
+      "A": "21 mètres",
+      "B": "28 mètres",
+      "C": "42 mètres",
+      "D": "73 mètres"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "Pour calculer rapidement la distance de sécurité, je prends le chiffre des dizaines de la vitesse. Ici, pour 70 km/h, ce chiffre est 7. Je multiplie ensuite ce chiffre par 6 : 7 fois 6 font 42. À 70 km/h, ma distance de sécurité doit donc être d'au moins 42 mètres.",
+    "frame": "1815.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1812.0.jpg",
+      "1815.0.jpg",
+      "1869.0.jpg"
+    ],
+    "window": [
+      1810.0,
+      1871.0
+    ]
+  },
+  {
+    "ref": "v90q39",
+    "theme": "permis",
+    "question_text": "Un véhicule peut être aménagé pour permettre à une personne en situation de handicap de conduire",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Si une personne en situation de handicap présente des difficultés pour conduire, le véhicule peut être adapté, par exemple avec une boule au volant ou un embrayage automatique, afin de rendre la conduite possible.",
+    "frame": "1878.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1875.0.jpg",
+      "1878.0.jpg",
+      "1917.0.jpg"
+    ],
+    "window": [
+      1873.0,
+      1918.0
+    ]
+  },
+  {
+    "ref": "v90q40",
+    "theme": "commandes",
+    "question_text": "Je peux me servir uniquement des rétroviseurs pour manœuvrer en marche arrière",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Quand je manœuvre en marche arrière, je dois aussi regarder derrière et autour de moi. Je ne peux pas me contenter des rétroviseurs, car ils ne montrent pas tout et laissent des angles morts.",
+    "frame": "1926.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1920.0.jpg",
+      "1926.0.jpg",
+      "1962.0.jpg"
+    ],
+    "window": [
+      1918.0,
+      1962.0
+    ]
+  }
+]

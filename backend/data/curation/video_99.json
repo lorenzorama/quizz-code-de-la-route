@@ -1,0 +1,153 @@
+[
+  {
+    "ref": "v99q10",
+    "theme": "équipements-de-sécurité",
+    "question_text": "En cas de panne sur l'autoroute, arrêté sur la bande d'arrêt d'urgence, je dois",
+    "options": {
+      "A": "Mettre un gilet de haute visibilité",
+      "B": "Placer le triangle de présignalisation",
+      "C": "Me placer derrière la barrière de sécurité"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "En cas de panne sur la bande d'arrêt d'urgence, je dois mettre un gilet de haute visibilité et me mettre à l'abri derrière la barrière de sécurité, avant d'alerter les secours si besoin.",
+    "frame": "531.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "525.0.jpg",
+      "528.0.jpg",
+      "531.0.jpg",
+      "534.0.jpg"
+    ],
+    "window": [
+      519.0,
+      556.0
+    ]
+  },
+  {
+    "ref": "v99q25",
+    "theme": "mécanique-entretien",
+    "question_text": "Lors du contrôle de la pression des pneus, je contrôle idéalement",
+    "options": {
+      "A": "Les pneus avant",
+      "B": "Les pneus avant et arrière",
+      "C": "Tous les pneus incluant la roue de secours"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "La pression des pneus est importante pour la sécurité routière, il est donc indispensable de réaliser ce contrôle régulièrement, au moins une fois par mois. Lors de ce contrôle, il faut vérifier la pression des pneus avant, arrière, ainsi que celle de la roue de secours.",
+    "frame": "1329.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1326.0.jpg",
+      "1329.0.jpg",
+      "1332.0.jpg"
+    ],
+    "window": [
+      1324.0,
+      1386.0
+    ]
+  },
+  {
+    "ref": "v99q26",
+    "theme": "distances-de-sécurité",
+    "question_text": "Mon véhicule dispose de l'AFU, je peux réduire mes distances de sécurité",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "L'AFU (assistance au freinage d'urgence) aide à optimiser la puissance de freinage en cas d'urgence, mais elle ne dispense pas de respecter les règles de sécurité. Les distances de sécurité doivent toujours être respectées, et la vitesse adaptée aux conditions de circulation.",
+    "frame": "1395.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1392.0.jpg",
+      "1395.0.jpg",
+      "1398.0.jpg"
+    ],
+    "window": [
+      1392.0,
+      1437.0
+    ]
+  },
+  {
+    "ref": "v99q28",
+    "theme": "commandes",
+    "question_text": "Je vais circuler dans une descente dangereuse",
+    "options": {
+      "A": "Je freine légèrement en continu",
+      "B": "Je freine par intermittence et j'utilise le frein moteur"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Dans une descente dangereuse à forte pente, je rétrograde pour utiliser le frein moteur et je freine par intermittence, afin de ne pas faire surchauffer les freins.",
+    "frame": "1509.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1506.0.jpg",
+      "1509.0.jpg",
+      "1512.0.jpg"
+    ],
+    "window": [
+      1504.0,
+      1546.0
+    ]
+  },
+  {
+    "ref": "v99q29",
+    "theme": "signalisation",
+    "question_text": "La descente dangereuse",
+    "options": {
+      "A": "Se situe à 8,5 km : Oui",
+      "B": "Se situe à 8,5 km : Non",
+      "C": "S'étend sur 8,5 km : Oui",
+      "D": "S'étend sur 8,5 km : Non"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "explanation": "La signalisation annonce la présence d'une descente dangereuse qui s'étend sur 8,5 km, et non qui se situe à 8,5 km.",
+    "frame": "1554.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1551.0.jpg",
+      "1554.0.jpg",
+      "1557.0.jpg"
+    ],
+    "window": [
+      1550.0,
+      1597.0
+    ]
+  },
+  {
+    "ref": "v99q40",
+    "theme": "cyclistes",
+    "question_text": "Cet usager est autorisé à circuler dans cette voie de circulation",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "La voie de droite est une voie réservée aux cyclistes. Il est donc interdit à ce motard d'y circuler.",
+    "frame": "2106.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "2103.0.jpg",
+      "2106.0.jpg",
+      "2109.0.jpg"
+    ],
+    "window": [
+      2102.0,
+      2146.0
+    ]
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "ref": "v71q02",
+    "theme": "distances-de-sécurité",
+    "question_text": "À 90 km/h, je parcours en 1 seconde",
+    "options": {
+      "A": "18 mètres",
+      "B": "27 mètres",
+      "C": "45 mètres"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Pour estimer la distance parcourue en une seconde, je multiplie le chiffre des dizaines de la vitesse par 3. À 90 km/h, le chiffre des dizaines est 9, et 9 fois 3 font 27. Je parcours donc 27 mètres en une seconde à cette vitesse.",
+    "frame": "84.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "60.0.jpg",
+      "84.0.jpg",
+      "90.0.jpg",
+      "108.0.jpg"
+    ],
+    "window": [
+      60.0,
+      114.0
+    ]
+  },
+  {
+    "ref": "v71q06",
+    "theme": "distances-de-sécurité",
+    "question_text": "La distance d'arrêt est composée de",
+    "options": {
+      "A": "La distance parcourue pendant le temps de réaction : oui",
+      "B": "La distance parcourue pendant le temps de réaction : non",
+      "C": "La distance parcourue pendant le temps de freinage : oui",
+      "D": "La distance parcourue pendant le temps de freinage : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "La distance d'arrêt est composée de la distance parcourue pendant le temps de réaction, c'est-à-dire le temps pour le conducteur de percevoir le danger et d'appuyer sur la pédale de frein, additionnée à la distance parcourue pendant le temps de freinage, le temps que met le véhicule à s'arrêter une fois freiné.",
+    "frame": "300.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "288.0.jpg",
+      "300.0.jpg",
+      "312.0.jpg",
+      "336.0.jpg"
+    ],
+    "window": [
+      288.0,
+      345.0
+    ]
+  },
+  {
+    "ref": "v71q08",
+    "theme": "vitesse",
+    "question_text": "Plus un virage est serré, plus la force centrifuge est importante",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Plus un virage est serré, plus la force centrifuge est importante. Cette force centrifuge est celle qui attire le véhicule vers le côté opposé du virage.",
+    "frame": "444.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "432.0.jpg",
+      "444.0.jpg",
+      "456.0.jpg"
+    ],
+    "window": [
+      430.0,
+      461.0
+    ]
+  },
+  {
+    "ref": "v71q09",
+    "theme": "passage-à-niveau",
+    "question_text": "Dans un tunnel, en cas d'accident devant moi",
+    "options": {
+      "A": "Je fais demi-tour",
+      "B": "Je préviens les secours depuis un poste d'appel d'urgence",
+      "C": "Je préviens les secours avec mon téléphone portable"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Dans un tunnel, je ne dois jamais faire demi-tour en cas d'accident. Je dois toujours prévenir les secours en utilisant un poste d'appel d'urgence prévu à cet effet.",
+    "frame": "468.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "462.0.jpg",
+      "468.0.jpg",
+      "480.0.jpg",
+      "492.0.jpg"
+    ],
+    "window": [
+      462.0,
+      510.0
+    ]
+  }
+]

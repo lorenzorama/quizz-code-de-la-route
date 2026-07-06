@@ -1,0 +1,230 @@
+[
+  {
+    "ref": "v79q01",
+    "theme": "priorités",
+    "question_text": "Dans cette situation",
+    "options": {
+      "A": "Je m'arrête",
+      "B": "Je ralentis et je passe"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Le feu est orange et j'ai largement le temps de m'arrêter en toute sécurité. Dans cette situation, l'arrêt est obligatoire.",
+    "frame": "24.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "0.0.jpg",
+      "24.0.jpg",
+      "30.0.jpg",
+      "36.0.jpg",
+      "42.0.jpg",
+      "48.0.jpg",
+      "54.0.jpg"
+    ],
+    "window": [
+      0.0,
+      58.0
+    ]
+  },
+  {
+    "ref": "v79q02",
+    "theme": "mécanique-entretien",
+    "question_text": "Ce voyant vient de s'allumer sur mon tableau de bord",
+    "options": {
+      "A": "Je m'arrête immédiatement à droite",
+      "B": "Je m'arrête à la prochaine borne SOS",
+      "C": "Je continue"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "Ce voyant s'allume pour m'indiquer qu'il ne me reste plus beaucoup de carburant. Je continue jusqu'à la prochaine station-service.",
+    "frame": "63.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "63.0.jpg",
+      "66.0.jpg",
+      "69.0.jpg",
+      "72.0.jpg",
+      "78.0.jpg",
+      "84.0.jpg",
+      "90.0.jpg"
+    ],
+    "window": [
+      61.0,
+      95.0
+    ]
+  },
+  {
+    "ref": "v79q03",
+    "theme": "priorités",
+    "question_text": "À un carrefour à sens giratoire",
+    "options": {
+      "A": "Je dois obligatoirement marquer un temps d'arrêt : oui",
+      "B": "Je dois obligatoirement marquer un temps d'arrêt : non",
+      "C": "Les indices les plus importants se trouvent à gauche",
+      "D": "Les indices les plus importants se trouvent à droite"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "explanation": "Les véhicules déjà engagés dans un carrefour à sens giratoire arrivent de la gauche ; j'y suis donc particulièrement attentif. Ils sont prioritaires, mais je ne suis pas obligé de marquer un temps d'arrêt si je peux m'engager sans les gêner.",
+    "frame": "117.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "99.0.jpg",
+      "102.0.jpg",
+      "108.0.jpg",
+      "117.0.jpg",
+      "123.0.jpg",
+      "135.0.jpg",
+      "153.0.jpg",
+      "159.0.jpg"
+    ],
+    "window": [
+      97.0,
+      162.0
+    ]
+  },
+  {
+    "ref": "v79q04",
+    "theme": "cyclistes",
+    "question_text": "Je dépasse ce cycliste immédiatement",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "En agglomération, le code de la route impose de laisser une distance latérale de sécurité d'au moins 1,50 m pour dépasser. Ici, des voitures arrivent en face, il est donc impossible de dépasser en toute sécurité en respectant cette distance. J'attends pour dépasser.",
+    "frame": "165.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "165.0.jpg",
+      "168.0.jpg",
+      "174.0.jpg",
+      "180.0.jpg",
+      "192.0.jpg",
+      "207.0.jpg"
+    ],
+    "window": [
+      164.0,
+      212.0
+    ]
+  },
+  {
+    "ref": "v79q05",
+    "theme": "équipements-de-sécurité",
+    "question_text": "Si sa taille le permet, je suis autorisé à transporter mon enfant de 10 ans à l'avant",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "À partir de 10 ans et si sa taille le permet, l'enfant peut s'installer à l'avant du véhicule.",
+    "frame": "219.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "219.0.jpg",
+      "225.0.jpg",
+      "231.0.jpg",
+      "240.0.jpg",
+      "252.0.jpg",
+      "261.0.jpg"
+    ],
+    "window": [
+      212.0,
+      268.0
+    ]
+  },
+  {
+    "ref": "v79q06",
+    "theme": "passage-à-niveau",
+    "question_text": "Ce panneau annonce un passage à niveau",
+    "options": {
+      "A": "Sans barrières",
+      "B": "À barrières manuelles",
+      "C": "À barrières automatiques"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "La signalisation indique la présence d'un passage à niveau sans barrières.",
+    "frame": "285.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "270.0.jpg",
+      "276.0.jpg",
+      "282.0.jpg",
+      "285.0.jpg",
+      "294.0.jpg",
+      "300.0.jpg"
+    ],
+    "window": [
+      270.0,
+      309.0
+    ]
+  },
+  {
+    "ref": "v79q08",
+    "theme": "éclairage-visibilité",
+    "question_text": "Je suis le dernier véhicule de ma voie, je dois",
+    "options": {
+      "A": "Faire un appel lumineux",
+      "B": "Allumer mes feux de détresse",
+      "C": "Klaxonner"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Lorsque la circulation ralentit fortement et que je suis le dernier véhicule de ma file, j'allume mes feux de détresse pour prévenir les usagers arrivant derrière moi.",
+    "frame": "357.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "348.0.jpg",
+      "354.0.jpg",
+      "357.0.jpg",
+      "366.0.jpg",
+      "375.0.jpg",
+      "384.0.jpg"
+    ],
+    "window": [
+      348.0,
+      392.0
+    ]
+  },
+  {
+    "ref": "v79q09",
+    "theme": "mécanique-entretien",
+    "question_text": "Le niveau sonore d'un véhicule se mesure",
+    "options": {
+      "A": "Sous le capot",
+      "B": "Dans l'habitacle",
+      "C": "À la sortie du pot d'échappement"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "Le niveau sonore d'un véhicule se mesure à la sortie du pot d'échappement.",
+    "frame": "396.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "396.0.jpg",
+      "402.0.jpg",
+      "408.0.jpg",
+      "414.0.jpg",
+      "420.0.jpg",
+      "426.0.jpg",
+      "432.0.jpg"
+    ],
+    "window": [
+      394.0,
+      433.0
+    ]
+  }
+]

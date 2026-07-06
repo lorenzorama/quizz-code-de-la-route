@@ -1,0 +1,993 @@
+[
+  {
+    "ref": "v60q01",
+    "theme": "commandes",
+    "question_text": "Je peux conduire avec des écouteurs",
+    "options": {
+      "A": "Pour écouter de la musique : oui",
+      "B": "Pour écouter de la musique : non",
+      "C": "Pour téléphoner : oui",
+      "D": "Pour téléphoner : non"
+    },
+    "correct": [
+      "B",
+      "D"
+    ],
+    "explanation": "L'usage du kit mains libres ou des écouteurs est strictement interdit en conduisant. La technologie Bluetooth intégrée au véhicule est la seule solution autorisée pour téléphoner en conduisant.",
+    "frame": "36.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "36.0.jpg",
+      "39.0.jpg",
+      "42.0.jpg",
+      "45.0.jpg",
+      "48.0.jpg",
+      "51.0.jpg"
+    ],
+    "window": [
+      34.0,
+      78.0
+    ]
+  },
+  {
+    "ref": "v60q02",
+    "theme": "priorités",
+    "question_text": "Je circule plus vite que le véhicule devant moi",
+    "options": {
+      "A": "Je dépasse",
+      "B": "Je reste dans ma voie"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Dans cette situation, la fin du créneau de dépassement et les flèches de rabattement m'indiquent que je n'ai plus le temps nécessaire pour dépasser ce groupe de véhicules. Je reste donc dans ma voie.",
+    "frame": "84.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "81.0.jpg",
+      "84.0.jpg",
+      "87.0.jpg",
+      "90.0.jpg",
+      "93.0.jpg"
+    ],
+    "window": [
+      81.0,
+      120.0
+    ]
+  },
+  {
+    "ref": "v60q03",
+    "theme": "vitesse",
+    "question_text": "Le respect de la limitation de vitesse à 110 km/h est",
+    "options": {
+      "A": "Obligatoire",
+      "B": "Facultatif"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "La limitation de vitesse à 110 km/h, présente sur ce panneau à message variable, doit être obligatoirement respectée. En effet, les panneaux à message variable prévalent sur les panneaux de signalisation fixes.",
+    "frame": "168.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "126.0.jpg",
+      "144.0.jpg",
+      "168.0.jpg"
+    ],
+    "window": [
+      125.0,
+      174.0
+    ]
+  },
+  {
+    "ref": "v60q04",
+    "theme": "équipements-de-sécurité",
+    "question_text": "Pour plus de sécurité, il est préférable que",
+    "options": {
+      "A": "Le passager le plus petit s'installe au milieu : oui",
+      "B": "Le passager le plus petit s'installe au milieu : non",
+      "C": "Le passager le plus grand s'installe à l'avant : oui",
+      "D": "Le passager le plus grand s'installe à l'avant : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Pour plus de visibilité vers l'arrière, il est important que le passager le plus petit prenne la place du milieu. Il faut donc essayer de placer les passagers les plus grands sur les côtés ou bien à l'avant du véhicule.",
+    "frame": "228.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "195.0.jpg",
+      "210.0.jpg",
+      "228.0.jpg"
+    ],
+    "window": [
+      173.0,
+      226.0
+    ]
+  },
+  {
+    "ref": "v60q05",
+    "theme": "cyclistes",
+    "question_text": "Dans cette situation, je peux dépasser cette cycliste",
+    "options": {
+      "A": "Sans chevaucher la ligne continue : oui",
+      "B": "Sans chevaucher la ligne continue : non",
+      "C": "En chevauchant la ligne continue : oui",
+      "D": "En chevauchant la ligne continue : non"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "explanation": "Il est en principe interdit de franchir ou de chevaucher une ligne continue pour dépasser. Cependant, il existe une exception pour dépasser un usager vulnérable : le chevauchement de la ligne blanche est autorisé. Ici, afin de laisser l'intervalle latéral réglementaire de 1,5 m, je suis dans l'obligation de chevaucher la ligne continue si j'effectue ce dépassement.",
+    "frame": "294.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "231.0.jpg",
+      "276.0.jpg",
+      "285.0.jpg",
+      "294.0.jpg"
+    ],
+    "window": [
+      228.0,
+      288.0
+    ]
+  },
+  {
+    "ref": "v60q06",
+    "theme": "circulation",
+    "question_text": "La circulation est",
+    "options": {
+      "A": "À sens unique",
+      "B": "À double sens"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Les lignes blanches discontinues du côté gauche et droit de la chaussée m'indiquent que je circule sur une route à double sens de circulation.",
+    "frame": "297.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "297.0.jpg",
+      "300.0.jpg"
+    ],
+    "window": [
+      288.0,
+      300.0
+    ]
+  },
+  {
+    "ref": "v60q07",
+    "theme": "mécanique-entretien",
+    "question_text": "Le dernier contrôle technique de ce véhicule est",
+    "options": {
+      "A": "Favorable",
+      "B": "Défavorable"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Cette étiquette nous indique le résultat d'un contrôle technique favorable. En effet, la lettre A indique « admis », alors que la lettre S indiquerait « sursis ».",
+    "frame": "360.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "300.0.jpg",
+      "336.0.jpg",
+      "360.0.jpg",
+      "375.0.jpg"
+    ],
+    "window": [
+      300.0,
+      377.0
+    ]
+  },
+  {
+    "ref": "v60q08",
+    "theme": "commandes",
+    "question_text": "Pour vérifier l'absence d'obstacle autour de mon véhicule, je fais le tour",
+    "options": {
+      "A": "Après un moment de stationnement",
+      "B": "Lorsque je viens tout juste de me stationner",
+      "C": "Après avoir déposé un passager"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Avant de reprendre son véhicule et de se mettre en route, des vérifications simples et rapides sont préconisées pour éviter les mauvaises surprises et s'assurer de partir dans de bonnes conditions. Ces vérifications doivent être faites après un certain moment de stationnement.",
+    "frame": "378.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "378.0.jpg",
+      "402.0.jpg",
+      "420.0.jpg"
+    ],
+    "window": [
+      377.0,
+      431.0
+    ]
+  },
+  {
+    "ref": "v60q09",
+    "theme": "commandes",
+    "question_text": "Pour contrôler un angle mort, je dois effectuer",
+    "options": {
+      "A": "Un seul long contrôle",
+      "B": "Plusieurs rapides contrôles"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Si le conducteur ne tourne pas la tête, tout l'environnement n'est pas couvert par la vue directe ni par les rétroviseurs : on appelle ces zones les angles morts. Pour contrôler un angle mort, je dois tourner la tête et effectuer plusieurs rapides contrôles.",
+    "frame": "543.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "432.0.jpg",
+      "462.0.jpg",
+      "480.0.jpg"
+    ],
+    "window": [
+      431.0,
+      482.0
+    ]
+  },
+  {
+    "ref": "v60q10",
+    "theme": "cyclistes",
+    "question_text": "Je circule derrière des cyclistes. Je dois faire attention à",
+    "options": {
+      "A": "Leur absence de visibilité vers l'arrière : oui",
+      "B": "Leur absence de visibilité vers l'arrière : non",
+      "C": "Leur absence de feux : oui",
+      "D": "Leur absence de feux : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "La zone d'incertitude d'un cycliste se situe devant lui et sur les côtés : un vélo peut avancer et tourner, mais il ne peut pas reculer. En circulant à proximité de cyclistes, je dois être particulièrement vigilant au fait qu'ils ne possèdent pas de visibilité vers l'arrière ni de feux pour signaler un changement de direction.",
+    "frame": "543.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "483.0.jpg",
+      "510.0.jpg",
+      "543.0.jpg"
+    ],
+    "window": [
+      482.0,
+      543.0
+    ]
+  },
+  {
+    "ref": "v60q11",
+    "theme": "vitesse",
+    "question_text": "J'active mon régulateur de vitesse",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Le régulateur est adapté à une conduite impliquant de maintenir une vitesse constante sur une longue distance et ne nécessitant pas de freiner souvent. Or, je circule en agglomération et j'approche d'un ralentisseur : l'activation du régulateur de vitesse n'est pas adaptée à cette situation.",
+    "frame": "564.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "546.0.jpg",
+      "564.0.jpg",
+      "588.0.jpg"
+    ],
+    "window": [
+      543.0,
+      592.0
+    ]
+  },
+  {
+    "ref": "v60q12",
+    "theme": "éclairage-visibilité",
+    "question_text": "Dans cette situation, je dois faire attention au vent latéral",
+    "options": {
+      "A": "Venant de gauche",
+      "B": "Venant de droite"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Ici, je dois faire particulièrement attention au vent latéral car je circule dans une zone particulièrement exposée au vent : je suis sur un pont. De plus, le panneau m'indique la force et la direction du vent : un vent fort provenant de droite.",
+    "frame": "612.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "600.0.jpg",
+      "612.0.jpg",
+      "630.0.jpg"
+    ],
+    "window": [
+      599.0,
+      648.0
+    ]
+  },
+  {
+    "ref": "v60q13",
+    "theme": "éclairage-visibilité",
+    "question_text": "Le voyant qui doit être allumé au tableau de bord est le",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Le voyant qui doit être allumé au tableau de bord est le voyant B. En effet, il fait nuit et je circule en agglomération non éclairée : les feux de route sont particulièrement adaptés à la situation.",
+    "frame": "651.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "651.0.jpg",
+      "675.0.jpg",
+      "696.0.jpg"
+    ],
+    "window": [
+      650.0,
+      698.0
+    ]
+  },
+  {
+    "ref": "v60q14",
+    "theme": "priorités",
+    "question_text": "Je circule en agglomération",
+    "options": {
+      "A": "Je vais rencontrer une intersection dans 50 m",
+      "B": "Je vais rencontrer une intersection dans 150 m",
+      "C": "Je bénéficierai de la priorité de passage : oui",
+      "D": "Je bénéficierai de la priorité de passage : non"
+    },
+    "correct": [
+      "B",
+      "D"
+    ],
+    "explanation": "La signalisation m'indique que je vais rencontrer une intersection dans 150 m. Ce panneau est un panneau de « cédez le passage » : je ne bénéficierai donc pas de la priorité.",
+    "frame": "753.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "702.0.jpg",
+      "720.0.jpg",
+      "753.0.jpg"
+    ],
+    "window": [
+      701.0,
+      753.0
+    ]
+  },
+  {
+    "ref": "v60q15",
+    "theme": "distances-de-sécurité",
+    "question_text": "Dans cette situation",
+    "options": {
+      "A": "Je circule en feux de croisement",
+      "B": "Je circule en feux de route",
+      "C": "L'intervalle de sécurité avec le véhicule qui me précède est suffisant : oui",
+      "D": "L'intervalle de sécurité avec le véhicule qui me précède est suffisant : non"
+    },
+    "correct": [
+      "A",
+      "D"
+    ],
+    "explanation": "Il est obligatoire d'allumer ses feux de croisement dans un tunnel. De plus, certains tunnels sont équipés de balises bleues pour indiquer aux usagers la distance de sécurité minimale à respecter : si un tunnel est équipé d'un tel équipement, l'intervalle qui sépare les véhicules doit être d'au moins deux balises. Ici, je suis donc trop près du véhicule devant moi.",
+    "frame": "810.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "756.0.jpg",
+      "786.0.jpg",
+      "810.0.jpg"
+    ],
+    "window": [
+      753.0,
+      831.0
+    ]
+  },
+  {
+    "ref": "v60q16",
+    "theme": "piétons",
+    "question_text": "Dans cette situation",
+    "options": {
+      "A": "Je m'arrête",
+      "B": "Je ralentis et je passe"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Des piétons sont déjà engagés sur le passage piéton et une famille à droite souhaite traverser. Dans cette situation, je m'arrête pour céder le passage aux piétons.",
+    "frame": "852.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "831.0.jpg",
+      "852.0.jpg",
+      "855.0.jpg"
+    ],
+    "window": [
+      831.0,
+      856.0
+    ]
+  },
+  {
+    "ref": "v60q17",
+    "theme": "piétons",
+    "question_text": "Dans cette situation",
+    "options": {
+      "A": "Je ralentis",
+      "B": "Je maintiens mon allure",
+      "C": "Je mets le pied devant le frein"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Un véhicule est arrêté sur la chaussée : à tout moment, un piéton peut surgir devant lui. J'anticipe donc, je ralentis et je place mon pied devant le frein pour pouvoir m'arrêter rapidement si besoin.",
+    "frame": "876.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "858.0.jpg",
+      "876.0.jpg",
+      "900.0.jpg"
+    ],
+    "window": [
+      856.0,
+      904.0
+    ]
+  },
+  {
+    "ref": "v60q18",
+    "theme": "permis",
+    "question_text": "Une moto de 125 cm3 peut être conduite par",
+    "options": {
+      "A": "Un conducteur de 16 ans : oui",
+      "B": "Un conducteur de 16 ans : non",
+      "C": "Le titulaire d'un permis B ayant suivi une formation supplémentaire : oui",
+      "D": "Le titulaire d'un permis B ayant suivi une formation supplémentaire : non"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "explanation": "Il est possible de conduire une moto de 125 cm3 si l'on possède le permis moto, ou si l'on a le permis B depuis au moins deux ans et que l'on a suivi une formation pratique de 7 heures.",
+    "frame": "930.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "906.0.jpg",
+      "930.0.jpg",
+      "954.0.jpg"
+    ],
+    "window": [
+      904.0,
+      961.0
+    ]
+  },
+  {
+    "ref": "v60q19",
+    "theme": "signalisation",
+    "question_text": "Ces balises signalent",
+    "options": {
+      "A": "Une intersection",
+      "B": "Un virage",
+      "C": "Un obstacle",
+      "D": "La délimitation de la chaussée"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Ces balises permettent de délimiter le virage en soulignant sa courbe pour le rendre plus visible.",
+    "frame": "978.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "963.0.jpg",
+      "978.0.jpg",
+      "999.0.jpg"
+    ],
+    "window": [
+      961.0,
+      1006.0
+    ]
+  },
+  {
+    "ref": "v60q20",
+    "theme": "commandes",
+    "question_text": "Dans un véhicule à boîte automatique, la marche avant correspond à la position",
+    "options": {
+      "A": "P",
+      "B": "N",
+      "C": "R",
+      "D": "D"
+    },
+    "correct": [
+      "D"
+    ],
+    "explanation": "Dans un véhicule à boîte automatique, la marche avant correspond à la position D, qui signifie « drive ». La lettre R correspond à la marche arrière, P signifie « parking » et N correspond au point mort.",
+    "frame": "1059.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1008.0.jpg",
+      "1035.0.jpg",
+      "1059.0.jpg"
+    ],
+    "window": [
+      1006.0,
+      1058.0
+    ]
+  },
+  {
+    "ref": "v60q21",
+    "theme": "distances-de-sécurité",
+    "question_text": "Je circule à 90 km/h",
+    "options": {
+      "A": "Ma distance de sécurité doit être d'au moins 44 mètres",
+      "B": "Ma distance de sécurité doit être d'au moins 54 mètres",
+      "C": "Ici, ma distance de sécurité est suffisante",
+      "D": "Ici, ma distance de sécurité est insuffisante"
+    },
+    "correct": [
+      "B",
+      "D"
+    ],
+    "explanation": "À 90 km/h, la distance de sécurité doit être d'au moins 9 fois 6, soit 54 mètres. Pour connaître la distance de sécurité, il faut multiplier par 6 le chiffre des dizaines de la vitesse : ici 9 fois 6 égale 54. Je circule donc beaucoup trop près du véhicule qui me précède et je dois ralentir.",
+    "frame": "1119.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1059.0.jpg",
+      "1089.0.jpg",
+      "1119.0.jpg"
+    ],
+    "window": [
+      1058.0,
+      1146.0
+    ]
+  },
+  {
+    "ref": "v60q22",
+    "theme": "distances-de-sécurité",
+    "question_text": "Dans cette situation",
+    "options": {
+      "A": "Je maintiens l'allure",
+      "B": "Je ralentis",
+      "C": "Je serre à gauche"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "explanation": "Un véhicule d'intervention est arrêté sur la voie de droite. Si je n'adapte pas ma vitesse, j'augmente le risque d'accident : je ralentis donc et je serre à gauche afin de limiter les risques.",
+    "frame": "1173.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1146.0.jpg",
+      "1173.0.jpg"
+    ],
+    "window": [
+      1146.0,
+      1174.0
+    ]
+  },
+  {
+    "ref": "v60q24",
+    "theme": "écomobilité",
+    "question_text": "En circulation, les véhicules électriques permettent de réduire la pollution sonore",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Un véhicule électrique est beaucoup plus silencieux qu'un véhicule thermique, donc la pollution sonore en circulation est bien moindre. Si vous conduisez une voiture électrique, il faut rester particulièrement vigilant : un piéton pourrait être amené à traverser devant vous car il ne vous a pas entendu.",
+    "frame": "1257.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1233.0.jpg",
+      "1257.0.jpg",
+      "1281.0.jpg"
+    ],
+    "window": [
+      1232.0,
+      1281.0
+    ]
+  },
+  {
+    "ref": "v60q25",
+    "theme": "vitesse",
+    "question_text": "La vitesse va être limitée à",
+    "options": {
+      "A": "30 km/h",
+      "B": "50 km/h",
+      "C": "80 km/h"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Je vais entrer dans une agglomération, ici à Sousceyrac. Sauf indication contraire, ma vitesse sera limitée à 50 km/h.",
+    "frame": "1320.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1284.0.jpg",
+      "1320.0.jpg",
+      "1350.0.jpg"
+    ],
+    "window": [
+      1283.0,
+      1350.0
+    ]
+  },
+  {
+    "ref": "v60q26",
+    "theme": "distances-de-sécurité",
+    "question_text": "La distance de sécurité varie en fonction de la vitesse",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "La distance de sécurité à respecter représente la distance minimale à avoir entre un véhicule et celui qui le précède, afin qu'en cas de freinage d'urgence l'usager ait le temps nécessaire pour percevoir le danger et s'arrêter avant toute collision. La distance de sécurité est donc liée à la vitesse : plus la vitesse est grande, plus la distance de sécurité doit être importante.",
+    "frame": "1350.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1350.0.jpg",
+      "1380.0.jpg"
+    ],
+    "window": [
+      1350.0,
+      1381.0
+    ]
+  },
+  {
+    "ref": "v60q27",
+    "theme": "circulation",
+    "question_text": "Je souhaite tourner à droite à la prochaine intersection",
+    "options": {
+      "A": "Je me rabats sur la voie de droite",
+      "B": "Je reste dans ma voie"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Le code de la route indique qu'en marche normale, les conducteurs doivent toujours circuler dans la voie la plus à droite dans la direction qu'ils souhaitent prendre. Cependant, ici, la voie la plus à droite est une voie de bus : il est interdit d'y circuler. Même si je souhaite tourner à droite à la prochaine intersection, je reste donc dans cette voie.",
+    "frame": "1410.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1383.0.jpg",
+      "1410.0.jpg",
+      "1437.0.jpg"
+    ],
+    "window": [
+      1383.0,
+      1437.0
+    ]
+  },
+  {
+    "ref": "v60q28",
+    "theme": "signalisation",
+    "question_text": "La signalisation m'annonce la présence",
+    "options": {
+      "A": "D'une niche de sécurité",
+      "B": "D'une issue de secours"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "La signalisation indique la présence d'une issue de secours vers la droite.",
+    "frame": "1455.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1440.0.jpg",
+      "1455.0.jpg",
+      "1473.0.jpg"
+    ],
+    "window": [
+      1439.0,
+      1475.0
+    ]
+  },
+  {
+    "ref": "v60q29",
+    "theme": "stationnement",
+    "question_text": "Ce véhicule est correctement stationné",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Certains marquages au sol permettent d'interdire l'arrêt et/ou le stationnement : ce type de marquage est de couleur jaune. Ici, la ligne jaune continue sur le trottoir signifie que l'arrêt et le stationnement sont interdits. Ce véhicule est donc mal stationné.",
+    "frame": "1500.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1479.0.jpg",
+      "1500.0.jpg",
+      "1524.0.jpg"
+    ],
+    "window": [
+      1477.0,
+      1524.0
+    ]
+  },
+  {
+    "ref": "v60q30",
+    "theme": "chargement",
+    "question_text": "Le chargement de ce véhicule peut avoir un impact sur",
+    "options": {
+      "A": "Sa trajectoire : oui",
+      "B": "Sa trajectoire : non",
+      "C": "Sa distance de freinage : oui",
+      "D": "Sa distance de freinage : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Tracter une remorque a une influence sur le comportement du véhicule en conduite : la voiture peut réagir différemment et sa trajectoire peut être déviée. Lors du freinage, le poids de la remorque impose une contrainte supplémentaire, augmentant ainsi la distance de freinage. Le véhicule met donc plus de temps pour s'arrêter.",
+    "frame": "1560.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1527.0.jpg",
+      "1560.0.jpg",
+      "1581.0.jpg"
+    ],
+    "window": [
+      1526.0,
+      1582.0
+    ]
+  },
+  {
+    "ref": "v60q31",
+    "theme": "alcool-stupéfiants",
+    "question_text": "Contrôlé avec une alcoolémie de 0,50 g/l de sang, je risque",
+    "options": {
+      "A": "Une perte de 4 points",
+      "B": "Une perte de 6 points",
+      "C": "L'immobilisation de mon véhicule",
+      "D": "Une suspension de mon permis"
+    },
+    "correct": [
+      "B",
+      "C",
+      "D"
+    ],
+    "explanation": "Les sanctions prévues par le code de la route en cas d'alcoolémie à 0,50 g/l de sang sont un retrait de 6 points et une amende forfaitaire de 135 euros. Le conducteur risque également une suspension de son permis de conduire et l'immobilisation de son véhicule.",
+    "frame": "1587.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1587.0.jpg",
+      "1608.0.jpg"
+    ],
+    "window": [
+      1585.0,
+      1620.0
+    ]
+  },
+  {
+    "ref": "v60q32",
+    "theme": "commandes",
+    "question_text": "Lors de l'installation au poste de conduite, je commence par régler",
+    "options": {
+      "A": "Les rétroviseurs",
+      "B": "Le dossier",
+      "C": "Le volant",
+      "D": "Le siège"
+    },
+    "correct": [
+      "D"
+    ],
+    "explanation": "Pour s'installer en voiture, il est important d'effectuer les différents réglages dans un ordre bien précis : siège, dossier, volant, rétroviseurs, puis ceinture de sécurité.",
+    "frame": "1650.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1620.0.jpg",
+      "1650.0.jpg",
+      "1701.0.jpg"
+    ],
+    "window": [
+      1620.0,
+      1703.0
+    ]
+  },
+  {
+    "ref": "v60q33",
+    "theme": "mécanique-entretien",
+    "question_text": "Le symbole indicateur du témoin d'usure est identique pour l'ensemble des fabricants",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Le témoin d'usure se trouve au niveau de la bande de roulement, la partie du pneu qui s'use avec le temps. Afin de faciliter la localisation de ce témoin, certains pneus possèdent sur leur flanc un indicateur qui, selon le constructeur, peut prendre différentes formes : un logo, un triangle, les lettres TWI ou un autre symbole.",
+    "frame": "1707.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1707.0.jpg",
+      "1740.0.jpg",
+      "1758.0.jpg"
+    ],
+    "window": [
+      1705.0,
+      1759.0
+    ]
+  },
+  {
+    "ref": "v60q34",
+    "theme": "distances-de-sécurité",
+    "question_text": "Dans cette situation",
+    "options": {
+      "A": "Le véhicule qui me suit respecte les distances de sécurité : oui",
+      "B": "Le véhicule qui me suit respecte les distances de sécurité : non",
+      "C": "Je freine : oui",
+      "D": "Je freine : non"
+    },
+    "correct": [
+      "B",
+      "D"
+    ],
+    "explanation": "Dans cette situation, le véhicule derrière moi est trop proche et ne respecte pas la distance minimale de sécurité. Je ne freine pas afin de ne pas surprendre l'usager derrière moi.",
+    "frame": "1794.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1761.0.jpg",
+      "1794.0.jpg",
+      "1809.0.jpg"
+    ],
+    "window": [
+      1761.0,
+      1810.0
+    ]
+  },
+  {
+    "ref": "v60q35",
+    "theme": "panneaux",
+    "question_text": "La signalisation m'interdit de dépasser la camionnette blanche",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Ce panneau de signalisation interdit le dépassement de tous les véhicules à moteur, sauf les deux-roues sans side-car. Cependant, il est accompagné d'un panonceau précisant que seuls les usagers de plus de 3,5 tonnes sont concernés par cette interdiction : je ne suis donc pas concerné.",
+    "frame": "1845.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1815.0.jpg",
+      "1845.0.jpg",
+      "1860.0.jpg"
+    ],
+    "window": [
+      1813.0,
+      1861.0
+    ]
+  },
+  {
+    "ref": "v60q36",
+    "theme": "distances-de-sécurité",
+    "question_text": "Sur autoroute, circulant à 130 km/h, la distance de sécurité minimale à laisser correspond à",
+    "options": {
+      "A": "1 trait de la bande d'arrêt d'urgence",
+      "B": "2 traits de la bande d'arrêt d'urgence",
+      "C": "3 traits de la bande d'arrêt d'urgence"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "La distance de sécurité minimale à laisser lorsque je circule sur autoroute à 130 km/h correspond à 2 traits de la bande d'arrêt d'urgence, ce qui correspond à un intervalle de sécurité d'au moins 2 secondes.",
+    "frame": "1893.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1863.0.jpg",
+      "1893.0.jpg",
+      "1917.0.jpg"
+    ],
+    "window": [
+      1863.0,
+      1918.0
+    ]
+  },
+  {
+    "ref": "v60q37",
+    "theme": "équipements-de-sécurité",
+    "question_text": "Le port de la ceinture de sécurité d'une femme enceinte est",
+    "options": {
+      "A": "Obligatoire",
+      "B": "Facultatif",
+      "C": "Interdit",
+      "D": "Dangereux"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Conduire enceinte n'est pas interdit par le code de la route : il n'existe aucune restriction, interdiction ou dérogation concernant les femmes enceintes au volant ou en tant que passagère. Le port de la ceinture de sécurité reste formellement obligatoire.",
+    "frame": "1950.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1920.0.jpg",
+      "1950.0.jpg",
+      "1974.0.jpg"
+    ],
+    "window": [
+      1920.0,
+      1974.0
+    ]
+  },
+  {
+    "ref": "v60q38",
+    "theme": "premiers-secours",
+    "question_text": "Une victime qui ne répond pas, mais qui réussit à effectuer des gestes simples est",
+    "options": {
+      "A": "Consciente",
+      "B": "Inconsciente"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Une victime qui ne répond pas, mais qui réalise des gestes simples, est tout de même consciente. Il peut s'agir de gestes simples comme serrer la main ou ouvrir et fermer les yeux.",
+    "frame": "2004.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1977.0.jpg",
+      "2004.0.jpg",
+      "2019.0.jpg"
+    ],
+    "window": [
+      1976.0,
+      2020.0
+    ]
+  },
+  {
+    "ref": "v60q39",
+    "theme": "circulation",
+    "question_text": "Les motards peuvent circuler en inter-files sans aucune restriction",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "La circulation en inter-files des motards est soumise à certaines règles. Par exemple, elle n'est possible que si la limitation de vitesse de la route est supérieure ou égale à 70 km/h, et la circulation en inter-files se pratique à une vitesse maximale de 50 km/h.",
+    "frame": "2049.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "2022.0.jpg",
+      "2049.0.jpg",
+      "2070.0.jpg"
+    ],
+    "window": [
+      2022.0,
+      2071.0
+    ]
+  },
+  {
+    "ref": "v60q40",
+    "theme": "priorités",
+    "question_text": "Dans cette situation",
+    "options": {
+      "A": "Je passe",
+      "B": "Je cède le passage à gauche",
+      "C": "Je cède le passage à droite"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Dans cette situation, je suis prioritaire : j'ai la priorité sur la voiture de droite qui possède un stop, ainsi que sur la voiture de gauche qui souhaite tourner à sa gauche. N'ayant pas à céder le passage, je passe.",
+    "frame": "2085.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "2073.0.jpg",
+      "2085.0.jpg",
+      "2115.0.jpg"
+    ],
+    "window": [
+      2073.0,
+      2122.0
+    ]
+  }
+]

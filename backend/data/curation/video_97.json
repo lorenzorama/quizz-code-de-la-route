@@ -1,0 +1,87 @@
+[
+  {
+    "ref": "v97q03",
+    "theme": "premiers-secours",
+    "question_text": "La PLS (position latérale de sécurité) se pratique sur une victime",
+    "options": {
+      "A": "Qui est consciente : oui",
+      "B": "Qui est consciente : non",
+      "C": "Qui respire : oui",
+      "D": "Qui respire : non"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "explanation": "La PLS se pratique sur une victime inconsciente qui respire. Elle a pour objectif de faciliter et de maintenir le passage de l'air jusqu'aux poumons.",
+    "frame": "135.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "135.0.jpg",
+      "150.0.jpg",
+      "165.0.jpg",
+      "171.0.jpg",
+      "174.0.jpg"
+    ],
+    "window": [
+      122.0,
+      173.0
+    ]
+  },
+  {
+    "ref": "v97q04",
+    "theme": "stationnement",
+    "question_text": "Pour me stationner en créneau derrière ce véhicule blanc",
+    "options": {
+      "A": "J'actionne mon clignotant droit : oui",
+      "B": "J'actionne mon clignotant droit : non",
+      "C": "Je m'arrête sur la bande cyclable pour pouvoir reculer : oui",
+      "D": "Je m'arrête sur la bande cyclable pour pouvoir reculer : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Je dois effectivement allumer mon clignotant droit pour avertir les usagers que je souhaite me garer. Je n'ai par contre pas d'autre choix que de m'arrêter sur la bande cyclable pour pouvoir manœuvrer.",
+    "frame": "180.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "180.0.jpg",
+      "195.0.jpg",
+      "222.0.jpg",
+      "228.0.jpg",
+      "231.0.jpg"
+    ],
+    "window": [
+      174.0,
+      230.0
+    ]
+  },
+  {
+    "ref": "v97q05",
+    "theme": "mécanique-entretien",
+    "question_text": "La pression des pneus doit être vérifiée de préférence",
+    "options": {
+      "A": "À chaud",
+      "B": "À froid",
+      "C": "Sans aucune restriction"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "La pression des pneus doit être vérifiée de préférence à froid. Si cela n'est pas possible et que les pneus sont chauds après une longue distance parcourue, il faut augmenter la pression de 0,3 bar.",
+    "frame": "270.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "270.0.jpg",
+      "276.0.jpg",
+      "300.0.jpg",
+      "309.0.jpg",
+      "312.0.jpg"
+    ],
+    "window": [
+      266.0,
+      313.0
+    ]
+  }
+]

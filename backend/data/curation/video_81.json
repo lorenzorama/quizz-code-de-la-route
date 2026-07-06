@@ -1,0 +1,245 @@
+[
+  {
+    "ref": "v81q01",
+    "theme": "priorités",
+    "question_text": "Je suis bien placé dans cette voie de circulation",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Je circule sur une route à deux voies dans le même sens. La voie de droite est réservée aux bus, la voie de gauche est celle pour les véhicules venant en face. Je suis donc bien placé dans ma voie de circulation.",
+    "frame": "24.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "9.0.jpg",
+      "18.0.jpg",
+      "24.0.jpg",
+      "36.0.jpg",
+      "42.0.jpg"
+    ],
+    "window": [
+      0.0,
+      57.0
+    ]
+  },
+  {
+    "ref": "v81q02",
+    "theme": "équipements-de-sécurité",
+    "question_text": "Le système ISOFIX permet",
+    "options": {
+      "A": "De désactiver automatiquement l'airbag",
+      "B": "De fixer un siège enfant",
+      "C": "D'activer le freinage d'urgence automatique",
+      "D": "De verrouiller automatiquement les portes en roulant"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Le système ISOFIX est un mécanisme de fixation pour les sièges enfants, normalisé au niveau international. Il permet de fixer rapidement et de façon sécurisée un siège auto pour enfant.",
+    "frame": "105.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "63.0.jpg",
+      "72.0.jpg",
+      "90.0.jpg",
+      "99.0.jpg",
+      "105.0.jpg"
+    ],
+    "window": [
+      60.0,
+      111.0
+    ]
+  },
+  {
+    "ref": "v81q03",
+    "theme": "vitesse",
+    "question_text": "Ma vitesse est limitée à",
+    "options": {
+      "A": "90 km/h",
+      "B": "110 km/h",
+      "C": "130 km/h"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "Je circule sur une autoroute, ce que confirme le panneau bleu indiquant une aire. Par défaut, la vitesse est limitée à 130 km/h sur autoroute.",
+    "frame": "117.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "117.0.jpg",
+      "120.0.jpg",
+      "132.0.jpg",
+      "144.0.jpg",
+      "150.0.jpg"
+    ],
+    "window": [
+      113.0,
+      159.0
+    ]
+  },
+  {
+    "ref": "v81q04",
+    "theme": "mécanique-entretien",
+    "question_text": "Je constate qu'il manque beaucoup de liquide de frein",
+    "options": {
+      "A": "Je peux en ajouter moi-même : oui",
+      "B": "Je peux en ajouter moi-même : non",
+      "C": "Je prends rendez-vous chez un garagiste le plus rapidement possible : oui",
+      "D": "Je prends rendez-vous chez un garagiste le plus rapidement possible : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Rouler alors qu'il manque du liquide de frein est dangereux, mais je ne dois pas en ajouter moi-même. Une baisse significative du liquide de frein peut indiquer un problème, comme une fuite dans le circuit : je dois prendre rapidement rendez-vous chez un garagiste.",
+    "frame": "171.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "165.0.jpg",
+      "171.0.jpg",
+      "180.0.jpg",
+      "192.0.jpg",
+      "204.0.jpg"
+    ],
+    "window": [
+      160.0,
+      213.0
+    ]
+  },
+  {
+    "ref": "v81q05",
+    "theme": "panneaux",
+    "question_text": "Ce panneau m'indique que je serai prioritaire à la prochaine intersection",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Ce panneau m'indique que je circule sur une route à caractère prioritaire. Je serai donc effectivement prioritaire à la prochaine intersection.",
+    "frame": "222.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "222.0.jpg",
+      "231.0.jpg",
+      "240.0.jpg",
+      "246.0.jpg",
+      "255.0.jpg"
+    ],
+    "window": [
+      216.0,
+      257.0
+    ]
+  },
+  {
+    "ref": "v81q06",
+    "theme": "éclairage-visibilité",
+    "question_text": "Il pleut, je dois allumer",
+    "options": {
+      "A": "Les feux de croisement",
+      "B": "Les feux de route",
+      "C": "Les feux de brouillard arrière"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Lorsqu'il pleut, je dois allumer mes feux de croisement. Les feux de route éblouiraient les conducteurs devant moi, et les feux de brouillard arrière sont interdits en cas de simple pluie car ils éblouissent les usagers derrière moi.",
+    "frame": "288.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "288.0.jpg",
+      "294.0.jpg",
+      "306.0.jpg",
+      "312.0.jpg",
+      "321.0.jpg"
+    ],
+    "window": [
+      285.0,
+      327.0
+    ]
+  },
+  {
+    "ref": "v81q07",
+    "theme": "distances-de-sécurité",
+    "question_text": "Je roule à 90 km/h. Ma distance de sécurité doit être d'au moins",
+    "options": {
+      "A": "27 mètres",
+      "B": "35 mètres",
+      "C": "54 mètres",
+      "D": "81 mètres"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "Pour calculer ma distance de sécurité, je multiplie par 6 le chiffre des dizaines de ma vitesse. Ici, le chiffre des dizaines est 9, et 9 fois 6 égale 54 : à 90 km/h, ma distance de sécurité doit donc être d'au moins 54 mètres.",
+    "frame": "333.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "333.0.jpg",
+      "342.0.jpg",
+      "357.0.jpg",
+      "366.0.jpg",
+      "375.0.jpg"
+    ],
+    "window": [
+      330.0,
+      381.0
+    ]
+  },
+  {
+    "ref": "v81q09",
+    "theme": "circulation",
+    "question_text": "Le marquage au sol autorise le dépassement",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "La flèche de rabattement peinte au sol m'indique que je dois me rabattre et interdit donc le dépassement à cet endroit.",
+    "frame": "438.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "438.0.jpg",
+      "444.0.jpg",
+      "450.0.jpg",
+      "456.0.jpg",
+      "465.0.jpg"
+    ],
+    "window": [
+      435.0,
+      468.0
+    ]
+  },
+  {
+    "ref": "v81q10",
+    "theme": "circulation",
+    "question_text": "Dans cette situation",
+    "options": {
+      "A": "Je dépasse",
+      "B": "Je reste derrière le bus"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Une ligne blanche continue interdit ici de dépasser, sans compter que la visibilité est très mauvaise à l'approche du tunnel. Je reste donc derrière le bus.",
+    "frame": "471.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "471.0.jpg",
+      "480.0.jpg",
+      "489.0.jpg",
+      "495.0.jpg",
+      "504.0.jpg"
+    ],
+    "window": [
+      468.0,
+      508.0
+    ]
+  }
+]

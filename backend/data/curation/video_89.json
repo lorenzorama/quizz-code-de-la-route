@@ -1,0 +1,244 @@
+[
+  {
+    "ref": "v89q01",
+    "theme": "vitesse",
+    "question_text": "Dans cette situation",
+    "options": {
+      "A": "Je suis autorisé à dépasser : oui",
+      "B": "Je suis autorisé à dépasser : non",
+      "C": "Ma vitesse est limitée à 80 km/h",
+      "D": "Ma vitesse est limitée à 90 km/h"
+    },
+    "correct": [
+      "A",
+      "D"
+    ],
+    "explanation": "La signalisation autorise ici à dépasser. La vitesse est limitée à 80 km/h pour les véhicules de plus de 3,5 tonnes, et à 90 km/h pour les voitures.",
+    "frame": "24.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "24.0.jpg",
+      "27.0.jpg",
+      "30.0.jpg",
+      "33.0.jpg",
+      "36.0.jpg",
+      "39.0.jpg",
+      "42.0.jpg",
+      "45.0.jpg",
+      "48.0.jpg"
+    ],
+    "window": [
+      24.0,
+      67.0
+    ]
+  },
+  {
+    "ref": "v89q02",
+    "theme": "priorités",
+    "question_text": "Dans cette situation, le véhicule qui passe en premier est le",
+    "options": {
+      "A": "A",
+      "B": "B"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Grâce à son clignotant, on voit que le véhicule A veut tourner à gauche, tandis que le véhicule B, qui n'a pas de clignotant allumé, continue tout droit. Pour tourner, le véhicule A devrait couper la route au véhicule B : il n'est donc pas prioritaire. C'est le véhicule B qui passe en premier.",
+    "frame": "84.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "72.0.jpg",
+      "75.0.jpg",
+      "78.0.jpg",
+      "84.0.jpg",
+      "90.0.jpg",
+      "96.0.jpg"
+    ],
+    "window": [
+      72.0,
+      129.0
+    ]
+  },
+  {
+    "ref": "v89q03",
+    "theme": "éclairage-visibilité",
+    "question_text": "En cas de forte pluie, je peux allumer mes feux",
+    "options": {
+      "A": "De brouillard avant",
+      "B": "De brouillard arrière",
+      "C": "De croisement"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "En cas de pluie, il faut obligatoirement allumer ses feux de croisement. En cas de forte pluie, on peut également allumer ses feux de brouillard avant. En revanche, les feux de brouillard arrière sont strictement interdits en dehors d'un vrai brouillard, car ils peuvent éblouir les autres usagers.",
+    "frame": "144.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "132.0.jpg",
+      "138.0.jpg",
+      "144.0.jpg",
+      "150.0.jpg",
+      "156.0.jpg"
+    ],
+    "window": [
+      132.0,
+      181.0
+    ]
+  },
+  {
+    "ref": "v89q04",
+    "theme": "circulation",
+    "question_text": "Je dois évacuer le tunnel d'urgence par l'issue de secours. Je laisse les clés de mon véhicule sur le contact",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "En cas d'évacuation d'urgence dans un tunnel, il faut laisser sa voiture déverrouillée avec les clés sur le contact. Ainsi, les secours pourront la déplacer si nécessaire.",
+    "frame": "228.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "228.0.jpg",
+      "234.0.jpg",
+      "240.0.jpg",
+      "246.0.jpg"
+    ],
+    "window": [
+      228.0,
+      258.0
+    ]
+  },
+  {
+    "ref": "v89q05",
+    "theme": "permis",
+    "question_text": "L'acuité visuelle pour l'ensemble de mes deux yeux est de 4/10. Je peux conduire sans correction",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Pour pouvoir conduire, l'acuité visuelle de l'ensemble des deux yeux doit être d'au moins 5/10. Avec une acuité de 4/10, il n'est pas possible de conduire sans correction ; je pourrais conduire uniquement si je porte une correction améliorant suffisamment mon acuité visuelle.",
+    "frame": "264.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "261.0.jpg",
+      "264.0.jpg",
+      "270.0.jpg",
+      "276.0.jpg"
+    ],
+    "window": [
+      260.0,
+      304.0
+    ]
+  },
+  {
+    "ref": "v89q06",
+    "theme": "circulation",
+    "question_text": "Je souhaite tourner à gauche. Je serre",
+    "options": {
+      "A": "Ma gauche",
+      "B": "Ma droite"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "On remarque ici que la ligne du passage piéton s'étend sur toute la largeur de la chaussée. Cela signifie que je circule sur une voie à sens unique, ce qui m'autorise à me placer complètement à gauche pour tourner.",
+    "frame": "312.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "309.0.jpg",
+      "312.0.jpg",
+      "318.0.jpg",
+      "324.0.jpg"
+    ],
+    "window": [
+      307.0,
+      348.0
+    ]
+  },
+  {
+    "ref": "v89q08",
+    "theme": "premiers-secours",
+    "question_text": "Lorsqu'une victime présente une hémorragie importante et qu'elle ne peut pas le faire elle-même, je tente de stopper le saignement",
+    "options": {
+      "A": "Avec un tissu propre",
+      "B": "Avec ma main"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "En cas d'hémorragie, la priorité est de stopper le saignement en appuyant fermement sur la plaie avec un tissu propre. Si la victime en est capable, c'est à elle de le faire ; sinon, il faut intervenir à sa place.",
+    "frame": "420.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "402.0.jpg",
+      "420.0.jpg",
+      "432.0.jpg",
+      "444.0.jpg"
+    ],
+    "window": [
+      401.0,
+      448.0
+    ]
+  },
+  {
+    "ref": "v89q09",
+    "theme": "écomobilité",
+    "question_text": "L'étiquette énergie d'un véhicule indique",
+    "options": {
+      "A": "La vitesse maximale du véhicule",
+      "B": "La consommation de carburant",
+      "C": "Le nombre de places assises",
+      "D": "Les rejets en CO2"
+    },
+    "correct": [
+      "B",
+      "D"
+    ],
+    "explanation": "L'étiquette énergie d'un véhicule indique notamment des informations sur la consommation de carburant et les rejets en CO2.",
+    "frame": "456.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "450.0.jpg",
+      "456.0.jpg",
+      "468.0.jpg",
+      "480.0.jpg"
+    ],
+    "window": [
+      450.0,
+      496.0
+    ]
+  },
+  {
+    "ref": "v89q10",
+    "theme": "mécanique-entretien",
+    "question_text": "Ce réservoir me permet d'ajouter",
+    "options": {
+      "A": "Du liquide de frein",
+      "B": "Du liquide de refroidissement",
+      "C": "De l'huile moteur"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "Ce réservoir, identifiable au pictogramme « OIL » sur son bouchon jaune, me permet d'ajouter de l'huile moteur.",
+    "frame": "504.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "498.0.jpg",
+      "504.0.jpg",
+      "516.0.jpg",
+      "528.0.jpg"
+    ],
+    "window": [
+      496.0,
+      536.0
+    ]
+  }
+]

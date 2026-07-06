@@ -1,0 +1,162 @@
+[
+  {
+    "ref": "v95q02",
+    "theme": "vitesse",
+    "question_text": "Le risque de somnolence est plus élevé",
+    "options": {
+      "A": "Le jour, entre 7h et 9h",
+      "B": "Le jour, entre 13h et 15h",
+      "C": "La nuit, entre 21h et 23h",
+      "D": "La nuit, entre 3h et 5h"
+    },
+    "correct": [
+      "B",
+      "D"
+    ],
+    "explanation": "Le risque de somnolence au volant est plus élevé en début d'après-midi, entre 13h et 15h, notamment après le déjeuner, ainsi qu'au cœur de la nuit, entre 3h et 5h. Ce sont les créneaux où la vigilance baisse naturellement.",
+    "frame": "60.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "57.0.jpg",
+      "60.0.jpg",
+      "93.0.jpg",
+      "99.0.jpg"
+    ],
+    "window": [
+      48.0,
+      108.0
+    ]
+  },
+  {
+    "ref": "v95q03",
+    "theme": "commandes",
+    "question_text": "Pour signaler un ralentissement aux usagers qui me suivent, je peux",
+    "options": {
+      "A": "Faire un appel de phare",
+      "B": "Appuyer par intermittence sur la pédale de frein",
+      "C": "Klaxonner"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Pour signaler un ralentissement aux usagers qui me suivent, je peux appuyer légèrement et par intermittence sur la pédale de frein. Les feux stop qui clignotent alertent ainsi les conducteurs situés derrière moi.",
+    "frame": "114.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "114.0.jpg",
+      "132.0.jpg",
+      "141.0.jpg",
+      "150.0.jpg"
+    ],
+    "window": [
+      108.0,
+      159.0
+    ]
+  },
+  {
+    "ref": "v95q04",
+    "theme": "alcool-stupéfiants",
+    "question_text": "Je suis un conducteur expérimenté. Je risque une suspension de mon permis de conduire si mon alcoolémie atteint",
+    "options": {
+      "A": "0,10 g/l de sang",
+      "B": "0,20 g/l de sang",
+      "C": "0,50 g/l de sang",
+      "D": "0,80 g/l de sang"
+    },
+    "correct": [
+      "C",
+      "D"
+    ],
+    "explanation": "Pour un conducteur expérimenté, le taux d'alcoolémie autorisé doit rester inférieur à 0,5 gramme par litre de sang. Au-delà de ce seuil, comme à 0,50 g/l ou à 0,80 g/l, le conducteur risque notamment une suspension de son permis de conduire.",
+    "frame": "195.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "162.0.jpg",
+      "195.0.jpg",
+      "216.0.jpg",
+      "225.0.jpg"
+    ],
+    "window": [
+      159.0,
+      231.0
+    ]
+  },
+  {
+    "ref": "v95q06",
+    "theme": "assurance-constat",
+    "question_text": "Ne pas s'arrêter après avoir commis un accident, c'est commettre",
+    "options": {
+      "A": "Un délit de fuite",
+      "B": "Un refus d'obtempérer"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Ne pas s'arrêter après avoir commis un accident constitue un délit de fuite. Ce comportement est sévèrement sanctionné par la loi, car il prive les victimes éventuelles de l'assistance et des informations nécessaires.",
+    "frame": "282.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "276.0.jpg",
+      "282.0.jpg",
+      "294.0.jpg",
+      "306.0.jpg"
+    ],
+    "window": [
+      276.0,
+      312.0
+    ]
+  },
+  {
+    "ref": "v95q07",
+    "theme": "mécanique-entretien",
+    "question_text": "En période hivernale, je suis en règle si",
+    "options": {
+      "A": "Mon véhicule est équipé de 2 pneus hiver : oui",
+      "B": "Mon véhicule est équipé de 2 pneus hiver : non",
+      "C": "Mon véhicule est équipé de 4 pneus hiver : oui",
+      "D": "Mon véhicule est équipé de 4 pneus hiver : non"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "explanation": "Dans une trentaine de départements situés en zone de montagne, une obligation d'équipement hivernal s'applique en période hivernale : il faut soit des chaussettes à neige, soit quatre pneus hiver. Deux pneus hiver seulement ne suffisent pas pour être en règle.",
+    "frame": "318.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "312.0.jpg",
+      "318.0.jpg",
+      "348.0.jpg",
+      "360.0.jpg"
+    ],
+    "window": [
+      312.0,
+      372.0
+    ]
+  },
+  {
+    "ref": "v95q10",
+    "theme": "équipements-de-sécurité",
+    "question_text": "Je souhaite installer mon bébé à l'avant, dos à la route",
+    "options": {
+      "A": "Je désactive l'airbag passager",
+      "B": "J'active l'airbag passager"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Lorsqu'un bébé est installé à l'avant, dos à la route, il est indispensable de désactiver l'airbag passager. Si l'airbag venait à se déclencher, cela pourrait entraîner de graves conséquences pour l'enfant.",
+    "frame": "492.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "480.0.jpg",
+      "492.0.jpg",
+      "504.0.jpg",
+      "510.0.jpg"
+    ],
+    "window": [
+      480.0,
+      522.0
+    ]
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "ref": "v72q02",
+    "theme": "priorités",
+    "question_text": "La voiture A, qui va en face, doit céder le passage de chaque côté",
+    "options": {
+      "A": "Oui",
+      "B": "Non",
+      "C": "La voiture A passe avant la voiture C : oui",
+      "D": "La voiture A passe avant la voiture C : non"
+    },
+    "correct": [
+      "B",
+      "D"
+    ],
+    "explanation": "En l'absence de panneau de signalisation, la règle de la priorité à droite s'applique. La voiture A doit laisser passer uniquement la voiture C, qui est à sa droite ; elle n'a pas à céder le passage de tous les côtés. La voiture B doit elle aussi céder le passage à la voiture A, qui est à sa droite. L'ordre de passage est donc C, puis A, puis B.",
+    "frame": "78.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "75.0.jpg",
+      "78.0.jpg",
+      "81.0.jpg",
+      "84.0.jpg",
+      "87.0.jpg",
+      "90.0.jpg",
+      "132.0.jpg"
+    ],
+    "window": [
+      74.0,
+      137.0
+    ]
+  },
+  {
+    "ref": "v72q04",
+    "theme": "commandes",
+    "question_text": "Pour désembuer la vitre arrière, j'utilise la commande",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "Le bouton en position C permet de désembuer la vitre arrière. Ce bouton se reconnaît grâce à son symbole représentant une vitre rectangulaire avec des flèches.",
+    "frame": "192.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "189.0.jpg",
+      "192.0.jpg",
+      "195.0.jpg",
+      "198.0.jpg",
+      "228.0.jpg"
+    ],
+    "window": [
+      188.0,
+      231.0
+    ]
+  },
+  {
+    "ref": "v72q06",
+    "theme": "commandes",
+    "question_text": "J'emprunte un véhicule à un ami",
+    "options": {
+      "A": "Je règle le siège uniquement",
+      "B": "Je règle le siège, les rétroviseurs et le volant",
+      "C": "Je n'effectue aucun réglage"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Même si le véhicule que je conduis m'a été prêté, je dois toujours effectuer mes réglages avant de prendre le volant. Bien s'installer avant de conduire est essentiel pour assurer le confort de conduite et garantir la sécurité du conducteur et des autres usagers.",
+    "frame": "312.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "300.0.jpg",
+      "306.0.jpg",
+      "312.0.jpg",
+      "315.0.jpg",
+      "318.0.jpg"
+    ],
+    "window": [
+      299.0,
+      354.0
+    ]
+  },
+  {
+    "ref": "v72q07",
+    "theme": "cyclistes",
+    "question_text": "Sur cette bande cyclable, ce véhicule gris est autorisé à",
+    "options": {
+      "A": "S'arrêter pour faire descendre un passager : oui",
+      "B": "S'arrêter pour faire descendre un passager : non",
+      "C": "Stationner son véhicule : oui",
+      "D": "Stationner son véhicule : non"
+    },
+    "correct": [
+      "B",
+      "D"
+    ],
+    "explanation": "Ce conducteur se trouve sur une bande cyclable. Les bandes et pistes cyclables sont exclusivement réservées aux cyclistes et aux conducteurs d'engins de déplacement personnel motorisés, et il est strictement interdit de s'y arrêter ou d'y stationner.",
+    "frame": "354.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "354.0.jpg",
+      "357.0.jpg",
+      "369.0.jpg",
+      "378.0.jpg"
+    ],
+    "window": [
+      354.0,
+      411.0
+    ]
+  },
+  {
+    "ref": "v72q09",
+    "theme": "signalisation",
+    "question_text": "Continuant tout droit, je suis bien placé",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Les flèches au sol indiquent que je suis bien placé pour aller tout droit ou pour tourner à droite. Souhaitant continuer tout droit, je suis donc correctement positionné.",
+    "frame": "450.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "441.0.jpg",
+      "444.0.jpg",
+      "450.0.jpg",
+      "456.0.jpg",
+      "471.0.jpg"
+    ],
+    "window": [
+      441.0,
+      471.0
+    ]
+  }
+]

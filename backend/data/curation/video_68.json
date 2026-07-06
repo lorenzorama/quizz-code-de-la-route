@@ -1,0 +1,208 @@
+[
+  {
+    "ref": "v68q01",
+    "theme": "mécanique-entretien",
+    "question_text": "Le réservoir du liquide de lave-glace",
+    "options": {
+      "A": "Se trouve en position A",
+      "B": "Se trouve en position B",
+      "C": "En hiver, je peux le remplir avec de l'eau : Oui",
+      "D": "En hiver, je peux le remplir avec de l'eau : Non"
+    },
+    "correct": [
+      "B",
+      "D"
+    ],
+    "explanation": "Le symbole du réservoir de liquide de lave-glace est visible en position B. Il est fortement déconseillé de remplacer le liquide lave-glace par de l'eau, surtout en hiver, car l'eau n'est pas traitée contre le gel. Un liquide lave-glace hivernal, traité anti-gel, est préférable.",
+    "frame": "21.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "21.0.jpg",
+      "30.0.jpg",
+      "39.0.jpg",
+      "48.0.jpg",
+      "54.0.jpg"
+    ],
+    "window": [
+      12.0,
+      66.0
+    ]
+  },
+  {
+    "ref": "v68q03",
+    "theme": "cyclistes",
+    "question_text": "Ce cycliste circule au bon endroit",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Le panneau indique que cette voie de bus est également autorisée pour les cyclistes, et donc pour les engins de déplacement personnel motorisés (EDPM, comme les trottinettes électriques). Ce cycliste circule donc au bon endroit.",
+    "frame": "141.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "141.0.jpg",
+      "168.0.jpg",
+      "180.0.jpg"
+    ],
+    "window": [
+      138.0,
+      182.0
+    ]
+  },
+  {
+    "ref": "v68q04",
+    "theme": "conditions-météo",
+    "question_text": "Le verglas se forme principalement",
+    "options": {
+      "A": "Dans les endroits humides",
+      "B": "En ville"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Le verglas se forme principalement dans les endroits humides, comme les forêts, les ponts et les vallées. Il faut donc redoubler de vigilance dans ces zones lorsque les températures sont proches de zéro.",
+    "frame": "186.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "186.0.jpg",
+      "213.0.jpg"
+    ],
+    "window": [
+      182.0,
+      225.0
+    ]
+  },
+  {
+    "ref": "v68q05",
+    "theme": "priorités",
+    "question_text": "Dans cette situation",
+    "options": {
+      "A": "Je bénéficie de la priorité de passage sur la voiture grise",
+      "B": "Je passe",
+      "C": "Je cède le passage"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "Je me trouve devant un panneau cédez-le-passage annonçant l'approche d'un carrefour où circulent d'autres véhicules. Je dois donc céder le passage aux véhicules déjà engagés ou prioritaires avant de m'engager.",
+    "frame": "225.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "225.0.jpg",
+      "240.0.jpg",
+      "261.0.jpg",
+      "267.0.jpg"
+    ],
+    "window": [
+      225.0,
+      276.0
+    ]
+  },
+  {
+    "ref": "v68q06",
+    "theme": "équipements-de-sécurité",
+    "question_text": "Un enfant est autorisé à s'asseoir à l'avant du véhicule à partir de",
+    "options": {
+      "A": "6 ans",
+      "B": "8 ans",
+      "C": "10 ans",
+      "D": "12 ans"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "Un enfant est autorisé à s'asseoir à l'avant du véhicule à partir de 10 ans. Avant cet âge, et pour les enfants de moins de 135 cm, l'utilisation d'un siège auto homologué et adapté à leur âge, taille et poids est obligatoire.",
+    "frame": "288.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "288.0.jpg",
+      "300.0.jpg",
+      "321.0.jpg"
+    ],
+    "window": [
+      279.0,
+      333.0
+    ]
+  },
+  {
+    "ref": "v68q08",
+    "theme": "priorités",
+    "question_text": "À la prochaine intersection",
+    "options": {
+      "A": "Je serai prioritaire sur les usagers venant de droite : Oui",
+      "B": "Je serai prioritaire sur les usagers venant de droite : Non",
+      "C": "Je devrai marquer obligatoirement l'arrêt : Oui",
+      "D": "Je devrai marquer obligatoirement l'arrêt : Non"
+    },
+    "correct": [
+      "B",
+      "D"
+    ],
+    "explanation": "La signalisation annonce la présence d'une priorité à droite. À la prochaine intersection, je dois donc céder le passage aux véhicules venant de la droite. Si aucun véhicule n'est présent à l'intersection, l'arrêt n'est pas obligatoire, mais je dois rester particulièrement vigilant.",
+    "frame": "387.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "387.0.jpg",
+      "423.0.jpg"
+    ],
+    "window": [
+      385.0,
+      435.0
+    ]
+  },
+  {
+    "ref": "v68q09",
+    "theme": "cyclistes",
+    "question_text": "En tournant à droite lorsque le feu est rouge, le cycliste",
+    "options": {
+      "A": "Est en infraction : Oui",
+      "B": "Est en infraction : Non",
+      "C": "Bénéficiera de la priorité de passage sur tous les autres usagers : Oui",
+      "D": "Bénéficiera de la priorité de passage sur tous les autres usagers : Non"
+    },
+    "correct": [
+      "B",
+      "D"
+    ],
+    "explanation": "Les cyclistes sont tenus de respecter les feux de circulation ; cependant, ils peuvent être autorisés à poursuivre leur route au feu rouge sous certaines conditions. La présence d'un panneau « cédez le passage aux cyclistes » sous un feu autorise les cyclistes à passer au rouge s'ils continuent dans la direction indiquée par la flèche, ici vers la droite. Dans ce cas, les cyclistes n'ont pas la priorité et doivent céder le passage aux autres usagers.",
+    "frame": "447.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "447.0.jpg",
+      "441.0.jpg"
+    ],
+    "window": [
+      440.0,
+      495.0
+    ]
+  },
+  {
+    "ref": "v68q10",
+    "theme": "écomobilité",
+    "question_text": "L'autonomie de mon véhicule électrique dépend",
+    "options": {
+      "A": "Du niveau de charge de la batterie : Oui",
+      "B": "Du niveau de charge de la batterie : Non",
+      "C": "De mon style de conduite : Oui",
+      "D": "De mon style de conduite : Non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "L'autonomie de mon véhicule électrique varie selon le niveau de charge de la batterie, mais aussi selon mon style de conduite. En effet, une conduite agressive sollicitera davantage les batteries et réduira l'autonomie disponible.",
+    "frame": "516.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "516.0.jpg",
+      "540.0.jpg"
+    ],
+    "window": [
+      513.0,
+      552.0
+    ]
+  }
+]

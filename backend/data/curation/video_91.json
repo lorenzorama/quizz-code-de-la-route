@@ -1,0 +1,811 @@
+[
+  {
+    "ref": "v91q01",
+    "theme": "circulation",
+    "question_text": "Je roule plus vite que la voiture qui me précède. Je peux entamer un dépassement",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Avant d'entamer tout dépassement, je dois contrôler que je ne suis pas moi-même en train d'être dépassé. Ici, je vois clairement dans mon rétroviseur gauche la présence d'un véhicule qui me dépasse. Je patiente donc avant d'entamer un dépassement.",
+    "frame": "60.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "0.0.jpg",
+      "30.0.jpg",
+      "60.0.jpg",
+      "84.0.jpg"
+    ],
+    "window": [
+      0.0,
+      85.0
+    ]
+  },
+  {
+    "ref": "v91q02",
+    "theme": "signalisation",
+    "question_text": "Ce panneau de signalisation m'annonce un passage piéton à 50 mètres",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Ce panneau de signalisation est un panneau d'indication, facilement reconnaissable car il est généralement carré à fond blanc ou bleu. Un panneau d'indication est implanté à proximité de ce qu'il signale : ici, il m'indique donc la présence immédiate de ce passage piéton, et non une annonce à 50 mètres.",
+    "frame": "90.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "90.0.jpg",
+      "108.0.jpg",
+      "114.0.jpg",
+      "117.0.jpg"
+    ],
+    "window": [
+      87.0,
+      118.0
+    ]
+  },
+  {
+    "ref": "v91q03",
+    "theme": "piétons",
+    "question_text": "Les piétons sont des usagers vulnérables",
+    "options": {
+      "A": "Oui",
+      "B": "Non",
+      "C": "Créent des zones d'incertitudes : oui",
+      "D": "Créent des zones d'incertitudes : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Les piétons sont considérés comme des usagers vulnérables car ils ne possèdent pas de carrosserie pour les protéger. Leur comportement, pouvant être imprévisible, crée des zones d'incertitude autour d'eux. En tant que conducteur, je dois être particulièrement vigilant lorsque je croise des piétons et garder le pied près du frein.",
+    "frame": "144.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "120.0.jpg",
+      "144.0.jpg",
+      "162.0.jpg",
+      "192.0.jpg"
+    ],
+    "window": [
+      120.0,
+      194.0
+    ]
+  },
+  {
+    "ref": "v91q04",
+    "theme": "circulation",
+    "question_text": "Dans cette situation, je suis bien placé dans cette voie de circulation",
+    "options": {
+      "A": "Oui",
+      "B": "Non",
+      "C": "Je dois me rabattre sur la voie de droite : oui",
+      "D": "Je dois me rabattre sur la voie de droite : non"
+    },
+    "correct": [
+      "A",
+      "D"
+    ],
+    "explanation": "La voie de droite est une voie réservée aux bus. Je suis donc bien placé dans ma voie de circulation actuelle et je peux y rester, sans avoir besoin de me rabattre sur la voie de droite.",
+    "frame": "210.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "198.0.jpg",
+      "210.0.jpg",
+      "234.0.jpg"
+    ],
+    "window": [
+      197.0,
+      240.0
+    ]
+  },
+  {
+    "ref": "v91q05",
+    "theme": "commandes",
+    "question_text": "Cette commande me permet de régler",
+    "options": {
+      "A": "La puissance des feux",
+      "B": "La couleur des feux",
+      "C": "La hauteur des feux"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "Cette commande me permet de régler la hauteur des feux. En fonction du chargement de la voiture, je peux avoir besoin d'adapter la hauteur des feux afin de ne pas éblouir les autres usagers.",
+    "frame": "261.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "261.0.jpg",
+      "288.0.jpg"
+    ],
+    "window": [
+      243.0,
+      289.0
+    ]
+  },
+  {
+    "ref": "v91q06",
+    "theme": "priorités",
+    "question_text": "Personne n'est présent à l'intersection, je passe sans m'arrêter",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "La signalisation indique un stop et non un cédez-le-passage. Je suis obligé de marquer l'arrêt, même si personne n'est présent à l'intersection.",
+    "frame": "324.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "294.0.jpg",
+      "324.0.jpg",
+      "330.0.jpg"
+    ],
+    "window": [
+      293.0,
+      333.0
+    ]
+  },
+  {
+    "ref": "v91q07",
+    "theme": "éclairage-visibilité",
+    "question_text": "Dans cette situation, les feux les plus appropriés pour circuler sont",
+    "options": {
+      "A": "Les feux de croisement",
+      "B": "Les feux de route",
+      "C": "Les feux de brouillard avant"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Dans cette situation, les feux les plus adaptés pour circuler sont les feux de route. Les feux de route doivent uniquement être utilisés la nuit lorsque la visibilité est faible et que la chaussée n'est pas éclairée. Ici, les feux de croisement ne seraient pas suffisants pour voir distinctement, et les feux de brouillard avant n'ont pas d'utilité.",
+    "frame": "378.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "336.0.jpg",
+      "378.0.jpg"
+    ],
+    "window": [
+      336.0,
+      391.0
+    ]
+  },
+  {
+    "ref": "v91q08",
+    "theme": "cyclistes",
+    "question_text": "À ce feu tricolore, les cyclistes ont le droit de passer même si le feu est rouge",
+    "options": {
+      "A": "Oui",
+      "B": "Non",
+      "C": "Je passe : oui",
+      "D": "Je passe : non"
+    },
+    "correct": [
+      "A",
+      "D"
+    ],
+    "explanation": "Les cyclistes ont l'obligation de respecter les feux de signalisation. Cependant, ils peuvent être autorisés à passer au feu rouge sous certaines conditions : la présence du panneau cédez-le-passage cycliste au feu autorise les vélos à passer s'ils continuent dans la direction indiquée par la flèche du panneau. Ici, cependant, des piétons sont présents sur la chaussée, je m'arrête donc pour leur céder le passage.",
+    "frame": "396.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "396.0.jpg",
+      "450.0.jpg",
+      "456.0.jpg"
+    ],
+    "window": [
+      394.0,
+      458.0
+    ]
+  },
+  {
+    "ref": "v91q09",
+    "theme": "panneaux",
+    "question_text": "Je vais entrer sur",
+    "options": {
+      "A": "Une route à accès réglementé",
+      "B": "Une autoroute"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Ce panneau de signalisation barré m'indique que je quitte une route à accès réglementé, et le panneau juste au-dessus m'indique que je vais entrer sur une autoroute. Attention à ne pas confondre ces deux panneaux.",
+    "frame": "462.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "462.0.jpg",
+      "468.0.jpg",
+      "504.0.jpg"
+    ],
+    "window": [
+      461.0,
+      504.0
+    ]
+  },
+  {
+    "ref": "v91q12",
+    "theme": "priorités",
+    "question_text": "Pour décider de m'engager, j'observe notamment",
+    "options": {
+      "A": "La position des véhicules sur la chaussée : oui",
+      "B": "La position des véhicules sur la chaussée : non",
+      "C": "L'orientation des roues des autres usagers : oui",
+      "D": "L'orientation des roues des autres usagers : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Pour m'engager en sécurité à un carrefour à sens giratoire, il est indispensable d'analyser non seulement la position des véhicules sur la chaussée, mais aussi l'inclinaison de leur carrosserie et la direction de leurs roues, qui donnent des indices sur leur trajectoire.",
+    "frame": "663.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "609.0.jpg",
+      "663.0.jpg",
+      "669.0.jpg"
+    ],
+    "window": [
+      606.0,
+      669.0
+    ]
+  },
+  {
+    "ref": "v91q13",
+    "theme": "stationnement",
+    "question_text": "Immédiatement à droite, je peux",
+    "options": {
+      "A": "M'arrêter : oui",
+      "B": "M'arrêter : non",
+      "C": "Stationner : oui",
+      "D": "Stationner : non"
+    },
+    "correct": [
+      "B",
+      "D"
+    ],
+    "explanation": "Le marquage au sol indique un arrêt de bus. Il est interdit de s'y arrêter ou de s'y stationner.",
+    "frame": "675.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "675.0.jpg",
+      "711.0.jpg",
+      "714.0.jpg"
+    ],
+    "window": [
+      669.0,
+      716.0
+    ]
+  },
+  {
+    "ref": "v91q15",
+    "theme": "alcool-stupéfiants",
+    "question_text": "En cas d'accident corporel",
+    "options": {
+      "A": "Le dépistage aux drogues et à l'alcool est : systématique",
+      "B": "Le dépistage aux drogues et à l'alcool est : pas obligatoirement réalisé",
+      "C": "Avec 0,50 g/l d'alcool dans le sang je risque : un retrait de 4 points",
+      "D": "Avec 0,50 g/l d'alcool dans le sang je risque : un retrait de 6 points"
+    },
+    "correct": [
+      "A",
+      "D"
+    ],
+    "explanation": "En cas d'accident corporel, le dépistage aux drogues et à l'alcool est systématique. Avec 0,50 g/l d'alcool dans le sang, je risque un retrait de 6 points sur mon permis de conduire ainsi que 135 euros d'amende.",
+    "frame": "810.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "810.0.jpg",
+      "819.0.jpg"
+    ],
+    "window": [
+      761.0,
+      821.0
+    ]
+  },
+  {
+    "ref": "v91q16",
+    "theme": "piétons",
+    "question_text": "Est considéré comme un piéton",
+    "options": {
+      "A": "Un usager à trottinette non motorisée : oui",
+      "B": "Un usager à trottinette non motorisée : non",
+      "C": "Un usager à trottinette motorisée : oui",
+      "D": "Un usager à trottinette motorisée : non"
+    },
+    "correct": [
+      "A",
+      "D"
+    ],
+    "explanation": "Le code de la route assimile les conducteurs d'engins de déplacement personnel (EDP) non motorisés, comme les skateboards, les rollers ou les trottinettes non motorisées, à des piétons. En revanche, les usagers à trottinette motorisée sont des EDPM (engins de déplacement personnel motorisés) et ne sont pas considérés comme des piétons.",
+    "frame": "882.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "822.0.jpg",
+      "882.0.jpg"
+    ],
+    "window": [
+      821.0,
+      883.0
+    ]
+  },
+  {
+    "ref": "v91q17",
+    "theme": "panneaux",
+    "question_text": "Je circule sur",
+    "options": {
+      "A": "Une autoroute",
+      "B": "Une route départementale",
+      "C": "Une route nationale",
+      "D": "Une route métropolitaine"
+    },
+    "correct": [
+      "D"
+    ],
+    "explanation": "Le cartouche au-dessus des panneaux de direction m'indique que je circule sur une route métropolitaine. On peut la reconnaître grâce à sa couleur et à la lettre M.",
+    "frame": "927.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "885.0.jpg",
+      "927.0.jpg"
+    ],
+    "window": [
+      883.0,
+      929.0
+    ]
+  },
+  {
+    "ref": "v91q18",
+    "theme": "commandes",
+    "question_text": "Le limiteur de vitesse permet de",
+    "options": {
+      "A": "Rouler à une vitesse constante",
+      "B": "Ne pas dépasser une vitesse maximale souhaitée"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Le limiteur de vitesse permet au conducteur de définir une vitesse limite à ne pas dépasser : même en appuyant sur l'accélérateur, le véhicule ne dépassera pas la vitesse limite définie. Contrairement au régulateur, la vitesse n'est pas constante et le conducteur doit garder le pied sur l'accélérateur.",
+    "frame": "984.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "930.0.jpg",
+      "984.0.jpg"
+    ],
+    "window": [
+      929.0,
+      988.0
+    ]
+  },
+  {
+    "ref": "v91q19",
+    "theme": "documents",
+    "question_text": "En cas de contrôle des forces de l'ordre, je dois obligatoirement pouvoir présenter",
+    "options": {
+      "A": "La carte grise",
+      "B": "Le constat amiable",
+      "C": "Le permis de conduire"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Le constat amiable n'est pas un document obligatoire à avoir dans son véhicule, même s'il est fortement recommandé de l'avoir. En cas de contrôle des forces de l'ordre, je dois obligatoirement pouvoir présenter la carte grise et le permis de conduire.",
+    "frame": "1038.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "990.0.jpg",
+      "1038.0.jpg",
+      "1041.0.jpg"
+    ],
+    "window": [
+      988.0,
+      1042.0
+    ]
+  },
+  {
+    "ref": "v91q20",
+    "theme": "distances-de-sécurité",
+    "question_text": "Pour croiser ce véhicule, je me déporte sur le côtement",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Je circule sur une chaussée à trois voies. Cependant, dans cette situation, l'accotement n'est peut-être pas praticable. Je dois ralentir et serrer le bord droit de la chaussée plutôt que de me déporter sur l'accotement.",
+    "frame": "1080.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1044.0.jpg",
+      "1080.0.jpg"
+    ],
+    "window": [
+      1042.0,
+      1083.0
+    ]
+  },
+  {
+    "ref": "v91q22",
+    "theme": "écomobilité",
+    "question_text": "Mon ordinateur de bord peut me communiquer des informations sur mon éco-conduite",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Les ordinateurs de bord sont capables de communiquer des informations sur la conduite, telles que la consommation de carburant.",
+    "frame": "1173.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1137.0.jpg",
+      "1173.0.jpg"
+    ],
+    "window": [
+      1135.0,
+      1175.0
+    ]
+  },
+  {
+    "ref": "v91q24",
+    "theme": "priorités",
+    "question_text": "Je tourne à droite. Je dois céder le passage",
+    "options": {
+      "A": "À gauche : oui",
+      "B": "À gauche : non",
+      "C": "À droite : oui",
+      "D": "À droite : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "J'arrive à une intersection et le marquage au sol m'indique la présence d'un cédez-le-passage : je ne suis donc pas prioritaire. Je dois céder le passage à gauche, mais également à droite, car un usager venant de ma droite pourrait très bien être en train de dépasser un autre véhicule et se trouver sur la voie où je souhaite aller.",
+    "frame": "1287.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1233.0.jpg",
+      "1287.0.jpg"
+    ],
+    "window": [
+      1231.0,
+      1288.0
+    ]
+  },
+  {
+    "ref": "v91q25",
+    "theme": "assurance-constat",
+    "question_text": "Ne pas s'arrêter après avoir causé un accident, c'est commettre",
+    "options": {
+      "A": "Un délit de fuite",
+      "B": "Un refus d'obtempérer"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Ne pas s'arrêter après avoir causé un accident, c'est commettre un délit de fuite.",
+    "frame": "1296.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1296.0.jpg",
+      "1308.0.jpg"
+    ],
+    "window": [
+      1296.0,
+      1308.0
+    ]
+  },
+  {
+    "ref": "v91q27",
+    "theme": "mécanique-entretien",
+    "question_text": "Pour les poids lourds, les angles morts sont",
+    "options": {
+      "A": "Identiques à ceux d'une voiture",
+      "B": "Plus importants que ceux d'une voiture",
+      "C": "Moins importants que ceux d'une voiture"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Les angles morts sont proportionnels à la taille du véhicule : plus un véhicule est imposant, plus ses angles morts seront importants. Je dois donc être particulièrement vigilant lorsque je dépasse un poids lourd.",
+    "frame": "1434.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1389.0.jpg",
+      "1434.0.jpg"
+    ],
+    "window": [
+      1389.0,
+      1436.0
+    ]
+  },
+  {
+    "ref": "v91q28",
+    "theme": "stationnement",
+    "question_text": "Le stationnement à droite est",
+    "options": {
+      "A": "Gratuit",
+      "B": "Payant",
+      "C": "À durée limitée",
+      "D": "À durée illimitée"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "La signalisation horizontale avec le marquage bleu m'indique que le stationnement est gratuit et à durée limitée. Il est alors nécessaire de prendre connaissance de la durée autorisée sur le panneau d'entrée de zone et de placer le disque, indiquant l'heure d'arrivée, derrière le pare-brise.",
+    "frame": "1494.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1437.0.jpg",
+      "1494.0.jpg"
+    ],
+    "window": [
+      1436.0,
+      1497.0
+    ]
+  },
+  {
+    "ref": "v91q29",
+    "theme": "éclairage-visibilité",
+    "question_text": "Dans cette situation, l'éblouissement peut perturber la vision du conducteur pendant environ",
+    "options": {
+      "A": "Moins de 3 secondes",
+      "B": "Plus de 3 secondes",
+      "C": "Je baisse le pare-soleil : oui",
+      "D": "Je baisse le pare-soleil : non"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "explanation": "L'éblouissement est un phénomène dangereux car il perturbe la vision du conducteur pendant environ 5 secondes. Dans cette situation, je baisse le pare-soleil pour limiter les risques.",
+    "frame": "1548.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1497.0.jpg",
+      "1548.0.jpg"
+    ],
+    "window": [
+      1497.0,
+      1551.0
+    ]
+  },
+  {
+    "ref": "v91q30",
+    "theme": "vitesse",
+    "question_text": "La vitesse maximale autorisée est fixée à",
+    "options": {
+      "A": "70 km/h",
+      "B": "80 km/h",
+      "C": "90 km/h",
+      "D": "110 km/h"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "Je circule sur une chaussée hors agglomération, sans séparateur central et à double sens de circulation. De plus, la signalisation indique qu'un créneau de dépassement est présent pour mon sens de circulation. La limitation de vitesse passe donc de 80 km/h à 90 km/h, uniquement pour mon sens de circulation.",
+    "frame": "1614.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1551.0.jpg",
+      "1590.0.jpg",
+      "1614.0.jpg"
+    ],
+    "window": [
+      1551.0,
+      1616.0
+    ]
+  },
+  {
+    "ref": "v91q31",
+    "theme": "éclairage-visibilité",
+    "question_text": "Ce voyant indique le fonctionnement des feux",
+    "options": {
+      "A": "De croisement",
+      "B": "De route",
+      "C": "De brouillard avant",
+      "D": "De brouillard arrière"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "Ce voyant indique le fonctionnement des feux de brouillard avant. Attention à ne pas le confondre avec le voyant des feux de brouillard arrière, qui lui est orange.",
+    "frame": "1662.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1620.0.jpg",
+      "1662.0.jpg"
+    ],
+    "window": [
+      1616.0,
+      1665.0
+    ]
+  },
+  {
+    "ref": "v91q32",
+    "theme": "alcool-stupéfiants",
+    "question_text": "Pour un conducteur expérimenté, il est interdit de conduire à partir de 0,25 mg d'alcool par litre d'air expiré",
+    "options": {
+      "A": "Oui",
+      "B": "Non",
+      "C": "0,50 g d'alcool par litre de sang : oui",
+      "D": "0,50 g d'alcool par litre de sang : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Pour un conducteur expérimenté, il est interdit de conduire à partir de 0,25 mg d'alcool par litre d'air expiré, ou 0,50 g d'alcool par litre de sang. Pour l'examen, il suffit de retenir une seule de ces deux valeurs, car la conversion est simple : par exemple, en divisant par deux la limite de 0,50 g d'alcool par litre de sang, on obtient la valeur en mg par litre d'air expiré.",
+    "frame": "1740.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1665.0.jpg",
+      "1740.0.jpg"
+    ],
+    "window": [
+      1665.0,
+      1742.0
+    ]
+  },
+  {
+    "ref": "v91q34",
+    "theme": "mécanique-entretien",
+    "question_text": "Un pneu sous-gonflé augmente la consommation de carburant",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Un pneu sous-gonflé augmente les frottements avec la route et, par conséquent, augmente la consommation de carburant. Il faut penser à contrôler la pression des pneus au moins une fois par mois.",
+    "frame": "1824.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1785.0.jpg",
+      "1824.0.jpg"
+    ],
+    "window": [
+      1785.0,
+      1828.0
+    ]
+  },
+  {
+    "ref": "v91q35",
+    "theme": "vitesse",
+    "question_text": "La vitesse est limitée à 30 km/h",
+    "options": {
+      "A": "À partir du carrefour à sens giratoire",
+      "B": "À partir du panneau",
+      "C": "Jusqu'au panneau de fin de zone"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "explanation": "La signalisation m'annonce l'entrée dans une zone 30 avec ce panneau. Ma vitesse sera donc limitée à 30 km/h à partir du panneau et jusqu'à ce que je rencontre le panneau de fin de zone 30.",
+    "frame": "1863.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1830.0.jpg",
+      "1863.0.jpg"
+    ],
+    "window": [
+      1828.0,
+      1869.0
+    ]
+  },
+  {
+    "ref": "v91q36",
+    "theme": "équipements-de-sécurité",
+    "question_text": "Le triangle de présignalisation doit être placé au minimum à",
+    "options": {
+      "A": "15 mètres en amont de l'accident",
+      "B": "30 mètres en amont de l'accident",
+      "C": "Doit être installé sur route et autoroute : oui",
+      "D": "Doit être installé sur route et autoroute : non"
+    },
+    "correct": [
+      "B",
+      "D"
+    ],
+    "explanation": "Le triangle de présignalisation doit être placé au minimum à 30 mètres en amont de l'accident. Pour des raisons de sécurité, il ne faut pas placer le triangle de présignalisation sur autoroute.",
+    "frame": "1935.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1869.0.jpg",
+      "1935.0.jpg",
+      "1938.0.jpg"
+    ],
+    "window": [
+      1869.0,
+      1939.0
+    ]
+  },
+  {
+    "ref": "v91q37",
+    "theme": "éclairage-visibilité",
+    "question_text": "Dans cette situation, les feux autorisés sont les suivants",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct": [
+      "A",
+      "C",
+      "D"
+    ],
+    "explanation": "Par temps de brouillard, il faut utiliser au minimum les feux de croisement. Si le véhicule en est équipé, il faut également utiliser les feux de brouillard avant et arrière. Attention à ne pas utiliser les feux de route en cas de brouillard : ils formeraient un mur opaque devant le véhicule.",
+    "frame": "1995.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1941.0.jpg",
+      "1995.0.jpg"
+    ],
+    "window": [
+      1939.0,
+      1997.0
+    ]
+  },
+  {
+    "ref": "v91q38",
+    "theme": "cyclistes",
+    "question_text": "Pour dépasser ce cycliste, je dois laisser un intervalle latéral de sécurité d'au moins",
+    "options": {
+      "A": "1 mètre",
+      "B": "1,5 mètres",
+      "C": "Je suis autorisé à chevaucher la ligne continue : oui",
+      "D": "Je suis autorisé à chevaucher la ligne continue : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Je circule en agglomération. Pour dépasser ce cycliste, je dois laisser un intervalle latéral de sécurité d'au moins un mètre. De plus, le chevauchement d'une ligne continue est autorisé pour le dépassement des cyclistes.",
+    "frame": "2058.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1998.0.jpg",
+      "2040.0.jpg",
+      "2058.0.jpg"
+    ],
+    "window": [
+      1997.0,
+      2056.0
+    ]
+  },
+  {
+    "ref": "v91q40",
+    "theme": "passage-à-niveau",
+    "question_text": "Ce passage à niveau est à fonctionnement",
+    "options": {
+      "A": "Manuel",
+      "B": "Automatique"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "La présence du feu m'indique que ce passage à niveau est à fonctionnement automatique. La barrière s'abaisse automatiquement après le début du clignotement des feux.",
+    "frame": "2130.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "2082.0.jpg",
+      "2100.0.jpg",
+      "2130.0.jpg"
+    ],
+    "window": [
+      2080.0,
+      2133.0
+    ]
+  }
+]

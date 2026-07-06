@@ -1,0 +1,219 @@
+[
+  {
+    "ref": "v69q01",
+    "theme": "stationnement",
+    "question_text": "Je suis au volant d'une voiture électrique",
+    "options": {
+      "A": "Je peux m'arrêter sur les places de droite : Oui",
+      "B": "Je peux m'arrêter sur les places de droite : Non",
+      "C": "Je peux stationner sur les places de droite : Oui",
+      "D": "Je peux stationner sur les places de droite : Non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Ce panneau de stationnement interdit s'accompagne d'un panonceau « Interdit sauf » réservant les places aux véhicules électriques en charge. Je peux donc m'y arrêter et y stationner, mais uniquement pour recharger mon véhicule.",
+    "frame": "24.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "24.0.jpg",
+      "36.0.jpg",
+      "48.0.jpg",
+      "60.0.jpg"
+    ],
+    "window": [
+      12.0,
+      69.0
+    ]
+  },
+  {
+    "ref": "v69q02",
+    "theme": "cyclistes",
+    "question_text": "Lorsque le feu est rouge, les sas vélo peuvent être utilisés par",
+    "options": {
+      "A": "Les cyclistes",
+      "B": "Les motards",
+      "C": "Les usagers en trottinette électrique",
+      "D": "Les automobilistes"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Au feu rouge, les sas vélos sont réservés aux cyclistes et aux EDPM (engins de déplacement personnel motorisé), catégorie qui inclut la trottinette électrique. Ces sas permettent d'être mieux vus par les autres usagers et de démarrer avant eux.",
+    "frame": "72.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "72.0.jpg",
+      "84.0.jpg",
+      "96.0.jpg",
+      "108.0.jpg",
+      "120.0.jpg"
+    ],
+    "window": [
+      69.0,
+      132.0
+    ]
+  },
+  {
+    "ref": "v69q05",
+    "theme": "mécanique-entretien",
+    "question_text": "En période hivernale, je suis en règle si",
+    "options": {
+      "A": "Mon véhicule est équipé de 2 pneus hiver : Oui",
+      "B": "Mon véhicule est équipé de 2 pneus hiver : Non",
+      "C": "Mon véhicule est équipé de 4 pneus hiver : Oui",
+      "D": "Mon véhicule est équipé de 4 pneus hiver : Non"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "explanation": "Dans une trentaine de départements situés dans des massifs montagneux, l'obligation de posséder des chaînes, des chaussettes à neige ou 4 pneus hiver a été instaurée pendant la période hivernale. Deux pneus hiver seulement ne suffisent pas à respecter cette obligation.",
+    "frame": "300.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "300.0.jpg",
+      "312.0.jpg",
+      "324.0.jpg",
+      "336.0.jpg"
+    ],
+    "window": [
+      297.0,
+      342.0
+    ]
+  },
+  {
+    "ref": "v69q06",
+    "theme": "éclairage-visibilité",
+    "question_text": "Pour dégivrer le pare-brise, il est préférable",
+    "options": {
+      "A": "De verser de l'eau chaude",
+      "B": "D'activer le désembuage et d'utiliser un grattoir"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "En hiver, en cas de température basse et de pare-brise givré, le conducteur doit activer le désembuage, le dégivrage arrière, et utiliser un grattoir. Attention à ne pas verser d'eau chaude sur le pare-brise pour gagner du temps : le choc thermique risquerait de le fissurer.",
+    "frame": "360.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "360.0.jpg",
+      "372.0.jpg",
+      "384.0.jpg"
+    ],
+    "window": [
+      342.0,
+      393.0
+    ]
+  },
+  {
+    "ref": "v69q07",
+    "theme": "éclairage-visibilité",
+    "question_text": "La nuit, un véhicule seul en agglomération non éclairée doit utiliser ses feux",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "La nuit, un véhicule seul circulant en agglomération non éclairée doit utiliser ses feux de route.",
+    "frame": "402.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "402.0.jpg",
+      "414.0.jpg"
+    ],
+    "window": [
+      393.0,
+      423.0
+    ]
+  },
+  {
+    "ref": "v69q08",
+    "theme": "signalisation",
+    "question_text": "La voie de détresse",
+    "options": {
+      "A": "Se situe à 1000 m : Oui",
+      "B": "Se situe à 1000 m : Non",
+      "C": "S'étend sur 1000 m : Oui",
+      "D": "S'étend sur 1000 m : Non"
+    },
+    "correct": [
+      "A",
+      "D"
+    ],
+    "explanation": "La signalisation annonce la présence d'une voie de détresse à 1000 mètres. Ce panneau indique la distance jusqu'à la voie de détresse, et non sa longueur.",
+    "frame": "423.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "423.0.jpg",
+      "450.0.jpg",
+      "468.0.jpg"
+    ],
+    "window": [
+      423.0,
+      480.0
+    ]
+  },
+  {
+    "ref": "v69q09",
+    "theme": "mécanique-entretien",
+    "question_text": "Je souhaite contrôler mon niveau d'huile. Ce contrôle s'effectue",
+    "options": {
+      "A": "Lorsque le moteur est froid",
+      "B": "Lorsque le moteur est chaud",
+      "C": "Sur un sol plat",
+      "D": "Sur un sol en pente"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Le contrôle du niveau d'huile doit être effectué à moteur froid : avec un moteur chaud, vous risqueriez de vous brûler. De plus, pour ne pas fausser le résultat, le contrôle doit être effectué sur un sol plat.",
+    "frame": "480.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "480.0.jpg",
+      "492.0.jpg",
+      "504.0.jpg",
+      "516.0.jpg"
+    ],
+    "window": [
+      480.0,
+      540.0
+    ]
+  },
+  {
+    "ref": "v69q10",
+    "theme": "alcool-stupéfiants",
+    "question_text": "Je suis un conducteur expérimenté, je risque une perte de 6 points sur mon permis de conduire si je dépasse",
+    "options": {
+      "A": "0,25 g d'alcool pur par litre de sang",
+      "B": "0,5 g d'alcool pur par litre de sang",
+      "C": "0,25 mg d'alcool pur par litre d'air expiré",
+      "D": "0,5 mg d'alcool pur par litre d'air expiré"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "explanation": "En tant que conducteur expérimenté, je ne dois pas conduire si j'ai plus de 0,25 mg d'alcool pur par litre d'air expiré, ou 0,5 g d'alcool pur par litre de sang. Attention à ne pas confondre les deux unités : 0,5 g d'alcool par litre de sang et 0,25 mg d'alcool par litre d'air expiré représentent la même alcoolémie.",
+    "frame": "546.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "546.0.jpg",
+      "558.0.jpg",
+      "570.0.jpg",
+      "582.0.jpg",
+      "594.0.jpg"
+    ],
+    "window": [
+      540.0,
+      615.0
+    ]
+  }
+]

@@ -1,0 +1,127 @@
+[
+  {
+    "ref": "v66q02",
+    "theme": "distances-de-sécurité",
+    "question_text": "Je circule dans une descente dangereuse",
+    "options": {
+      "A": "Je freine légèrement en continu",
+      "B": "Je freine par intermittence et j'utilise le frein moteur"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Dans une descente dangereuse à forte pente, il faut rétrograder pour utiliser le frein moteur et freiner par intermittence. L'objectif est d'éviter la surchauffe des freins, qui risquerait de les rendre inefficaces.",
+    "frame": "90.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "78.0.jpg",
+      "90.0.jpg",
+      "102.0.jpg"
+    ],
+    "window": [
+      72.0,
+      123.0
+    ]
+  },
+  {
+    "ref": "v66q04",
+    "theme": "écomobilité",
+    "question_text": "En circulation, les voitures électriques n'émettent aucun gaz à effet de serre",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "C'est l'un des principaux avantages d'une voiture électrique : l'absence d'émissions de gaz à effet de serre lorsque le véhicule circule. En effet, les voitures électriques ne possèdent pas de pot d'échappement et n'émettent pas de CO2 en circulation.",
+    "frame": "198.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "186.0.jpg",
+      "198.0.jpg",
+      "222.0.jpg"
+    ],
+    "window": [
+      184.0,
+      230.0
+    ]
+  },
+  {
+    "ref": "v66q05",
+    "theme": "équipements-de-sécurité",
+    "question_text": "Je peux installer mon bébé dos à la route",
+    "options": {
+      "A": "Sur le siège avant : oui",
+      "B": "Sur le siège avant : non",
+      "C": "Sur le siège arrière : oui",
+      "D": "Sur le siège arrière : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Les bébés peuvent être transportés dans des sièges adaptés, dos à la route, à l'avant comme à l'arrière du véhicule. Il faut cependant penser à bien désactiver l'airbag passager si le siège bébé est installé à l'avant.",
+    "frame": "246.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "234.0.jpg",
+      "246.0.jpg",
+      "258.0.jpg"
+    ],
+    "window": [
+      230.0,
+      281.0
+    ]
+  },
+  {
+    "ref": "v66q08",
+    "theme": "distances-de-sécurité",
+    "question_text": "L'intervalle de sécurité entre deux véhicules doit être au minimum de",
+    "options": {
+      "A": "2 secondes",
+      "B": "3 secondes",
+      "C": "4 secondes"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "L'intervalle de sécurité entre deux véhicules doit être au minimum de 2 secondes. Cet intervalle permet de disposer d'une distance suffisante pour réagir et freiner en cas de besoin.",
+    "frame": "450.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "450.0.jpg",
+      "462.0.jpg",
+      "474.0.jpg"
+    ],
+    "window": [
+      437.0,
+      467.0
+    ]
+  },
+  {
+    "ref": "v66q09",
+    "theme": "priorités",
+    "question_text": "Le véhicule A, qui va en face, bénéficie de la priorité de passage par rapport au véhicule B",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "En l'absence de panneau de signalisation, la règle de la priorité à droite s'applique. La voiture B, qui tourne à gauche, doit laisser passer la voiture A car elle devrait lui couper la route pour tourner. L'ordre de passage est donc A puis B.",
+    "frame": "486.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "486.0.jpg",
+      "498.0.jpg",
+      "510.0.jpg",
+      "522.0.jpg"
+    ],
+    "window": [
+      467.0,
+      531.0
+    ]
+  }
+]

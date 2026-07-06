@@ -1,0 +1,233 @@
+[
+  {
+    "ref": "v33q01",
+    "theme": "équipements-de-sécurité",
+    "question_text": "Le port de la ceinture de sécurité est obligatoire",
+    "options": {
+      "A": "À l'avant uniquement",
+      "B": "À l'arrière uniquement",
+      "C": "À l'avant et à l'arrière"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "Le port de la ceinture de sécurité est obligatoire à l'avant comme à l'arrière du véhicule. Chaque occupant doit être attaché, quelle que soit sa place.",
+    "frame": "24.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "24.0.jpg",
+      "27.0.jpg",
+      "30.0.jpg"
+    ],
+    "window": [
+      0.0,
+      30.0
+    ]
+  },
+  {
+    "ref": "v33q02",
+    "theme": "permis",
+    "question_text": "En tant que conducteur avec un permis B, je peux transporter au maximum",
+    "options": {
+      "A": "7 passagers",
+      "B": "8 passagers",
+      "C": "9 passagers",
+      "D": "10 passagers"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Avec un permis B, je peux transporter au maximum 8 passagers. Cela représente 9 personnes au total dans le véhicule, en comptant le conducteur.",
+    "frame": "84.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "54.0.jpg",
+      "84.0.jpg",
+      "93.0.jpg"
+    ],
+    "window": [
+      30.0,
+      100.0
+    ]
+  },
+  {
+    "ref": "v33q03",
+    "theme": "piétons",
+    "question_text": "S'il n'est pas possible d'utiliser les trottoirs, les piétons peuvent emprunter la route",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Lorsqu'il n'est pas possible d'utiliser les trottoirs, les piétons peuvent emprunter la route, en prenant les précautions nécessaires pour circuler en sécurité.",
+    "frame": "108.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "108.0.jpg",
+      "120.0.jpg",
+      "132.0.jpg",
+      "135.0.jpg"
+    ],
+    "window": [
+      100.0,
+      138.0
+    ]
+  },
+  {
+    "ref": "v33q04",
+    "theme": "mécanique-entretien",
+    "question_text": "Ce voyant vient de s'allumer sur mon tableau de bord",
+    "options": {
+      "A": "Je continue",
+      "B": "Je m'arrête immédiatement à droite"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Ce voyant signale un faible niveau d'huile moteur. Comme il est de couleur orange, je peux continuer à rouler, mais je devrai faire le nécessaire rapidement.",
+    "frame": "141.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "141.0.jpg",
+      "159.0.jpg",
+      "171.0.jpg",
+      "177.0.jpg"
+    ],
+    "window": [
+      138.0,
+      180.0
+    ]
+  },
+  {
+    "ref": "v33q05",
+    "theme": "circulation",
+    "question_text": "Je peux m'insérer immédiatement sur la voie de gauche",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Aucun véhicule n'arrive derrière moi sur la voie de gauche. Je peux donc m'insérer immédiatement, après avoir contrôlé mes rétroviseurs et mon angle mort.",
+    "frame": "183.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "183.0.jpg",
+      "195.0.jpg",
+      "210.0.jpg",
+      "216.0.jpg"
+    ],
+    "window": [
+      180.0,
+      218.0
+    ]
+  },
+  {
+    "ref": "v33q06",
+    "theme": "alcool-stupéfiants",
+    "question_text": "Je suis un conducteur expérimenté, je risque une perte de 6 points sur mon permis de conduire si je dépasse",
+    "options": {
+      "A": "0,25 g d'alcool pur par litre de sang",
+      "B": "0,5 g d'alcool pur par litre de sang",
+      "C": "0,25 mg d'alcool pur par litre d'air expiré",
+      "D": "0,5 mg d'alcool pur par litre d'air expiré"
+    },
+    "correct": [
+      "B",
+      "C",
+      "D"
+    ],
+    "explanation": "Pour un conducteur expérimenté, la limite légale à ne pas dépasser est de 0,5 g d'alcool pur par litre de sang, soit 0,25 mg par litre d'air expiré. Au-delà de ces seuils, une infraction est constituée et peut entraîner une perte de 6 points.",
+    "frame": "219.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "219.0.jpg",
+      "240.0.jpg",
+      "261.0.jpg",
+      "276.0.jpg"
+    ],
+    "window": [
+      218.0,
+      279.0
+    ]
+  },
+  {
+    "ref": "v33q07",
+    "theme": "stationnement",
+    "question_text": "Sur cette place de livraison, je peux m'arrêter",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Un arrêt est toléré sur une place de livraison. Dans le code de la route, l'arrêt est une immobilisation de courte durée pendant laquelle le conducteur reste à proximité du véhicule et peut le déplacer à tout moment. Il ne faut pas le confondre avec le stationnement.",
+    "frame": "288.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "288.0.jpg",
+      "300.0.jpg",
+      "318.0.jpg"
+    ],
+    "window": [
+      279.0,
+      326.0
+    ]
+  },
+  {
+    "ref": "v33q09",
+    "theme": "écomobilité",
+    "question_text": "Le système \"stop and start\" sert à",
+    "options": {
+      "A": "Couper automatiquement le moteur à l'arrêt",
+      "B": "Réduire le bruit et la pollution",
+      "C": "Contrôler l'autoradio",
+      "D": "Empêcher le blocage des roues lors du freinage"
+    },
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "Le système stop and start coupe automatiquement le moteur lorsque le véhicule est à l'arrêt et le redémarre au moment de repartir. Il permet ainsi de réduire le bruit et la pollution.",
+    "frame": "420.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "420.0.jpg",
+      "453.0.jpg",
+      "462.0.jpg"
+    ],
+    "window": [
+      416.0,
+      464.0
+    ]
+  },
+  {
+    "ref": "v33q10",
+    "theme": "mécanique-entretien",
+    "question_text": "La cause principale de l'éclatement d'un pneu est",
+    "options": {
+      "A": "L'usure",
+      "B": "Le sous-gonflage",
+      "C": "Le surgonflage"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "La cause principale de l'éclatement d'un pneu est le sous-gonflage. Un pneu sous-gonflé s'échauffe anormalement en roulant, ce qui peut provoquer son éclatement.",
+    "frame": "471.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "471.0.jpg",
+      "489.0.jpg",
+      "501.0.jpg"
+    ],
+    "window": [
+      464.0,
+      507.0
+    ]
+  }
+]

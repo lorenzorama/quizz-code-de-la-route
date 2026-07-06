@@ -1,0 +1,155 @@
+[
+  {
+    "ref": "v52q01",
+    "theme": "priorités",
+    "question_text": "Dans cette situation, l'usager qui bénéficie de la priorité de passage est",
+    "options": {
+      "A": "La voiture",
+      "B": "Le cycliste"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "La voiture s'apprête à tourner à droite, comme l'indique son clignotant, et doit pour cela traverser la bande cyclable. En l'absence de signalisation, c'est le véhicule qui change de direction ou de voie qui doit céder le passage. Le cycliste bénéficie donc de la priorité de passage sur la voiture.",
+    "frame": "30.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "30.0.jpg",
+      "45.0.jpg",
+      "54.0.jpg",
+      "63.0.jpg",
+      "66.0.jpg"
+    ],
+    "window": [
+      0.0,
+      69.0
+    ]
+  },
+  {
+    "ref": "v52q05",
+    "theme": "vitesse",
+    "question_text": "Les chances de survie d'un piéton heurté à 50 km/h sont de",
+    "options": {
+      "A": "20%",
+      "B": "60%",
+      "C": "80%"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Les chances de survie d'un piéton heurté à 50 km/h ne sont que de 20%. Plus la vitesse au moment du choc est élevée, plus les conséquences pour le piéton sont graves.",
+    "frame": "270.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "270.0.jpg",
+      "276.0.jpg",
+      "282.0.jpg",
+      "291.0.jpg"
+    ],
+    "window": [
+      255.0,
+      296.0
+    ]
+  },
+  {
+    "ref": "v52q06",
+    "theme": "signalisation",
+    "question_text": "Je circule sur une route à sens unique",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Le panneau à flèche blanche sur fond bleu indique que l'on circule sur une route à sens unique. C'est une signalisation fréquente en agglomération.",
+    "frame": "318.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "318.0.jpg",
+      "330.0.jpg",
+      "333.0.jpg"
+    ],
+    "window": [
+      298.0,
+      335.0
+    ]
+  },
+  {
+    "ref": "v52q07",
+    "theme": "alcool-stupéfiants",
+    "question_text": "Téléphoner en conduisant augmente",
+    "options": {
+      "A": "Le risque d'accident",
+      "B": "Le temps de réaction",
+      "C": "La distance de freinage"
+    },
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "Téléphoner en conduisant augmente le risque d'accident et le temps de réaction : le conducteur met plus de temps à réagir. La distance de freinage, elle, n'est pas concernée, car elle dépend de la vitesse et des conditions météorologiques. Attention à ne pas croire que le temps de réaction diminue : au contraire, il augmente.",
+    "frame": "351.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "351.0.jpg",
+      "384.0.jpg"
+    ],
+    "window": [
+      337.0,
+      398.0
+    ]
+  },
+  {
+    "ref": "v52q08",
+    "theme": "circulation",
+    "question_text": "Je circule sur autoroute. Je suis autorisé à circuler sur cette voie",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Sur autoroute, lorsque la circulation est fluide, la voie la plus à gauche est soumise à une vitesse minimale de 80 km/h. En roulant à 75 km/h, je ne suis pas autorisé à emprunter cette voie.",
+    "frame": "420.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "420.0.jpg",
+      "438.0.jpg",
+      "441.0.jpg",
+      "447.0.jpg"
+    ],
+    "window": [
+      401.0,
+      448.0
+    ]
+  },
+  {
+    "ref": "v52q10",
+    "theme": "écomobilité",
+    "question_text": "Un trafic fluide favorise",
+    "options": {
+      "A": "La baisse de consommation de carburant : oui",
+      "B": "La baisse de consommation de carburant : non",
+      "C": "La réduction des émissions polluantes : oui",
+      "D": "La réduction des émissions polluantes : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Un trafic fluide favorise à la fois la baisse de la consommation de carburant et la réduction des émissions polluantes. Les embouteillages obligent les conducteurs à freiner et à accélérer sans cesse, ce qui augmente la consommation et la pollution.",
+    "frame": "504.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "504.0.jpg",
+      "531.0.jpg",
+      "543.0.jpg"
+    ],
+    "window": [
+      490.0,
+      546.0
+    ]
+  }
+]

@@ -1,0 +1,262 @@
+[
+  {
+    "ref": "v19q01",
+    "theme": "commandes",
+    "question_text": "L'usage du kit main libre en conduisant est",
+    "options": {
+      "A": "Autorisé",
+      "B": "Interdit"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "L'usage du kit main libre au volant est interdit, car tout dispositif porté à l'oreille est prohibé en conduisant. La technologie Bluetooth intégrée au véhicule reste la seule solution autorisée pour téléphoner en conduisant.",
+    "frame": "30.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "30.0.jpg",
+      "36.0.jpg",
+      "42.0.jpg",
+      "51.0.jpg"
+    ],
+    "window": [
+      0.0,
+      54.0
+    ]
+  },
+  {
+    "ref": "v19q02",
+    "theme": "mécanique-entretien",
+    "question_text": "Le premier contrôle technique doit être effectué avant le 4ème anniversaire de la mise en circulation de votre véhicule",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Le premier contrôle technique doit être réalisé avant le 4ème anniversaire de la mise en circulation du véhicule. Il devra ensuite être renouvelé tous les deux ans.",
+    "frame": "75.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "75.0.jpg",
+      "84.0.jpg",
+      "90.0.jpg",
+      "93.0.jpg"
+    ],
+    "window": [
+      57.0,
+      96.0
+    ]
+  },
+  {
+    "ref": "v19q03",
+    "theme": "stationnement",
+    "question_text": "J'effectue un créneau en",
+    "options": {
+      "A": "Marche avant",
+      "B": "Marche arrière"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Un créneau s'effectue en marche arrière. Si la place est limitée en longueur, il sera très difficile voire impossible de se garer en marche avant.",
+    "frame": "117.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "117.0.jpg",
+      "126.0.jpg",
+      "132.0.jpg"
+    ],
+    "window": [
+      98.0,
+      135.0
+    ]
+  },
+  {
+    "ref": "v19q04",
+    "theme": "assurance-constat",
+    "question_text": "Je peux modifier le recto d'un constat amiable après la signature des deux conducteurs",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Il est interdit de modifier le recto du constat amiable après la signature des deux parties. Seul le verso peut encore être complété une fois le recto signé.",
+    "frame": "159.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "159.0.jpg",
+      "168.0.jpg",
+      "174.0.jpg"
+    ],
+    "window": [
+      137.0,
+      178.0
+    ]
+  },
+  {
+    "ref": "v19q05",
+    "theme": "premiers-secours",
+    "question_text": "En cas d'accident, je dois (dans l'ordre)",
+    "options": {
+      "A": "Secourir, Alerter, Protéger",
+      "B": "Protéger, Alerter, Secourir",
+      "C": "Alerter, Protéger, Secourir"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "En cas d'accident, je dois d'abord protéger la zone de l'accident et les victimes, puis alerter les secours, et enfin secourir les victimes. C'est la règle P.A.S. : Protéger, Alerter, Secourir.",
+    "frame": "180.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "180.0.jpg",
+      "195.0.jpg",
+      "213.0.jpg",
+      "228.0.jpg"
+    ],
+    "window": [
+      180.0,
+      237.0
+    ]
+  },
+  {
+    "ref": "v19q06",
+    "theme": "commandes",
+    "question_text": "Dans une voiture à boite automatique, j'agis sur les pédales avec",
+    "options": {
+      "A": "Mon pied droit : oui",
+      "B": "Mon pied droit : non",
+      "C": "Mon pied gauche : oui",
+      "D": "Mon pied gauche : non"
+    },
+    "correct": [
+      "A",
+      "D"
+    ],
+    "explanation": "Dans une voiture à boite automatique, je dois utiliser uniquement mon pied droit. Il sert à actionner à la fois la pédale de frein et la pédale d'accélérateur.",
+    "frame": "270.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "270.0.jpg",
+      "279.0.jpg",
+      "285.0.jpg",
+      "291.0.jpg"
+    ],
+    "window": [
+      248.0,
+      295.0
+    ]
+  },
+  {
+    "ref": "v19q07",
+    "theme": "commandes",
+    "question_text": "À l'approche d'un péage",
+    "options": {
+      "A": "Je désactive le régulateur de vitesse : oui",
+      "B": "Je désactive le régulateur de vitesse : non",
+      "C": "Je désactive le limiteur de vitesse : oui",
+      "D": "Je désactive le limiteur de vitesse : non"
+    },
+    "correct": [
+      "A",
+      "D"
+    ],
+    "explanation": "À l'approche d'un péage, je dois ralentir et m'arrêter pour prendre un ticket ou payer. Je désactive donc le régulateur qui maintient une vitesse constante, mais il est inutile de désactiver le limiteur qui empêche seulement de dépasser une vitesse de consigne.",
+    "frame": "324.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "324.0.jpg",
+      "354.0.jpg",
+      "360.0.jpg"
+    ],
+    "window": [
+      297.0,
+      362.0
+    ]
+  },
+  {
+    "ref": "v19q08",
+    "theme": "vitesse",
+    "question_text": "Après deux heures de conduite",
+    "options": {
+      "A": "Le temps de réaction est de deux secondes : oui",
+      "B": "Le temps de réaction est de deux secondes : non",
+      "C": "Il est conseillé de faire une pause : oui",
+      "D": "Il est conseillé de faire une pause : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Après deux heures de conduite, le temps de réaction passe à deux secondes, alors qu'il n'est que d'une seconde quand on vient de prendre le volant. Il est donc conseillé de faire une pause toutes les deux heures.",
+    "frame": "384.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "384.0.jpg",
+      "396.0.jpg",
+      "405.0.jpg",
+      "414.0.jpg"
+    ],
+    "window": [
+      366.0,
+      414.0
+    ]
+  },
+  {
+    "ref": "v19q09",
+    "theme": "éclairage-visibilité",
+    "question_text": "Je suis le dernier de ma voie dans un embouteillage. Il est conseillé",
+    "options": {
+      "A": "D'allumer les feux anti-brouillards",
+      "B": "De laisser les feux de stop allumés",
+      "C": "D'allumer les feux de détresse"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "Lorsque je suis le dernier de ma voie dans un embouteillage, allumer mes feux de détresse permet d'avertir les usagers qui arrivent derrière moi. Ils peuvent ainsi anticiper plus facilement le freinage.",
+    "frame": "435.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "435.0.jpg",
+      "456.0.jpg",
+      "462.0.jpg"
+    ],
+    "window": [
+      416.0,
+      464.0
+    ]
+  },
+  {
+    "ref": "v19q10",
+    "theme": "panneaux",
+    "question_text": "Dans cette situation",
+    "options": {
+      "A": "Je rentre dans une aire piétonne",
+      "B": "Je rentre dans une zone de rencontre",
+      "C": "Je pourrai rouler au maximum à 20 km/h",
+      "D": "Je pourrai rouler au maximum à 30 km/h"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "explanation": "Le panneau indique une zone de rencontre, où piétons, cyclistes et voitures cohabitent et où les piétons sont prioritaires. Dans une zone de rencontre, la vitesse est limitée au maximum à 20 km/h.",
+    "frame": "471.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "471.0.jpg",
+      "498.0.jpg",
+      "504.0.jpg",
+      "513.0.jpg"
+    ],
+    "window": [
+      466.0,
+      513.0
+    ]
+  }
+]

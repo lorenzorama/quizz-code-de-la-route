@@ -1,0 +1,167 @@
+[
+  {
+    "ref": "v44q01",
+    "theme": "écomobilité",
+    "question_text": "Les Parcs Relais sont des emplacements aménagés pour",
+    "options": {
+      "A": "Le co-voiturage : oui",
+      "B": "Le co-voiturage : non",
+      "C": "La poursuite du trajet en transport en commun : oui",
+      "D": "La poursuite du trajet en transport en commun : non"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "explanation": "Les Parcs Relais sont des parcs de stationnement situés à proximité d'une gare ou d'une station de métro. Leur objectif n'est pas le covoiturage mais de faciliter l'accès des voyageurs aux transports en commun. On y laisse son véhicule pour poursuivre son trajet en transport en commun.",
+    "frame": "45.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "30.0.jpg",
+      "36.0.jpg",
+      "45.0.jpg",
+      "51.0.jpg"
+    ],
+    "window": [
+      0.0,
+      72.0
+    ]
+  },
+  {
+    "ref": "v44q02",
+    "theme": "priorités",
+    "question_text": "Le camion tourne à gauche. L'usager qui passe en dernier est",
+    "options": {
+      "A": "Le camion",
+      "B": "La moto",
+      "C": "La voiture"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "La voiture est arrêtée à un stop : elle doit céder le passage à sa gauche comme à sa droite. La moto passe donc en premier, le camion qui tourne à gauche ensuite, et la voiture passe en dernier.",
+    "frame": "90.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "90.0.jpg",
+      "114.0.jpg",
+      "120.0.jpg"
+    ],
+    "window": [
+      72.0,
+      125.0
+    ]
+  },
+  {
+    "ref": "v44q03",
+    "theme": "signalisation",
+    "question_text": "Le panneau de signalisation qui indique une issue de secours est",
+    "options": {
+      "A": "Le A",
+      "B": "Le B",
+      "C": "Le C",
+      "D": "Le D"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "Le panneau qui indique une issue de secours est le panneau vert représentant une silhouette se dirigeant vers une porte. Le panneau A signale un poste d'appel d'urgence (S.O.S), le B un poste de secours et le D un passage pour piétons.",
+    "frame": "126.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "126.0.jpg",
+      "156.0.jpg",
+      "162.0.jpg"
+    ],
+    "window": [
+      125.0,
+      167.0
+    ]
+  },
+  {
+    "ref": "v44q04",
+    "theme": "premiers-secours",
+    "question_text": "En cas d'accident, je peux être accusé de non-assistance à personne en danger si",
+    "options": {
+      "A": "Je ne porte pas secours aux victimes : oui",
+      "B": "Je ne porte pas secours aux victimes : non",
+      "C": "Je ne fais pas de constat amiable : oui",
+      "D": "Je ne fais pas de constat amiable : non"
+    },
+    "correct": [
+      "A",
+      "D"
+    ],
+    "explanation": "La non-assistance à personne en danger consiste à ne pas porter secours aux victimes : c'est un délit lourdement sanctionné (amende et peine de prison). En revanche, le fait de ne pas remplir de constat amiable ne relève pas de la non-assistance à personne en danger.",
+    "frame": "168.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "168.0.jpg",
+      "210.0.jpg",
+      "216.0.jpg"
+    ],
+    "window": [
+      167.0,
+      221.0
+    ]
+  },
+  {
+    "ref": "v44q06",
+    "theme": "stationnement",
+    "question_text": "Nous sommes le 15 juillet",
+    "options": {
+      "A": "Je dois stationner du côté pair des maisons",
+      "B": "Je dois stationner du côté impair des maisons",
+      "C": "Il est 19h, je peux changer mon véhicule de côté : oui",
+      "D": "Il est 19h, je peux changer mon véhicule de côté : non"
+    },
+    "correct": [
+      "B",
+      "D"
+    ],
+    "explanation": "Avec ce panneau de stationnement alterné semi-mensuel, du 1er au 15 du mois le stationnement n'est autorisé que du côté où les numéros sont impairs, et du 16 à la fin du mois du côté pair. Les changements de côté s'effectuent le 15 et le dernier jour du mois entre 20h30 et 21h : à 19h le 15 juillet, on ne peut donc pas encore changer de côté.",
+    "frame": "282.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "282.0.jpg",
+      "336.0.jpg",
+      "342.0.jpg",
+      "348.0.jpg",
+      "351.0.jpg"
+    ],
+    "window": [
+      277.0,
+      351.0
+    ]
+  },
+  {
+    "ref": "v44q08",
+    "theme": "éclairage-visibilité",
+    "question_text": "Il y a du brouillard",
+    "options": {
+      "A": "Je circule en feux de brouillard avant",
+      "B": "Je circule en feux de brouillard arrière",
+      "C": "Ils sont bien adaptés à la situation : oui",
+      "D": "Ils sont bien adaptés à la situation : non"
+    },
+    "correct": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "Les voyants indiquent que je circule avec les feux de brouillard avant et arrière allumés. Par temps de brouillard, il faut allumer au minimum les feux de croisement, que l'on peut compléter ou remplacer par les feux de brouillard avant, et allumer les feux de brouillard arrière : ces feux sont donc bien adaptés à la situation.",
+    "frame": "435.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "390.0.jpg",
+      "420.0.jpg",
+      "435.0.jpg",
+      "447.0.jpg",
+      "450.0.jpg"
+    ],
+    "window": [
+      380.0,
+      450.0
+    ]
+  }
+]

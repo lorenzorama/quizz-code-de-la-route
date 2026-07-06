@@ -1,0 +1,234 @@
+[
+  {
+    "ref": "v18q01",
+    "theme": "équipements-de-sécurité",
+    "question_text": "Mon véhicule est équipé de coussins gonflables (airbags), le port de la ceinture est facultatif",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Même sur un véhicule équipé d'airbags, le port de la ceinture de sécurité reste obligatoire. L'airbag ne remplace pas la ceinture : il agit en complément de celle-ci pour protéger les occupants en cas de choc.",
+    "frame": "30.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "18.0.jpg",
+      "30.0.jpg",
+      "36.0.jpg",
+      "42.0.jpg"
+    ],
+    "window": [
+      11.0,
+      51.0
+    ]
+  },
+  {
+    "ref": "v18q02",
+    "theme": "alcool-stupéfiants",
+    "question_text": "Pour une même quantité d'alcool absorbée, l'alcoolémie varie en fonction",
+    "options": {
+      "A": "Du poids : oui",
+      "B": "Du poids : non",
+      "C": "Du sexe : oui",
+      "D": "Du sexe : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Pour une même quantité d'alcool absorbée, l'alcoolémie varie en fonction du poids et du sexe. Le taux d'alcool dans le sang sera plus élevé chez une personne de faible poids et chez une femme.",
+    "frame": "54.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "57.0.jpg",
+      "75.0.jpg",
+      "90.0.jpg",
+      "99.0.jpg"
+    ],
+    "window": [
+      51.0,
+      102.0
+    ]
+  },
+  {
+    "ref": "v18q03",
+    "theme": "vitesse",
+    "question_text": "Il pleut, la vitesse maximale à laquelle je peux rouler est de",
+    "options": {
+      "A": "40 km/h",
+      "B": "50 km/h",
+      "C": "60 km/h",
+      "D": "70 km/h"
+    },
+    "correct": [
+      "D"
+    ],
+    "explanation": "Le panneau de rappel indique une limitation à 70 km/h. Sur une route limitée à 70 km/h, la vitesse maximale autorisée n'est pas réduite en cas de pluie. Je peux donc rouler jusqu'à 70 km/h.",
+    "frame": "105.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "108.0.jpg",
+      "120.0.jpg",
+      "135.0.jpg",
+      "150.0.jpg"
+    ],
+    "window": [
+      102.0,
+      153.0
+    ]
+  },
+  {
+    "ref": "v18q04",
+    "theme": "éclairage-visibilité",
+    "question_text": "Sur le tableau de bord, les voyants verts ou bleus indiquent les feux qui sont allumés",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Sur le tableau de bord, les voyants verts et bleus signalent quels feux sont allumés : feux de position, feux de croisement ou feux de route. Le voyant des feux de brouillard, lui, est de couleur orange.",
+    "frame": "180.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "159.0.jpg",
+      "174.0.jpg",
+      "180.0.jpg",
+      "195.0.jpg"
+    ],
+    "window": [
+      153.0,
+      201.0
+    ]
+  },
+  {
+    "ref": "v18q06",
+    "theme": "circulation",
+    "question_text": "Je peux dépasser la voiture grise devant moi",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "La ligne continue au milieu de la chaussée m'interdit de dépasser. De plus, un véhicule arrive en sens inverse. Je ne dois donc pas entamer ce dépassement.",
+    "frame": "270.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "270.0.jpg",
+      "285.0.jpg",
+      "300.0.jpg",
+      "306.0.jpg"
+    ],
+    "window": [
+      261.0,
+      312.0
+    ]
+  },
+  {
+    "ref": "v18q07",
+    "theme": "assurance-constat",
+    "question_text": "L'assurance \"Responsabilité civile\" est la seule assurance obligatoire",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "En tant que conducteur, vous devez obligatoirement souscrire une assurance. Seule l'assurance responsabilité civile est obligatoire : elle couvre les dommages matériels ou corporels causés à un tiers. On l'appelle aussi assurance \"au tiers\".",
+    "frame": "330.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "330.0.jpg",
+      "345.0.jpg",
+      "357.0.jpg",
+      "363.0.jpg"
+    ],
+    "window": [
+      312.0,
+      366.0
+    ]
+  },
+  {
+    "ref": "v18q08",
+    "theme": "mécanique-entretien",
+    "question_text": "L'aide au freinage d'urgence (A.F.U) permet",
+    "options": {
+      "A": "D'éviter le blocage des roues lors du freinage",
+      "B": "De freiner à la place du conducteur",
+      "C": "De renforcer le freinage en cas d'urgence"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "L'AFU renforce le freinage du conducteur en cas d'urgence en atteignant instantanément la pression de freinage maximale. Il ne faut pas la confondre avec l'ABS, qui évite le blocage des roues. L'AFU est toujours combinée à l'ABS, mais un véhicule peut avoir l'ABS sans AFU.",
+    "frame": "384.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "384.0.jpg",
+      "396.0.jpg",
+      "408.0.jpg",
+      "417.0.jpg"
+    ],
+    "window": [
+      366.0,
+      423.0
+    ]
+  },
+  {
+    "ref": "v18q09",
+    "theme": "circulation",
+    "question_text": "Je roule plus vite que la voiture qui me précède. Je peux entamer un dépassement",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Le rétroviseur montre que vous êtes vous-même en train d'être dépassé. Vous devez patienter et ralentir avant d'envisager un dépassement.",
+    "frame": "435.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "435.0.jpg",
+      "444.0.jpg",
+      "453.0.jpg",
+      "462.0.jpg"
+    ],
+    "window": [
+      423.0,
+      465.0
+    ]
+  },
+  {
+    "ref": "v18q10",
+    "theme": "piétons",
+    "question_text": "Je souhaite tourner à droite. Dans cette situation",
+    "options": {
+      "A": "Je conserve mon allure",
+      "B": "Je ralentis",
+      "C": "Je m'arrête"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "Un piéton s'apprête à traverser sur le passage piéton. Comme il est prioritaire, vous devez vous arrêter pour le laisser passer.",
+    "frame": "468.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "468.0.jpg",
+      "480.0.jpg",
+      "495.0.jpg",
+      "507.0.jpg"
+    ],
+    "window": [
+      465.0,
+      510.0
+    ]
+  }
+]

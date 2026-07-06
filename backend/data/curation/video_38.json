@@ -1,0 +1,164 @@
+[
+  {
+    "ref": "v38q01",
+    "theme": "mécanique-entretien",
+    "question_text": "Pour remplacer un pneumatique, je dois respecter certaines contraintes",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Lors du remplacement d'un pneumatique, de nombreux critères sont à prendre en compte, comme la largeur, la hauteur ou le diamètre. Ces informations sont en général indiquées sur le flanc du pneumatique.",
+    "frame": "30.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "30.0.jpg",
+      "33.0.jpg",
+      "36.0.jpg",
+      "48.0.jpg",
+      "51.0.jpg"
+    ],
+    "window": [
+      0.0,
+      54.0
+    ]
+  },
+  {
+    "ref": "v38q02",
+    "theme": "premiers-secours",
+    "question_text": "Je peux utiliser un téléphone portable, même verrouillé, pour appeler les services d'urgence",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Même lorsqu'il est verrouillé, un téléphone portable permet toujours d'appeler les services d'urgence. Cette fonction reste accessible pour porter secours en cas de besoin.",
+    "frame": "72.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "60.0.jpg",
+      "63.0.jpg",
+      "72.0.jpg",
+      "84.0.jpg",
+      "90.0.jpg"
+    ],
+    "window": [
+      56.0,
+      91.0
+    ]
+  },
+  {
+    "ref": "v38q03",
+    "theme": "cyclistes",
+    "question_text": "À certains feux tricolores, les cyclistes ont la possibilité de passer même lorsque le feu est rouge",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "À certains feux, un panneau spécifique peut autoriser les cyclistes à franchir le feu rouge. Ce panneau fonctionne comme un cédez-le-passage : le cycliste doit laisser la priorité aux autres usagers qui ont le feu vert et respecter la direction indiquée par la flèche.",
+    "frame": "117.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "108.0.jpg",
+      "111.0.jpg",
+      "117.0.jpg",
+      "135.0.jpg",
+      "141.0.jpg"
+    ],
+    "window": [
+      93.0,
+      148.0
+    ]
+  },
+  {
+    "ref": "v38q05",
+    "theme": "équipements-de-sécurité",
+    "question_text": "Je suis obligé d'avoir dans ma voiture",
+    "options": {
+      "A": "Des lunettes de soleil",
+      "B": "Un éthylotest",
+      "C": "Un triangle de présignalisation",
+      "D": "Un gilet haute visibilité"
+    },
+    "correct": [
+      "C",
+      "D"
+    ],
+    "explanation": "Il est obligatoire d'avoir dans son véhicule un gilet haute visibilité, à porter avant de sortir en cas d'arrêt d'urgence, ainsi qu'un triangle de présignalisation. L'éthylotest a été obligatoire à une époque, mais il ne l'est plus aujourd'hui.",
+    "frame": "258.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "240.0.jpg",
+      "246.0.jpg",
+      "258.0.jpg",
+      "270.0.jpg",
+      "279.0.jpg"
+    ],
+    "window": [
+      238.0,
+      282.0
+    ]
+  },
+  {
+    "ref": "v38q08",
+    "theme": "commandes",
+    "question_text": "Ce conducteur est bien installé",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Ce conducteur est mal installé à son poste de conduite : il se tient beaucoup trop près du volant. Les bras doivent rester légèrement fléchis pour conserver une bonne maîtrise du véhicule.",
+    "frame": "384.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "375.0.jpg",
+      "378.0.jpg",
+      "384.0.jpg",
+      "396.0.jpg",
+      "402.0.jpg"
+    ],
+    "window": [
+      370.0,
+      406.0
+    ]
+  },
+  {
+    "ref": "v38q10",
+    "theme": "panneaux",
+    "question_text": "La route en direction de Paris est",
+    "options": {
+      "A": "Une route européenne",
+      "B": "Une autoroute",
+      "C": "Une nationale",
+      "D": "Une départementale"
+    },
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "Les cartouches situés au-dessus du panneau indiquent que la route en direction de Paris est l'autoroute A71, qui est également une route européenne, l'E11.",
+    "frame": "477.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "465.0.jpg",
+      "477.0.jpg",
+      "483.0.jpg",
+      "501.0.jpg",
+      "507.0.jpg"
+    ],
+    "window": [
+      458.0,
+      508.0
+    ]
+  }
+]

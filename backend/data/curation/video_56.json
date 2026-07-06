@@ -1,0 +1,157 @@
+[
+  {
+    "ref": "v56q01",
+    "theme": "mécanique-entretien",
+    "question_text": "Ce témoin vient de s'allumer",
+    "options": {
+      "A": "Je continue",
+      "B": "Je m'arrête immédiatement à droite"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Ce voyant indique que le niveau de carburant est bas. Lorsqu'il s'allume, il reste encore une autonomie d'environ 50 km. Il n'y a donc pas de danger immédiat : je peux continuer jusqu'à la prochaine station-service pour refaire le plein.",
+    "frame": "30.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "30.0.jpg",
+      "45.0.jpg",
+      "54.0.jpg",
+      "57.0.jpg"
+    ],
+    "window": [
+      0.0,
+      60.0
+    ]
+  },
+  {
+    "ref": "v56q02",
+    "theme": "priorités",
+    "question_text": "Je peux dépasser ce bus",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Ce bus a actionné son clignotant gauche pour indiquer son intention de quitter son arrêt. Je dois ralentir ou m'arrêter afin de le laisser repartir, et non le dépasser.",
+    "frame": "78.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "78.0.jpg",
+      "90.0.jpg",
+      "96.0.jpg"
+    ],
+    "window": [
+      61.0,
+      99.0
+    ]
+  },
+  {
+    "ref": "v56q03",
+    "theme": "signalisation",
+    "question_text": "Ces balises signalent",
+    "options": {
+      "A": "Un virage",
+      "B": "Les limites de la chaussée",
+      "C": "Sont visibles de nuit : oui",
+      "D": "Sont visibles de nuit : non"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "explanation": "Ces balises servent à délimiter les bords de la chaussée. Grâce à leur partie rétroréfléchissante, elles restent visibles de jour comme de nuit.",
+    "frame": "108.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "108.0.jpg",
+      "135.0.jpg",
+      "144.0.jpg",
+      "147.0.jpg"
+    ],
+    "window": [
+      101.0,
+      149.0
+    ]
+  },
+  {
+    "ref": "v56q04",
+    "theme": "cyclistes",
+    "question_text": "Je risque d'être surpris par",
+    "options": {
+      "A": "L'ouverture d'une portière : oui",
+      "B": "L'ouverture d'une portière : non",
+      "C": "La traversée d'un piéton : oui",
+      "D": "La traversée d'un piéton : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "En circulant à côté de véhicules en stationnement, je dois rester particulièrement vigilant. Je peux être surpris par l'ouverture d'une portière, mais aussi par la traversée d'un piéton, car les voitures garées masquent la visibilité.",
+    "frame": "165.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "165.0.jpg",
+      "195.0.jpg",
+      "210.0.jpg"
+    ],
+    "window": [
+      150.0,
+      212.0
+    ]
+  },
+  {
+    "ref": "v56q07",
+    "theme": "distances-de-sécurité",
+    "question_text": "Le traitement des informations (ou temps de réaction) du conducteur dure en moyenne 1 seconde durant la conduite",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Le temps de réaction, qui correspond au traitement des informations par le conducteur, est en moyenne d'une seconde lorsqu'on conduit.",
+    "frame": "360.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "360.0.jpg",
+      "384.0.jpg",
+      "390.0.jpg",
+      "393.0.jpg"
+    ],
+    "window": [
+      355.0,
+      394.0
+    ]
+  },
+  {
+    "ref": "v56q08",
+    "theme": "éclairage-visibilité",
+    "question_text": "De nuit, le conducteur de la voiture noire doit allumer ses feux de croisement lorsque la voiture jaune se situe en",
+    "options": {
+      "A": "Position A",
+      "B": "Position B",
+      "C": "Position C"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "De nuit, les feux de route éblouissent l'usager que l'on croise. Sur une chaussée non éclairée, le conducteur de la voiture noire roule en feux de route mais doit passer en feux de croisement dès que le véhicule qu'il croise arrive à sa hauteur, soit à la position B.",
+    "frame": "420.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "420.0.jpg",
+      "444.0.jpg",
+      "447.0.jpg",
+      "453.0.jpg"
+    ],
+    "window": [
+      395.0,
+      454.0
+    ]
+  }
+]

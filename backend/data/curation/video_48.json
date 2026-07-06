@@ -1,0 +1,969 @@
+[
+  {
+    "ref": "v48q01",
+    "theme": "priorités",
+    "question_text": "Dans cette situation",
+    "options": {
+      "A": "La prochaine intersection se situe à 50 mètres",
+      "B": "La prochaine intersection se situe à 150 mètres",
+      "C": "Je bénéficierai de la priorité de passage : oui",
+      "D": "Je bénéficierai de la priorité de passage : non"
+    },
+    "correct": [
+      "A",
+      "D"
+    ],
+    "explanation": "La prochaine intersection se situe à environ 50 mètres. À cette intersection, rien n'indique que je serai prioritaire : je ne bénéficierai donc pas de la priorité de passage.",
+    "frame": "60.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "60.0.jpg",
+      "90.0.jpg",
+      "117.0.jpg"
+    ],
+    "window": [
+      48.0,
+      118.0
+    ]
+  },
+  {
+    "ref": "v48q02",
+    "theme": "distances-de-sécurité",
+    "question_text": "Anticiper sur une zone de danger potentiel permet de réduire",
+    "options": {
+      "A": "Le temps de réaction : oui",
+      "B": "Le temps de réaction : non",
+      "C": "La distance d'arrêt : oui",
+      "D": "La distance d'arrêt : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "En anticipant une zone de danger potentiel, le conducteur se prépare mentalement à réagir : cela réduit le temps de réaction et, par conséquent, la distance d'arrêt globale.",
+    "frame": "120.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "120.0.jpg",
+      "150.0.jpg",
+      "186.0.jpg"
+    ],
+    "window": [
+      120.0,
+      196.0
+    ]
+  },
+  {
+    "ref": "v48q03",
+    "theme": "signalisation",
+    "question_text": "Dans ce tunnel, les diodes bleues servent à",
+    "options": {
+      "A": "Maintenir les distances de sécurité : oui",
+      "B": "Maintenir les distances de sécurité : non",
+      "C": "Indiquer une niche de sécurité : oui",
+      "D": "Indiquer une niche de sécurité : non"
+    },
+    "correct": [
+      "A",
+      "D"
+    ],
+    "explanation": "Dans un tunnel, les diodes bleues au sol permettent de maintenir une distance de sécurité suffisante avec le véhicule qui précède. Elles n'indiquent pas l'emplacement d'une niche de sécurité, qui est signalée différemment.",
+    "frame": "198.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "198.0.jpg",
+      "210.0.jpg",
+      "255.0.jpg"
+    ],
+    "window": [
+      198.0,
+      258.0
+    ]
+  },
+  {
+    "ref": "v48q04",
+    "theme": "priorités",
+    "question_text": "Je laisse passer la voiture grise",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Dans cette situation, la voiture grise n'est pas prioritaire : je n'ai pas à la laisser passer et je peux poursuivre ma manœuvre.",
+    "frame": "291.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "270.0.jpg",
+      "291.0.jpg",
+      "300.0.jpg"
+    ],
+    "window": [
+      260.0,
+      303.0
+    ]
+  },
+  {
+    "ref": "v48q05",
+    "theme": "panneaux",
+    "question_text": "L'entrée dans une zone de rencontre est représentée par le panneau",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "Le panneau annonçant l'entrée dans une zone de rencontre est carré à fond bleu, représentant une voiture, un piéton et un cycliste avec la mention 20 km/h.",
+    "frame": "360.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "306.0.jpg",
+      "309.0.jpg",
+      "360.0.jpg"
+    ],
+    "window": [
+      305.0,
+      358.0
+    ]
+  },
+  {
+    "ref": "v48q07",
+    "theme": "stationnement",
+    "question_text": "Je peux m'arrêter sur cet arrêt de bus pour faire descendre un passager",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "L'arrêt sur un emplacement réservé aux bus est interdit, même brièvement pour faire descendre un passager : cela gênerait la giration des bus et met les passagers en danger.",
+    "frame": "462.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "450.0.jpg",
+      "459.0.jpg",
+      "462.0.jpg"
+    ],
+    "window": [
+      405.0,
+      463.0
+    ]
+  },
+  {
+    "ref": "v48q09",
+    "theme": "mécanique-entretien",
+    "question_text": "Le réservoir d'huile moteur se situe en",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Sous le capot, le réservoir (bouchon) d'huile moteur est identifiable par son pictogramme dédié, représenté ici par la position A.",
+    "frame": "540.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "540.0.jpg",
+      "558.0.jpg",
+      "585.0.jpg"
+    ],
+    "window": [
+      537.0,
+      588.0
+    ]
+  },
+  {
+    "ref": "v48q10",
+    "theme": "équipements-de-sécurité",
+    "question_text": "Nous sommes en période hivernale et je ne possède pas à bord des chaussettes ni des chaînes à neige, je suis en règle si",
+    "options": {
+      "A": "Mon véhicule possède 2 pneus hiver : oui",
+      "B": "Mon véhicule possède 2 pneus hiver : non",
+      "C": "Mon véhicule possède 4 pneus hiver : oui",
+      "D": "Mon véhicule possède 4 pneus hiver : non"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "explanation": "En période hivernale dans les zones concernées, l'équipement obligatoire (chaînes, chaussettes ou pneus hiver) doit couvrir les 4 roues. Avoir seulement 2 pneus hiver ne suffit pas ; il faut que les 4 pneus soient des pneus hiver pour être en règle sans chaînes ni chaussettes.",
+    "frame": "594.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "594.0.jpg",
+      "624.0.jpg",
+      "666.0.jpg"
+    ],
+    "window": [
+      591.0,
+      668.0
+    ]
+  },
+  {
+    "ref": "v48q11",
+    "theme": "mécanique-entretien",
+    "question_text": "L'ESP permet",
+    "options": {
+      "A": "De détecter la perte de stabilité du véhicule",
+      "B": "De détecter un freinage d'urgence et de l'amplifier",
+      "C": "De réduire les distances de sécurité : oui",
+      "D": "De réduire les distances de sécurité : non"
+    },
+    "correct": [
+      "A",
+      "D"
+    ],
+    "explanation": "L'ESP (contrôle électronique de stabilité) détecte la perte de stabilité ou d'adhérence du véhicule et corrige la trajectoire en freinant certaines roues. Il ne détecte pas les freinages d'urgence (c'est le rôle de l'AFU) et ne réduit pas les distances de sécurité, qui dépendent uniquement du comportement du conducteur.",
+    "frame": "672.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "672.0.jpg",
+      "690.0.jpg",
+      "744.0.jpg"
+    ],
+    "window": [
+      669.0,
+      726.0
+    ]
+  },
+  {
+    "ref": "v48q12",
+    "theme": "circulation",
+    "question_text": "Cet usager est autorisé à circuler dans cette voie de circulation",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Cette voie ne lui est pas accessible : la signalisation ou le marquage au sol lui interdit cet usage.",
+    "frame": "762.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "762.0.jpg",
+      "774.0.jpg",
+      "777.0.jpg"
+    ],
+    "window": [
+      729.0,
+      780.0
+    ]
+  },
+  {
+    "ref": "v48q13",
+    "theme": "circulation",
+    "question_text": "Je circule plus vite que la voiture noire",
+    "options": {
+      "A": "Je ralentis : oui",
+      "B": "Je ralentis : non",
+      "C": "Je dépasse par la droite : oui",
+      "D": "Je dépasse par la droite : non"
+    },
+    "correct": [
+      "A",
+      "D"
+    ],
+    "explanation": "Je dois ralentir et me placer derrière la voiture noire pour respecter son allure, sans chercher à la dépasser par la droite, ce qui est dangereux et généralement interdit.",
+    "frame": "783.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "783.0.jpg",
+      "798.0.jpg",
+      "858.0.jpg"
+    ],
+    "window": [
+      780.0,
+      855.0
+    ]
+  },
+  {
+    "ref": "v48q14",
+    "theme": "distances-de-sécurité",
+    "question_text": "Je circule à 70 km/h",
+    "options": {
+      "A": "Je parcours en une seconde 20 mètres",
+      "B": "Je parcours en une seconde 35 mètres",
+      "C": "Cette seconde correspond au temps de réaction : oui",
+      "D": "Cette seconde correspond au temps de réaction : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "À 70 km/h, soit environ 19-20 mètres par seconde, je parcours environ 20 mètres en une seconde. Cette seconde correspond au temps de réaction moyen d'un conducteur avant de commencer à freiner.",
+    "frame": "861.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "861.0.jpg",
+      "876.0.jpg",
+      "894.0.jpg",
+      "930.0.jpg"
+    ],
+    "window": [
+      858.0,
+      900.0
+    ]
+  },
+  {
+    "ref": "v48q15",
+    "theme": "signalisation",
+    "question_text": "Dans cette situation",
+    "options": {
+      "A": "Le passage d'un train sera annoncé par un feu rouge clignotant : oui",
+      "B": "Le passage d'un train sera annoncé par un feu rouge clignotant : non",
+      "C": "Ce panneau de signalisation indique un passage à niveau comportant une voie",
+      "D": "Ce panneau de signalisation indique un passage à niveau comportant plusieurs voies"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "L'approche d'un train à ce passage à niveau est annoncée par un feu rouge clignotant. Le panneau en croix de Saint-André à une seule branche indique que le passage à niveau ne comporte qu'une seule voie ferrée.",
+    "frame": "975.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "960.0.jpg",
+      "975.0.jpg",
+      "981.0.jpg"
+    ],
+    "window": [
+      960.0,
+      981.0
+    ]
+  },
+  {
+    "ref": "v48q16",
+    "theme": "commandes",
+    "question_text": "Le régulateur adaptatif permet de",
+    "options": {
+      "A": "Maintenir une vitesse constante : oui",
+      "B": "Maintenir une vitesse constante : non",
+      "C": "Conserver une distance de sécurité avec le véhicule qui précède : oui",
+      "D": "Conserver une distance de sécurité avec le véhicule qui précède : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Le régulateur de vitesse adaptatif maintient automatiquement une vitesse constante tout en ajustant l'allure du véhicule pour conserver une distance de sécurité avec le véhicule qui précède.",
+    "frame": "1044.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1044.0.jpg",
+      "1053.0.jpg",
+      "1104.0.jpg"
+    ],
+    "window": [
+      1044.0,
+      1119.0
+    ]
+  },
+  {
+    "ref": "v48q17",
+    "theme": "panneaux",
+    "question_text": "Cette balise signale",
+    "options": {
+      "A": "Un virage",
+      "B": "Une intersection",
+      "C": "Un obstacle",
+      "D": "Une région fréquemment enneigée"
+    },
+    "correct": [
+      "A",
+      "D"
+    ],
+    "explanation": "Cette balise de virage annonce un tournant de la route ; sa couleur ou son support spécifique indique de plus que la région est fréquemment enneigée.",
+    "frame": "1131.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1122.0.jpg",
+      "1131.0.jpg",
+      "1140.0.jpg",
+      "1155.0.jpg"
+    ],
+    "window": [
+      1119.0,
+      1156.0
+    ]
+  },
+  {
+    "ref": "v48q18",
+    "theme": "alcool-stupéfiants",
+    "question_text": "En cas de contrôle des forces de l'ordre pendant une conduite accompagnée, le dépistage de l'alcoolémie sera soumis",
+    "options": {
+      "A": "Au conducteur : oui",
+      "B": "Au conducteur : non",
+      "C": "À l'accompagnateur : oui",
+      "D": "À l'accompagnateur : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "En conduite accompagnée, le dépistage d'alcoolémie peut être demandé aussi bien au conducteur novice qu'à son accompagnateur, puisque ce dernier reste responsable de la conduite.",
+    "frame": "1176.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1176.0.jpg",
+      "1188.0.jpg",
+      "1206.0.jpg"
+    ],
+    "window": [
+      1157.0,
+      1222.0
+    ]
+  },
+  {
+    "ref": "v48q19",
+    "theme": "chargement",
+    "question_text": "Le chargement sur le toit peut dépasser d'un mètre",
+    "options": {
+      "A": "À l'avant : oui",
+      "B": "À l'avant : non",
+      "C": "À l'arrière : oui",
+      "D": "À l'arrière : non"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "explanation": "Un chargement sur le toit ne doit pas dépasser l'avant du véhicule, mais il peut dépasser l'arrière d'au maximum un mètre, à condition de signaler ce dépassement.",
+    "frame": "1224.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1224.0.jpg",
+      "1281.0.jpg",
+      "1287.0.jpg"
+    ],
+    "window": [
+      1225.0,
+      1290.0
+    ]
+  },
+  {
+    "ref": "v48q20",
+    "theme": "mécanique-entretien",
+    "question_text": "Dans cette situation, le voyant qui doit être allumé sur le tableau de bord est le",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "De nuit, avec les feux de croisement allumés, le voyant correspondant qui doit être visible sur le tableau de bord est le voyant B.",
+    "frame": "1305.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1305.0.jpg",
+      "1320.0.jpg",
+      "1344.0.jpg"
+    ],
+    "window": [
+      1293.0,
+      1347.0
+    ]
+  },
+  {
+    "ref": "v48q21",
+    "theme": "écomobilité",
+    "question_text": "L'autopartage",
+    "options": {
+      "A": "Consiste à partager ses trajets avec d'autres personnes : oui",
+      "B": "Consiste à partager ses trajets avec d'autres personnes : non",
+      "C": "Participe à la réduction du parc automobile : oui",
+      "D": "Participe à la réduction du parc automobile : non"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "explanation": "L'autopartage consiste à partager un même véhicule à tour de rôle entre plusieurs utilisateurs, et non à partager un trajet (ce qui correspond au covoiturage). En réduisant le nombre de véhicules nécessaires, il participe à la réduction du parc automobile.",
+    "frame": "1362.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1362.0.jpg",
+      "1380.0.jpg",
+      "1416.0.jpg"
+    ],
+    "window": [
+      1350.0,
+      1416.0
+    ]
+  },
+  {
+    "ref": "v48q22",
+    "theme": "cyclistes",
+    "question_text": "Le feu est rouge",
+    "options": {
+      "A": "Je m'arrête",
+      "B": "Je continue"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Un panonceau autorise ici les cyclistes à franchir le feu rouge dans le sens indiqué (cédez-le-passage cycliste au feu) : je peux donc continuer en cédant le passage aux autres usagers prioritaires.",
+    "frame": "1425.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1425.0.jpg",
+      "1440.0.jpg",
+      "1479.0.jpg"
+    ],
+    "window": [
+      1419.0,
+      1491.0
+    ]
+  },
+  {
+    "ref": "v48q23",
+    "theme": "écomobilité",
+    "question_text": "Lors d'un embouteillage",
+    "options": {
+      "A": "La pollution de l'air ambiante est importante : oui",
+      "B": "La pollution de l'air ambiante est importante : non",
+      "C": "Le système Stop &amp; Start permet de réduire les émissions polluantes : oui",
+      "D": "Le système Stop &amp; Start permet de réduire les émissions polluantes : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Lors d'un embouteillage, la pollution de l'air ambiante est effectivement importante en raison des nombreux véhicules à l'arrêt moteur tournant. Le système Stop & Start, qui coupe automatiquement le moteur à l'arrêt, permet de réduire ces émissions polluantes.",
+    "frame": "1494.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1494.0.jpg",
+      "1518.0.jpg",
+      "1548.0.jpg"
+    ],
+    "window": [
+      1494.0,
+      1557.0
+    ]
+  },
+  {
+    "ref": "v48q24",
+    "theme": "vitesse",
+    "question_text": "À partir du panneau, je pourrai circuler à",
+    "options": {
+      "A": "80 km/h",
+      "B": "90 km/h",
+      "C": "110 km/h"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Ce panneau annonce la fin de la limitation à 70 km/h. Sur une route à double sens sans séparateur central, la vitesse maximale autorisée par défaut redevient 80 km/h.",
+    "frame": "1560.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1560.0.jpg",
+      "1590.0.jpg",
+      "1602.0.jpg"
+    ],
+    "window": [
+      1560.0,
+      1602.0
+    ]
+  },
+  {
+    "ref": "v48q25",
+    "theme": "alcool-stupéfiants",
+    "question_text": "La consommation de cannabis",
+    "options": {
+      "A": "Est sanctionnée à partir d'un certain seuil : oui",
+      "B": "Est sanctionnée à partir d'un certain seuil : non",
+      "C": "Diminue le temps de réaction : oui",
+      "D": "Diminue le temps de réaction : non"
+    },
+    "correct": [
+      "B",
+      "D"
+    ],
+    "explanation": "Contrairement à l'alcool, la consommation de cannabis au volant est sanctionnée dès la moindre trace détectée, sans seuil de tolérance. Loin de le diminuer, elle augmente le temps de réaction du conducteur.",
+    "frame": "1632.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1632.0.jpg",
+      "1644.0.jpg",
+      "1656.0.jpg"
+    ],
+    "window": [
+      1632.0,
+      1662.0
+    ]
+  },
+  {
+    "ref": "v48q26",
+    "theme": "circulation",
+    "question_text": "Je souhaite tourner à droite, j'allume dès maintenant mon clignotant droit",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Il est trop tôt pour allumer mon clignotant : je risquerais d'induire en erreur les autres usagers. Je dois attendre de me rapprocher de l'endroit où je vais tourner.",
+    "frame": "1704.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1704.0.jpg",
+      "1707.0.jpg",
+      "1710.0.jpg"
+    ],
+    "window": [
+      1698.0,
+      1719.0
+    ]
+  },
+  {
+    "ref": "v48q27",
+    "theme": "panneaux",
+    "question_text": "Dans cette situation",
+    "options": {
+      "A": "La chaussée passe à 1 voie",
+      "B": "La chaussée passe à 2 voies",
+      "C": "La modification de la chaussée s'étend sur une distance de 500 mètres : oui",
+      "D": "La modification de la chaussée s'étend sur une distance de 500 mètres : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Le panneau annonce que deux voies se réduisent à une seule voie de circulation. Le panonceau associé confirme que cette modification de chaussée s'étend sur une distance de 500 mètres.",
+    "frame": "1740.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1740.0.jpg",
+      "1752.0.jpg",
+      "1776.0.jpg"
+    ],
+    "window": [
+      1719.0,
+      1774.0
+    ]
+  },
+  {
+    "ref": "v48q28",
+    "theme": "circulation",
+    "question_text": "Je circule sur autoroute. Sur cette voie, la circulation est interdite",
+    "options": {
+      "A": "Si je tracte une petite remorque : oui",
+      "B": "Si je tracte une petite remorque : non",
+      "C": "Si je circule à moins de 80 km/h : oui",
+      "D": "Si je circule à moins de 80 km/h : non"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "explanation": "Tracter une petite remorque n'interdit pas l'usage de cette voie. En revanche, cette voie est réservée aux véhicules rapides : y circuler à moins de 80 km/h y est interdit.",
+    "frame": "1800.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1800.0.jpg",
+      "1824.0.jpg",
+      "1838.0.jpg"
+    ],
+    "window": [
+      1776.0,
+      1848.0
+    ]
+  },
+  {
+    "ref": "v48q29",
+    "theme": "alcool-stupéfiants",
+    "question_text": "Je suis un conducteur expérimenté. Je risque une suspension de mon permis de conduire si mon alcoolémie atteint",
+    "options": {
+      "A": "0,10 g/l de sang",
+      "B": "0,20 g/l de sang",
+      "C": "0,50 g/l de sang",
+      "D": "0,80 g/l de sang"
+    },
+    "correct": [
+      "C",
+      "D"
+    ],
+    "explanation": "Pour un conducteur expérimenté, dépasser 0,50 g/l de sang constitue déjà une infraction pouvant entraîner une suspension du permis ; au-delà de 0,80 g/l, il s'agit d'un délit qui entraîne systématiquement une suspension, voire une annulation du permis.",
+    "frame": "1872.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1872.0.jpg",
+      "1896.0.jpg",
+      "1932.0.jpg"
+    ],
+    "window": [
+      1848.0,
+      1932.0
+    ]
+  },
+  {
+    "ref": "v48q30",
+    "theme": "éclairage-visibilité",
+    "question_text": "Je suis autorisé à circuler avec les feux diurnes uniquement",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "De nuit, les feux diurnes ne suffisent pas : ils éclairent trop faiblement la route. Je dois obligatoirement utiliser mes feux de croisement ou de route.",
+    "frame": "1968.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1944.0.jpg",
+      "1968.0.jpg",
+      "1992.0.jpg"
+    ],
+    "window": [
+      1944.0,
+      2016.0
+    ]
+  },
+  {
+    "ref": "v48q31",
+    "theme": "cyclistes",
+    "question_text": "Dans cette situation",
+    "options": {
+      "A": "La signalisation m'autorise à dépasser : oui",
+      "B": "La signalisation m'autorise à dépasser : non",
+      "C": "Je dépasse immédiatement ces cyclistes : oui",
+      "D": "Je dépasse immédiatement ces cyclistes : non"
+    },
+    "correct": [
+      "A",
+      "D"
+    ],
+    "explanation": "La signalisation m'autorise bien à dépasser à cet endroit. Toutefois, je ne dois pas dépasser immédiatement : je dois d'abord m'assurer que la voie est libre et que je dispose de la distance latérale de sécurité nécessaire vis-à-vis des cyclistes.",
+    "frame": "2040.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "2040.0.jpg",
+      "2076.0.jpg",
+      "2112.0.jpg"
+    ],
+    "window": [
+      2016.0,
+      2088.0
+    ]
+  },
+  {
+    "ref": "v48q32",
+    "theme": "mécanique-entretien",
+    "question_text": "En cas de panne de batterie, je relie la borne négative de la batterie déchargée",
+    "options": {
+      "A": "À la borne positive de la batterie de secours",
+      "B": "À la borne négative de la batterie de secours"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Pour démarrer un véhicule en panne de batterie, il faut relier les bornes positives entre elles, puis la borne négative de la batterie de secours à une masse métallique du véhicule en panne (ou à sa borne négative), jamais une borne positive à une borne négative.",
+    "frame": "2112.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "2088.0.jpg",
+      "2112.0.jpg",
+      "2130.0.jpg"
+    ],
+    "window": [
+      2088.0,
+      2135.0
+    ]
+  },
+  {
+    "ref": "v48q33",
+    "theme": "stationnement",
+    "question_text": "Je souhaite me garer à droite",
+    "options": {
+      "A": "Le stationnement se fait en bataille",
+      "B": "Le stationnement se fait en créneaux",
+      "C": "Je dois me garer en marche avant",
+      "D": "Je dois me garer en marche arrière"
+    },
+    "correct": [
+      "B",
+      "D"
+    ],
+    "explanation": "Dans cette configuration, le stationnement se fait en créneau, entre deux véhicules déjà garés le long du trottoir. Il est recommandé et plus sûr d'effectuer cette manœuvre en marche arrière.",
+    "frame": "2136.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "2136.0.jpg",
+      "2145.0.jpg",
+      "2184.0.jpg"
+    ],
+    "window": [
+      2136.0,
+      2184.0
+    ]
+  },
+  {
+    "ref": "v48q34",
+    "theme": "documents",
+    "question_text": "Après un déménagement le délai pour modifier le certificat d'immatriculation est de",
+    "options": {
+      "A": "2 semaines",
+      "B": "1 mois",
+      "C": "3 mois",
+      "D": "6 mois"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Après un déménagement, le titulaire du certificat d'immatriculation dispose d'un délai d'un mois pour faire modifier son adresse sur la carte grise.",
+    "frame": "2205.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "2205.0.jpg",
+      "2220.0.jpg",
+      "2235.0.jpg"
+    ],
+    "window": [
+      2187.0,
+      2235.0
+    ]
+  },
+  {
+    "ref": "v48q35",
+    "theme": "distances-de-sécurité",
+    "question_text": "Placer son pied devant le frein permet de réduire le temps de réaction",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Anticiper un freinage éventuel en plaçant son pied au-dessus de la pédale de frein, sans appuyer, permet de réduire le temps de réaction en cas de besoin de freiner d'urgence.",
+    "frame": "2250.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "2250.0.jpg",
+      "2256.0.jpg",
+      "2280.0.jpg"
+    ],
+    "window": [
+      2250.0,
+      2280.0
+    ]
+  },
+  {
+    "ref": "v48q36",
+    "theme": "circulation",
+    "question_text": "La circulation en inter-files des motards se pratique à une vitesse maximale de",
+    "options": {
+      "A": "30 km/h",
+      "B": "50 km/h",
+      "C": "70 km/h",
+      "D": "90 km/h"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Là où elle est autorisée à titre expérimental, la circulation inter-files des motos et scooters entre deux files de véhicules doit se faire à une vitesse maximale de 50 km/h.",
+    "frame": "2316.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "2316.0.jpg",
+      "2325.0.jpg",
+      "2334.0.jpg"
+    ],
+    "window": [
+      2310.0,
+      2337.0
+    ]
+  },
+  {
+    "ref": "v48q37",
+    "theme": "circulation",
+    "question_text": "Le bus est arrêté",
+    "options": {
+      "A": "Je dois en tenir compte : oui",
+      "B": "Je dois en tenir compte : non",
+      "C": "Je ralentis : oui",
+      "D": "Je ralentis : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Un bus à l'arrêt peut annoncer la descente de passagers susceptibles de traverser : je dois en tenir compte et ralentir en conséquence, voire m'arrêter si nécessaire.",
+    "frame": "2340.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "2340.0.jpg",
+      "2358.0.jpg",
+      "2367.0.jpg"
+    ],
+    "window": [
+      2340.0,
+      2381.0
+    ]
+  },
+  {
+    "ref": "v48q38",
+    "theme": "mécanique-entretien",
+    "question_text": "Lors du contrôle de la pression des pneus, je contrôle idéalement",
+    "options": {
+      "A": "Les pneus avant",
+      "B": "Les pneus avant et arrière",
+      "C": "Tous les pneus incluant la roue de secours"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "Il est recommandé de contrôler la pression de tous les pneus, y compris celle de la roue de secours, pour être certain de pouvoir l'utiliser efficacement en cas de besoin.",
+    "frame": "2385.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "2385.0.jpg",
+      "2415.0.jpg",
+      "2445.0.jpg",
+      "2520.0.jpg"
+    ],
+    "window": [
+      2385.0,
+      2520.0
+    ]
+  },
+  {
+    "ref": "v48q39",
+    "theme": "priorités",
+    "question_text": "Au niveau d'une priorité à droite",
+    "options": {
+      "A": "Tout dépassement est autorisé",
+      "B": "Tout dépassement est interdit",
+      "C": "Le dépassement des deux-roues est autorisé"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "À l'approche d'une priorité à droite, le dépassement d'un autre véhicule est en principe interdit, mais celui des deux-roues (cyclistes, cyclomoteurs) reste autorisé.",
+    "frame": "2490.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "2490.0.jpg",
+      "2526.0.jpg",
+      "2544.0.jpg"
+    ],
+    "window": [
+      2490.0,
+      2544.0
+    ]
+  }
+]

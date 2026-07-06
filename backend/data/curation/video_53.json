@@ -1,0 +1,83 @@
+[
+  {
+    "ref": "v53q05",
+    "theme": "signalisation",
+    "question_text": "La signalisation indique que",
+    "options": {
+      "A": "Les véhicules sont autorisés à continuer tout droit : oui",
+      "B": "Les véhicules sont autorisés à continuer tout droit : non",
+      "C": "Les trottinettes électriques sont autorisées à continuer tout droit : oui",
+      "D": "Les trottinettes électriques sont autorisées à continuer tout droit : non"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "explanation": "Le panneau de sens interdit avec panonceau « SAUF » vélo interdit la rue en face à tous les usagers, sauf aux cyclistes et autres EDPM. Les véhicules ne peuvent donc pas continuer tout droit, mais les trottinettes électriques y sont autorisées.",
+    "frame": "246.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "246.0.jpg",
+      "264.0.jpg",
+      "285.0.jpg",
+      "300.0.jpg"
+    ],
+    "window": [
+      244.0,
+      312.0
+    ]
+  },
+  {
+    "ref": "v53q07",
+    "theme": "priorités",
+    "question_text": "Un tramway a la priorité",
+    "options": {
+      "A": "Sur les voitures : oui",
+      "B": "Sur les voitures : non",
+      "C": "Sur les piétons : oui",
+      "D": "Sur les piétons : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Un tramway est toujours prioritaire, que ce soit sur un piéton, un automobiliste, un cycliste ou une moto. Il ne peut que freiner, sans possibilité de contourner un obstacle, et sa distance de freinage est bien plus grande que celle d'une voiture. Tous les usagers doivent lui céder le passage.",
+    "frame": "423.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "390.0.jpg",
+      "405.0.jpg",
+      "423.0.jpg",
+      "435.0.jpg"
+    ],
+    "window": [
+      378.0,
+      438.0
+    ]
+  },
+  {
+    "ref": "v53q09",
+    "theme": "équipements-de-sécurité",
+    "question_text": "Pour sortir de mon véhicule, je dois de préférence utiliser ma main droite",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Utiliser sa main droite pour ouvrir la portière (technique dite de l'« ouverture hollandaise ») force à se retourner et à observer si un usager arrive à l'arrière. J'utilise donc de préférence cette main pour sortir de mon véhicule.",
+    "frame": "495.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "495.0.jpg",
+      "507.0.jpg",
+      "513.0.jpg",
+      "519.0.jpg"
+    ],
+    "window": [
+      483.0,
+      525.0
+    ]
+  }
+]

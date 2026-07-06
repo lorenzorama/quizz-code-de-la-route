@@ -1,0 +1,264 @@
+[
+  {
+    "ref": "v21q01",
+    "theme": "circulation",
+    "question_text": "Dans un tunnel, pour être alerté en temps réel d'un quelconque problème, je peux écouter la radio en utilisant la fréquence",
+    "options": {
+      "A": "96.6",
+      "B": "101.9",
+      "C": "106.8",
+      "D": "107.7"
+    },
+    "correct": [
+      "D"
+    ],
+    "explanation": "La fréquence 107.7 diffuse des messages en temps réel sur la sécurité. Elle peut être écoutée dans la majorité des tunnels.",
+    "frame": "30.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "30.0.jpg",
+      "45.0.jpg",
+      "51.0.jpg",
+      "57.0.jpg"
+    ],
+    "window": [
+      0.0,
+      61.0
+    ]
+  },
+  {
+    "ref": "v21q02",
+    "theme": "cyclistes",
+    "question_text": "Un enfant n'a plus le droit de rouler à vélo sur le trottoir à partir de",
+    "options": {
+      "A": "8 ans",
+      "B": "10 ans",
+      "C": "12 ans",
+      "D": "14 ans"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Un enfant de moins de 8 ans peut rouler à vélo sur les trottoirs, à condition de rouler lentement et de ne pas gêner les autres usagers. À partir de 8 ans, il n'y a plus le droit.",
+    "frame": "75.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "75.0.jpg",
+      "90.0.jpg",
+      "105.0.jpg"
+    ],
+    "window": [
+      61.0,
+      107.0
+    ]
+  },
+  {
+    "ref": "v21q03",
+    "theme": "commandes",
+    "question_text": "En général, un volant peut être réglé",
+    "options": {
+      "A": "En hauteur : oui",
+      "B": "En hauteur : non",
+      "C": "En profondeur : oui",
+      "D": "En profondeur : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Afin que le conducteur soit bien installé, le volant peut généralement être réglé aussi bien en hauteur qu'en profondeur.",
+    "frame": "120.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "120.0.jpg",
+      "135.0.jpg",
+      "147.0.jpg",
+      "153.0.jpg"
+    ],
+    "window": [
+      109.0,
+      153.0
+    ]
+  },
+  {
+    "ref": "v21q04",
+    "theme": "mécanique-entretien",
+    "question_text": "La pression des pneus doit être contrôlée au moins",
+    "options": {
+      "A": "Une fois par semaine",
+      "B": "Une fois par mois",
+      "C": "Une fois par an"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "La pression des pneus doit être contrôlée au moins une fois par mois. Une pression correcte garantit une bonne tenue de route et limite l'usure.",
+    "frame": "165.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "165.0.jpg",
+      "183.0.jpg",
+      "189.0.jpg",
+      "192.0.jpg"
+    ],
+    "window": [
+      155.0,
+      192.0
+    ]
+  },
+  {
+    "ref": "v21q05",
+    "theme": "permis-à-points",
+    "question_text": "Avec une MMTA de l'ensemble de 4000 kg, le permis B suffit pour tracter une remorque d'un poids maximum de",
+    "options": {
+      "A": "550 kg",
+      "B": "750 kg",
+      "C": "900 kg",
+      "D": "1000 kg"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Avec une MMTA de l'ensemble de 4000 kg, le permis B suffit pour tracter une remorque d'un poids maximum de 750 kg. Il est possible de tracter une remorque de plus de 750 kg si la MMTA de l'ensemble reste inférieure ou égale à 3500 kg.",
+    "frame": "210.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "195.0.jpg",
+      "210.0.jpg",
+      "243.0.jpg",
+      "252.0.jpg"
+    ],
+    "window": [
+      192.0,
+      252.0
+    ]
+  },
+  {
+    "ref": "v21q06",
+    "theme": "mécanique-entretien",
+    "question_text": "Ce voyant vient de s'allumer sur mon tableau de bord",
+    "options": {
+      "A": "Il m'indique un manque de pression d'huile moteur : oui",
+      "B": "Il m'indique un manque de pression d'huile moteur : non",
+      "C": "Je dois m'arrêter dès que possible : oui",
+      "D": "Je dois m'arrêter dès que possible : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Ce voyant rouge indique un manque de pression d'huile moteur. Dès qu'il s'allume, je dois m'arrêter dès que possible, car il y a un risque de surchauffe et de casse moteur.",
+    "frame": "315.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "288.0.jpg",
+      "315.0.jpg",
+      "318.0.jpg"
+    ],
+    "window": [
+      252.0,
+      320.0
+    ]
+  },
+  {
+    "ref": "v21q07",
+    "theme": "premiers-secours",
+    "question_text": "Je dois utiliser un défibrillateur si la victime est inconsciente et",
+    "options": {
+      "A": "Si elle respire : oui",
+      "B": "Si elle respire : non",
+      "C": "Si elle ne respire plus : oui",
+      "D": "Si elle ne respire plus : non"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "explanation": "Un défibrillateur peut permettre de rétablir une activité cardiaque chez une victime en arrêt cardiaque. Je dois l'utiliser si la victime est inconsciente et qu'elle ne respire plus.",
+    "frame": "357.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "336.0.jpg",
+      "348.0.jpg",
+      "357.0.jpg",
+      "363.0.jpg"
+    ],
+    "window": [
+      323.0,
+      371.0
+    ]
+  },
+  {
+    "ref": "v21q08",
+    "theme": "équipements-de-sécurité",
+    "question_text": "Le système d'avertisseur d'angle mort me permet de ne pas contrôler mes angles morts",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Le système d'avertisseur d'angle mort est une aide à la conduite. Cette aide ne doit pas remplacer les contrôles du conducteur, qui reste toujours indispensable.",
+    "frame": "375.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "375.0.jpg",
+      "390.0.jpg",
+      "408.0.jpg",
+      "411.0.jpg"
+    ],
+    "window": [
+      373.0,
+      411.0
+    ]
+  },
+  {
+    "ref": "v21q09",
+    "theme": "éclairage-visibilité",
+    "question_text": "À l'arrêt, le champ visuel d'un conducteur est de",
+    "options": {
+      "A": "180 degrés",
+      "B": "360 degrés"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "À l'arrêt, le champ visuel d'un conducteur est d'environ 180 degrés. Ce champ se réduit d'autant plus que la vitesse augmente.",
+    "frame": "420.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "420.0.jpg",
+      "423.0.jpg"
+    ],
+    "window": [
+      413.0,
+      425.0
+    ]
+  },
+  {
+    "ref": "v21q10",
+    "theme": "circulation",
+    "question_text": "Je souhaite sortir à droite à la prochaine sortie. J'enclenche mon clignotant et me rabats immédiatement sur la droite",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "L'espace sur ma droite n'est pas suffisant pour que je puisse me rabattre immédiatement. Je dois vérifier mon rétroviseur et mon angle mort avant de changer de voie.",
+    "frame": "435.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "435.0.jpg",
+      "450.0.jpg",
+      "477.0.jpg",
+      "489.0.jpg"
+    ],
+    "window": [
+      425.0,
+      490.0
+    ]
+  }
+]

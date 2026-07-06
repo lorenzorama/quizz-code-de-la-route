@@ -1,0 +1,260 @@
+[
+  {
+    "ref": "v24q01",
+    "theme": "priorités",
+    "question_text": "À cette intersection, je dois céder le passage aux véhicules arrivant de gauche",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "J'arrive sur un carrefour à sens giratoire, reconnaissable au panneau \"Cédez le passage\" et au terre-plein central. Je dois donc céder le passage aux véhicules déjà engagés dans le giratoire, c'est-à-dire ceux qui arrivent de ma gauche.",
+    "frame": "45.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "45.0.jpg",
+      "51.0.jpg",
+      "57.0.jpg",
+      "60.0.jpg"
+    ],
+    "window": [
+      42.0,
+      73.0
+    ]
+  },
+  {
+    "ref": "v24q02",
+    "theme": "circulation",
+    "question_text": "Le chargement d'un véhicule à l'avant peut dépasser l'aplomb du véhicule",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "À l'avant, le chargement ne doit en aucun cas dépasser l'aplomb du véhicule. Un dépassement n'est toléré qu'à l'arrière, sous conditions de signalisation.",
+    "frame": "90.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "84.0.jpg",
+      "90.0.jpg",
+      "96.0.jpg",
+      "105.0.jpg"
+    ],
+    "window": [
+      75.0,
+      110.0
+    ]
+  },
+  {
+    "ref": "v24q03",
+    "theme": "priorités",
+    "question_text": "À un passage à niveau",
+    "options": {
+      "A": "Un train de marchandise est prioritaire : oui",
+      "B": "Un train de marchandise est prioritaire : non",
+      "C": "Un tramway est prioritaire : oui",
+      "D": "Un tramway est prioritaire : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "À un passage à niveau, les trains et les tramways sont toujours prioritaires. Les tramways disposent toutefois de leurs propres feux de circulation, qu'ils doivent respecter.",
+    "frame": "126.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "126.0.jpg",
+      "132.0.jpg",
+      "147.0.jpg",
+      "153.0.jpg"
+    ],
+    "window": [
+      112.0,
+      158.0
+    ]
+  },
+  {
+    "ref": "v24q04",
+    "theme": "éclairage-visibilité",
+    "question_text": "Dans un tunnel, allumer les feux de croisement est",
+    "options": {
+      "A": "Conseillé",
+      "B": "Obligatoire"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Dans un tunnel, il est obligatoire d'allumer ses feux de croisement, de jour comme de nuit, afin d'être vu et de bien voir malgré l'éclairage artificiel.",
+    "frame": "216.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "210.0.jpg",
+      "216.0.jpg",
+      "225.0.jpg"
+    ],
+    "window": [
+      210.0,
+      232.0
+    ]
+  },
+  {
+    "ref": "v24q05",
+    "theme": "premiers-secours",
+    "question_text": "Après un accident, afin d'alerter les secours, je peux utiliser mon téléphone portable",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Après un accident, je peux bien sûr utiliser mon téléphone portable pour prévenir les secours. L'interdiction de téléphoner au volant ne s'applique pas dans le cadre d'un appel d'urgence.",
+    "frame": "246.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "240.0.jpg",
+      "246.0.jpg",
+      "252.0.jpg",
+      "261.0.jpg"
+    ],
+    "window": [
+      234.0,
+      270.0
+    ]
+  },
+  {
+    "ref": "v24q06",
+    "theme": "équipements-de-sécurité",
+    "question_text": "Avant de monter dans mon véhicule, je dois vérifier l'espace libre",
+    "options": {
+      "A": "À l'avant : oui",
+      "B": "À l'avant : non",
+      "C": "À l'arrière : oui",
+      "D": "À l'arrière : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Avant de monter dans mon véhicule, je dois vérifier l'espace libre à l'avant et à l'arrière. Cela me permet de quitter mon stationnement sans mauvaise surprise, car certains obstacles ne sont pas visibles depuis le poste de conduite.",
+    "frame": "288.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "279.0.jpg",
+      "288.0.jpg",
+      "297.0.jpg",
+      "312.0.jpg"
+    ],
+    "window": [
+      270.0,
+      323.0
+    ]
+  },
+  {
+    "ref": "v24q07",
+    "theme": "cyclistes",
+    "question_text": "Dans cette situation, je peux dépasser le cycliste",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Pour dépasser un cycliste en agglomération, je dois laisser un espacement latéral d'au moins 1 mètre. Ici, le cycliste roule sur une bande cyclable, ce qui laisse un espace suffisant : je peux donc le dépasser en me décalant légèrement sur la gauche, tout en restant dans ma voie.",
+    "frame": "342.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "336.0.jpg",
+      "342.0.jpg",
+      "348.0.jpg",
+      "354.0.jpg"
+    ],
+    "window": [
+      326.0,
+      375.0
+    ]
+  },
+  {
+    "ref": "v24q08",
+    "theme": "écomobilité",
+    "question_text": "Le régulateur de vitesse permet de diminuer la consommation en carburant",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Le régulateur de vitesse maintient une allure constante et évite les décélérations et accélérations inutiles, ce qui permet de diminuer la consommation de carburant.",
+    "frame": "393.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "384.0.jpg",
+      "393.0.jpg",
+      "399.0.jpg",
+      "405.0.jpg"
+    ],
+    "window": [
+      378.0,
+      410.0
+    ]
+  },
+  {
+    "ref": "v24q09",
+    "theme": "alcool-stupéfiants",
+    "question_text": "Il faut environ trois heures pour éliminer un verre d'alcool",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Il faut effectivement environ trois heures à l'organisme pour éliminer un verre d'alcool. Ce délai varie selon les personnes et rien ne permet de l'accélérer.",
+    "frame": "432.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "426.0.jpg",
+      "432.0.jpg",
+      "438.0.jpg",
+      "447.0.jpg"
+    ],
+    "window": [
+      418.0,
+      452.0
+    ]
+  },
+  {
+    "ref": "v24q10",
+    "theme": "équipements-de-sécurité",
+    "question_text": "Les accessoires obligatoires dans la voiture sont",
+    "options": {
+      "A": "Une roue de secours",
+      "B": "Un gilet rétroréfléchissant",
+      "C": "Un test d'alcoolémie",
+      "D": "Un triangle de présignalisation"
+    },
+    "correct": [
+      "B",
+      "D"
+    ],
+    "explanation": "Parmi ces propositions, les accessoires obligatoires à bord d'une voiture sont le gilet rétroréfléchissant et le triangle de présignalisation. La roue de secours et l'éthylotest ne sont pas obligatoires.",
+    "frame": "471.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "465.0.jpg",
+      "471.0.jpg",
+      "477.0.jpg",
+      "489.0.jpg"
+    ],
+    "window": [
+      455.0,
+      502.0
+    ]
+  }
+]

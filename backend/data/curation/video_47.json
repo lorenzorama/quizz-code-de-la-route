@@ -1,0 +1,177 @@
+[
+  {
+    "ref": "v47q01",
+    "theme": "permis-à-points",
+    "question_text": "Après avoir obtenu mon permis, je peux suivre une formation complémentaire post-permis",
+    "options": {
+      "A": "À partir de 3 mois de permis",
+      "B": "À partir de 6 mois de permis",
+      "C": "À partir de 12 mois de permis",
+      "D": "Si j'ai perdu des points"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Le titulaire d'un premier permis de conduire a la possibilité de suivre une formation complémentaire d'une journée, dite post-permis, dans les 6 à 12 mois suivant l'obtention. Ce stage permet de réduire la durée de la période probatoire en sensibilisant les jeunes conducteurs aux dangers de la route.",
+    "frame": "30.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "30.0.jpg",
+      "78.0.jpg"
+    ],
+    "window": [
+      22.0,
+      83.0
+    ]
+  },
+  {
+    "ref": "v47q05",
+    "theme": "panneaux",
+    "question_text": "Je souhaite me rendre à Genève",
+    "options": {
+      "A": "J'emprunterai obligatoirement l'autoroute : Oui",
+      "B": "J'emprunterai obligatoirement l'autoroute : Non",
+      "C": "Je vais être amené à circuler sur une route départementale : Oui",
+      "D": "Je vais être amené à circuler sur une route départementale : Non"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "explanation": "Le panneau de direction vers Genève est à fond vert et accompagné du symbole d'entrée d'autoroute : pour m'y rendre, j'ai donc le choix entre un itinéraire routier ou autoroutier. Le cartouche jaune D383 qui surplombe le panneau m'indique que je vais circuler sur une route départementale.",
+    "frame": "252.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "252.0.jpg",
+      "294.0.jpg"
+    ],
+    "window": [
+      238.0,
+      297.0
+    ]
+  },
+  {
+    "ref": "v47q06",
+    "theme": "circulation",
+    "question_text": "Ici",
+    "options": {
+      "A": "Je suis bien placé : Oui",
+      "B": "Je suis bien placé : Non",
+      "C": "La voie de droite : Est une voie réservée",
+      "D": "La voie de droite : Autorise la circulation des trottinettes électriques"
+    },
+    "correct": [
+      "A",
+      "C",
+      "D"
+    ],
+    "explanation": "La voie de droite est une voie réservée aux bus : je suis donc bien placé pour circuler. De plus, le marquage au sol présent dans la voie de bus indique que les cyclistes, et par conséquent les trottinettes électriques, peuvent également y circuler.",
+    "frame": "303.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "303.0.jpg",
+      "348.0.jpg"
+    ],
+    "window": [
+      298.0,
+      351.0
+    ]
+  },
+  {
+    "ref": "v47q07",
+    "theme": "commandes",
+    "question_text": "Pour démarrer un véhicule à boîte automatique, j'appuie",
+    "options": {
+      "A": "Sur la pédale de frein",
+      "B": "Sur l'accélérateur"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Pour démarrer un véhicule à boîte automatique, j'appuie sur la pédale de frein.",
+    "frame": "363.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "363.0.jpg",
+      "375.0.jpg"
+    ],
+    "window": [
+      352.0,
+      389.0
+    ]
+  },
+  {
+    "ref": "v47q08",
+    "theme": "circulation",
+    "question_text": "La circulation en interfiles",
+    "options": {
+      "A": "N'est possible que si la limitation de vitesse de la route est supérieure ou égale à : 50 km/h",
+      "B": "N'est possible que si la limitation de vitesse de la route est supérieure ou égale à : 70 km/h",
+      "C": "Est autorisée : Dans toute la France",
+      "D": "Est autorisée : Dans certains départements"
+    },
+    "correct": [
+      "B",
+      "D"
+    ],
+    "explanation": "La circulation en interfiles n'est possible que si la limitation de vitesse de la route est supérieure ou égale à 70 km/h. Elle fait l'objet d'une expérimentation qui n'est autorisée que dans certains départements, et non sur l'ensemble du territoire français.",
+    "frame": "408.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "408.0.jpg",
+      "462.0.jpg"
+    ],
+    "window": [
+      391.0,
+      463.0
+    ]
+  },
+  {
+    "ref": "v47q09",
+    "theme": "alcool-stupéfiants",
+    "question_text": "Les accidents liés à l'alcool sont causés principalement par des consommateurs",
+    "options": {
+      "A": "Réguliers",
+      "B": "Occasionnels"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Contrairement à ce que l'on pourrait penser, les accidents de la route liés à l'alcool sont causés en grande majorité par des consommateurs occasionnels.",
+    "frame": "477.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "477.0.jpg",
+      "507.0.jpg"
+    ],
+    "window": [
+      466.0,
+      508.0
+    ]
+  },
+  {
+    "ref": "v47q10",
+    "theme": "panneaux",
+    "question_text": "L'entrée dans une zone de rencontre est représenté par le panneau",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "Le panneau C indique une zone de rencontre. Tous les usagers peuvent y circuler à 20 km/h maximum. Le but d'une zone de rencontre est de faire cohabiter plusieurs catégories d'usagers (automobilistes, bus, piétons, cyclistes) de manière apaisée.",
+    "frame": "519.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "519.0.jpg",
+      "558.0.jpg"
+    ],
+    "window": [
+      509.0,
+      564.0
+    ]
+  }
+]

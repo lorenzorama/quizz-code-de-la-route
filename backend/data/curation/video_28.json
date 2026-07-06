@@ -1,0 +1,266 @@
+[
+  {
+    "ref": "v28q01",
+    "theme": "alcool-stupéfiants",
+    "question_text": "Le premier facteur d'accident mortel au volant est",
+    "options": {
+      "A": "La drogue",
+      "B": "La vitesse",
+      "C": "L'alcool",
+      "D": "La somnolence"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Le premier facteur d'accident mortel au volant est la vitesse, suivie par l'alcool puis la drogue. La vitesse excessive ou inadaptée reste la cause principale des accidents graves sur la route.",
+    "frame": "30.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "30.0.jpg",
+      "42.0.jpg",
+      "48.0.jpg",
+      "54.0.jpg"
+    ],
+    "window": [
+      0.0,
+      54.0
+    ]
+  },
+  {
+    "ref": "v28q02",
+    "theme": "mécanique-entretien",
+    "question_text": "L'usure des pneumatiques dépend",
+    "options": {
+      "A": "De ses motifs",
+      "B": "De la pression de gonflage",
+      "C": "Du style de la conduite",
+      "D": "De la charge du véhicule"
+    },
+    "correct": [
+      "B",
+      "C",
+      "D"
+    ],
+    "explanation": "L'usure des pneumatiques dépend à la fois de la pression de gonflage, du style de conduite et de la charge du véhicule. Un mauvais gonflage, une conduite brutale ou une surcharge accélèrent l'usure des pneus.",
+    "frame": "66.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "66.0.jpg",
+      "78.0.jpg",
+      "93.0.jpg",
+      "102.0.jpg"
+    ],
+    "window": [
+      54.0,
+      103.0
+    ]
+  },
+  {
+    "ref": "v28q03",
+    "theme": "vitesse",
+    "question_text": "Dans cette situation",
+    "options": {
+      "A": "Je peux circuler à : 50 km/h",
+      "B": "Je peux circuler à : 70 km/h",
+      "C": "La signalisation indique que je vais rencontrer une intersection dans : 50 mètres",
+      "D": "La signalisation indique que je vais rencontrer une intersection dans : 150 mètres"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Je circule en agglomération : sauf indication contraire, ma vitesse est limitée à 50 km/h. Le panneau de danger annonçant une intersection est implanté à 50 mètres du danger en agglomération (contre 150 mètres hors agglomération).",
+    "frame": "135.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "105.0.jpg",
+      "135.0.jpg",
+      "165.0.jpg",
+      "177.0.jpg"
+    ],
+    "window": [
+      103.0,
+      180.0
+    ]
+  },
+  {
+    "ref": "v28q04",
+    "theme": "alcool-stupéfiants",
+    "question_text": "Boire du jus d'orange réduit le taux d'alcool dans le sang",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Aucune boisson ne permet de réduire le taux d'alcool dans le sang. Boire du jus d'orange, du café ou de l'eau ne fait pas baisser l'alcoolémie : seul le temps permet à l'organisme d'éliminer l'alcool.",
+    "frame": "189.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "189.0.jpg",
+      "207.0.jpg",
+      "213.0.jpg",
+      "216.0.jpg"
+    ],
+    "window": [
+      180.0,
+      216.0
+    ]
+  },
+  {
+    "ref": "v28q05",
+    "theme": "distances-de-sécurité",
+    "question_text": "Rouler à 90 km/h me fait parcourir environ",
+    "options": {
+      "A": "17 m/s",
+      "B": "27 m/s",
+      "C": "37 m/s",
+      "D": "47 m/s"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "À 90 km/h, je parcours environ 27 mètres par seconde. Pour le calculer rapidement, il suffit de multiplier le chiffre des dizaines de la vitesse (ici 9) par 3.",
+    "frame": "225.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "225.0.jpg",
+      "264.0.jpg"
+    ],
+    "window": [
+      216.0,
+      290.0
+    ]
+  },
+  {
+    "ref": "v28q06",
+    "theme": "circulation",
+    "question_text": "Dans cette situation",
+    "options": {
+      "A": "J'accélère",
+      "B": "Je ralentis",
+      "C": "Je maintiens mon allure",
+      "D": "Je continue mon dépassement"
+    },
+    "correct": [
+      "C",
+      "D"
+    ],
+    "explanation": "Je suis en train de dépasser le véhicule situé à ma droite tout en étant moi-même dépassé. Je maintiens mon allure pour ne pas surprendre les autres usagers et je continue mon dépassement afin de me rabattre en sécurité.",
+    "frame": "306.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "306.0.jpg",
+      "324.0.jpg",
+      "333.0.jpg",
+      "339.0.jpg"
+    ],
+    "window": [
+      291.0,
+      339.0
+    ]
+  },
+  {
+    "ref": "v28q07",
+    "theme": "mécanique-entretien",
+    "question_text": "Sur le tableau de bord, les voyants orange alertent le conducteur d'un problème urgent",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Ce sont les voyants rouges qui signalent un problème urgent nécessitant un arrêt immédiat. Les voyants orange servent d'aide-mémoire (niveau de carburant par exemple) ou signalent un dysfonctionnement à faire vérifier, sans urgence immédiate.",
+    "frame": "357.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "357.0.jpg",
+      "378.0.jpg",
+      "381.0.jpg",
+      "384.0.jpg"
+    ],
+    "window": [
+      340.0,
+      383.0
+    ]
+  },
+  {
+    "ref": "v28q08",
+    "theme": "alcool-stupéfiants",
+    "question_text": "Lors d'un contrôle de police, en cas d'alcoolémie positive, ma voiture peut être immobilisée jusqu'à ce qu'un autre conducteur sobre puisse prendre le volant",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "En cas d'alcoolémie positive lors d'un contrôle, le véhicule peut être immobilisé jusqu'à ce qu'un autre conducteur sobre puisse prendre le volant. Cette mesure vise à empêcher le conducteur en infraction de reprendre la route.",
+    "frame": "396.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "396.0.jpg",
+      "417.0.jpg",
+      "420.0.jpg"
+    ],
+    "window": [
+      383.0,
+      424.0
+    ]
+  },
+  {
+    "ref": "v28q09",
+    "theme": "écomobilité",
+    "question_text": "Une conduite souple permet",
+    "options": {
+      "A": "Une diminution de la consommation en carburant : oui",
+      "B": "Une diminution de la consommation en carburant : non",
+      "C": "De limiter les nuisances sonores : oui",
+      "D": "De limiter les nuisances sonores : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Une conduite souple permet à la fois de diminuer la consommation de carburant et de limiter les nuisances sonores. Anticiper et éviter les accélérations et freinages brusques est bénéfique pour l'environnement et le porte-monnaie.",
+    "frame": "441.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "441.0.jpg",
+      "459.0.jpg",
+      "468.0.jpg",
+      "471.0.jpg"
+    ],
+    "window": [
+      424.0,
+      469.0
+    ]
+  },
+  {
+    "ref": "v28q10",
+    "theme": "documents",
+    "question_text": "La remorque devra posséder son propre numéro d'immatriculation si sa MMTA est supérieure à 500 kg",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Si la MMTA (masse maximale techniquement admissible) de la remorque dépasse 500 kg, elle doit posséder son propre numéro d'immatriculation. En dessous de ce seuil, elle reprend la plaque du véhicule tracteur.",
+    "frame": "489.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "489.0.jpg",
+      "510.0.jpg",
+      "513.0.jpg",
+      "516.0.jpg"
+    ],
+    "window": [
+      469.0,
+      520.0
+    ]
+  }
+]

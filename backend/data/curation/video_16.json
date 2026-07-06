@@ -1,0 +1,230 @@
+[
+  {
+    "ref": "v16q02",
+    "theme": "écomobilité",
+    "question_text": "Un trafic fluide favorise",
+    "options": {
+      "A": "La baisse de consommation de carburant : oui",
+      "B": "La baisse de consommation de carburant : non",
+      "C": "La réduction des émissions polluantes : oui",
+      "D": "La réduction des émissions polluantes : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Un trafic fluide favorise la baisse de la consommation de carburant et la réduction des émissions polluantes. En évitant les accélérations et freinages répétés, le véhicule consomme moins et rejette moins de polluants.",
+    "frame": "84.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "84.0.jpg",
+      "102.0.jpg",
+      "114.0.jpg"
+    ],
+    "window": [
+      70.0,
+      115.0
+    ]
+  },
+  {
+    "ref": "v16q03",
+    "theme": "permis-à-points",
+    "question_text": "En tant que jeune conducteur, mon capital initial est de",
+    "options": {
+      "A": "4 points",
+      "B": "6 points",
+      "C": "8 points",
+      "D": "12 points"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "En tant que jeune conducteur, le capital initial du permis est de 6 points. Ce capital augmente progressivement chaque année sans infraction pour atteindre 12 points au terme de la période probatoire.",
+    "frame": "135.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "135.0.jpg",
+      "147.0.jpg",
+      "153.0.jpg"
+    ],
+    "window": [
+      116.0,
+      155.0
+    ]
+  },
+  {
+    "ref": "v16q04",
+    "theme": "alcool-stupéfiants",
+    "question_text": "Les drogues n'ont pas d'effet sur le cerveau",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "C'est faux : les drogues agissent bien sur le cerveau et modifient son activité. Leur consommation est strictement interdite, notamment avant de prendre le volant.",
+    "frame": "168.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "168.0.jpg",
+      "183.0.jpg",
+      "192.0.jpg"
+    ],
+    "window": [
+      156.0,
+      194.0
+    ]
+  },
+  {
+    "ref": "v16q05",
+    "theme": "circulation",
+    "question_text": "Le conducteur de la voiture grise à gauche me voit",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "La voiture grise à gauche a son rétroviseur rentré et je me trouve dans son angle mort. Le conducteur ne me voit donc pas : je dois redoubler de vigilance et éviter de rester à côté de lui.",
+    "frame": "207.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "207.0.jpg",
+      "228.0.jpg",
+      "234.0.jpg"
+    ],
+    "window": [
+      195.0,
+      234.0
+    ]
+  },
+  {
+    "ref": "v16q06",
+    "theme": "mécanique-entretien",
+    "question_text": "Je possède un véhicule qui a été mis en circulation il y a plus de 4 ans, je dois effectuer un contrôle technique",
+    "options": {
+      "A": "Tous les ans",
+      "B": "Tous les deux ans",
+      "C": "Tous les trois ans",
+      "D": "Tous les quatre ans"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Pour un véhicule mis en circulation il y a plus de 4 ans, le contrôle technique doit être effectué tous les deux ans. Le premier contrôle a lieu dans les 6 mois précédant le 4e anniversaire du véhicule.",
+    "frame": "243.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "243.0.jpg",
+      "276.0.jpg",
+      "285.0.jpg"
+    ],
+    "window": [
+      235.0,
+      290.0
+    ]
+  },
+  {
+    "ref": "v16q07",
+    "theme": "premiers-secours",
+    "question_text": "Les accidents de la route sont la première cause de mortalité chez les",
+    "options": {
+      "A": "15-24 ans",
+      "B": "25-34 ans",
+      "C": "35-44 ans"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Les accidents de la route sont la première cause de mortalité chez les 15-24 ans. Cette tranche d'âge, souvent composée de jeunes conducteurs, est particulièrement exposée au risque routier.",
+    "frame": "300.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "300.0.jpg",
+      "321.0.jpg",
+      "327.0.jpg"
+    ],
+    "window": [
+      291.0,
+      333.0
+    ]
+  },
+  {
+    "ref": "v16q08",
+    "theme": "mécanique-entretien",
+    "question_text": "Cette étiquette me donne des renseignements sur",
+    "options": {
+      "A": "Le type de carburant",
+      "B": "La pression des pneumatiques",
+      "C": "Le chargement du coffre"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Cette étiquette renseigne sur la pression des pneumatiques. On le reconnaît au dessin du véhicule et à l'unité de mesure de la pression, le bar, indiquée dessus.",
+    "frame": "345.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "345.0.jpg",
+      "375.0.jpg"
+    ],
+    "window": [
+      334.0,
+      381.0
+    ]
+  },
+  {
+    "ref": "v16q09",
+    "theme": "priorités",
+    "question_text": "J'arrive à un carrefour à sens giratoire, je dois faire tout particulièrement attention",
+    "options": {
+      "A": "Aux voitures arrivant de la droite",
+      "B": "Aux voitures arrivant de la gauche"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "À un carrefour à sens giratoire, les véhicules déjà engagés dans l'anneau arrivent par la gauche et sont prioritaires. Je dois donc faire particulièrement attention aux voitures arrivant de la gauche avant de m'insérer.",
+    "frame": "396.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "396.0.jpg",
+      "417.0.jpg",
+      "420.0.jpg"
+    ],
+    "window": [
+      382.0,
+      422.0
+    ]
+  },
+  {
+    "ref": "v16q10",
+    "theme": "piétons",
+    "question_text": "Un automobiliste doit être particulièrement vigilant à l'égard des usagers vulnérables. Parmi les usagers suivants, ceux que l'on considère comme vulnérables sont",
+    "options": {
+      "A": "Les piétons",
+      "B": "Les cyclistes",
+      "C": "Les conducteurs de voiture sans permis",
+      "D": "Les conducteurs de moto"
+    },
+    "correct": [
+      "A",
+      "B",
+      "D"
+    ],
+    "explanation": "Les usagers vulnérables sont ceux qui ne disposent pas de carrosserie pour les protéger en cas d'accident. C'est le cas des piétons, des cyclistes et des conducteurs de moto. Les conducteurs de voiture sans permis, protégés par une carrosserie, ne sont pas concernés.",
+    "frame": "438.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "438.0.jpg",
+      "465.0.jpg",
+      "477.0.jpg"
+    ],
+    "window": [
+      423.0,
+      480.0
+    ]
+  }
+]

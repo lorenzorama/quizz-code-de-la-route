@@ -1,0 +1,213 @@
+[
+  {
+    "ref": "v49q02",
+    "theme": "alcool-stupéfiants",
+    "question_text": "Je suis un conducteur expérimenté, je commets un délit si je dépasse",
+    "options": {
+      "A": "0.2 g d'alcool pur par litre de sang",
+      "B": "0.5 g d'alcool pur par litre de sang",
+      "C": "0.8 g d'alcool pur par litre de sang",
+      "D": "1 g d'alcool pur par litre de sang"
+    },
+    "correct": [
+      "C",
+      "D"
+    ],
+    "explanation": "Pour un conducteur expérimenté, un taux compris entre 0,5 et 0,8 g d'alcool par litre de sang constitue une contravention de 4e classe. À partir de 0,8 g par litre de sang, il s'agit d'un délit, avec des sanctions bien plus lourdes. Le seuil du délit est donc dépassé dès 0,8 g comme à 1 g.",
+    "frame": "78.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "78.0.jpg",
+      "108.0.jpg",
+      "117.0.jpg",
+      "123.0.jpg"
+    ],
+    "window": [
+      49.0,
+      125.0
+    ]
+  },
+  {
+    "ref": "v49q03",
+    "theme": "vitesse",
+    "question_text": "Je roule plus vite que la voiture qui me précède. Je peux entamer un dépassement",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Avant de dépasser, il faut vérifier que l'on n'est pas soi-même en train d'être dépassé. Ici, un véhicule arrive rapidement dans le rétroviseur : je dois renoncer au dépassement et rester à ma place le temps qu'il passe.",
+    "frame": "135.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "135.0.jpg",
+      "162.0.jpg",
+      "168.0.jpg"
+    ],
+    "window": [
+      125.0,
+      168.0
+    ]
+  },
+  {
+    "ref": "v49q04",
+    "theme": "écomobilité",
+    "question_text": "Une conduite souple permet",
+    "options": {
+      "A": "Une diminution de la consommation en carburant : oui",
+      "B": "Une diminution de la consommation en carburant : non",
+      "C": "De limiter les nuisances sonores : oui",
+      "D": "De limiter les nuisances sonores : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Adopter une conduite souple, sans accélérations ni freinages brusques, réduit la consommation de carburant. Elle permet aussi de limiter les nuisances sonores pour les autres usagers et les riverains.",
+    "frame": "195.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "195.0.jpg",
+      "228.0.jpg",
+      "234.0.jpg"
+    ],
+    "window": [
+      168.0,
+      237.0
+    ]
+  },
+  {
+    "ref": "v49q05",
+    "theme": "signalisation",
+    "question_text": "Ces balises indiquent",
+    "options": {
+      "A": "Un obstacle temporaire",
+      "B": "Un obstacle permanent"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Ces balises rouges et blanches signalent la présence d'un obstacle temporaire sur la chaussée. Elles sont généralement implantées à proximité des zones de travaux.",
+    "frame": "246.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "246.0.jpg",
+      "264.0.jpg",
+      "273.0.jpg",
+      "276.0.jpg"
+    ],
+    "window": [
+      237.0,
+      277.0
+    ]
+  },
+  {
+    "ref": "v49q06",
+    "theme": "panneaux",
+    "question_text": "La signalisation m'autorise à dépasser d'autres véhicules",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Le panneau d'interdiction de dépasser est accompagné d'un panonceau « 3,5 t » qui limite l'interdiction aux véhicules de plus de 3,5 tonnes. Avec un véhicule de tourisme, je suis donc autorisé à dépasser les autres véhicules.",
+    "frame": "288.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "288.0.jpg",
+      "318.0.jpg",
+      "330.0.jpg",
+      "333.0.jpg"
+    ],
+    "window": [
+      277.0,
+      333.0
+    ]
+  },
+  {
+    "ref": "v49q08",
+    "theme": "priorités",
+    "question_text": "La voiture qui va en face",
+    "options": {
+      "A": "Doit céder le passage de chaque côté : oui",
+      "B": "Doit céder le passage de chaque côté : non",
+      "C": "Bénéficie de la priorité de passage par rapport à la moto : oui",
+      "D": "Bénéficie de la priorité de passage par rapport à la moto : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "La voiture d'en face est face à un panneau « Cédez le passage » : elle doit donc céder la priorité de chaque côté. La moto est soumise à la même obligation, mais elle a activé son clignotant gauche : en tournant à gauche, elle couperait la route à la voiture qui va tout droit. Dans cette situation, c'est donc la voiture qui bénéficie de la priorité par rapport à la moto.",
+    "frame": "396.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "396.0.jpg",
+      "420.0.jpg",
+      "444.0.jpg",
+      "453.0.jpg"
+    ],
+    "window": [
+      385.0,
+      455.0
+    ]
+  },
+  {
+    "ref": "v49q09",
+    "theme": "vitesse",
+    "question_text": "Les chances de survie d'un piéton percuté à 50 km/h sont de",
+    "options": {
+      "A": "10%",
+      "B": "20%",
+      "C": "30%",
+      "D": "50%"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Les chances de survie d'un piéton percuté à 50 km/h ne sont que d'environ 20 %. À 30 km/h, elles montent à environ 90 %, ce qui illustre l'importance de réduire sa vitesse en zone urbaine.",
+    "frame": "459.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "459.0.jpg",
+      "492.0.jpg",
+      "504.0.jpg"
+    ],
+    "window": [
+      455.0,
+      507.0
+    ]
+  },
+  {
+    "ref": "v49q10",
+    "theme": "éclairage-visibilité",
+    "question_text": "Les feux diurnes",
+    "options": {
+      "A": "Permettent de mieux voir le véhicule de jour : oui",
+      "B": "Permettent de mieux voir le véhicule de jour : non",
+      "C": "Sont présents à l'avant",
+      "D": "Sont présents à l'arrière"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Les feux diurnes rendent le véhicule plus visible de jour pour les autres usagers. Ils sont uniquement présents à l'avant du véhicule.",
+    "frame": "519.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "519.0.jpg",
+      "540.0.jpg",
+      "549.0.jpg",
+      "558.0.jpg"
+    ],
+    "window": [
+      507.0,
+      564.0
+    ]
+  }
+]

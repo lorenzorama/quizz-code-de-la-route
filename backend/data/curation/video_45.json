@@ -1,0 +1,108 @@
+[
+  {
+    "ref": "v45q01",
+    "theme": "commandes",
+    "question_text": "Pour tenir le volant correctement, les positions à privilégier sont",
+    "options": {
+      "A": "6h30",
+      "B": "7h15",
+      "C": "9h15",
+      "D": "10h10"
+    },
+    "correct": [
+      "C",
+      "D"
+    ],
+    "explanation": "Les positions 9h15 et 10h10 sont idéales pour tenir le volant. Il faut aussi le tenir sans crispation et avec souplesse.",
+    "frame": "45.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "30.0.jpg",
+      "45.0.jpg",
+      "54.0.jpg",
+      "60.0.jpg"
+    ],
+    "window": [
+      0.0,
+      63.0
+    ]
+  },
+  {
+    "ref": "v45q03",
+    "theme": "signalisation",
+    "question_text": "Le feu est orange clignotant",
+    "options": {
+      "A": "Je m'arrête",
+      "B": "Je ralentis et je passe"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Un feu orange clignotant m'invite à faire particulièrement attention, mais je n'ai pas besoin de m'arrêter. Je ralentis et je franchis le carrefour avec prudence.",
+    "frame": "120.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "120.0.jpg",
+      "132.0.jpg",
+      "141.0.jpg"
+    ],
+    "window": [
+      100.0,
+      138.0
+    ]
+  },
+  {
+    "ref": "v45q09",
+    "theme": "piétons",
+    "question_text": "On considère comme piéton",
+    "options": {
+      "A": "Une personne à roller : oui",
+      "B": "Une personne à roller : non",
+      "C": "Un cycliste qui tient son vélo à la main et marche à côté : oui",
+      "D": "Un cycliste qui tient son vélo à la main et marche à côté : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Les personnes faisant du roller ainsi que les cyclistes qui ne sont pas sur leur vélo mais le poussent à la main sont considérés comme des piétons.",
+    "frame": "423.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "423.0.jpg",
+      "456.0.jpg",
+      "471.0.jpg"
+    ],
+    "window": [
+      422.0,
+      468.0
+    ]
+  },
+  {
+    "ref": "v45q10",
+    "theme": "vitesse",
+    "question_text": "La vitesse est limitée à 30 km/h",
+    "options": {
+      "A": "Avant le panneau",
+      "B": "À partir du panneau",
+      "C": "Jusqu'au panneau de fin de zone"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "explanation": "Le panneau de zone 30 limite la vitesse à 30 km/h à partir du panneau et jusqu'à ce que le conducteur rencontre le panneau de fin de zone.",
+    "frame": "474.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "474.0.jpg",
+      "492.0.jpg",
+      "504.0.jpg",
+      "516.0.jpg"
+    ],
+    "window": [
+      468.0,
+      518.0
+    ]
+  }
+]

@@ -1,0 +1,248 @@
+[
+  {
+    "ref": "v13q01",
+    "theme": "circulation",
+    "question_text": "Je suis stationné, je peux descendre immédiatement de mon véhicule",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Avant d'ouvrir la portière, vous devez toujours vous assurer que vous ne gênez pas un autre usager. Ouvrir immédiatement pourrait provoquer un accident : la voiture qui approche pourrait heurter la portière ou son conducteur faire un écart dangereux. Il faut attendre que le véhicule soit passé avant d'ouvrir.",
+    "frame": "75.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "30.0.jpg",
+      "45.0.jpg",
+      "75.0.jpg",
+      "90.0.jpg"
+    ],
+    "window": [
+      0.0,
+      95.0
+    ]
+  },
+  {
+    "ref": "v13q02",
+    "theme": "distances-de-sécurité",
+    "question_text": "Pour dépasser ce motard, je dois laisser au minimum un intervalle latéral de sécurité de",
+    "options": {
+      "A": "1 mètre",
+      "B": "1,5 mètre",
+      "C": "2 mètres",
+      "D": "3 mètres"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Pour dépasser un deux-roues en agglomération, il faut laisser un écart latéral minimal d'un mètre. Cette distance de sécurité est essentielle et à bien retenir.",
+    "frame": "108.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "108.0.jpg",
+      "126.0.jpg",
+      "135.0.jpg",
+      "141.0.jpg"
+    ],
+    "window": [
+      95.0,
+      143.0
+    ]
+  },
+  {
+    "ref": "v13q03",
+    "theme": "distances-de-sécurité",
+    "question_text": "Je circule à 130 km/h. Je suis à plus de 2 secondes du véhicule devant moi",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Sur autoroute à 130 km/h, les bandes d'arrêt d'urgence servent de repère : deux bandes d'écart correspondent à plus de 2 secondes par rapport au véhicule qui précède. Ici, la distance est bien supérieure à deux bandes, la distance de sécurité est donc respectée.",
+    "frame": "156.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "156.0.jpg",
+      "183.0.jpg",
+      "186.0.jpg",
+      "189.0.jpg"
+    ],
+    "window": [
+      143.0,
+      189.0
+    ]
+  },
+  {
+    "ref": "v13q04",
+    "theme": "signalisation",
+    "question_text": "La signalisation m'autorise à m'arrêter pour faire descendre un passager",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Le marquage au sol en zigzag jaune indique un arrêt de bus. Il est interdit de s'y arrêter ou d'y stationner, même brièvement pour faire descendre un passager.",
+    "frame": "204.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "204.0.jpg",
+      "222.0.jpg",
+      "225.0.jpg"
+    ],
+    "window": [
+      189.0,
+      225.0
+    ]
+  },
+  {
+    "ref": "v13q05",
+    "theme": "équipements-de-sécurité",
+    "question_text": "Je peux placer mon skateboard sur la plage arrière pour aller au skatepark",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Le chargement ne doit ni gêner la visibilité du conducteur ni présenter de risque en cas de freinage brusque. Posé sur la plage arrière, le skateboard pourrait se transformer en projectile très dangereux pour les occupants.",
+    "frame": "240.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "240.0.jpg",
+      "264.0.jpg",
+      "270.0.jpg"
+    ],
+    "window": [
+      225.0,
+      272.0
+    ]
+  },
+  {
+    "ref": "v13q06",
+    "theme": "équipements-de-sécurité",
+    "question_text": "Le port d'un casque audio est autorisé au volant",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Le port d'un casque ou d'écouteurs audio est strictement interdit pendant la conduite. Il diminue la perception des sons de l'environnement et constitue une infraction.",
+    "frame": "303.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "288.0.jpg",
+      "297.0.jpg",
+      "300.0.jpg",
+      "303.0.jpg"
+    ],
+    "window": [
+      272.0,
+      307.0
+    ]
+  },
+  {
+    "ref": "v13q07",
+    "theme": "priorités",
+    "question_text": "Je peux dépasser ce bus",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Ce bus a activé son clignotant gauche pour indiquer qu'il quitte son arrêt. Il faut ralentir ou s'arrêter afin de le laisser repartir, et non le dépasser.",
+    "frame": "342.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "342.0.jpg",
+      "345.0.jpg"
+    ],
+    "window": [
+      307.0,
+      345.0
+    ]
+  },
+  {
+    "ref": "v13q08",
+    "theme": "permis-à-points",
+    "question_text": "Certaines maladies peuvent entraîner une restriction temporaire ou définitive du permis de conduire",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Certaines maladies peuvent entraîner une restriction temporaire ou définitive du droit de conduire. La reprise de la conduite est alors soumise à un examen médical.",
+    "frame": "360.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "360.0.jpg",
+      "375.0.jpg",
+      "378.0.jpg",
+      "390.0.jpg"
+    ],
+    "window": [
+      345.0,
+      383.0
+    ]
+  },
+  {
+    "ref": "v13q09",
+    "theme": "commandes",
+    "question_text": "La fermeture centralisée des portes verrouille les portes pour qu'on ne puisse pas les ouvrir de l'intérieur",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "La fermeture centralisée verrouille les portes pour qu'on ne puisse pas les ouvrir depuis l'extérieur. Les occupants peuvent toujours les ouvrir de l'intérieur, l'affirmation est donc fausse.",
+    "frame": "399.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "399.0.jpg",
+      "402.0.jpg",
+      "411.0.jpg"
+    ],
+    "window": [
+      383.0,
+      404.0
+    ]
+  },
+  {
+    "ref": "v13q10",
+    "theme": "mécanique-entretien",
+    "question_text": "Ce témoin vient de s'allumer",
+    "options": {
+      "A": "Je continue",
+      "B": "Je m'arrête immédiatement à droite"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Ce voyant signale une réserve de carburant faible mais laisse une autonomie d'au moins une cinquantaine de kilomètres. Vous pouvez continuer de rouler jusqu'à la prochaine station-service pour faire le plein.",
+    "frame": "450.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "450.0.jpg",
+      "462.0.jpg",
+      "468.0.jpg"
+    ],
+    "window": [
+      404.0,
+      470.0
+    ]
+  }
+]

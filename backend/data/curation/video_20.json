@@ -1,0 +1,270 @@
+[
+  {
+    "ref": "v20q01",
+    "theme": "écomobilité",
+    "question_text": "Je suis au volant d'une voiture électrique",
+    "options": {
+      "A": "Je peux m'arrêter sur les places de droite : Oui",
+      "B": "Je peux m'arrêter sur les places de droite : Non",
+      "C": "Je peux stationner sur les places de droite : Oui",
+      "D": "Je peux stationner sur les places de droite : Non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Le panneau situé à droite interdit le stationnement à l'exception des véhicules électriques en charge. Comme je circule dans une voiture électrique, je peux à la fois m'arrêter et stationner sur ces places réservées.",
+    "frame": "30.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "30.0.jpg",
+      "54.0.jpg",
+      "66.0.jpg",
+      "75.0.jpg"
+    ],
+    "window": [
+      26.0,
+      77.0
+    ]
+  },
+  {
+    "ref": "v20q02",
+    "theme": "piétons",
+    "question_text": "Dans cette situation, au passage piéton",
+    "options": {
+      "A": "Je m'arrête",
+      "B": "Je passe",
+      "C": "Après le passage piéton, je tourne à droite. Je dois particulièrement faire attention à ce qu'il se passe à ma gauche",
+      "D": "Après le passage piéton, je tourne à droite. Je dois particulièrement faire attention à ce qu'il se passe à ma droite"
+    },
+    "correct": [
+      "B",
+      "D"
+    ],
+    "explanation": "Aucun piéton ne souhaite s'engager sur le passage, je peux donc passer. Pour tourner à droite, je dois particulièrement surveiller ma droite, car une bande cyclable y est présente.",
+    "frame": "78.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "78.0.jpg",
+      "120.0.jpg",
+      "132.0.jpg",
+      "138.0.jpg"
+    ],
+    "window": [
+      77.0,
+      141.0
+    ]
+  },
+  {
+    "ref": "v20q03",
+    "theme": "vitesse",
+    "question_text": "Je roule à 68 km/h alors que la vitesse est limitée à 50 km/h. Je risque une perte de",
+    "options": {
+      "A": "1 point",
+      "B": "2 points",
+      "C": "3 points",
+      "D": "4 points"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Pour un excès de vitesse inférieur à 20 km/h, je risque une perte d'un point sur mon permis de conduire. Ici, l'excès est de 18 km/h.",
+    "frame": "144.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "144.0.jpg",
+      "162.0.jpg",
+      "210.0.jpg"
+    ],
+    "window": [
+      141.0,
+      166.0
+    ]
+  },
+  {
+    "ref": "v20q04",
+    "theme": "équipements-de-sécurité",
+    "question_text": "En utilisant le système de caméra de recul, je suis dispensé",
+    "options": {
+      "A": "D'utiliser mes rétroviseurs : Oui",
+      "B": "D'utiliser mes rétroviseurs : Non",
+      "C": "De regarder autour de moi : Oui",
+      "D": "De regarder autour de moi : Non"
+    },
+    "correct": [
+      "B",
+      "D"
+    ],
+    "explanation": "Les systèmes d'aide à la conduite ne remplacent pas les contrôles du conducteur. Vous devez continuer d'utiliser vos rétroviseurs et de regarder autour de vous pour surveiller vos angles morts.",
+    "frame": "168.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "168.0.jpg",
+      "216.0.jpg",
+      "228.0.jpg",
+      "237.0.jpg"
+    ],
+    "window": [
+      167.0,
+      238.0
+    ]
+  },
+  {
+    "ref": "v20q05",
+    "theme": "distances-de-sécurité",
+    "question_text": "Le traitement des informations (ou temps de réaction) du conducteur dure en moyenne 1 seconde durant la conduite",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Le temps de réaction d'un conducteur est en moyenne d'une seconde. Il peut augmenter avec la fatigue, la prise d'alcool ou de drogue, mais il ne diminue jamais.",
+    "frame": "258.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "258.0.jpg",
+      "282.0.jpg",
+      "246.0.jpg"
+    ],
+    "window": [
+      239.0,
+      292.0
+    ]
+  },
+  {
+    "ref": "v20q06",
+    "theme": "alcool-stupéfiants",
+    "question_text": "Je suis un conducteur expérimenté, je commets un délit si je dépasse",
+    "options": {
+      "A": "0.2 g d'alcool pur par litre de sang",
+      "B": "0.5 g d'alcool pur par litre de sang",
+      "C": "0.8 g d'alcool pur par litre de sang",
+      "D": "1 g d'alcool pur par litre de sang"
+    },
+    "correct": [
+      "C",
+      "D"
+    ],
+    "explanation": "Un conducteur expérimenté ne doit pas conduire avec plus de 0,5 g d'alcool pur par litre de sang. À partir de 0,8 g par litre de sang, l'infraction devient un délit.",
+    "frame": "294.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "294.0.jpg",
+      "330.0.jpg",
+      "348.0.jpg"
+    ],
+    "window": [
+      293.0,
+      353.0
+    ]
+  },
+  {
+    "ref": "v20q07",
+    "theme": "écomobilité",
+    "question_text": "Lorsqu'il fait chaud",
+    "options": {
+      "A": "En ville, il est préférable d'ouvrir les fenêtres",
+      "B": "En ville, il est préférable d'utiliser la climatisation",
+      "C": "Sur autoroute, il est préférable d'ouvrir les fenêtres",
+      "D": "Sur autoroute, il est préférable d'utiliser la climatisation"
+    },
+    "correct": [
+      "A",
+      "D"
+    ],
+    "explanation": "La climatisation entraîne une surconsommation de carburant. Cependant, à vitesse élevée, rouler fenêtres ouvertes provoque aussi une surconsommation à cause du frottement de l'air. À faible allure (en ville) il vaut mieux ouvrir les fenêtres ; à allure soutenue (sur autoroute) il vaut mieux utiliser la climatisation.",
+    "frame": "360.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "360.0.jpg",
+      "396.0.jpg",
+      "411.0.jpg"
+    ],
+    "window": [
+      354.0,
+      414.0
+    ]
+  },
+  {
+    "ref": "v20q08",
+    "theme": "signalisation",
+    "question_text": "Il est interdit de dépasser un autre usager au niveau d'un passage à niveau",
+    "options": {
+      "A": "Non muni de barrières : Oui",
+      "B": "Non muni de barrières : Non",
+      "C": "Muni de barrières : Oui",
+      "D": "Muni de barrières : Non"
+    },
+    "correct": [
+      "A",
+      "D"
+    ],
+    "explanation": "Il est interdit de dépasser un autre usager au niveau d'un passage à niveau non muni de barrières. Au niveau d'un passage à niveau muni de barrières, le dépassement est autorisé mais reste fortement déconseillé.",
+    "frame": "420.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "420.0.jpg",
+      "450.0.jpg",
+      "462.0.jpg"
+    ],
+    "window": [
+      415.0,
+      468.0
+    ]
+  },
+  {
+    "ref": "v20q09",
+    "theme": "cyclistes",
+    "question_text": "La signalisation indique la possibilité pour un cycliste",
+    "options": {
+      "A": "D'aller tout droit au feu rouge",
+      "B": "De tourner à gauche au feu rouge",
+      "C": "De tourner à droite au feu rouge"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "Ce panneau autorise les cyclistes à franchir le feu rouge uniquement pour tourner à droite. La flèche pointant vers la droite indique cette seule direction permise.",
+    "frame": "474.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "474.0.jpg",
+      "510.0.jpg",
+      "519.0.jpg"
+    ],
+    "window": [
+      469.0,
+      522.0
+    ]
+  },
+  {
+    "ref": "v20q10",
+    "theme": "distances-de-sécurité",
+    "question_text": "La distance d'arrêt dépend",
+    "options": {
+      "A": "De la vitesse du véhicule",
+      "B": "De la vigilance du conducteur",
+      "C": "De l'expérience du conducteur",
+      "D": "De l'adhérence de la chaussée"
+    },
+    "correct": [
+      "A",
+      "B",
+      "D"
+    ],
+    "explanation": "La distance d'arrêt dépend de la vigilance du conducteur (son temps de réaction), de l'adhérence de la chaussée et de la vitesse du véhicule. Elle correspond à la distance parcourue pendant le temps de réaction additionnée à la distance parcourue pendant le freinage.",
+    "frame": "540.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "540.0.jpg",
+      "570.0.jpg",
+      "579.0.jpg"
+    ],
+    "window": [
+      523.0,
+      581.0
+    ]
+  }
+]

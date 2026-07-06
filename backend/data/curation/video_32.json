@@ -1,0 +1,256 @@
+[
+  {
+    "ref": "v32q01",
+    "theme": "distances-de-sécurité",
+    "question_text": "La distance d'arrêt correspond à la distance parcourue pendant le temps de réaction additionnée à la distance parcourue pendant le temps de freinage",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "La distance d'arrêt est bien la somme de la distance parcourue pendant le temps de réaction et de la distance parcourue pendant le temps de freinage. Pour s'arrêter, le conducteur doit d'abord prendre conscience du danger, puis appuyer sur la pédale de frein.",
+    "frame": "30.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "30.0.jpg",
+      "45.0.jpg",
+      "66.0.jpg"
+    ],
+    "window": [
+      21.0,
+      74.0
+    ]
+  },
+  {
+    "ref": "v32q02",
+    "theme": "équipements-de-sécurité",
+    "question_text": "Le siège homologué n'est plus obligatoire pour les enfants mesurant plus de",
+    "options": {
+      "A": "80 cm",
+      "B": "100 cm",
+      "C": "135 cm"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "Le dispositif de retenue homologué (siège auto ou rehausseur) n'est plus obligatoire pour les enfants mesurant plus de 135 cm. En dessous de cette taille, un système adapté reste exigé.",
+    "frame": "90.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "90.0.jpg",
+      "105.0.jpg",
+      "117.0.jpg"
+    ],
+    "window": [
+      74.0,
+      118.0
+    ]
+  },
+  {
+    "ref": "v32q03",
+    "theme": "mécanique-entretien",
+    "question_text": "Avant de prendre mon véhicule, je contrôle",
+    "options": {
+      "A": "L'absence d'obstacles autour de la voiture : oui",
+      "B": "L'absence d'obstacles autour de la voiture : non",
+      "C": "L'état de mes pneumatiques : oui",
+      "D": "L'état de mes pneumatiques : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Ces vérifications prennent très peu de temps et évitent de mauvaises surprises. Avant de prendre le volant, il faut contrôler l'absence d'obstacles autour du véhicule ainsi que l'état des pneumatiques.",
+    "frame": "126.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "126.0.jpg",
+      "135.0.jpg",
+      "162.0.jpg"
+    ],
+    "window": [
+      118.0,
+      169.0
+    ]
+  },
+  {
+    "ref": "v32q04",
+    "theme": "éclairage-visibilité",
+    "question_text": "Le verglas se forme principalement",
+    "options": {
+      "A": "Dans les endroits humides",
+      "B": "En ville"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Le verglas se forme principalement dans les endroits humides, comme à proximité des forêts, sur les ponts et dans les vallées. Il faut y redoubler de prudence.",
+    "frame": "180.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "180.0.jpg",
+      "198.0.jpg",
+      "207.0.jpg"
+    ],
+    "window": [
+      169.0,
+      207.0
+    ]
+  },
+  {
+    "ref": "v32q05",
+    "theme": "premiers-secours",
+    "question_text": "Afin de vérifier qu'une victime inconsciente respire, je peux",
+    "options": {
+      "A": "Essayer de sentir de l'air à l'expiration : oui",
+      "B": "Essayer de sentir de l'air à l'expiration : non",
+      "C": "Regarder si le ventre et la poitrine se soulèvent : oui",
+      "D": "Regarder si le ventre et la poitrine se soulèvent : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Pour vérifier qu'une victime inconsciente respire, on peut sentir l'air expiré, regarder si le ventre et la poitrine se soulèvent, ou encore écouter les sons provoqués par la respiration.",
+    "frame": "216.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "216.0.jpg",
+      "225.0.jpg",
+      "255.0.jpg"
+    ],
+    "window": [
+      207.0,
+      264.0
+    ]
+  },
+  {
+    "ref": "v32q06",
+    "theme": "permis-à-points",
+    "question_text": "Pour pouvoir conduire, l'acuité visuelle de l'ensemble des deux yeux doit être au minimum de",
+    "options": {
+      "A": "5/10",
+      "B": "7/10",
+      "C": "8/10",
+      "D": "10/10"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Pour être autorisé à conduire, l'acuité visuelle de l'ensemble des deux yeux (avec correction si nécessaire) doit être au minimum de 5/10.",
+    "frame": "300.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "270.0.jpg",
+      "300.0.jpg",
+      "312.0.jpg"
+    ],
+    "window": [
+      264.0,
+      317.0
+    ]
+  },
+  {
+    "ref": "v32q07",
+    "theme": "circulation",
+    "question_text": "À l'arrière, le chargement d'un véhicule ou d'une remorque ne doit pas dépasser l'extrémité de plus de",
+    "options": {
+      "A": "1 mètre",
+      "B": "2 mètres",
+      "C": "3 mètres",
+      "D": "4 mètres"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "À l'arrière, le chargement d'un véhicule ou d'une remorque ne doit pas dépasser l'extrémité de plus de 3 mètres. Il doit alors être signalé par un feu rouge et un dispositif rétro-réfléchissant rouge. À l'avant, rien ne doit dépasser.",
+    "frame": "333.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "333.0.jpg",
+      "345.0.jpg",
+      "363.0.jpg"
+    ],
+    "window": [
+      317.0,
+      371.0
+    ]
+  },
+  {
+    "ref": "v32q08",
+    "theme": "cyclistes",
+    "question_text": "Dans cette situation",
+    "options": {
+      "A": "Je ralentis",
+      "B": "Je dépasse",
+      "C": "Je reste derrière les cyclistes",
+      "D": "Je fais un appel lumineux"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Même si le chevauchement de la ligne blanche est autorisé pour dépasser des cyclistes, ici l'approche d'un virage offre une visibilité trop faible pour dépasser en toute sécurité. Il faut donc ralentir et rester derrière les cyclistes.",
+    "frame": "390.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "390.0.jpg",
+      "408.0.jpg",
+      "426.0.jpg"
+    ],
+    "window": [
+      371.0,
+      427.0
+    ]
+  },
+  {
+    "ref": "v32q09",
+    "theme": "éclairage-visibilité",
+    "question_text": "Les feux de recul d'un véhicule sont de couleur",
+    "options": {
+      "A": "Rouge",
+      "B": "Blanche"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Les feux de recul d'un véhicule sont de couleur blanche. Ils s'allument lorsque la marche arrière est enclenchée et indiquent que la voiture recule.",
+    "frame": "447.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "447.0.jpg",
+      "459.0.jpg",
+      "465.0.jpg"
+    ],
+    "window": [
+      427.0,
+      465.0
+    ]
+  },
+  {
+    "ref": "v32q10",
+    "theme": "permis-à-points",
+    "question_text": "Je suis daltonien, j'ai le droit de conduire un véhicule",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Le daltonisme, c'est-à-dire la non-perception de certaines couleurs, n'interdit pas la conduite d'un véhicule. Une personne daltonienne a donc le droit de conduire.",
+    "frame": "480.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "480.0.jpg",
+      "492.0.jpg",
+      "504.0.jpg"
+    ],
+    "window": [
+      465.0,
+      506.0
+    ]
+  }
+]

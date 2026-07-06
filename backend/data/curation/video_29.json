@@ -1,0 +1,267 @@
+[
+  {
+    "ref": "v29q01",
+    "theme": "alcool-stupéfiants",
+    "question_text": "Un excès de stress augmente les risques d'accident sur la route",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Le stress augmente les risques d'accident sur la route en agissant directement sur le comportement du conducteur. Il est préférable d'éviter de prendre le volant lorsqu'on est dans un état anxieux ou stressé.",
+    "frame": "30.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "18.0.jpg",
+      "30.0.jpg",
+      "45.0.jpg",
+      "51.0.jpg"
+    ],
+    "window": [
+      11.0,
+      53.0
+    ]
+  },
+  {
+    "ref": "v29q02",
+    "theme": "priorités",
+    "question_text": "Dans cette situation",
+    "options": {
+      "A": "Je ralentis et je passe",
+      "B": "Je m'arrête",
+      "C": "Je fais des appels lumineux",
+      "D": "Je klaxonne"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Le piéton est engagé sur la chaussée : il devient prioritaire, même en dehors d'un passage piéton. Je dois donc m'arrêter pour le laisser passer.",
+    "frame": "75.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "75.0.jpg",
+      "90.0.jpg",
+      "99.0.jpg",
+      "102.0.jpg"
+    ],
+    "window": [
+      53.0,
+      104.0
+    ]
+  },
+  {
+    "ref": "v29q03",
+    "theme": "mécanique-entretien",
+    "question_text": "L'ABS est une aide à la conduite pour",
+    "options": {
+      "A": "Eviter le blocage des roues lors du freinage",
+      "B": "Allumer automatiquement ses feux",
+      "C": "Réguler sa vitesse",
+      "D": "Limiter sa vitesse"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Un véhicule devient impossible à diriger si les roues se bloquent au freinage. Le système anti-blocage (ABS) détecte la tendance au blocage des roues et réduit la pression de freinage de façon ciblée. Il aide ainsi à éviter le blocage des roues lors du freinage.",
+    "frame": "129.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "129.0.jpg",
+      "150.0.jpg",
+      "159.0.jpg",
+      "162.0.jpg"
+    ],
+    "window": [
+      104.0,
+      165.0
+    ]
+  },
+  {
+    "ref": "v29q04",
+    "theme": "équipements-de-sécurité",
+    "question_text": "Cet enfant est attaché correctement",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Cet enfant est correctement attaché à l'aide d'un système de retenue homologué et conforme à son poids et à sa taille.",
+    "frame": "186.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "168.0.jpg",
+      "186.0.jpg",
+      "195.0.jpg",
+      "201.0.jpg"
+    ],
+    "window": [
+      165.0,
+      204.0
+    ]
+  },
+  {
+    "ref": "v29q05",
+    "theme": "vitesse",
+    "question_text": "Plus un virage est serré, plus la force centrifuge est importante",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Dans un virage, le véhicule est soumis à la force centrifuge, une force opposée au sens du virage : dans un virage à gauche, le passager sent son corps attiré vers la droite. Retenez que plus un virage est serré, plus la force centrifuge est importante.",
+    "frame": "228.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "210.0.jpg",
+      "228.0.jpg",
+      "255.0.jpg",
+      "258.0.jpg"
+    ],
+    "window": [
+      204.0,
+      261.0
+    ]
+  },
+  {
+    "ref": "v29q06",
+    "theme": "circulation",
+    "question_text": "Dans un tunnel",
+    "options": {
+      "A": "Il peut être obligatoire de rouler au-dessus d'une certaine vitesse : oui",
+      "B": "Il peut être obligatoire de rouler au-dessus d'une certaine vitesse : non",
+      "C": "On peut m'imposer une distance minimale à respecter avec la voiture qui me précède : oui",
+      "D": "On peut m'imposer une distance minimale à respecter avec la voiture qui me précède : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Pour éviter les écarts de vitesse importants, un tunnel peut imposer une vitesse minimale que l'on doit obligatoirement respecter. Il peut également imposer une distance minimale à respecter avec le véhicule qui précède, afin de réduire le risque d'accident.",
+    "frame": "291.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "273.0.jpg",
+      "291.0.jpg",
+      "315.0.jpg",
+      "318.0.jpg"
+    ],
+    "window": [
+      261.0,
+      322.0
+    ]
+  },
+  {
+    "ref": "v29q07",
+    "theme": "premiers-secours",
+    "question_text": "Afin de vérifier qu'une victime est consciente, je peux",
+    "options": {
+      "A": "Poser des questions simples : oui",
+      "B": "Poser des questions simples : non",
+      "C": "Mesurer son pouls : oui",
+      "D": "Mesurer son pouls : non"
+    },
+    "correct": [
+      "A",
+      "D"
+    ],
+    "explanation": "Le pouls ne renseigne pas sur le fait qu'une victime soit consciente ou non. Pour le vérifier, je peux lui poser des questions simples ou lui secouer doucement les épaules.",
+    "frame": "342.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "342.0.jpg",
+      "363.0.jpg",
+      "369.0.jpg",
+      "372.0.jpg"
+    ],
+    "window": [
+      322.0,
+      373.0
+    ]
+  },
+  {
+    "ref": "v29q08",
+    "theme": "priorités",
+    "question_text": "Je continue tout droit. À la prochaine intersection, je serai prioritaire sur les usagers venant de droite",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Un panneau indique que je devrai céder le passage aux usagers venant de droite à la prochaine intersection. Je ne serai donc pas prioritaire.",
+    "frame": "399.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "399.0.jpg",
+      "408.0.jpg",
+      "417.0.jpg",
+      "423.0.jpg"
+    ],
+    "window": [
+      373.0,
+      427.0
+    ]
+  },
+  {
+    "ref": "v29q09",
+    "theme": "permis-à-points",
+    "question_text": "Ne pas s'arrêter à un contrôle de police revient à commettre",
+    "options": {
+      "A": "Un refus d'obtempérer : oui",
+      "B": "Un refus d'obtempérer : non",
+      "C": "Un délit de fuite : oui",
+      "D": "Un délit de fuite : non"
+    },
+    "correct": [
+      "A",
+      "D"
+    ],
+    "explanation": "Ne pas s'arrêter à un contrôle de police revient à commettre un refus d'obtempérer. Ce refus expose à un retrait de 6 points, 7 500 euros d'amende, un an de suspension de permis et une comparution devant le tribunal.",
+    "frame": "444.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "429.0.jpg",
+      "444.0.jpg",
+      "462.0.jpg",
+      "471.0.jpg"
+    ],
+    "window": [
+      427.0,
+      474.0
+    ]
+  },
+  {
+    "ref": "v29q10",
+    "theme": "écomobilité",
+    "question_text": "Un coffre de toit augmente la consommation du véhicule d'environ",
+    "options": {
+      "A": "3%",
+      "B": "15%",
+      "C": "30%",
+      "D": "50%"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Un coffre de toit augmente considérablement la consommation de carburant. Retenez qu'il fait grimper la consommation du véhicule d'environ 10 à 15 %.",
+    "frame": "477.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "477.0.jpg",
+      "501.0.jpg",
+      "519.0.jpg",
+      "522.0.jpg"
+    ],
+    "window": [
+      474.0,
+      523.0
+    ]
+  }
+]

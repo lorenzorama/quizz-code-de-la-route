@@ -1,0 +1,230 @@
+[
+  {
+    "ref": "v30q02",
+    "theme": "mécanique-entretien",
+    "question_text": "Les facteurs favorisant l'aquaplaning sont",
+    "options": {
+      "A": "Le mauvais état de la structure des pneumatiques",
+      "B": "La mauvaise pression des pneumatiques",
+      "C": "L'absence d'essuie-glaces automatiques",
+      "D": "La vitesse"
+    },
+    "correct": [
+      "A",
+      "B",
+      "D"
+    ],
+    "explanation": "La pression et l'état des pneumatiques, ainsi que la vitesse, jouent un rôle important dans le risque d'aquaplaning. Des pneus usés ou mal gonflés empêchent une bonne évacuation de l'eau, ce qui peut provoquer le phénomène d'aquaplaning.",
+    "frame": "78.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "78.0.jpg",
+      "99.0.jpg",
+      "111.0.jpg"
+    ],
+    "window": [
+      60.0,
+      114.0
+    ]
+  },
+  {
+    "ref": "v30q03",
+    "theme": "alcool-stupéfiants",
+    "question_text": "Pour un conducteur expérimenté, il est interdit de conduire à partir de",
+    "options": {
+      "A": "0,25 mg d'alcool par litre d'air expiré : oui",
+      "B": "0,25 mg d'alcool par litre d'air expiré : non",
+      "C": "0,50 g d'alcool par litre de sang : oui",
+      "D": "0,50 g d'alcool par litre de sang : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Pour un conducteur expérimenté, il est interdit de conduire à partir de 0,25 mg d'alcool par litre d'air expiré, ce qui correspond à 0,50 g d'alcool par litre de sang. Ces deux valeurs représentent la même alcoolémie.",
+    "frame": "126.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "126.0.jpg",
+      "150.0.jpg",
+      "168.0.jpg",
+      "180.0.jpg"
+    ],
+    "window": [
+      115.0,
+      180.0
+    ]
+  },
+  {
+    "ref": "v30q04",
+    "theme": "commandes",
+    "question_text": "Je circule en ville, la situation est adaptée pour utiliser",
+    "options": {
+      "A": "Le régulateur de vitesse : oui",
+      "B": "Le régulateur de vitesse : non",
+      "C": "Le limiteur de vitesse : oui",
+      "D": "Le limiteur de vitesse : non"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "explanation": "En ville, l'utilisation du régulateur de vitesse n'est pas adaptée, car il faut ajuster sa vitesse en permanence. On peut en revanche utiliser le limiteur de vitesse pour ne pas dépasser la vitesse maximale autorisée.",
+    "frame": "192.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "192.0.jpg",
+      "210.0.jpg",
+      "228.0.jpg"
+    ],
+    "window": [
+      182.0,
+      232.0
+    ]
+  },
+  {
+    "ref": "v30q05",
+    "theme": "équipements-de-sécurité",
+    "question_text": "Je peux conduire avec un casque audio",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Il est interdit de conduire avec des oreillettes, des écouteurs ou un casque audio. Ces objets perturbent l'attention du conducteur.",
+    "frame": "270.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "270.0.jpg",
+      "285.0.jpg",
+      "291.0.jpg"
+    ],
+    "window": [
+      266.0,
+      290.0
+    ]
+  },
+  {
+    "ref": "v30q06",
+    "theme": "cyclistes",
+    "question_text": "À certains feux tricolores, les cyclistes ont le droit de passer même si le feu est rouge",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "À certains feux, un panneau spécifique peut autoriser les cyclistes à passer au feu rouge, sous réserve de céder la priorité aux autres usagers.",
+    "frame": "300.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "300.0.jpg",
+      "318.0.jpg",
+      "324.0.jpg",
+      "330.0.jpg"
+    ],
+    "window": [
+      290.0,
+      332.0
+    ]
+  },
+  {
+    "ref": "v30q07",
+    "theme": "distances-de-sécurité",
+    "question_text": "L'intervalle de sécurité entre deux véhicules doit être au minimum de",
+    "options": {
+      "A": "2 secondes",
+      "B": "3 secondes",
+      "C": "4 secondes"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "L'intervalle de sécurité entre deux véhicules doit être au minimum de 2 secondes. Il faut bien retenir cette valeur pour réussir l'examen du code de la route.",
+    "frame": "342.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "342.0.jpg",
+      "363.0.jpg",
+      "372.0.jpg",
+      "375.0.jpg"
+    ],
+    "window": [
+      332.0,
+      376.0
+    ]
+  },
+  {
+    "ref": "v30q08",
+    "theme": "mécanique-entretien",
+    "question_text": "En hiver, je peux remplacer mon liquide de lave-glace par de l'eau",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Il est fortement déconseillé de remplacer le liquide de lave-glace par de l'eau en hiver, car l'eau n'est pas traitée contre le gel. Il faut privilégier un liquide de lave-glace spécial hiver traité contre le gel.",
+    "frame": "390.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "390.0.jpg",
+      "411.0.jpg"
+    ],
+    "window": [
+      376.0,
+      420.0
+    ]
+  },
+  {
+    "ref": "v30q09",
+    "theme": "documents",
+    "question_text": "Le constat amiable fait partie des documents obligatoires à avoir dans sa voiture",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Le constat amiable ne fait pas partie des documents obligatoires à avoir dans sa voiture. Il est toutefois conseillé d'en posséder un afin de pouvoir le remplir en cas d'accident.",
+    "frame": "435.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "435.0.jpg",
+      "456.0.jpg"
+    ],
+    "window": [
+      420.0,
+      460.0
+    ]
+  },
+  {
+    "ref": "v30q10",
+    "theme": "éclairage-visibilité",
+    "question_text": "Il a beaucoup neigé. Je suis autorisé à circuler avec un épais manteau de neige sur le toit",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Lorsque de la neige est présente sur le toit du véhicule, elle doit être entièrement retirée. En roulant, la neige pourrait tomber et gêner votre visibilité ou celle des autres usagers.",
+    "frame": "480.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "480.0.jpg",
+      "498.0.jpg",
+      "504.0.jpg"
+    ],
+    "window": [
+      460.0,
+      505.0
+    ]
+  }
+]

@@ -1,0 +1,83 @@
+[
+  {
+    "ref": "v57q04",
+    "theme": "priorités",
+    "question_text": "La voiture rouge tourne à gauche et la moto tourne à droite. Dans cette situation",
+    "options": {
+      "A": "La voiture passe en première",
+      "B": "La moto passe en première"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Aucune signalisation ne régit la priorité entre la voiture et la moto. La voiture qui tourne à gauche doit couper la trajectoire de la moto : elle n'a donc pas la priorité. La moto passe avant la voiture.",
+    "frame": "216.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "216.0.jpg",
+      "240.0.jpg",
+      "252.0.jpg",
+      "261.0.jpg"
+    ],
+    "window": [
+      182.0,
+      263.0
+    ]
+  },
+  {
+    "ref": "v57q06",
+    "theme": "signalisation",
+    "question_text": "Cette manche à air m'indique",
+    "options": {
+      "A": "La force du vent : oui",
+      "B": "La force du vent : non",
+      "C": "La direction du vent : oui",
+      "D": "La direction du vent : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Une manche à air permet d'indiquer à la fois la force et la direction du vent. Plus elle est horizontale, plus le vent est fort, et elle pointe dans le sens où souffle le vent.",
+    "frame": "330.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "330.0.jpg",
+      "342.0.jpg",
+      "357.0.jpg",
+      "360.0.jpg"
+    ],
+    "window": [
+      313.0,
+      360.0
+    ]
+  },
+  {
+    "ref": "v57q07",
+    "theme": "circulation",
+    "question_text": "Pour quitter son emplacement en sécurité, le conducteur doit surveiller",
+    "options": {
+      "A": "Devant lui : oui",
+      "B": "Devant lui : non",
+      "C": "Derrière lui : oui",
+      "D": "Derrière lui : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Pour quitter cet emplacement en sécurité, le conducteur doit contrôler devant lui, notamment pour s'assurer qu'aucun usager ne circule sur la bande cyclable. Il doit aussi surveiller derrière lui, sans oublier son angle mort, afin de vérifier qu'aucun usager n'arrive sur la chaussée.",
+    "frame": "366.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "366.0.jpg",
+      "390.0.jpg",
+      "414.0.jpg",
+      "417.0.jpg"
+    ],
+    "window": [
+      360.0,
+      422.0
+    ]
+  }
+]

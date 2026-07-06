@@ -1,0 +1,266 @@
+[
+  {
+    "ref": "v14q01",
+    "theme": "signalisation",
+    "question_text": "Je suis bien placé pour aller tout droit",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "La flèche de sélection de voie marquée au sol indique la direction tout droit. Je suis donc bien positionné dans la file pour continuer tout droit.",
+    "frame": "30.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "30.0.jpg",
+      "33.0.jpg",
+      "36.0.jpg",
+      "39.0.jpg",
+      "42.0.jpg"
+    ],
+    "window": [
+      13.0,
+      45.0
+    ]
+  },
+  {
+    "ref": "v14q02",
+    "theme": "stationnement",
+    "question_text": "Ces voitures sont garées",
+    "options": {
+      "A": "En bataille",
+      "B": "En épi",
+      "C": "En créneau"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Les voitures sont stationnées perpendiculairement au trottoir : elles sont donc garées en bataille. Le stationnement en épi se fait en oblique et le créneau se fait parallèlement à la chaussée.",
+    "frame": "60.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "60.0.jpg",
+      "63.0.jpg",
+      "66.0.jpg",
+      "69.0.jpg",
+      "84.0.jpg"
+    ],
+    "window": [
+      45.0,
+      88.0
+    ]
+  },
+  {
+    "ref": "v14q03",
+    "theme": "éclairage-visibilité",
+    "question_text": "Il y a du brouillard, je peux allumer",
+    "options": {
+      "A": "Les feux de position seuls",
+      "B": "Les feux de brouillard avant",
+      "C": "Les feux de brouillard arrière"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "explanation": "Par temps de brouillard, vous devez allumer au minimum vos feux de croisement. Vous pouvez y ajouter les feux de brouillard avant ainsi que les feux de brouillard arrière pour améliorer votre visibilité et votre repérage. Les feux de position seuls sont insuffisants.",
+    "frame": "105.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "105.0.jpg",
+      "111.0.jpg",
+      "120.0.jpg",
+      "126.0.jpg",
+      "132.0.jpg"
+    ],
+    "window": [
+      88.0,
+      133.0
+    ]
+  },
+  {
+    "ref": "v14q04",
+    "theme": "équipements-de-sécurité",
+    "question_text": "Il est possible de verrouiller une porte pour qu'on ne puisse pas l'ouvrir de l'intérieur",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Il est possible de verrouiller une porte arrière afin qu'elle ne puisse pas être ouverte de l'intérieur. Ce dispositif s'appelle la sécurité enfant et empêche qu'un enfant n'ouvre lui-même la porte.",
+    "frame": "150.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "150.0.jpg",
+      "156.0.jpg",
+      "162.0.jpg",
+      "168.0.jpg",
+      "174.0.jpg"
+    ],
+    "window": [
+      133.0,
+      177.0
+    ]
+  },
+  {
+    "ref": "v14q05",
+    "theme": "premiers-secours",
+    "question_text": "Je peux utiliser un téléphone portable, même verrouillé, pour appeler les services d'urgence",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Même verrouillé, un téléphone portable permet toujours d'appeler les services d'urgence. Retenez que vous pouvez ainsi joindre les secours sans avoir à déverrouiller l'appareil.",
+    "frame": "195.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "195.0.jpg",
+      "198.0.jpg",
+      "201.0.jpg",
+      "204.0.jpg",
+      "207.0.jpg"
+    ],
+    "window": [
+      177.0,
+      215.0
+    ]
+  },
+  {
+    "ref": "v14q06",
+    "theme": "mécanique-entretien",
+    "question_text": "Le moteur risque de se détériorer si le niveau du liquide de refroidissement est incorrect",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Si le niveau du liquide de refroidissement est incorrect, vous risquez de détériorer le moteur. Ce liquide permet en effet au moteur de conserver une température constante et évite ainsi la surchauffe, voire la casse moteur.",
+    "frame": "240.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "240.0.jpg",
+      "246.0.jpg",
+      "252.0.jpg",
+      "258.0.jpg"
+    ],
+    "window": [
+      215.0,
+      262.0
+    ]
+  },
+  {
+    "ref": "v14q07",
+    "theme": "distances-de-sécurité",
+    "question_text": "Je circule à 130 km/h. La distance de sécurité avec le véhicule qui me précède est suffisante",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Sur autoroute, à 130 km/h, la distance de sécurité doit correspondre au minimum à deux traits de la bande d'arrêt d'urgence. Ici, un seul trait sépare les deux véhicules : la distance est donc insuffisante.",
+    "frame": "276.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "276.0.jpg",
+      "288.0.jpg",
+      "294.0.jpg",
+      "300.0.jpg",
+      "306.0.jpg"
+    ],
+    "window": [
+      262.0,
+      308.0
+    ]
+  },
+  {
+    "ref": "v14q08",
+    "theme": "permis-à-points",
+    "question_text": "Si je roule avec un feu de stop qui ne fonctionne plus, je risque",
+    "options": {
+      "A": "Rien, le feu de stop gauche n'est pas obligatoire",
+      "B": "Une contravention sans perte de point",
+      "C": "Une contravention avec une perte de 1 point",
+      "D": "Une contravention avec une perte de 3 points"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Rouler avec un feu de stop qui ne fonctionne plus vous expose à une contravention. Toutefois, cette infraction n'entraîne aucun retrait de point sur votre permis de conduire.",
+    "frame": "330.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "330.0.jpg",
+      "336.0.jpg",
+      "342.0.jpg",
+      "348.0.jpg",
+      "357.0.jpg"
+    ],
+    "window": [
+      308.0,
+      360.0
+    ]
+  },
+  {
+    "ref": "v14q09",
+    "theme": "assurance-constat",
+    "question_text": "En cas d'accident corporel commis sous l'emprise du cannabis, mon assureur indemnise quand même les victimes",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "L'assurance obligatoire indemnise toujours les victimes des dommages causés lors d'un accident, quelles que soient les circonstances, y compris sous l'emprise du cannabis. L'assureur pourra ensuite se retourner contre le conducteur fautif.",
+    "frame": "372.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "372.0.jpg",
+      "378.0.jpg",
+      "384.0.jpg",
+      "390.0.jpg",
+      "399.0.jpg"
+    ],
+    "window": [
+      360.0,
+      400.0
+    ]
+  },
+  {
+    "ref": "v14q10",
+    "theme": "commandes",
+    "question_text": "Le régulateur de vitesse entraine une perte de vigilance à long terme",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Utilisé sur de longs trajets, le régulateur de vitesse finit par entraîner une perte de vigilance. Il faut donc rester attentif et ne pas se reposer entièrement sur ce dispositif.",
+    "frame": "414.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "414.0.jpg",
+      "420.0.jpg",
+      "426.0.jpg",
+      "432.0.jpg",
+      "438.0.jpg"
+    ],
+    "window": [
+      400.0,
+      441.0
+    ]
+  }
+]

@@ -1,0 +1,406 @@
+[
+  {
+    "ref": "v36q01",
+    "theme": "distances-de-sécurité",
+    "question_text": "À 100 km/h, la distance d'arrêt est de",
+    "options": {
+      "A": "30 mètres",
+      "B": "60 mètres",
+      "C": "100 mètres",
+      "D": "145 mètres"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "Pour estimer rapidement la distance d'arrêt sur route sèche, on prend le chiffre des dizaines de la vitesse et on le multiplie par lui-même. À 100 km/h, le chiffre des dizaines est 10 : 10 × 10 = 100. La distance d'arrêt est donc d'environ 100 mètres.",
+    "frame": "60.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "60.0.jpg",
+      "72.0.jpg",
+      "84.0.jpg",
+      "96.0.jpg",
+      "99.0.jpg"
+    ],
+    "window": [
+      53.0,
+      103.0
+    ]
+  },
+  {
+    "ref": "v36q02",
+    "theme": "alcool-stupéfiants",
+    "question_text": "Pour les personnes ayant un permis probatoire ou étant en situation d'apprentissage, la limite d'alcoolémie est fixée à",
+    "options": {
+      "A": "0 g/l",
+      "B": "0,2 g/l",
+      "C": "0,5 g/l",
+      "D": "0,8 g/l"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "En période probatoire ou en apprentissage, la limite d'alcoolémie est fixée à 0,2 gramme par litre de sang, contre 0,5 g/l pour les autres conducteurs. Cette valeur très basse correspond en pratique à une tolérance quasi nulle.",
+    "frame": "120.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "120.0.jpg",
+      "129.0.jpg",
+      "135.0.jpg",
+      "141.0.jpg"
+    ],
+    "window": [
+      103.0,
+      143.0
+    ]
+  },
+  {
+    "ref": "v36q03",
+    "theme": "priorités",
+    "question_text": "Sur une route en pente, lors d'un croisement difficile de deux véhicules de même gabarit, le véhicule prioritaire est",
+    "options": {
+      "A": "Le véhicule qui monte",
+      "B": "Le véhicule qui descend"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Lors d'un croisement difficile sur une route en pente, la priorité revient au véhicule qui monte. Le véhicule qui descend doit s'arrêter pour le laisser passer, car il lui sera plus facile de repartir que pour celui qui monte.",
+    "frame": "168.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "156.0.jpg",
+      "168.0.jpg",
+      "180.0.jpg",
+      "186.0.jpg",
+      "189.0.jpg"
+    ],
+    "window": [
+      144.0,
+      190.0
+    ]
+  },
+  {
+    "ref": "v36q04",
+    "theme": "permis",
+    "question_text": "Avec le permis B, je peux transporter au maximum",
+    "options": {
+      "A": "4 passagers",
+      "B": "5 passagers",
+      "C": "8 passagers",
+      "D": "10 passagers"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "Le permis B autorise la conduite de véhicules de 9 places assises au maximum, conducteur compris. Il est donc possible de transporter jusqu'à 8 passagers en plus du conducteur.",
+    "frame": "201.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "201.0.jpg",
+      "213.0.jpg",
+      "219.0.jpg",
+      "222.0.jpg"
+    ],
+    "window": [
+      190.0,
+      223.0
+    ]
+  },
+  {
+    "ref": "v36q05",
+    "theme": "cyclistes",
+    "question_text": "En agglomération, pour dépasser un cycliste, je dois laisser une distance latérale de sécurité d'au moins",
+    "options": {
+      "A": "0,50 mètre",
+      "B": "1 mètre",
+      "C": "1,50 mètre",
+      "D": "2 mètres"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "En agglomération, la distance latérale de sécurité à respecter pour dépasser un cycliste est d'au moins 1 mètre. Hors agglomération, cette distance passe à 1,50 mètre.",
+    "frame": "225.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "225.0.jpg",
+      "231.0.jpg",
+      "240.0.jpg",
+      "249.0.jpg"
+    ],
+    "window": [
+      223.0,
+      262.0
+    ]
+  },
+  {
+    "ref": "v36q06",
+    "theme": "vitesse",
+    "question_text": "Par beau temps sur autoroute, sauf indication contraire, la vitesse pour un jeune conducteur est limitée à",
+    "options": {
+      "A": "100 km/h",
+      "B": "110 km/h",
+      "C": "120 km/h",
+      "D": "130 km/h"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Pendant la période probatoire, la vitesse d'un jeune conducteur est réduite. Sur autoroute, par défaut et sauf indication contraire, il est limité à 110 km/h au lieu de 130 km/h.",
+    "frame": "264.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "264.0.jpg",
+      "270.0.jpg",
+      "276.0.jpg",
+      "279.0.jpg"
+    ],
+    "window": [
+      262.0,
+      281.0
+    ]
+  },
+  {
+    "ref": "v36q07",
+    "theme": "stationnement",
+    "question_text": "Le stationnement unilatéral à alternance semi-mensuelle est appliqué dans toute une agglomération. Sauf indication contraire, je dois stationner du côté de la chaussée où les numéros des maisons sont pairs",
+    "options": {
+      "A": "Du 1er au 15 du mois",
+      "B": "Du 16 à la fin du mois"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Avec le stationnement unilatéral à alternance semi-mensuelle, le côté autorisé change selon la date du mois. Du 16 à la fin du mois, on stationne du côté de la chaussée où les numéros des maisons sont pairs ; du 1er au 15, du côté des numéros impairs.",
+    "frame": "300.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "300.0.jpg",
+      "312.0.jpg",
+      "324.0.jpg",
+      "336.0.jpg",
+      "345.0.jpg"
+    ],
+    "window": [
+      281.0,
+      350.0
+    ]
+  },
+  {
+    "ref": "v36q08",
+    "theme": "cyclistes",
+    "question_text": "La zone d'incertitude d'un cycliste se trouve",
+    "options": {
+      "A": "Devant lui",
+      "B": "Derrière lui",
+      "C": "Sur les côtés"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "La zone d'incertitude est la zone dans laquelle un usager peut se déplacer d'un instant à l'autre. Pour un cycliste, elle se situe devant lui et sur les côtés, car un vélo peut avancer et tourner, mais il ne peut pas reculer.",
+    "frame": "372.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "372.0.jpg",
+      "384.0.jpg",
+      "393.0.jpg",
+      "405.0.jpg"
+    ],
+    "window": [
+      350.0,
+      409.0
+    ]
+  },
+  {
+    "ref": "v36q09",
+    "theme": "chargement",
+    "question_text": "À l'arrière, le chargement",
+    "options": {
+      "A": "Ne doit pas dépasser l'arrière du véhicule",
+      "B": "Peut dépasser de 1 mètre",
+      "C": "Peut dépasser de 2 mètres",
+      "D": "Peut dépasser de 3 mètres"
+    },
+    "correct": [
+      "D"
+    ],
+    "explanation": "À l'arrière, le chargement peut dépasser jusqu'à 3 mètres. Au-delà d'un mètre de dépassement, il faut obligatoirement fixer un dispositif rétroréfléchissant à son extrémité. En cas de mauvaise visibilité (nuit, brouillard), ce dispositif doit être complété par un feu rouge.",
+    "frame": "420.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "420.0.jpg",
+      "429.0.jpg",
+      "435.0.jpg",
+      "444.0.jpg"
+    ],
+    "window": [
+      409.0,
+      454.0
+    ]
+  },
+  {
+    "ref": "v36q10",
+    "theme": "permis-à-points",
+    "question_text": "J'ai obtenu mon permis de conduire de manière \"classique\", si je ne commets aucune infraction, j'obtiens mes 12 points en",
+    "options": {
+      "A": "1 an",
+      "B": "2 ans",
+      "C": "3 ans",
+      "D": "4 ans"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "Le permis probatoire obtenu de manière classique débute avec 6 points. Si le conducteur ne commet aucune infraction, il gagne 2 points supplémentaires par an pendant 3 ans, atteignant ainsi le capital maximal de 12 points au bout de 3 ans.",
+    "frame": "465.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "462.0.jpg",
+      "465.0.jpg",
+      "468.0.jpg",
+      "471.0.jpg",
+      "474.0.jpg"
+    ],
+    "window": [
+      454.0,
+      497.0
+    ]
+  },
+  {
+    "ref": "v36q11",
+    "theme": "documents",
+    "question_text": "Parmi les documents suivants, lesquels doivent obligatoirement pouvoir être présentés lors d'un contrôle des forces de l'ordre",
+    "options": {
+      "A": "Le certificat d'immatriculation",
+      "B": "Le permis de conduire",
+      "C": "Le constat amiable",
+      "D": "L'attestation d'assurance"
+    },
+    "correct": [
+      "A",
+      "B",
+      "D"
+    ],
+    "explanation": "À tout moment, je dois pouvoir présenter aux forces de l'ordre le certificat d'immatriculation, mon permis de conduire et l'attestation d'assurance. Le constat amiable n'est pas obligatoire à bord du véhicule, même s'il est conseillé d'en avoir un.",
+    "frame": "525.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "525.0.jpg",
+      "534.0.jpg",
+      "540.0.jpg",
+      "546.0.jpg"
+    ],
+    "window": [
+      497.0,
+      550.0
+    ]
+  },
+  {
+    "ref": "v36q12",
+    "theme": "premiers-secours",
+    "question_text": "Le numéro d'appel d'urgence valide dans toute l'Union européenne est le",
+    "options": {
+      "A": "15",
+      "B": "17",
+      "C": "18",
+      "D": "112"
+    },
+    "correct": [
+      "D"
+    ],
+    "explanation": "Le 112 est le numéro d'appel d'urgence valable dans toute l'Union européenne. Il permet de joindre les secours depuis n'importe quel pays membre, y compris depuis un téléphone portable.",
+    "frame": "570.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "552.0.jpg",
+      "558.0.jpg",
+      "561.0.jpg",
+      "570.0.jpg",
+      "582.0.jpg"
+    ],
+    "window": [
+      550.0,
+      585.0
+    ]
+  },
+  {
+    "ref": "v36q13",
+    "theme": "équipements-de-sécurité",
+    "question_text": "Le gilet de haute visibilité peut être placé",
+    "options": {
+      "A": "À portée de main du conducteur",
+      "B": "Dans le coffre du véhicule"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Le code de la route impose de placer le gilet de haute visibilité à portée de main du conducteur, par exemple dans l'habitacle. Cela lui permet de l'enfiler avant même de sortir du véhicule en cas d'arrêt d'urgence.",
+    "frame": "588.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "588.0.jpg",
+      "600.0.jpg",
+      "612.0.jpg",
+      "621.0.jpg"
+    ],
+    "window": [
+      585.0,
+      621.0
+    ]
+  },
+  {
+    "ref": "v36q14",
+    "theme": "mécanique-entretien",
+    "question_text": "Le frein moteur permet de réduire la vitesse du véhicule",
+    "options": {
+      "A": "À l'aide de la pédale de frein",
+      "B": "Sans appuyer sur la pédale de frein"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Le frein moteur ralentit le véhicule sans utiliser la pédale de frein ni le frein à main : en rétrogradant, le moteur cesse de délivrer de la puissance et absorbe l'énergie. Il est très utile dans les longues descentes, car il évite de solliciter les freins, qui deviennent moins efficaces voire défaillants en cas de surchauffe.",
+    "frame": "630.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "630.0.jpg",
+      "645.0.jpg",
+      "660.0.jpg",
+      "675.0.jpg"
+    ],
+    "window": [
+      621.0,
+      677.0
+    ]
+  },
+  {
+    "ref": "v36q15",
+    "theme": "vitesse",
+    "question_text": "Un véhicule roulant à 80 km/h parcourt en une seconde",
+    "options": {
+      "A": "24 mètres",
+      "B": "39 mètres",
+      "C": "51 mètres",
+      "D": "63 mètres"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Pour convertir approximativement une vitesse en km/h en mètres par seconde, on multiplie le chiffre des dizaines par 3. À 80 km/h, le chiffre des dizaines est 8 : 8 × 3 = 24. Le véhicule parcourt donc environ 24 mètres en une seconde.",
+    "frame": "690.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "690.0.jpg",
+      "705.0.jpg",
+      "720.0.jpg",
+      "735.0.jpg"
+    ],
+    "window": [
+      677.0,
+      736.0
+    ]
+  }
+]

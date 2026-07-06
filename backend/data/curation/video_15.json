@@ -1,0 +1,246 @@
+[
+  {
+    "ref": "v15q01",
+    "theme": "équipements-de-sécurité",
+    "question_text": "Je suis obligé d'avoir dans ma voiture",
+    "options": {
+      "A": "Des lunettes de soleil",
+      "B": "Un triangle de présignalisation",
+      "C": "Un gilet haute visibilité",
+      "D": "Des câbles de batterie"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "explanation": "Il est obligatoire d'avoir dans sa voiture un gilet haute visibilité à portée de main, par exemple dans la boîte à gants. Il faut aussi disposer d'un triangle de présignalisation ; celui-ci n'a pas besoin d'être à portée de main et peut être rangé dans le coffre.",
+    "frame": "45.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "30.0.jpg",
+      "45.0.jpg",
+      "57.0.jpg"
+    ],
+    "window": [
+      0.0,
+      61.0
+    ]
+  },
+  {
+    "ref": "v15q02",
+    "theme": "panneaux",
+    "question_text": "Je n'habite pas dans la commune. Je peux entrer dans cette zone",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Le panneau signale une zone piétonne dont la circulation est interdite, sauf pour les secours, les services et les ayants droit. Les ayants droit sont notamment les habitants de la zone ayant reçu une autorisation. N'habitant pas la commune, je ne peux donc pas entrer dans cette zone.",
+    "frame": "75.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "75.0.jpg",
+      "99.0.jpg"
+    ],
+    "window": [
+      62.0,
+      101.0
+    ]
+  },
+  {
+    "ref": "v15q03",
+    "theme": "piétons",
+    "question_text": "Dans cette situation",
+    "options": {
+      "A": "Ce piéton crée une zone d'incertitude : oui",
+      "B": "Ce piéton crée une zone d'incertitude : non",
+      "C": "Je place le pied devant le frein : oui",
+      "D": "Je place le pied devant le frein : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Tout piéton crée une zone d'incertitude, d'autant plus que celui-ci ne regarde pas devant lui. J'anticipe donc en plaçant mon pied devant la pédale de frein pour être prêt à freiner si nécessaire.",
+    "frame": "120.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "120.0.jpg",
+      "147.0.jpg"
+    ],
+    "window": [
+      103.0,
+      148.0
+    ]
+  },
+  {
+    "ref": "v15q04",
+    "theme": "mécanique-entretien",
+    "question_text": "J'ai ouvert le capot de mon véhicule",
+    "options": {
+      "A": "Il s'agit du liquide de frein",
+      "B": "Il s'agit du liquide de refroidissement",
+      "C": "S'il manque du liquide, je peux en ajouter uniquement si le moteur est froid",
+      "D": "S'il manque du liquide, je peux en ajouter juste après avoir arrêté mon véhicule"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "explanation": "Le symbole représente le liquide de refroidissement. Je ne dois surtout pas retirer le bouchon si le moteur est chaud : le liquide sous pression risquerait de jaillir et de me brûler. Je ne fais l'appoint que lorsque le moteur est froid.",
+    "frame": "165.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "165.0.jpg",
+      "198.0.jpg"
+    ],
+    "window": [
+      149.0,
+      200.0
+    ]
+  },
+  {
+    "ref": "v15q05",
+    "theme": "distances-de-sécurité",
+    "question_text": "Dans cette situation",
+    "options": {
+      "A": "La camionnette blanche a respecté les règles de sécurité pour se rabattre : oui",
+      "B": "La camionnette blanche a respecté les règles de sécurité pour se rabattre : non",
+      "C": "Je klaxonne : oui",
+      "D": "Je klaxonne : non"
+    },
+    "correct": [
+      "B",
+      "D"
+    ],
+    "explanation": "La camionnette blanche n'a pas respecté les règles de sécurité pour se rabattre : elle n'a pas indiqué son intention de changer de voie et s'est rabattue trop tôt, sans respecter les distances de sécurité. Il est inutile de klaxonner car il n'y a pas de danger immédiat ; je ralentis simplement pour retrouver une distance de sécurité suffisante.",
+    "frame": "240.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "240.0.jpg",
+      "294.0.jpg"
+    ],
+    "window": [
+      230.0,
+      299.0
+    ]
+  },
+  {
+    "ref": "v15q06",
+    "theme": "permis-à-points",
+    "question_text": "Je suis malentendant, je dois obligatoirement être accompagné pour conduire",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Pour le permis B, aucune restriction n'impose à une personne malentendante d'être accompagnée. Même si l'audition permet d'interpréter les informations sonores utiles à la conduite, un conducteur malentendant a le droit de conduire seul.",
+    "frame": "315.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "315.0.jpg",
+      "339.0.jpg"
+    ],
+    "window": [
+      301.0,
+      341.0
+    ]
+  },
+  {
+    "ref": "v15q07",
+    "theme": "vitesse",
+    "question_text": "Les limitations de vitesse peuvent être abaissées en cas de pic de pollution",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Les limitations de vitesse peuvent effectivement être abaissées en cas de pic de pollution, afin de réduire les émissions polluantes des véhicules.",
+    "frame": "351.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "351.0.jpg",
+      "375.0.jpg"
+    ],
+    "window": [
+      343.0,
+      378.0
+    ]
+  },
+  {
+    "ref": "v15q08",
+    "theme": "commandes",
+    "question_text": "Ce conducteur est bien installé",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Ce conducteur est mal installé au poste de conduite : il est beaucoup trop près du volant et son dos ne touche pas le dossier du siège. Un bon réglage assure confort, contrôle du véhicule et sécurité.",
+    "frame": "387.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "387.0.jpg",
+      "411.0.jpg"
+    ],
+    "window": [
+      380.0,
+      414.0
+    ]
+  },
+  {
+    "ref": "v15q09",
+    "theme": "distances-de-sécurité",
+    "question_text": "Lorsque je tracte une remorque, je dois garder une distance de sécurité avec le véhicule de devant plus grande que si je ne tractais pas de remorque",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Le poids de la remorque augmente la distance de freinage du véhicule. Je dois donc conserver une distance de sécurité plus importante avec le véhicule qui me précède.",
+    "frame": "423.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "423.0.jpg",
+      "456.0.jpg"
+    ],
+    "window": [
+      416.0,
+      457.0
+    ]
+  },
+  {
+    "ref": "v15q10",
+    "theme": "éclairage-visibilité",
+    "question_text": "En cas de maladie perturbant la vision de nuit, une inscription sur le permis peut limiter le conducteur à la conduite de jour",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "En cas de maladie perturbant la vision de nuit, une mention peut effectivement être inscrite sur le permis afin de limiter le conducteur à la conduite de jour.",
+    "frame": "459.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "459.0.jpg",
+      "489.0.jpg",
+      "498.0.jpg"
+    ],
+    "window": [
+      458.0,
+      501.0
+    ]
+  }
+]

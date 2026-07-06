@@ -1,0 +1,225 @@
+[
+  {
+    "ref": "v39q01",
+    "theme": "circulation",
+    "question_text": "Les feux de recul de cette voiture sont allumés",
+    "options": {
+      "A": "Je m'attends à ce que la voiture quitte son stationnement : oui",
+      "B": "Je m'attends à ce que la voiture quitte son stationnement : non",
+      "C": "Je suis certain que le conducteur m'a vu : oui",
+      "D": "Je suis certain que le conducteur m'a vu : non"
+    },
+    "correct": [
+      "A",
+      "D"
+    ],
+    "explanation": "Les feux de recul allumés indiquent que la voiture s'apprête à manœuvrer et donc potentiellement à quitter son stationnement. Je reste particulièrement prudent car je ne peux pas être certain que le conducteur m'a vu.",
+    "frame": "60.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "60.0.jpg",
+      "66.0.jpg",
+      "72.0.jpg",
+      "78.0.jpg",
+      "87.0.jpg"
+    ],
+    "window": [
+      52.0,
+      88.0
+    ]
+  },
+  {
+    "ref": "v39q03",
+    "theme": "équipements-de-sécurité",
+    "question_text": "Je peux installer mon bébé dos à la route",
+    "options": {
+      "A": "Sur le siège avant : oui",
+      "B": "Sur le siège avant : non",
+      "C": "Sur le siège arrière : oui",
+      "D": "Sur le siège arrière : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Un bébé peut être transporté dos à la route dans un siège adapté, aussi bien à l'avant qu'à l'arrière. Si le bébé est placé à l'avant, il faut impérativement désactiver l'airbag passager.",
+    "frame": "150.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "132.0.jpg",
+      "150.0.jpg",
+      "159.0.jpg",
+      "168.0.jpg",
+      "174.0.jpg"
+    ],
+    "window": [
+      130.0,
+      176.0
+    ]
+  },
+  {
+    "ref": "v39q04",
+    "theme": "éclairage-visibilité",
+    "question_text": "Lorsqu'il pleut, je peux utiliser les feux",
+    "options": {
+      "A": "De position seuls",
+      "B": "De croisement",
+      "C": "De brouillard avant",
+      "D": "De brouillard arrière"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "explanation": "En cas de pluie, j'allume les feux de croisement et je peux, en complément, allumer les feux de brouillard avant. Il ne faut jamais utiliser les feux de brouillard arrière sous la pluie, car ils éblouissent les véhicules qui suivent.",
+    "frame": "189.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "180.0.jpg",
+      "189.0.jpg",
+      "198.0.jpg",
+      "210.0.jpg",
+      "234.0.jpg"
+    ],
+    "window": [
+      178.0,
+      239.0
+    ]
+  },
+  {
+    "ref": "v39q05",
+    "theme": "alcool-stupéfiants",
+    "question_text": "Pour un conducteur expérimenté, l'alcoolémie maximale autorisée est fixée à",
+    "options": {
+      "A": "0.10 mg d'alcool par litre d'air expiré",
+      "B": "0.25 mg d'alcool par litre d'air expiré",
+      "C": "0.50 mg d'alcool par litre d'air expiré",
+      "D": "0.80 mg d'alcool par litre d'air expiré"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Pour un conducteur expérimenté, il est interdit de conduire à partir de 0,25 mg d'alcool par litre d'air expiré. Cette valeur équivaut à 0,50 g d'alcool par litre de sang.",
+    "frame": "246.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "246.0.jpg",
+      "258.0.jpg",
+      "270.0.jpg",
+      "285.0.jpg",
+      "300.0.jpg"
+    ],
+    "window": [
+      241.0,
+      301.0
+    ]
+  },
+  {
+    "ref": "v39q06",
+    "theme": "mécanique-entretien",
+    "question_text": "Le premier contrôle technique doit être effectué avant le deuxième anniversaire de la mise en circulation de votre véhicule",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Le premier contrôle technique doit être effectué avant le quatrième anniversaire de la mise en circulation du véhicule, et non le deuxième.",
+    "frame": "306.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "306.0.jpg",
+      "315.0.jpg",
+      "324.0.jpg",
+      "333.0.jpg",
+      "342.0.jpg"
+    ],
+    "window": [
+      303.0,
+      343.0
+    ]
+  },
+  {
+    "ref": "v39q07",
+    "theme": "cyclistes",
+    "question_text": "La signalisation indique la possibilité pour un cycliste",
+    "options": {
+      "A": "D'aller tout droit au feu rouge",
+      "B": "De tourner à gauche au feu rouge",
+      "C": "De tourner à droite au feu rouge"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "Le panneau, accompagné d'une flèche vers la droite, autorise le cycliste à tourner à droite au feu rouge. Dans ce cas, le panneau agit comme un cédez-le-passage : le cycliste n'a pas la priorité et doit notamment laisser passer les piétons qui traversent au feu vert.",
+    "frame": "354.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "348.0.jpg",
+      "354.0.jpg",
+      "366.0.jpg",
+      "378.0.jpg",
+      "390.0.jpg"
+    ],
+    "window": [
+      344.0,
+      393.0
+    ]
+  },
+  {
+    "ref": "v39q08",
+    "theme": "commandes",
+    "question_text": "Pour régler la hauteur des feux de croisement, j'utilise la commande",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Pour régler la hauteur des feux de croisement, j'utilise la commande B. On la reconnaît au symbole représentant les feux de croisement avec des flèches indiquant que la molette permet d'en régler la hauteur.",
+    "frame": "408.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "405.0.jpg",
+      "408.0.jpg",
+      "420.0.jpg",
+      "432.0.jpg",
+      "441.0.jpg"
+    ],
+    "window": [
+      400.0,
+      444.0
+    ]
+  },
+  {
+    "ref": "v39q09",
+    "theme": "alcool-stupéfiants",
+    "question_text": "Pour éliminer un verre d'alcool, il faut environ",
+    "options": {
+      "A": "10 minutes",
+      "B": "30 minutes",
+      "C": "45 minutes",
+      "D": "3 heures"
+    },
+    "correct": [
+      "D"
+    ],
+    "explanation": "L'organisme met environ 3 heures pour éliminer un seul verre d'alcool. Ce délai ne peut pas être accéléré.",
+    "frame": "483.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "450.0.jpg",
+      "462.0.jpg",
+      "474.0.jpg",
+      "483.0.jpg",
+      "486.0.jpg"
+    ],
+    "window": [
+      446.0,
+      487.0
+    ]
+  }
+]

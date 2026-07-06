@@ -1,0 +1,128 @@
+[
+  {
+    "ref": "v55q02",
+    "theme": "panneaux",
+    "question_text": "La descente dangereuse",
+    "options": {
+      "A": "Se situe à 8,5 km : oui",
+      "B": "Se situe à 8,5 km : non",
+      "C": "S'étend sur 8,5 km : oui",
+      "D": "S'étend sur 8,5 km : non"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "explanation": "Le panonceau placé sous le panneau de descente dangereuse indique l'étendue du danger : la descente s'étend sur 8,5 km. Elle ne se situe donc pas à 8,5 km, mais s'étale bien sur cette distance.",
+    "frame": "75.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "75.0.jpg",
+      "108.0.jpg",
+      "117.0.jpg"
+    ],
+    "window": [
+      69.0,
+      118.0
+    ]
+  },
+  {
+    "ref": "v55q03",
+    "theme": "panneaux",
+    "question_text": "Je n'habite pas dans la commune. Je peux entrer dans cette zone avec mon véhicule",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Le panneau de zone piétonne interdit l'accès à tous les véhicules, sauf les secours, les services et les ayants droits, c'est-à-dire les habitants de la zone ayant reçu une autorisation. N'habitant pas la commune, je ne peux donc pas y entrer avec mon véhicule.",
+    "frame": "129.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "129.0.jpg",
+      "165.0.jpg"
+    ],
+    "window": [
+      118.0,
+      168.0
+    ]
+  },
+  {
+    "ref": "v55q04",
+    "theme": "premiers-secours",
+    "question_text": "Un excès de stress augmente les risques d'accident sur la route",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Le stress augmente les risques d'accident sur la route en agissant directement sur le comportement du conducteur. Il est donc important de rester calme et concentré au volant.",
+    "frame": "177.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "177.0.jpg",
+      "201.0.jpg",
+      "204.0.jpg"
+    ],
+    "window": [
+      168.0,
+      208.0
+    ]
+  },
+  {
+    "ref": "v55q08",
+    "theme": "éclairage-visibilité",
+    "question_text": "Je vais entrer dans un tunnel éclairé, je dois allumer mes",
+    "options": {
+      "A": "Feux de position seuls",
+      "B": "Feux de croisement",
+      "C": "Feux de route"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Dès qu'un usager entre dans un tunnel, il doit allumer ses feux de croisement, même si le tunnel est éclairé. Cette règle s'applique afin de rester bien visible des autres usagers.",
+    "frame": "351.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "351.0.jpg",
+      "381.0.jpg",
+      "387.0.jpg"
+    ],
+    "window": [
+      341.0,
+      388.0
+    ]
+  },
+  {
+    "ref": "v55q09",
+    "theme": "mécanique-entretien",
+    "question_text": "Pour être en conformité avec la réglementation, la limite à ne pas dépasser pour le bruit de mon véhicule est de",
+    "options": {
+      "A": "34 dB",
+      "B": "74 dB",
+      "C": "114 dB",
+      "D": "134 dB"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Pour être en conformité avec la réglementation, la limite à ne pas dépasser pour le bruit d'un véhicule léger est de 74 décibels. Au-delà, le véhicule est considéré comme trop bruyant.",
+    "frame": "393.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "393.0.jpg",
+      "420.0.jpg",
+      "432.0.jpg",
+      "441.0.jpg"
+    ],
+    "window": [
+      388.0,
+      444.0
+    ]
+  }
+]

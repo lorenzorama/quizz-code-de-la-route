@@ -1,0 +1,110 @@
+[
+  {
+    "ref": "v58q02",
+    "theme": "vitesse",
+    "question_text": "Cet environnement",
+    "options": {
+      "A": "Favorise la baisse de vigilance : oui",
+      "B": "Favorise la baisse de vigilance : non",
+      "C": "Favorise la prise de vitesse : oui",
+      "D": "Favorise la prise de vitesse : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Circuler sur une route sans danger particulier et par temps clément entraîne une diminution de la vigilance du conducteur. En l'absence de risque identifié, on a aussi tendance à augmenter sa vitesse. C'est malheureusement dans ces conditions que se produisent le plus souvent les accidents mortels.",
+    "frame": "84.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "84.0.jpg",
+      "96.0.jpg",
+      "108.0.jpg",
+      "126.0.jpg"
+    ],
+    "window": [
+      71.0,
+      128.0
+    ]
+  },
+  {
+    "ref": "v58q03",
+    "theme": "signalisation",
+    "question_text": "Ces balises signalent",
+    "options": {
+      "A": "Une intersection",
+      "B": "Un virage",
+      "C": "Une route fréquemment enneigée"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "explanation": "Ces balises sont des balises de virage. Le fait que leur partie supérieure soit de couleur rouge indique en plus que l'on circule dans une zone fréquemment enneigée.",
+    "frame": "141.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "132.0.jpg",
+      "141.0.jpg",
+      "162.0.jpg",
+      "174.0.jpg"
+    ],
+    "window": [
+      131.0,
+      175.0
+    ]
+  },
+  {
+    "ref": "v58q07",
+    "theme": "priorités",
+    "question_text": "Dans cette situation",
+    "options": {
+      "A": "Je bénéficie de la priorité de passage : oui",
+      "B": "Je bénéficie de la priorité de passage : non",
+      "C": "Je m'arrête : oui",
+      "D": "Je m'arrête : non"
+    },
+    "correct": [
+      "A",
+      "D"
+    ],
+    "explanation": "La signalisation indique que je possède la priorité de passage : la flèche dans mon sens de circulation est blanche et épaisse. Je suis donc prioritaire par rapport au véhicule qui vient en face. Je continue et je passe sans m'arrêter.",
+    "frame": "312.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "312.0.jpg",
+      "324.0.jpg",
+      "342.0.jpg",
+      "354.0.jpg"
+    ],
+    "window": [
+      302.0,
+      355.0
+    ]
+  },
+  {
+    "ref": "v58q10",
+    "theme": "documents",
+    "question_text": "La remorque devra posséder son propre numéro d'immatriculation si sa MMTA (anciennement PTAC) est supérieure à 500 kg",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Si la MMTA (anciennement PTAC) de votre remorque est supérieure à 500 kg, celle-ci devra effectivement posséder son propre numéro d'immatriculation et sa propre plaque.",
+    "frame": "486.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "486.0.jpg",
+      "498.0.jpg",
+      "510.0.jpg",
+      "522.0.jpg"
+    ],
+    "window": [
+      479.0,
+      525.0
+    ]
+  }
+]

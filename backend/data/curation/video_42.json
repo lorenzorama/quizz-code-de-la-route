@@ -1,0 +1,233 @@
+[
+  {
+    "ref": "v42q01",
+    "theme": "mécanique-entretien",
+    "question_text": "Je me suis trompé de carburant à la station essence",
+    "options": {
+      "A": "Je dois me rendre chez un garagiste en roulant lentement",
+      "B": "Je ne dois pas démarrer le moteur",
+      "C": "Je dois appeler un garagiste"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "explanation": "En cas d'erreur de carburant à la station essence, il ne faut surtout pas démarrer le moteur, car cela risquerait de l'endommager. Il faut appeler un garagiste, qui dispose du matériel nécessaire pour effectuer une vidange du réservoir.",
+    "frame": "48.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "48.0.jpg",
+      "72.0.jpg",
+      "99.0.jpg",
+      "108.0.jpg"
+    ],
+    "window": [
+      42.0,
+      114.0
+    ]
+  },
+  {
+    "ref": "v42q02",
+    "theme": "circulation",
+    "question_text": "L'habitude des trajets quotidiens peut entraîner",
+    "options": {
+      "A": "Une diminution de la vigilance : oui",
+      "B": "Une diminution de la vigilance : non",
+      "C": "Un sentiment de sécurité : oui",
+      "D": "Un sentiment de sécurité : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Connaître un trajet par cœur peut procurer un sentiment de sécurité trompeur. Le conducteur risque alors de sous-estimer les dangers et de voir sa vigilance diminuer.",
+    "frame": "120.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "120.0.jpg",
+      "135.0.jpg",
+      "147.0.jpg"
+    ],
+    "window": [
+      114.0,
+      150.0
+    ]
+  },
+  {
+    "ref": "v42q03",
+    "theme": "cyclistes",
+    "question_text": "Dans cette situation",
+    "options": {
+      "A": "Je dépasse ce cycliste",
+      "B": "J'attends pour dépasser"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Le code de la route impose de laisser un intervalle latéral de sécurité d'au moins 1,5 m hors agglomération pour dépasser un cycliste. Ici, un véhicule arrive en face : je dois donc patienter avant de dépasser en toute sécurité.",
+    "frame": "165.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "165.0.jpg",
+      "180.0.jpg",
+      "195.0.jpg"
+    ],
+    "window": [
+      150.0,
+      198.0
+    ]
+  },
+  {
+    "ref": "v42q04",
+    "theme": "mécanique-entretien",
+    "question_text": "Le réservoir d'huile moteur se situe en position",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Le bouchon de remplissage de l'huile moteur correspond au repère A. Le repère B désigne le liquide de frein, le repère C le liquide de refroidissement et le repère D le lave-glace.",
+    "frame": "210.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "210.0.jpg",
+      "240.0.jpg",
+      "258.0.jpg"
+    ],
+    "window": [
+      198.0,
+      267.0
+    ]
+  },
+  {
+    "ref": "v42q05",
+    "theme": "cyclistes",
+    "question_text": "À ce feu, les cyclistes peuvent continuer tout droit",
+    "options": {
+      "A": "Lorsque le feu est vert : oui",
+      "B": "Lorsque le feu est vert : non",
+      "C": "Lorsque le feu est rouge : oui",
+      "D": "Lorsque le feu est rouge : non"
+    },
+    "correct": [
+      "A",
+      "D"
+    ],
+    "explanation": "Les cyclistes doivent respecter les feux de signalisation. La présence du panneau autorisant le passage au feu ne permet aux vélos de franchir le feu rouge que dans la direction indiquée par la flèche, ici à droite. S'ils continuent tout droit, ils doivent s'arrêter au feu rouge et ne peuvent passer que lorsque le feu est vert.",
+    "frame": "270.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "270.0.jpg",
+      "300.0.jpg",
+      "324.0.jpg"
+    ],
+    "window": [
+      267.0,
+      330.0
+    ]
+  },
+  {
+    "ref": "v42q06",
+    "theme": "éclairage-visibilité",
+    "question_text": "Pour effectuer ce dépassement de nuit, le conducteur de la voiture rouge doit allumer ses feux de route lorsqu'il se situe en",
+    "options": {
+      "A": "Position A",
+      "B": "Position B",
+      "C": "Position C"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "La nuit, les feux de route peuvent éblouir l'usager qui précède. Lors d'un dépassement sur une chaussée non éclairée, le conducteur doit rouler en feux de croisement puis passer en feux de route au moment où il arrive à la hauteur du véhicule à dépasser, soit en position B.",
+    "frame": "360.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "348.0.jpg",
+      "360.0.jpg",
+      "372.0.jpg"
+    ],
+    "window": [
+      330.0,
+      378.0
+    ]
+  },
+  {
+    "ref": "v42q08",
+    "theme": "premiers-secours",
+    "question_text": "Cette personne est consciente et possède des blessures importantes",
+    "options": {
+      "A": "Je la laisse prendre connaissance de ces blessures",
+      "B": "Je lui masque ses blessures"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Face à une victime consciente présentant des blessures importantes, il est préférable de lui masquer ses blessures. Voir ses propres plaies peut avoir un impact psychologique et provoquer un choc.",
+    "frame": "420.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "420.0.jpg",
+      "438.0.jpg"
+    ],
+    "window": [
+      420.0,
+      450.0
+    ]
+  },
+  {
+    "ref": "v42q09",
+    "theme": "panneaux",
+    "question_text": "La signalisation m'annonce",
+    "options": {
+      "A": "Un premier virage : à gauche",
+      "B": "Un premier virage : à droite",
+      "C": "Une succession de virages sur 3,5 km : oui",
+      "D": "Une succession de virages sur 3,5 km : non"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "explanation": "Ce panneau annonce une succession de virages sur une distance de 3,5 km, dont le premier tourne vers la droite, comme l'indique le dessin du panneau.",
+    "frame": "480.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "480.0.jpg",
+      "498.0.jpg",
+      "510.0.jpg"
+    ],
+    "window": [
+      450.0,
+      513.0
+    ]
+  },
+  {
+    "ref": "v42q10",
+    "theme": "panneaux",
+    "question_text": "L'entrée de cette rue m'a été indiquée par le panneau",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "L'entrée de cette rue est indiquée par le panneau C : la rue est à sens unique pour les véhicules, avec une voie de circulation à contresens réservée aux cyclistes.",
+    "frame": "540.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "540.0.jpg",
+      "558.0.jpg",
+      "561.0.jpg"
+    ],
+    "window": [
+      513.0,
+      562.0
+    ]
+  }
+]

@@ -1,0 +1,486 @@
+[
+  {
+    "ref": "v31q01",
+    "theme": "équipements-de-sécurité",
+    "question_text": "Si possible, il est recommandé de placer mon bébé dans un siège auto",
+    "options": {
+      "A": "À l'avant droit",
+      "B": "À l'arrière droit",
+      "C": "À l'arrière gauche"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Les bébés peuvent être transportés dans des sièges adaptés, à l'avant comme à l'arrière. Si possible, il est conseillé de les installer à l'arrière droit, car les places arrière sont plus sûres. De plus, le stationnement se faisant le plus souvent du côté droit de la chaussée, il est plus pratique de les installer par la droite.",
+    "frame": "72.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "72.0.jpg",
+      "90.0.jpg",
+      "108.0.jpg"
+    ],
+    "window": [
+      59.0,
+      114.0
+    ]
+  },
+  {
+    "ref": "v31q02",
+    "theme": "panneaux",
+    "question_text": "Après ce panneau, je suis autorisé(e) à dépasser",
+    "options": {
+      "A": "Les cyclistes",
+      "B": "Les deux-roues sans side-car",
+      "C": "Les deux-roues avec side-car",
+      "D": "Les tracteurs agricoles"
+    },
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "Ce panneau interdit le dépassement de tous les véhicules à moteur, sauf les deux-roues sans side-car. Je suis donc autorisé à dépasser les cyclistes ainsi que les deux-roues sans side-car.",
+    "frame": "120.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "120.0.jpg",
+      "168.0.jpg",
+      "192.0.jpg"
+    ],
+    "window": [
+      116.0,
+      195.0
+    ]
+  },
+  {
+    "ref": "v31q03",
+    "theme": "assurance-constat",
+    "question_text": "Je suis responsable d'un accident. Si je suis sous l'emprise de cannabis ou d'alcool",
+    "options": {
+      "A": "L'assurance peut refuser de m'indemniser : oui",
+      "B": "L'assurance peut refuser de m'indemniser : non",
+      "C": "L'assurance peut résilier mon contrat : oui",
+      "D": "L'assurance peut résilier mon contrat : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "En cas d'accident dont je suis responsable, si je suis sous l'emprise de cannabis ou d'alcool, l'assurance a le droit de refuser de m'indemniser et de ne prendre en charge que les victimes. Elle peut également décider de résilier mon contrat.",
+    "frame": "216.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "204.0.jpg",
+      "216.0.jpg",
+      "234.0.jpg"
+    ],
+    "window": [
+      198.0,
+      258.0
+    ]
+  },
+  {
+    "ref": "v31q05",
+    "theme": "écomobilité",
+    "question_text": "Je peux trouver le taux de rejet en CO2 d'un véhicule neuf sur",
+    "options": {
+      "A": "La carte grise : oui",
+      "B": "La carte grise : non",
+      "C": "L'étiquette énergie : oui",
+      "D": "L'étiquette énergie : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "L'étiquette énergie permet de connaître la consommation de carburant et les émissions de CO2 d'un véhicule. Elle est obligatoirement affichée sur les véhicules neufs dans tous les lieux de vente. Le taux de rejet en CO2 est également présent sur la carte grise du véhicule.",
+    "frame": "300.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "300.0.jpg",
+      "324.0.jpg",
+      "339.0.jpg"
+    ],
+    "window": [
+      300.0,
+      345.0
+    ]
+  },
+  {
+    "ref": "v31q06",
+    "theme": "piétons",
+    "question_text": "La catégorie de piéton la plus vulnérable aux accidents est celle",
+    "options": {
+      "A": "Des enfants",
+      "B": "Des personnes âgées"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "La catégorie de piétons la plus vulnérable aux accidents est celle des personnes âgées. Avec l'âge, certaines personnes entendent et voient moins bien, et ont aussi plus de difficultés à se déplacer rapidement en cas de nécessité.",
+    "frame": "348.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "348.0.jpg",
+      "375.0.jpg",
+      "384.0.jpg"
+    ],
+    "window": [
+      348.0,
+      390.0
+    ]
+  },
+  {
+    "ref": "v31q07",
+    "theme": "vitesse",
+    "question_text": "La différence de vitesse entre un véhicule qui est dépassé et le véhicule qui dépasse est considérée comme dangereuse à partir de",
+    "options": {
+      "A": "20 km/h",
+      "B": "40 km/h",
+      "C": "60 km/h"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "La différence de vitesse optimale pour dépasser un véhicule est de 20 km/h : à cette vitesse, le dépassement se fait rapidement et sans danger particulier. En revanche, à partir de 40 km/h de différence, l'écart de vitesse entre les deux véhicules devient trop important et risque d'entraîner un accident mortel en cas de collision.",
+    "frame": "396.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "396.0.jpg",
+      "420.0.jpg",
+      "444.0.jpg"
+    ],
+    "window": [
+      392.0,
+      444.0
+    ]
+  },
+  {
+    "ref": "v31q08",
+    "theme": "premiers-secours",
+    "question_text": "En cas d'incendie dans un tunnel, il est recommandé de se réfugier dans une niche de sécurité",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Les niches de sécurité ne sont pas des issues de secours et ne protègent ni des fumées ni de la chaleur. Elles possèdent un poste d'appel d'urgence ainsi qu'un extincteur. En cas d'incendie, je ne dois pas m'y réfugier.",
+    "frame": "492.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "468.0.jpg",
+      "492.0.jpg",
+      "516.0.jpg"
+    ],
+    "window": [
+      447.0,
+      537.0
+    ]
+  },
+  {
+    "ref": "v31q09",
+    "theme": "vitesse",
+    "question_text": "Les chances de survie d'un piéton heurté à 70 km/h sont proches de",
+    "options": {
+      "A": "0%",
+      "B": "20%",
+      "C": "40%"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "À 70 km/h, le choc entre un véhicule et un piéton est extrêmement violent : les chances de survie du piéton sont alors proches de 0%. À 50 km/h, elles sont d'environ 20%.",
+    "frame": "540.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "540.0.jpg",
+      "561.0.jpg",
+      "576.0.jpg"
+    ],
+    "window": [
+      540.0,
+      585.0
+    ]
+  },
+  {
+    "ref": "v31q10",
+    "theme": "alcool-stupéfiants",
+    "question_text": "Lorsque je consomme de l'alcool, la quantité d'alcool consommée passant dans le sang est d'environ",
+    "options": {
+      "A": "15%",
+      "B": "35%",
+      "C": "65%",
+      "D": "95%"
+    },
+    "correct": [
+      "D"
+    ],
+    "explanation": "Lorsque je consomme de l'alcool, c'est pratiquement tout l'alcool consommé qui est diffusé dans le sang, soit environ 95%. Il est inutile de diluer une boisson alcoolisée avec un autre liquide, car c'est la quantité d'alcool absorbée, et non la concentration, qui importe.",
+    "frame": "588.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "588.0.jpg",
+      "612.0.jpg",
+      "624.0.jpg"
+    ],
+    "window": [
+      588.0,
+      633.0
+    ]
+  },
+  {
+    "ref": "v31q11",
+    "theme": "circulation",
+    "question_text": "Sur le nombre total de tués sur les routes, le nombre de tués en agglomération représente environ",
+    "options": {
+      "A": "1 tué sur 10",
+      "B": "3 tués sur 10",
+      "C": "6 tués sur 10"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "En agglomération, les personnes tuées représentent environ 3 tués sur 10, soit 30%. Parmi elles, on dénombre surtout des piétons, des cyclistes et des motards. Ces accidents sont en partie dus au non-respect des distances de sécurité, des priorités et des limitations de vitesse.",
+    "frame": "636.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "636.0.jpg",
+      "660.0.jpg",
+      "678.0.jpg"
+    ],
+    "window": [
+      636.0,
+      681.0
+    ]
+  },
+  {
+    "ref": "v31q12",
+    "theme": "alcool-stupéfiants",
+    "question_text": "Lors de la consommation d'alcool à jeun, l'alcoolémie",
+    "options": {
+      "A": "Est maximale : immédiatement",
+      "B": "Est maximale : après 30 minutes",
+      "C": "Diminue toutes les heures d'environ 0,15 g par litre de sang",
+      "D": "Diminue toutes les heures d'environ 0,5 g par litre de sang"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "explanation": "À jeun, l'alcoolémie atteint son niveau maximum plus rapidement qu'au cours d'un repas : environ 30 minutes contre une heure. Par la suite, l'alcoolémie diminue à hauteur d'environ 0,15 g par litre de sang et par heure.",
+    "frame": "708.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "708.0.jpg",
+      "732.0.jpg",
+      "756.0.jpg"
+    ],
+    "window": [
+      684.0,
+      756.0
+    ]
+  },
+  {
+    "ref": "v31q13",
+    "theme": "équipements-de-sécurité",
+    "question_text": "Le système de sécurité déclenchant automatiquement les feux de détresse est",
+    "options": {
+      "A": "L'ABS",
+      "B": "L'ESP",
+      "C": "L'AFU"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "Le système de sécurité déclenchant automatiquement les feux de détresse est l'AFU (assistance au freinage d'urgence). Ce dispositif détecte un freinage d'urgence en fonction de la vitesse d'enfoncement de la pédale de frein et amplifie le freinage à son maximum. En cas d'urgence, l'AFU déclenche automatiquement les feux de détresse pour ne pas surprendre les usagers qui suivent.",
+    "frame": "780.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "780.0.jpg",
+      "804.0.jpg",
+      "822.0.jpg"
+    ],
+    "window": [
+      759.0,
+      825.0
+    ]
+  },
+  {
+    "ref": "v31q14",
+    "theme": "panneaux",
+    "question_text": "Je circule hors agglomération, avec une acuité visuelle de 10/10 je peux lire un panneau à partir de",
+    "options": {
+      "A": "50 mètres",
+      "B": "100 mètres",
+      "C": "150 mètres"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "La taille des panneaux varie selon que l'on se trouve en agglomération ou hors agglomération : les panneaux hors agglomération sont deux fois plus grands. Ainsi, en agglomération je peux lire un panneau à partir de 50 mètres, et hors agglomération à partir de 150 mètres.",
+    "frame": "852.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "852.0.jpg",
+      "870.0.jpg",
+      "888.0.jpg"
+    ],
+    "window": [
+      828.0,
+      888.0
+    ]
+  },
+  {
+    "ref": "v31q15",
+    "theme": "distances-de-sécurité",
+    "question_text": "La distance d'arrêt à 90 km/h sur route mouillée est d'environ",
+    "options": {
+      "A": "51 mètres",
+      "B": "81 mètres",
+      "C": "121 mètres",
+      "D": "161 mètres"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "La distance d'arrêt sur route sèche se calcule en multipliant le chiffre des dizaines par lui-même : ici 9 x 9 = 81 mètres. Pour la distance d'arrêt sur route mouillée, on ajoute la moitié du résultat, soit 81 + 40 = 121 mètres.",
+    "frame": "912.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "912.0.jpg",
+      "936.0.jpg",
+      "960.0.jpg"
+    ],
+    "window": [
+      891.0,
+      960.0
+    ]
+  },
+  {
+    "ref": "v31q16",
+    "theme": "panneaux",
+    "question_text": "Je circule sur cette route un dimanche. Je dois tenir compte de ce panneau",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Ce panneau de danger temporaire indique la présence de travaux. Même un dimanche, des ouvriers peuvent travailler sur le chantier (réparation urgente ou autre). Je dois tenir compte de ce panneau, quel que soit le jour de la semaine.",
+    "frame": "984.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "984.0.jpg",
+      "1005.0.jpg",
+      "1008.0.jpg"
+    ],
+    "window": [
+      963.0,
+      1008.0
+    ]
+  },
+  {
+    "ref": "v31q17",
+    "theme": "signalisation",
+    "question_text": "Je circule en agglomération, un trait rouge d'une balise indiquant un passage à niveau correspond à environ",
+    "options": {
+      "A": "15 mètres",
+      "B": "30 mètres",
+      "C": "50 mètres",
+      "D": "100 mètres"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "En agglomération, une balise à trois traits rouges indiquant un passage à niveau se situe à 50 mètres du passage. Un seul trait rouge correspond donc à 50 divisé par 3, soit environ 15 mètres.",
+    "frame": "1044.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1044.0.jpg",
+      "1062.0.jpg",
+      "1068.0.jpg"
+    ],
+    "window": [
+      1011.0,
+      1068.0
+    ]
+  },
+  {
+    "ref": "v31q18",
+    "theme": "mécanique-entretien",
+    "question_text": "Ce témoin vient de s'allumer sur le tableau de bord. Il m'indique",
+    "options": {
+      "A": "Une usure des plaquettes de frein : oui",
+      "B": "Une usure des plaquettes de frein : non",
+      "C": "Un problème dans le circuit de freinage : oui",
+      "D": "Un problème dans le circuit de freinage : non"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "explanation": "Ce témoin rouge indique un problème dans le circuit de freinage, et non une usure des plaquettes de frein. Je dois m'arrêter immédiatement avant qu'il ne soit trop tard.",
+    "frame": "1092.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1092.0.jpg",
+      "1116.0.jpg",
+      "1122.0.jpg"
+    ],
+    "window": [
+      1071.0,
+      1125.0
+    ]
+  },
+  {
+    "ref": "v31q19",
+    "theme": "cyclistes",
+    "question_text": "Il est autorisé de chevaucher une ligne blanche continue pour dépasser un cycliste",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Le chevauchement d'une ligne continue est uniquement autorisé pour dépasser un cycliste.",
+    "frame": "1152.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1152.0.jpg",
+      "1164.0.jpg"
+    ],
+    "window": [
+      1128.0,
+      1164.0
+    ]
+  },
+  {
+    "ref": "v31q20",
+    "theme": "circulation",
+    "question_text": "L'usage du téléphone en conduisant est responsable d'environ",
+    "options": {
+      "A": "Un accident corporel sur 2",
+      "B": "Un accident corporel sur 5",
+      "C": "Un accident corporel sur 10",
+      "D": "Un accident corporel sur 20"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "Le téléphone est une source de distraction au volant qui entraîne une perte de vigilance. Téléphoner en conduisant multiplie par 3 le risque d'accident et, selon la sécurité routière, l'usage du téléphone en conduisant est responsable d'un accident corporel sur 10.",
+    "frame": "1200.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "1200.0.jpg",
+      "1218.0.jpg",
+      "1230.0.jpg"
+    ],
+    "window": [
+      1167.0,
+      1233.0
+    ]
+  }
+]

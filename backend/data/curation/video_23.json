@@ -1,0 +1,171 @@
+[
+  {
+    "ref": "v23q01",
+    "theme": "panneaux",
+    "question_text": "En ville, les panneaux de danger sont implantés en amont à",
+    "options": {
+      "A": "25 mètres",
+      "B": "50 mètres",
+      "C": "100 mètres",
+      "D": "150 mètres"
+    },
+    "correct": ["B"],
+    "explanation": "En agglomération, les panneaux de danger sont implantés à 50 mètres en amont du danger. Hors agglomération, cette distance passe à 150 mètres.",
+    "frame": "60.0.jpg",
+    "crop": null,
+    "candidate_frames": ["57.0.jpg", "60.0.jpg", "63.0.jpg", "72.0.jpg"],
+    "window": [57.0, 84.0]
+  },
+  {
+    "ref": "v23q02",
+    "theme": "distances-de-sécurité",
+    "question_text": "Dans un tunnel, la distance de sécurité à laisser entre deux véhicules doit être d'au moins",
+    "options": {
+      "A": "1 diode bleue",
+      "B": "2 diodes bleues",
+      "C": "3 diodes bleues",
+      "D": "4 diodes bleues"
+    },
+    "correct": ["B"],
+    "explanation": "Afin de respecter les consignes de sécurité routière, les usagers doivent laisser une distance de sécurité d'au moins deux diodes bleues lorsqu'ils circulent dans un tunnel.",
+    "frame": "90.0.jpg",
+    "crop": null,
+    "candidate_frames": ["90.0.jpg", "108.0.jpg", "123.0.jpg", "126.0.jpg"],
+    "window": [87.0, 129.0]
+  },
+  {
+    "ref": "v23q03",
+    "theme": "signalisation",
+    "question_text": "Hors agglomération, la balise de présignalisation d'un passage à niveau comportant 3 bandes rouges est située à",
+    "options": {
+      "A": "25 mètres",
+      "B": "50 mètres",
+      "C": "100 mètres",
+      "D": "150 mètres"
+    },
+    "correct": ["D"],
+    "explanation": "À l'approche d'un passage à niveau, le conducteur peut se référer aux balises de présignalisation comportant des bandes rouges. En ville, la balise à trois bandes rouges est située à 50 mètres du passage à niveau ; hors agglomération, elle se situe à 150 mètres. Chaque bande rouge correspond à environ un tiers de cette distance.",
+    "frame": "150.0.jpg",
+    "crop": null,
+    "candidate_frames": ["150.0.jpg", "168.0.jpg", "195.0.jpg"],
+    "window": [147.0, 198.0]
+  },
+  {
+    "ref": "v23q04",
+    "theme": "mécanique-entretien",
+    "question_text": "Les sculptures présentes sur les pneumatiques d'un véhicule doivent avoir une profondeur d'au moins",
+    "options": {
+      "A": "0,6 mm",
+      "B": "1,6 mm",
+      "C": "2,6 mm",
+      "D": "3,6 mm"
+    },
+    "correct": ["B"],
+    "explanation": "Le code de la route impose que la profondeur des sculptures sur la bande de roulement des pneus ne soit pas inférieure à 1,6 mm. En dessous de cette valeur, le pneu doit être changé.",
+    "frame": "222.0.jpg",
+    "crop": null,
+    "candidate_frames": ["222.0.jpg", "246.0.jpg"],
+    "window": [219.0, 264.0]
+  },
+  {
+    "ref": "v23q05",
+    "theme": "circulation",
+    "question_text": "Lors du transport d'un chargement qui dépasse à l'arrière du véhicule, le dépassement ne doit pas excéder une longueur de plus de",
+    "options": {
+      "A": "1 mètre",
+      "B": "2 mètres",
+      "C": "3 mètres",
+      "D": "4 mètres"
+    },
+    "correct": ["C"],
+    "explanation": "Le chargement à l'arrière d'un véhicule ne doit pas dépasser une longueur de 3 mètres. De plus, l'automobiliste doit obligatoirement fixer un dispositif rétro-réfléchissant à l'extrémité du chargement dès que le dépassement atteint un mètre.",
+    "frame": "270.0.jpg",
+    "crop": null,
+    "candidate_frames": ["270.0.jpg", "294.0.jpg", "303.0.jpg"],
+    "window": [267.0, 312.0]
+  },
+  {
+    "ref": "v23q06",
+    "theme": "documents",
+    "question_text": "Mon véhicule a été mis pour la première fois en circulation il y a 3 ans. Le premier contrôle technique à réaliser doit être effectué avant son",
+    "options": {
+      "A": "4ème anniversaire",
+      "B": "5ème anniversaire",
+      "C": "6ème anniversaire"
+    },
+    "correct": ["A"],
+    "explanation": "La visite de contrôle technique doit être réalisée dans les 6 mois précédant le 4ème anniversaire d'un véhicule neuf.",
+    "frame": "318.0.jpg",
+    "crop": null,
+    "candidate_frames": ["318.0.jpg", "336.0.jpg"],
+    "window": [315.0, 360.0]
+  },
+  {
+    "ref": "v23q07",
+    "theme": "documents",
+    "question_text": "Le contrôle technique d'un véhicule qui a plus de 4 ans doit être effectué tous les",
+    "options": {
+      "A": "1 an",
+      "B": "2 ans",
+      "C": "3 ans",
+      "D": "4 ans"
+    },
+    "correct": ["B"],
+    "explanation": "Après la première visite réalisée avant le 4ème anniversaire du véhicule, le contrôle technique doit ensuite être effectué régulièrement tous les 2 ans.",
+    "frame": "372.0.jpg",
+    "crop": null,
+    "candidate_frames": ["372.0.jpg", "390.0.jpg", "402.0.jpg"],
+    "window": [363.0, 408.0]
+  },
+  {
+    "ref": "v23q08",
+    "theme": "permis-à-points",
+    "question_text": "Pour pouvoir conduire, l'acuité visuelle pour l'ensemble des deux yeux du conducteur doit être d'au moins",
+    "options": {
+      "A": "3/10ème",
+      "B": "4/10ème",
+      "C": "5/10ème",
+      "D": "6/10ème"
+    },
+    "correct": ["C"],
+    "explanation": "L'acuité visuelle représente la capacité du conducteur à voir nettement de loin. Cette mesure est essentielle car elle détermine l'aptitude à conduire. Une acuité binoculaire d'au moins 5/10ème est exigée pour pouvoir conduire.",
+    "frame": "420.0.jpg",
+    "crop": null,
+    "candidate_frames": ["420.0.jpg", "450.0.jpg", "462.0.jpg"],
+    "window": [417.0, 468.0]
+  },
+  {
+    "ref": "v23q09",
+    "theme": "éclairage-visibilité",
+    "question_text": "Le champ de vision du conducteur à l'arrêt est de",
+    "options": {
+      "A": "30°",
+      "B": "90°",
+      "C": "180°",
+      "D": "230°"
+    },
+    "correct": ["C"],
+    "explanation": "À l'arrêt, le champ visuel des deux yeux est de 180 degrés. Certains éléments peuvent toutefois réduire ce champ de vision et limiter les informations perçues par le conducteur.",
+    "frame": "474.0.jpg",
+    "crop": null,
+    "candidate_frames": ["474.0.jpg", "492.0.jpg", "516.0.jpg"],
+    "window": [471.0, 522.0]
+  },
+  {
+    "ref": "v23q10",
+    "theme": "vitesse",
+    "question_text": "Le champ de vision d'un conducteur circulant à 130 km/h est de",
+    "options": {
+      "A": "30°",
+      "B": "90°",
+      "C": "180°",
+      "D": "230°"
+    },
+    "correct": ["A"],
+    "explanation": "Le champ de vision du conducteur n'est plus que de 30 degrés sur l'autoroute lorsque le véhicule circule à 130 km/h. C'est pourquoi il est indispensable de respecter les limitations de vitesse afin de ne pas manquer d'informations importantes à cause de l'effet tunnel.",
+    "frame": "528.0.jpg",
+    "crop": null,
+    "candidate_frames": ["528.0.jpg", "570.0.jpg"],
+    "window": [525.0, 576.0]
+  }
+]

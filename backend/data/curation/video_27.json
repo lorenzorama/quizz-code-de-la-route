@@ -1,0 +1,254 @@
+[
+  {
+    "ref": "v27q01",
+    "theme": "alcool-stupéfiants",
+    "question_text": "Le contrôle des drogues dans l'organisme peut se faire par",
+    "options": {
+      "A": "Analyse d'urine : oui",
+      "B": "Analyse d'urine : non",
+      "C": "Test salivaire : oui",
+      "D": "Test salivaire : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Les forces de l'ordre disposent de deux moyens pour contrôler la présence de drogues dans l'organisme : le test salivaire et le test urinaire. Le test salivaire est le plus utilisé et permet de vérifier si un conducteur a consommé des stupéfiants. Il indique également quelle drogue est présente dans l'organisme.",
+    "frame": "60.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "60.0.jpg",
+      "72.0.jpg",
+      "84.0.jpg",
+      "93.0.jpg"
+    ],
+    "window": [
+      45.0,
+      101.0
+    ]
+  },
+  {
+    "ref": "v27q02",
+    "theme": "mécanique-entretien",
+    "question_text": "Ce véhicule est prêt à partir",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Ce véhicule n'est pas prêt à partir dans cet état. La neige présente sur le toit pourrait tomber en circulation ou lors d'un freinage. Il faut donc retirer toute la neige du toit avant de prendre la route.",
+    "frame": "120.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "120.0.jpg",
+      "132.0.jpg",
+      "141.0.jpg"
+    ],
+    "window": [
+      101.0,
+      147.0
+    ]
+  },
+  {
+    "ref": "v27q03",
+    "theme": "équipements-de-sécurité",
+    "question_text": "La ceinture de sécurité est obligatoire à l'arrière",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "La ceinture de sécurité est obligatoire à l'arrière comme à l'avant du véhicule. Tous les passagers doivent l'attacher, quelle que soit leur place.",
+    "frame": "165.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "165.0.jpg",
+      "177.0.jpg",
+      "183.0.jpg"
+    ],
+    "window": [
+      147.0,
+      189.0
+    ]
+  },
+  {
+    "ref": "v27q04",
+    "theme": "signalisation",
+    "question_text": "Une borne d'appel d'urgence indique automatiquement votre position aux services d'urgence",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Une borne d'appel d'urgence indique automatiquement votre position aux services d'urgence. Sur autoroute, ces bornes sont disposées tous les deux kilomètres, ce qui signifie qu'il faut parcourir au maximum un kilomètre pour en atteindre une.",
+    "frame": "210.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "210.0.jpg",
+      "222.0.jpg",
+      "231.0.jpg"
+    ],
+    "window": [
+      189.0,
+      237.0
+    ]
+  },
+  {
+    "ref": "v27q05",
+    "theme": "piétons",
+    "question_text": "Les piétons ont le droit de circuler sur la chaussée",
+    "options": {
+      "A": "En ville quand il n'y a pas de voiture : oui",
+      "B": "En ville quand il n'y a pas de voiture : non",
+      "C": "Dans les aires piétonnes : oui",
+      "D": "Dans les aires piétonnes : non"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "explanation": "Les piétons doivent utiliser les trottoirs ou les accotements. Ils ne peuvent circuler sur la chaussée que dans les aires piétonnes et les zones de rencontre. En ville, l'absence de voiture ne les autorise pas à marcher sur la chaussée.",
+    "frame": "246.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "246.0.jpg",
+      "270.0.jpg",
+      "288.0.jpg"
+    ],
+    "window": [
+      237.0,
+      295.0
+    ]
+  },
+  {
+    "ref": "v27q06",
+    "theme": "commandes",
+    "question_text": "Une voiture à boîte automatique libère en partie le conducteur des contraintes techniques",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Une voiture à boîte automatique libère en partie le conducteur des contraintes techniques, car le changement des vitesses se fait automatiquement. Le conducteur peut ainsi se concentrer davantage sur la route.",
+    "frame": "300.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "300.0.jpg",
+      "318.0.jpg",
+      "324.0.jpg"
+    ],
+    "window": [
+      295.0,
+      328.0
+    ]
+  },
+  {
+    "ref": "v27q07",
+    "theme": "éclairage-visibilité",
+    "question_text": "Sur un véhicule de tourisme, les feux obligatoires sont",
+    "options": {
+      "A": "2 feux de croisement",
+      "B": "2 feux de brouillard avant",
+      "C": "2 feux de route",
+      "D": "1 feu de brouillard arrière"
+    },
+    "correct": [
+      "A",
+      "C",
+      "D"
+    ],
+    "explanation": "Les feux de brouillard avant ne sont pas obligatoires. En revanche, les deux feux de croisement, les deux feux de route et le feu de brouillard arrière sont obligatoires sur un véhicule de tourisme.",
+    "frame": "342.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "342.0.jpg",
+      "366.0.jpg",
+      "384.0.jpg"
+    ],
+    "window": [
+      328.0,
+      399.0
+    ]
+  },
+  {
+    "ref": "v27q08",
+    "theme": "priorités",
+    "question_text": "Je dois particulièrement faire attention lorsque",
+    "options": {
+      "A": "Le tramway est arrêté",
+      "B": "Le tramway est en circulation"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Lorsque le tramway est à l'arrêt, des piétons peuvent surgir rapidement pour y monter ou en descendre. Il faut donc circuler avec une attention toute particulière à proximité d'un tramway arrêté.",
+    "frame": "396.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "396.0.jpg",
+      "423.0.jpg",
+      "429.0.jpg"
+    ],
+    "window": [
+      399.0,
+      435.0
+    ]
+  },
+  {
+    "ref": "v27q09",
+    "theme": "commandes",
+    "question_text": "Je souhaite suivre un itinéraire, je dois programmer mon GPS avant de partir",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Le GPS ne doit en aucun cas être programmé en circulation. Pour suivre un itinéraire, il faut le programmer avant de démarrer afin de rester concentré sur la conduite.",
+    "frame": "456.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "456.0.jpg",
+      "462.0.jpg",
+      "471.0.jpg"
+    ],
+    "window": [
+      437.0,
+      477.0
+    ]
+  },
+  {
+    "ref": "v27q10",
+    "theme": "distances-de-sécurité",
+    "question_text": "Une chaussée mouillée multiplie par deux",
+    "options": {
+      "A": "La distance de freinage",
+      "B": "La distance de visibilité",
+      "C": "Le temps de réaction"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Une chaussée mouillée multiplie par deux la distance de freinage. La voiture met plus de temps à s'arrêter sur sol mouillé, d'où la nécessité de réduire sa vitesse en cas de pluie.",
+    "frame": "504.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "504.0.jpg",
+      "513.0.jpg",
+      "519.0.jpg"
+    ],
+    "window": [
+      479.0,
+      527.0
+    ]
+  }
+]

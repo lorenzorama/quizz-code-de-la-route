@@ -1,0 +1,258 @@
+[
+  {
+    "ref": "v17q01",
+    "theme": "alcool-stupéfiants",
+    "question_text": "La prise d'alcool risque d'accentuer les effets des médicaments",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "La prise d'alcool perturbe l'action de certains médicaments et peut accentuer leurs effets. Il faut donc être particulièrement prudent lorsqu'on associe alcool et traitement médicamenteux.",
+    "frame": "30.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "30.0.jpg",
+      "36.0.jpg",
+      "42.0.jpg",
+      "48.0.jpg"
+    ],
+    "window": [
+      27.0,
+      55.0
+    ]
+  },
+  {
+    "ref": "v17q02",
+    "theme": "vitesse",
+    "question_text": "Les chances de survie d'un piéton heurté à 50 km/h sont de",
+    "options": {
+      "A": "20%",
+      "B": "60%",
+      "C": "80%"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Les chances de survie d'un piéton heurté à 50 km/h ne sont que d'environ 20%. À titre de comparaison, elles sont d'environ 90% à 30 km/h, tandis qu'à 70 km/h elles sont proches de 0%.",
+    "frame": "78.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "78.0.jpg",
+      "84.0.jpg",
+      "90.0.jpg",
+      "96.0.jpg"
+    ],
+    "window": [
+      57.0,
+      107.0
+    ]
+  },
+  {
+    "ref": "v17q03",
+    "theme": "commandes",
+    "question_text": "Pour tenir le volant correctement, les positions à privilégier sont",
+    "options": {
+      "A": "6h30",
+      "B": "7h15",
+      "C": "9h15",
+      "D": "10h10"
+    },
+    "correct": [
+      "C",
+      "D"
+    ],
+    "explanation": "Les positions dites 9h15 et 10h10 sont idéales pour tenir le volant. Elles font référence aux aiguilles d'une horloge : à 9h15, la main gauche est à gauche du volant et la main droite à droite ; à 10h10, les mains sont placées légèrement plus haut.",
+    "frame": "135.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "135.0.jpg",
+      "144.0.jpg",
+      "153.0.jpg",
+      "165.0.jpg"
+    ],
+    "window": [
+      107.0,
+      173.0
+    ]
+  },
+  {
+    "ref": "v17q04",
+    "theme": "équipements-de-sécurité",
+    "question_text": "Un enfant de moins d'un an peut être transporté en voiture",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Dès la naissance, un bébé peut être transporté en voiture à condition d'être installé dans un siège homologué et adapté à son âge, sa morphologie et son poids.",
+    "frame": "195.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "189.0.jpg",
+      "195.0.jpg",
+      "204.0.jpg",
+      "210.0.jpg"
+    ],
+    "window": [
+      176.0,
+      213.0
+    ]
+  },
+  {
+    "ref": "v17q05",
+    "theme": "circulation",
+    "question_text": "Je souhaite dépasser. Je peux mettre mon clignotant et entamer mon dépassement",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Dans le rétroviseur intérieur, on voit qu'une voiture arrive sur la gauche pour nous dépasser. Il ne faut donc pas s'engager : je ralentis et j'attends que la voie soit libre avant de dépasser.",
+    "frame": "225.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "225.0.jpg",
+      "234.0.jpg",
+      "246.0.jpg",
+      "261.0.jpg"
+    ],
+    "window": [
+      215.0,
+      262.0
+    ]
+  },
+  {
+    "ref": "v17q06",
+    "theme": "mécanique-entretien",
+    "question_text": "L'aide au freinage d'urgence (AFU) est obligatoirement associé au système d'anti-blocage des roues (ABS)",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "L'AFU est obligatoirement associée à l'ABS. L'AFU permet d'amplifier le freinage tandis que l'ABS évite le blocage des roues, les deux systèmes fonctionnant de concert.",
+    "frame": "318.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "318.0.jpg",
+      "324.0.jpg",
+      "336.0.jpg",
+      "348.0.jpg"
+    ],
+    "window": [
+      308.0,
+      351.0
+    ]
+  },
+  {
+    "ref": "v17q07",
+    "theme": "circulation",
+    "question_text": "Afin de rester attentif au volant, une pause doit être effectuée toutes les",
+    "options": {
+      "A": "2 heures",
+      "B": "3 heures",
+      "C": "4 heures",
+      "D": "5 heures"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Pour rester attentif au volant, une pause d'au moins un quart d'heure est nécessaire toutes les deux heures de conduite.",
+    "frame": "366.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "366.0.jpg",
+      "375.0.jpg",
+      "384.0.jpg",
+      "393.0.jpg"
+    ],
+    "window": [
+      352.0,
+      394.0
+    ]
+  },
+  {
+    "ref": "v17q08",
+    "theme": "priorités",
+    "question_text": "J'arrive à un passage à niveau où les barrières sont en train de se fermer",
+    "options": {
+      "A": "Je m'arrête",
+      "B": "Je peux passer si les barrières sont suffisamment ouvertes"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Lorsque les barrières d'un passage à niveau sont en train de se fermer, je dois obligatoirement m'arrêter. Il est interdit de tenter de passer, même si les barrières paraissent encore suffisamment ouvertes.",
+    "frame": "405.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "405.0.jpg",
+      "414.0.jpg",
+      "423.0.jpg",
+      "429.0.jpg"
+    ],
+    "window": [
+      394.0,
+      433.0
+    ]
+  },
+  {
+    "ref": "v17q09",
+    "theme": "premiers-secours",
+    "question_text": "Dans tous les cas, il est totalement interdit de déplacer un blessé",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "En cas d'accident, il faut absolument éviter de déplacer une victime. Néanmoins, si la victime ne peut se soustraire d'elle-même à un danger réel, immédiat et non contrôlable, un déplacement d'urgence peut être envisagé.",
+    "frame": "450.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "450.0.jpg",
+      "459.0.jpg",
+      "468.0.jpg",
+      "477.0.jpg"
+    ],
+    "window": [
+      435.0,
+      479.0
+    ]
+  },
+  {
+    "ref": "v17q10",
+    "theme": "permis-à-points",
+    "question_text": "Si je perds tous mes points en période probatoire, mon permis peut être invalidé",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Perdre la totalité de ses points pendant la période probatoire entraîne l'invalidation du permis de conduire. Le conducteur doit alors repasser les épreuves pour récupérer son permis.",
+    "frame": "495.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "495.0.jpg",
+      "504.0.jpg",
+      "513.0.jpg",
+      "516.0.jpg"
+    ],
+    "window": [
+      479.0,
+      518.0
+    ]
+  }
+]

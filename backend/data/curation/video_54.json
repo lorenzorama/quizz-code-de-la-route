@@ -1,0 +1,211 @@
+[
+  {
+    "ref": "v54q02",
+    "theme": "priorités",
+    "question_text": "Les véhicules faisant partie des véhicules d'urgence prioritaires sont",
+    "options": {
+      "A": "Les pompiers",
+      "B": "Le SAMU",
+      "C": "La police",
+      "D": "Les ambulances privées"
+    },
+    "correct": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "Les pompiers, la police et le SAMU font partie des véhicules d'urgence prioritaires : il faut leur céder le passage. Les ambulances privées, en revanche, bénéficient seulement de facilités de passage et ne sont pas des véhicules d'urgence prioritaires ; les usagers n'ont donc pas l'obligation de leur céder le passage aux intersections.",
+    "frame": "90.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "90.0.jpg",
+      "105.0.jpg",
+      "120.0.jpg",
+      "135.0.jpg"
+    ],
+    "window": [
+      74.0,
+      141.0
+    ]
+  },
+  {
+    "ref": "v54q03",
+    "theme": "équipements-de-sécurité",
+    "question_text": "Pour sortir de mon véhicule, je dois de préférence utiliser ma main droite",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Utiliser la main droite pour ouvrir la portière oblige à se retourner et à observer si un usager arrive. Ce geste réduit le risque d'emportiérage, un type d'accident encore trop fréquent. On privilégie donc cette main pour sortir de son véhicule.",
+    "frame": "165.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "165.0.jpg",
+      "180.0.jpg",
+      "195.0.jpg",
+      "201.0.jpg"
+    ],
+    "window": [
+      145.0,
+      204.0
+    ]
+  },
+  {
+    "ref": "v54q05",
+    "theme": "panneaux",
+    "question_text": "Ce panneau m'annonce la présence",
+    "options": {
+      "A": "D'une école",
+      "B": "D'un passage piéton",
+      "C": "D'un endroit fréquenté par des enfants"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "Ce panneau annonce un endroit fréquenté par des enfants. Il peut s'agir d'une école, d'un centre de vacances, d'un terrain de jeu ou encore d'une colonie.",
+    "frame": "330.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "330.0.jpg",
+      "339.0.jpg"
+    ],
+    "window": [
+      325.0,
+      340.0
+    ]
+  },
+  {
+    "ref": "v54q06",
+    "theme": "signalisation",
+    "question_text": "Il est interdit de dépasser un autre usager au niveau d'un passage à niveau",
+    "options": {
+      "A": "Non muni de barrières : oui",
+      "B": "Non muni de barrières : non",
+      "C": "Muni de barrières : oui",
+      "D": "Muni de barrières : non"
+    },
+    "correct": [
+      "A",
+      "D"
+    ],
+    "explanation": "Il est interdit de dépasser un autre usager au niveau d'un passage à niveau non muni de barrières. En revanche, le dépassement est autorisé à un passage à niveau muni de barrières si la signalisation le permet, même s'il reste déconseillé. Une ligne blanche continue interdit d'ailleurs souvent le dépassement à ces endroits.",
+    "frame": "360.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "360.0.jpg",
+      "408.0.jpg"
+    ],
+    "window": [
+      340.0,
+      411.0
+    ]
+  },
+  {
+    "ref": "v54q07",
+    "theme": "priorités",
+    "question_text": "Le cycliste continue tout droit. La voiture tourne à gauche. L'usager qui passe en premier est",
+    "options": {
+      "A": "Le cycliste",
+      "B": "La voiture"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Le cycliste et la voiture ont les mêmes obligations de priorité : c'est la règle de la priorité à droite qui s'applique. La voiture qui tourne à gauche va couper la route au cycliste qui continue tout droit. C'est l'usager qui coupe la route à l'autre qui doit céder le passage : la voiture doit donc céder le passage au cycliste.",
+    "frame": "450.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "450.0.jpg",
+      "459.0.jpg",
+      "465.0.jpg"
+    ],
+    "window": [
+      414.0,
+      472.0
+    ]
+  },
+  {
+    "ref": "v54q08",
+    "theme": "éclairage-visibilité",
+    "question_text": "En cas de brouillard, j'allume les feux",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct": [
+      "A",
+      "C",
+      "D"
+    ],
+    "explanation": "Par temps de brouillard, il faut utiliser au minimum les feux de croisement et, si le véhicule en est équipé, les feux de brouillard avant et arrière. Il ne faut pas utiliser les feux de route, qui formeraient un mur opaque de lumière devant le véhicule.",
+    "frame": "495.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "495.0.jpg",
+      "525.0.jpg"
+    ],
+    "window": [
+      475.0,
+      531.0
+    ]
+  },
+  {
+    "ref": "v54q09",
+    "theme": "premiers-secours",
+    "question_text": "Je viens d'être témoin d'un accident. Pour alerter les secours, je communique",
+    "options": {
+      "A": "Le nombre et le type de véhicules impliqués : oui",
+      "B": "Le nombre et le type de véhicules impliqués : non",
+      "C": "L'identité des victimes concernées : oui",
+      "D": "L'identité des victimes concernées : non"
+    },
+    "correct": [
+      "A",
+      "D"
+    ],
+    "explanation": "Le nombre et le type de véhicules impliqués, ainsi que le nombre de victimes, sont des informations importantes à communiquer aux services de secours. En revanche, l'identité des victimes n'est pas nécessaire.",
+    "frame": "540.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "540.0.jpg",
+      "588.0.jpg",
+      "594.0.jpg"
+    ],
+    "window": [
+      535.0,
+      596.0
+    ]
+  },
+  {
+    "ref": "v54q10",
+    "theme": "priorités",
+    "question_text": "Je souhaite tourner à gauche",
+    "options": {
+      "A": "Je bénéficie de la priorité de passage par rapport à la voiture grise : oui",
+      "B": "Je bénéficie de la priorité de passage par rapport à la voiture grise : non",
+      "C": "Je m'arrête : oui",
+      "D": "Je m'arrête : non"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "explanation": "À un carrefour géré par des feux tricolores, si je souhaite tourner à gauche, je ne suis pas prioritaire sur les véhicules venant en face. Je m'arrête et j'attends que la voie soit libre avant de m'engager.",
+    "frame": "615.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "615.0.jpg",
+      "648.0.jpg",
+      "651.0.jpg"
+    ],
+    "window": [
+      596.0,
+      653.0
+    ]
+  }
+]

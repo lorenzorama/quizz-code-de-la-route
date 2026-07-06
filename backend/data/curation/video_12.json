@@ -1,0 +1,264 @@
+[
+  {
+    "ref": "v12q01",
+    "theme": "permis-à-points",
+    "question_text": "Un de mes yeux a une acuité nulle. J'ai le droit de conduire si mon autre œil a au moins une acuité de",
+    "options": {
+      "A": "2/10",
+      "B": "3/10",
+      "C": "5/10",
+      "D": "7/10"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "Si un œil a une acuité visuelle nulle, l'autre œil doit avoir au moins une acuité de 5/10 pour être autorisé à conduire. C'est la condition minimale exigée pour l'aptitude visuelle.",
+    "frame": "48.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "36.0.jpg",
+      "42.0.jpg",
+      "48.0.jpg",
+      "54.0.jpg",
+      "60.0.jpg"
+    ],
+    "window": [
+      30.0,
+      59.0
+    ]
+  },
+  {
+    "ref": "v12q02",
+    "theme": "équipements-de-sécurité",
+    "question_text": "Je peux transporter mon animal en liberté dans la voiture",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Il est interdit de transporter un animal en liberté dans la voiture, car cela représente un danger pour lui et pour les occupants. Il doit être attaché, placé dans une caisse de transport ou isolé à l'arrière par un filet.",
+    "frame": "66.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "63.0.jpg",
+      "66.0.jpg",
+      "78.0.jpg",
+      "90.0.jpg",
+      "102.0.jpg"
+    ],
+    "window": [
+      60.0,
+      104.0
+    ]
+  },
+  {
+    "ref": "v12q03",
+    "theme": "mécanique-entretien",
+    "question_text": "Ce réservoir me permet d'ajouter du liquide de lave-glace",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Ce réservoir sert bien à ajouter du liquide de lave-glace. On le reconnaît grâce à son bouchon de couleur bleue et au pictogramme de pare-brise avec jet d'eau qui y est gravé.",
+    "frame": "120.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "108.0.jpg",
+      "120.0.jpg",
+      "129.0.jpg",
+      "138.0.jpg"
+    ],
+    "window": [
+      105.0,
+      140.0
+    ]
+  },
+  {
+    "ref": "v12q04",
+    "theme": "mécanique-entretien",
+    "question_text": "Un pneu sous gonflé augmente la consommation de carburant",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Un pneu sous-gonflé augmente les frottements avec la route et, par conséquent, la consommation de carburant. Il faut donc veiller à respecter la pression recommandée pour ses pneumatiques.",
+    "frame": "165.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "147.0.jpg",
+      "165.0.jpg",
+      "174.0.jpg",
+      "180.0.jpg"
+    ],
+    "window": [
+      144.0,
+      182.0
+    ]
+  },
+  {
+    "ref": "v12q05",
+    "theme": "équipements-de-sécurité",
+    "question_text": "En cas de panne ou d'accident sur autoroute",
+    "options": {
+      "A": "Le gilet de haute visibilité est obligatoire : oui",
+      "B": "Le gilet de haute visibilité est obligatoire : non",
+      "C": "La pose du triangle de présignalisation est obligatoire : oui",
+      "D": "La pose du triangle de présignalisation est obligatoire : non"
+    },
+    "correct": [
+      "A",
+      "D"
+    ],
+    "explanation": "Sur autoroute, en cas de panne ou d'accident, le port du gilet de haute visibilité est obligatoire. En revanche, il ne faut jamais poser de triangle de présignalisation sur autoroute : cette action est trop dangereuse pour vous et pour les autres usagers.",
+    "frame": "204.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "186.0.jpg",
+      "204.0.jpg",
+      "216.0.jpg",
+      "222.0.jpg"
+    ],
+    "window": [
+      183.0,
+      227.0
+    ]
+  },
+  {
+    "ref": "v12q06",
+    "theme": "signalisation",
+    "question_text": "Je circule sur une route à sens unique",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "La signalisation présente confirme que la route est à sens unique : le panneau bleu à flèche verticale l'indique, et la flèche peinte au sol va dans le même sens que la circulation. On circule donc bien sur une route à sens unique.",
+    "frame": "246.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "234.0.jpg",
+      "246.0.jpg",
+      "258.0.jpg"
+    ],
+    "window": [
+      231.0,
+      265.0
+    ]
+  },
+  {
+    "ref": "v12q07",
+    "theme": "premiers-secours",
+    "question_text": "Dans un tunnel, en cas d'accident devant moi",
+    "options": {
+      "A": "Je fais demi-tour",
+      "B": "Je gare mon véhicule sur un emplacement d'urgence",
+      "C": "Je préviens les secours depuis un poste d'appel d'urgence",
+      "D": "Je préviens les secours avec mon téléphone portable"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "explanation": "Dans un tunnel, il ne faut jamais faire demi-tour. On gare son véhicule sur un emplacement d'urgence et on prévient les secours en utilisant un poste d'appel d'urgence, plus fiable et mieux localisé que le téléphone portable.",
+    "frame": "294.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "282.0.jpg",
+      "294.0.jpg",
+      "306.0.jpg"
+    ],
+    "window": [
+      267.0,
+      317.0
+    ]
+  },
+  {
+    "ref": "v12q08",
+    "theme": "équipements-de-sécurité",
+    "question_text": "L'AFU est obligatoire dans un véhicule",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "L'AFU (aide au freinage d'urgence) fait partie des aides technologiques à la conduite, mais elle n'est pas un dispositif obligatoire dans une voiture.",
+    "frame": "324.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "324.0.jpg",
+      "342.0.jpg",
+      "348.0.jpg",
+      "354.0.jpg"
+    ],
+    "window": [
+      321.0,
+      356.0
+    ]
+  },
+  {
+    "ref": "v12q09",
+    "theme": "distances-de-sécurité",
+    "question_text": "La distance d'arrêt est composée de",
+    "options": {
+      "A": "La distance parcourue pendant le temps de réaction : oui",
+      "B": "La distance parcourue pendant le temps de réaction : non",
+      "C": "La distance parcourue pendant le temps de freinage : oui",
+      "D": "La distance parcourue pendant le temps de freinage : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "La distance d'arrêt se compose de la distance parcourue pendant le temps de réaction, à laquelle s'ajoute la distance parcourue pendant le temps de freinage.",
+    "frame": "372.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "360.0.jpg",
+      "372.0.jpg",
+      "390.0.jpg"
+    ],
+    "window": [
+      357.0,
+      399.0
+    ]
+  },
+  {
+    "ref": "v12q10",
+    "theme": "éclairage-visibilité",
+    "question_text": "Dans cette situation, je peux circuler",
+    "options": {
+      "A": "En feux de position seuls",
+      "B": "En feux de croisement",
+      "C": "En feux de route"
+    },
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "En agglomération bien éclairée, on peut rouler en feux de position seuls ou en feux de croisement. Les feux de route sont interdits dans cette situation car l'éclairage public est suffisant.",
+    "frame": "408.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "408.0.jpg",
+      "426.0.jpg",
+      "438.0.jpg",
+      "444.0.jpg"
+    ],
+    "window": [
+      405.0,
+      456.5
+    ]
+  }
+]

@@ -141,17 +141,12 @@ def draft(video_dir: str, out_path: str) -> None:
 
 # Situation photo sits above the yellow divider (~y=632) for this producer's
 # 1920x1080 template. Tune per video after viewing frames if needed.
+# Same 1920x1080 producer template across every video so far: the situation
+# photo sits above the yellow divider (~y=632). A video that needs a different
+# crop can override it per-entry via the JSON "crop" field (checked first in
+# build()). Videos beyond this range still fail loudly until added here.
 DEFAULT_CROPS: dict[int, tuple[int, int, int, int]] = {
-    1: (0, 0, 1920, 632),
-    2: (0, 0, 1920, 632),
-    3: (0, 0, 1920, 632),
-    4: (0, 0, 1920, 632),
-    5: (0, 0, 1920, 632),
-    6: (0, 0, 1920, 632),
-    7: (0, 0, 1920, 632),
-    8: (0, 0, 1920, 632),
-    9: (0, 0, 1920, 632),
-    10: (0, 0, 1920, 632),
+    n: (0, 0, 1920, 632) for n in range(1, 59)
 }
 
 

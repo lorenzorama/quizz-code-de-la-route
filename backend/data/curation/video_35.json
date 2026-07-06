@@ -1,0 +1,247 @@
+[
+  {
+    "ref": "v35q01",
+    "theme": "permis-à-points",
+    "question_text": "Après l'obtention du permis",
+    "options": {
+      "A": "La période probatoire suite à une formation traditionnelle est de : 2 ans",
+      "B": "La période probatoire suite à une formation traditionnelle est de : 3 ans",
+      "C": "La période probatoire suite à une formation en conduite accompagnée est de : 1 an",
+      "D": "La période probatoire suite à une formation en conduite accompagnée est de : 2 ans"
+    },
+    "correct": [
+      "B",
+      "D"
+    ],
+    "explanation": "La période probatoire est la phase durant laquelle un jeune conducteur ne dispose pas encore de la totalité de ses points. Après une formation traditionnelle, elle dure 3 ans ; après une formation en conduite accompagnée, elle est réduite à 2 ans. Le capital initial de 6 points passe à 12 points à la fin de cette période en l'absence d'infraction.",
+    "frame": "45.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "45.0.jpg",
+      "60.0.jpg",
+      "66.0.jpg",
+      "72.0.jpg",
+      "78.0.jpg"
+    ],
+    "window": [
+      13.0,
+      79.0
+    ]
+  },
+  {
+    "ref": "v35q02",
+    "theme": "vitesse",
+    "question_text": "Les chances de survie d'un piéton percuté à 50 km/h sont de",
+    "options": {
+      "A": "10 %",
+      "B": "20 %",
+      "C": "30 %",
+      "D": "50 %"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Un piéton percuté à 50 km/h n'a qu'environ 20 % de chances de survie. À 30 km/h, ces chances remontent à près de 90 %, tandis qu'à 70 km/h elles tombent à 0 %. La vitesse est donc déterminante pour la sécurité des piétons.",
+    "frame": "96.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "96.0.jpg",
+      "108.0.jpg",
+      "120.0.jpg",
+      "123.0.jpg",
+      "126.0.jpg"
+    ],
+    "window": [
+      80.0,
+      131.0
+    ]
+  },
+  {
+    "ref": "v35q03",
+    "theme": "panneaux",
+    "question_text": "La voie de droite dirige les usagers vers",
+    "options": {
+      "A": "Une sortie d'autoroute",
+      "B": "Une autre autoroute"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "La voie de droite dirige les usagers vers une autre autoroute. Le cartouche rouge portant le numéro d'autoroute (A104) et la couleur bleue du panneau permettent de l'identifier.",
+    "frame": "144.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "144.0.jpg",
+      "150.0.jpg",
+      "162.0.jpg",
+      "168.0.jpg",
+      "174.0.jpg"
+    ],
+    "window": [
+      131.0,
+      176.0
+    ]
+  },
+  {
+    "ref": "v35q04",
+    "theme": "vitesse",
+    "question_text": "Avec la vitesse, certains indices échappent au conducteur",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Avec la vitesse, le champ de vision diminue fortement : d'environ 180° à l'arrêt, il se réduit à près de 30° à 130 km/h. Certains indices importants peuvent donc échapper au conducteur.",
+    "frame": "189.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "189.0.jpg",
+      "198.0.jpg",
+      "210.0.jpg",
+      "216.0.jpg"
+    ],
+    "window": [
+      176.0,
+      220.0
+    ]
+  },
+  {
+    "ref": "v35q06",
+    "theme": "premiers-secours",
+    "question_text": "L'eCall est un système qui permet, en cas d'accident, de",
+    "options": {
+      "A": "Géolocaliser le véhicule : Oui",
+      "B": "Géolocaliser le véhicule : Non",
+      "C": "Appeler automatiquement les secours : Oui",
+      "D": "Appeler automatiquement les secours : Non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "L'eCall est un système d'appel d'urgence obligatoire sur tous les véhicules neufs en Europe depuis 2018. En cas d'accident, il permet de géolocaliser le véhicule et de contacter automatiquement les secours, même si le conducteur est inconscient.",
+    "frame": "291.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "291.0.jpg",
+      "306.0.jpg",
+      "318.0.jpg",
+      "324.0.jpg",
+      "327.0.jpg"
+    ],
+    "window": [
+      273.0,
+      329.0
+    ]
+  },
+  {
+    "ref": "v35q07",
+    "theme": "équipements-de-sécurité",
+    "question_text": "Pour faire monter des enfants dans un véhicule, je les fais monter de préférence côté trottoir",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Il faut faire monter les enfants dans le véhicule de préférence côté trottoir. Cela limite les risques liés à la circulation, plus élevés du côté de la chaussée.",
+    "frame": "345.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "345.0.jpg",
+      "354.0.jpg",
+      "363.0.jpg",
+      "369.0.jpg"
+    ],
+    "window": [
+      329.0,
+      374.0
+    ]
+  },
+  {
+    "ref": "v35q08",
+    "theme": "priorités",
+    "question_text": "Les véhicules de transport de produits sanguins",
+    "options": {
+      "A": "Font partie des véhicules : Prioritaires",
+      "B": "Font partie des véhicules : Bénéficiant de facilités de passage",
+      "C": "Sont prioritaires aux intersections : Oui",
+      "D": "Sont prioritaires aux intersections : Non"
+    },
+    "correct": [
+      "B",
+      "D"
+    ],
+    "explanation": "Les véhicules de transport de produits sanguins ne sont pas des véhicules prioritaires : ils bénéficient seulement de facilités de passage. Ils ne sont donc pas prioritaires aux intersections.",
+    "frame": "396.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "396.0.jpg",
+      "408.0.jpg",
+      "414.0.jpg",
+      "426.0.jpg"
+    ],
+    "window": [
+      374.0,
+      426.0
+    ]
+  },
+  {
+    "ref": "v35q09",
+    "theme": "vitesse",
+    "question_text": "Le champ visuel d'un conducteur est d'environ",
+    "options": {
+      "A": "De 180° à l'arrêt : Oui",
+      "B": "De 180° à l'arrêt : Non",
+      "C": "De 50° à 100 km/h : Oui",
+      "D": "De 50° à 100 km/h : Non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Le champ visuel d'un conducteur est d'environ 180° à l'arrêt. Il se rétrécit avec la vitesse pour n'être plus que d'environ 50° à 100 km/h.",
+    "frame": "450.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "450.0.jpg",
+      "459.0.jpg",
+      "465.0.jpg",
+      "471.0.jpg",
+      "474.0.jpg"
+    ],
+    "window": [
+      426.0,
+      474.0
+    ]
+  },
+  {
+    "ref": "v35q10",
+    "theme": "priorités",
+    "question_text": "Je sors d'un parking. La voiture grise doit me céder le passage",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "En sortant d'un parking, on n'est pas prioritaire, même si l'on vient de la droite. C'est la voiture grise qui a la priorité : elle ne doit pas céder le passage.",
+    "frame": "483.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "483.0.jpg",
+      "495.0.jpg",
+      "507.0.jpg",
+      "510.0.jpg",
+      "516.0.jpg"
+    ],
+    "window": [
+      474.0,
+      516.0
+    ]
+  }
+]

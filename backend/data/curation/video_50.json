@@ -1,0 +1,102 @@
+[
+  {
+    "ref": "v50q02",
+    "theme": "distances-de-sécurité",
+    "question_text": "La distance d'arrêt correspond à la distance parcourue pendant le temps de réaction additionnée à la distance parcourue pendant le temps de freinage",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "La distance d'arrêt est bien la somme de la distance parcourue pendant le temps de réaction et de la distance parcourue pendant le temps de freinage. Cette notion, souvent abordée à l'examen du code, permet d'évaluer la distance nécessaire pour immobiliser complètement le véhicule.",
+    "frame": "75.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "75.0.jpg",
+      "90.0.jpg",
+      "108.0.jpg"
+    ],
+    "window": [
+      63.0,
+      117.0
+    ]
+  },
+  {
+    "ref": "v50q04",
+    "theme": "éclairage-visibilité",
+    "question_text": "Dans cette rue",
+    "options": {
+      "A": "Je circule en feux de position",
+      "B": "Je circule en feux de croisement",
+      "C": "Ils sont bien adaptés à la situation : oui",
+      "D": "Ils sont bien adaptés à la situation : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Le voyant vert du tableau de bord indique que je circule en feux de position. La nuit, en agglomération, un conducteur peut n'allumer que ses feux de position si la chaussée est suffisamment éclairée. Dans cette rue éclairée, les feux de position sont donc adaptés.",
+    "frame": "168.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "168.0.jpg",
+      "195.0.jpg",
+      "210.0.jpg",
+      "222.0.jpg"
+    ],
+    "window": [
+      167.0,
+      223.0
+    ]
+  },
+  {
+    "ref": "v50q09",
+    "theme": "cyclistes",
+    "question_text": "Une voiture peut se retrouver dans l'angle mort d'un deux-roues",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Même les deux-roues possèdent des angles morts. Lors d'un changement de direction, leur conducteur doit contrôler ses angles morts afin de s'assurer qu'aucun usager, y compris une voiture, ne s'y trouve.",
+    "frame": "510.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "510.0.jpg",
+      "537.0.jpg",
+      "546.0.jpg"
+    ],
+    "window": [
+      506.0,
+      545.0
+    ]
+  },
+  {
+    "ref": "v50q10",
+    "theme": "équipements-de-sécurité",
+    "question_text": "Le port de la ceinture de sécurité est obligatoire",
+    "options": {
+      "A": "À l'avant uniquement",
+      "B": "À l'arrière uniquement",
+      "C": "À l'avant et à l'arrière"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "Le port de la ceinture de sécurité est obligatoire pour tous les occupants du véhicule, à l'avant comme à l'arrière.",
+    "frame": "576.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "576.0.jpg",
+      "585.0.jpg"
+    ],
+    "window": [
+      545.0,
+      594.0
+    ]
+  }
+]

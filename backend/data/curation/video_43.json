@@ -1,0 +1,77 @@
+[
+  {
+    "ref": "v43q03",
+    "theme": "piétons",
+    "question_text": "Pour faire monter des enfants dans un véhicule, je les fais monter de préférence côté trottoir",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Pour faire monter des enfants dans un véhicule, il faut de préférence les faire monter côté trottoir. Cela permet de limiter le risque d'accident, plus élevé du côté de la chaussée où circulent les autres véhicules.",
+    "frame": "150.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "150.0.jpg",
+      "159.0.jpg",
+      "162.0.jpg"
+    ],
+    "window": [
+      123.0,
+      167.0
+    ]
+  },
+  {
+    "ref": "v43q04",
+    "theme": "signalisation",
+    "question_text": "Dans cette situation",
+    "options": {
+      "A": "Je ralentis et je passe",
+      "B": "Je m'arrête"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Le feu tricolore est au jaune fixe. Sauf si je ne peux plus m'arrêter dans de bonnes conditions de sécurité, le feu jaune impose l'arrêt avant le passage piéton. Je dois donc m'arrêter.",
+    "frame": "186.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "186.0.jpg",
+      "198.0.jpg",
+      "201.0.jpg",
+      "204.0.jpg"
+    ],
+    "window": [
+      167.0,
+      203.0
+    ]
+  },
+  {
+    "ref": "v43q05",
+    "theme": "cyclistes",
+    "question_text": "La signalisation indique la possibilité pour un cycliste",
+    "options": {
+      "A": "D'aller tout droit au feu rouge",
+      "B": "De tourner à gauche au feu rouge",
+      "C": "De tourner à droite au feu rouge"
+    },
+    "correct": [
+      "C"
+    ],
+    "explanation": "Ce panneau (cédez-le-passage cycliste au feu rouge) autorise le cycliste à franchir le feu rouge pour suivre la direction indiquée par la flèche. Ici la flèche pointe vers la droite : le cycliste peut donc tourner à droite au feu rouge, en cédant le passage aux autres usagers.",
+    "frame": "222.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "222.0.jpg",
+      "240.0.jpg",
+      "246.0.jpg",
+      "252.0.jpg"
+    ],
+    "window": [
+      203.0,
+      252.0
+    ]
+  }
+]

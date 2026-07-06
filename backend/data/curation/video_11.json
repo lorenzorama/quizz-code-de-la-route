@@ -1,0 +1,259 @@
+[
+  {
+    "ref": "v11q01",
+    "theme": "premiers-secours",
+    "question_text": "En cas d'hémorragie, si aucun élément n'est présent dans la plaie, et que la victime ne peut le faire par elle-même",
+    "options": {
+      "A": "Je dois appuyer fortement sur l'endroit qui saigne : oui",
+      "B": "Je dois appuyer fortement sur l'endroit qui saigne : non",
+      "C": "Je dois éviter le contact avec le sang de la victime : oui",
+      "D": "Je dois éviter le contact avec le sang de la victime : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "En cas d'hémorragie, si aucun corps étranger n'est présent dans la plaie et que la victime ne peut pas comprimer elle-même, il faut appuyer fortement sur l'endroit qui saigne jusqu'à l'arrivée des secours, de préférence avec un tissu propre recouvrant toute la blessure. Il faut aussi éviter tout contact direct avec le sang de la victime pour se protéger.",
+    "frame": "42.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "12.0.jpg",
+      "30.0.jpg",
+      "42.0.jpg",
+      "48.0.jpg"
+    ],
+    "window": [
+      5.0,
+      70.0
+    ]
+  },
+  {
+    "ref": "v11q02",
+    "theme": "premiers-secours",
+    "question_text": "Le risque d'endormissement varie en fonction des heures de la journée. Celui-ci est plus important",
+    "options": {
+      "A": "La nuit entre 20h et 23h",
+      "B": "La nuit entre 2h et 5h",
+      "C": "La journée entre 8h et 10h",
+      "D": "La journée entre 13h et 15h"
+    },
+    "correct": [
+      "B",
+      "D"
+    ],
+    "explanation": "Le risque d'endormissement au volant est plus élevé la nuit entre 2h et 5h, période où la vigilance est la plus faible. En journée, il augmente également après le repas, entre 13h et 15h.",
+    "frame": "78.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "72.0.jpg",
+      "90.0.jpg",
+      "102.0.jpg",
+      "114.0.jpg"
+    ],
+    "window": [
+      72.0,
+      120.0
+    ]
+  },
+  {
+    "ref": "v11q03",
+    "theme": "priorités",
+    "question_text": "Dans cette situation",
+    "options": {
+      "A": "Je m'arrête",
+      "B": "Je passe",
+      "C": "Je klaxonne"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "La voiture rouge souhaite quitter son stationnement, mais je conserve la priorité sur ma voie de circulation : je peux donc passer. Le klaxon est interdit en agglomération, sauf en cas de danger immédiat.",
+    "frame": "126.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "126.0.jpg",
+      "138.0.jpg",
+      "150.0.jpg",
+      "162.0.jpg"
+    ],
+    "window": [
+      126.0,
+      162.0
+    ]
+  },
+  {
+    "ref": "v11q04",
+    "theme": "équipements-de-sécurité",
+    "question_text": "Je transporte des enfants dans mon véhicule. Je dois obligatoirement activer la sécurité enfant",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "La sécurité enfant n'est pas un dispositif obligatoire. Son activation reste toutefois fortement recommandée lorsque l'on transporte des enfants, car elle empêche l'ouverture des portières arrière depuis l'intérieur.",
+    "frame": "168.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "168.0.jpg",
+      "180.0.jpg",
+      "192.0.jpg",
+      "198.0.jpg"
+    ],
+    "window": [
+      166.0,
+      205.0
+    ]
+  },
+  {
+    "ref": "v11q05",
+    "theme": "commandes",
+    "question_text": "Sans tourner la tête, la vision directe ainsi que les rétroviseurs me permettent de contrôler l'intégralité des obstacles autour du véhicule",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "La vision directe et les rétroviseurs permettent de contrôler l'avant et l'arrière du véhicule, mais pas la totalité des obstacles. Il reste des angles morts qu'il faut impérativement vérifier en tournant la tête.",
+    "frame": "210.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "210.0.jpg",
+      "234.0.jpg",
+      "243.0.jpg"
+    ],
+    "window": [
+      208.0,
+      245.0
+    ]
+  },
+  {
+    "ref": "v11q06",
+    "theme": "circulation",
+    "question_text": "Je peux m'arrêter sur le côté droit de la chaussée pour prendre une photo du paysage",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Il est interdit de s'arrêter sur le côté droit dans cette situation, sauf urgence. La voie de droite est en effet une bande cyclable, matérialisée par le marquage au sol réservé aux vélos.",
+    "frame": "300.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "300.0.jpg",
+      "312.0.jpg",
+      "324.0.jpg",
+      "288.0.jpg"
+    ],
+    "window": [
+      262.0,
+      330.0
+    ]
+  },
+  {
+    "ref": "v11q07",
+    "theme": "permis-à-points",
+    "question_text": "Commettre en même temps plusieurs infractions peut entraîner un retrait de points maximum cumulé de",
+    "options": {
+      "A": "6 points",
+      "B": "8 points",
+      "C": "12 points"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Lorsque plusieurs infractions sont commises simultanément, le retrait de points se cumule, mais il est plafonné : le retrait maximum cumulé est de 8 points.",
+    "frame": "312.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "312.0.jpg",
+      "318.0.jpg",
+      "324.0.jpg",
+      "327.0.jpg"
+    ],
+    "window": [
+      308.0,
+      330.0
+    ]
+  },
+  {
+    "ref": "v11q08",
+    "theme": "cyclistes",
+    "question_text": "Pour sortir de mon véhicule, je dois de préférence utiliser ma main droite",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Utiliser la main droite pour ouvrir la portière côté conducteur oblige à se retourner et à regarder derrière soi. Ce geste permet de vérifier la présence éventuelle d'un usager, notamment un cycliste, avant d'ouvrir la portière.",
+    "frame": "348.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "348.0.jpg",
+      "357.0.jpg",
+      "363.0.jpg",
+      "366.0.jpg"
+    ],
+    "window": [
+      332.0,
+      368.0
+    ]
+  },
+  {
+    "ref": "v11q09",
+    "theme": "panneaux",
+    "question_text": "Ce camion transporte des matières dangereuses",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Les camions transportant des matières dangereuses doivent afficher une plaque orange portant le code de danger permettant d'identifier la matière transportée. Ce camion n'en porte pas : il ne transporte donc pas de matières dangereuses.",
+    "frame": "384.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "384.0.jpg",
+      "402.0.jpg",
+      "408.0.jpg"
+    ],
+    "window": [
+      370.0,
+      410.0
+    ]
+  },
+  {
+    "ref": "v11q10",
+    "theme": "mécanique-entretien",
+    "question_text": "Quel(s) voyant(s) implique(nt) un arrêt immédiat du véhicule",
+    "options": {
+      "A": "Le n°1",
+      "B": "Le n°2",
+      "C": "Le n°3",
+      "D": "Le n°4"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Seul le voyant n°1 impose un arrêt immédiat du véhicule : il signale une défaillance du système de freinage. Le voyant n°2 indique que les feux de détresse sont allumés, le voyant n°3 signale un niveau de carburant bas, et le voyant n°4 correspond au préchauffage des moteurs diesel.",
+    "frame": "432.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "432.0.jpg",
+      "456.0.jpg",
+      "462.0.jpg"
+    ],
+    "window": [
+      412.0,
+      462.0
+    ]
+  }
+]

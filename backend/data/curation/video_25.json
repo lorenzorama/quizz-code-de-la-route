@@ -1,0 +1,247 @@
+[
+  {
+    "ref": "v25q01",
+    "theme": "piétons",
+    "question_text": "On considère comme piéton",
+    "options": {
+      "A": "Une personne à roller : oui",
+      "B": "Une personne à roller : non",
+      "C": "Un cycliste qui tient son vélo à la main et marche à côté : oui",
+      "D": "Un cycliste qui tient son vélo à la main et marche à côté : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Les personnes se déplaçant en roller sont considérées comme des piétons. De même, un cycliste qui descend de son vélo et le pousse à la main est assimilé à un piéton. Dans les deux cas, la réponse est donc oui.",
+    "frame": "45.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "45.0.jpg",
+      "48.0.jpg",
+      "51.0.jpg",
+      "60.0.jpg",
+      "63.0.jpg"
+    ],
+    "window": [
+      24.0,
+      72.0
+    ]
+  },
+  {
+    "ref": "v25q02",
+    "theme": "écomobilité",
+    "question_text": "Le covoiturage permet de",
+    "options": {
+      "A": "Diminuer le nombre de véhicules en circulation : oui",
+      "B": "Diminuer le nombre de véhicules en circulation : non",
+      "C": "Réduire les émissions polluantes : oui",
+      "D": "Réduire les émissions polluantes : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Le covoiturage consiste à partager un même véhicule entre plusieurs personnes. Il permet de diminuer le nombre de voitures en circulation et, par conséquent, de réduire les émissions polluantes.",
+    "frame": "78.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "78.0.jpg",
+      "90.0.jpg",
+      "108.0.jpg",
+      "117.0.jpg",
+      "120.0.jpg"
+    ],
+    "window": [
+      72.0,
+      123.0
+    ]
+  },
+  {
+    "ref": "v25q03",
+    "theme": "permis-à-points",
+    "question_text": "Je viens de perdre un point sur mon permis. Je pourrai le récupérer si je ne fais pas d'autres infractions pendant",
+    "options": {
+      "A": "2 mois",
+      "B": "6 mois",
+      "C": "1 an"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Un point perdu est automatiquement récupéré 6 mois après l'infraction, à condition de ne commettre aucune nouvelle infraction durant ce délai.",
+    "frame": "144.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "138.0.jpg",
+      "144.0.jpg",
+      "150.0.jpg",
+      "156.0.jpg",
+      "159.0.jpg"
+    ],
+    "window": [
+      123.0,
+      165.0
+    ]
+  },
+  {
+    "ref": "v25q04",
+    "theme": "mécanique-entretien",
+    "question_text": "Le stabilisateur électronique (E.S.P) permet",
+    "options": {
+      "A": "D'améliorer la tenue de route : oui",
+      "B": "D'améliorer la tenue de route : non",
+      "C": "De réduire la distance d'arrêt : oui",
+      "D": "De réduire la distance d'arrêt : non"
+    },
+    "correct": [
+      "A",
+      "D"
+    ],
+    "explanation": "Le stabilisateur électronique (ESP) améliore la tenue de route en apportant plus de stabilité au véhicule, notamment en cas de perte d'adhérence. En revanche, il ne réduit pas la distance d'arrêt.",
+    "frame": "204.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "180.0.jpg",
+      "192.0.jpg",
+      "201.0.jpg",
+      "204.0.jpg",
+      "207.0.jpg"
+    ],
+    "window": [
+      165.0,
+      231.0
+    ]
+  },
+  {
+    "ref": "v25q05",
+    "theme": "priorités",
+    "question_text": "Je circule sur une route à caractère prioritaire",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "La signalisation indique une succession d'intersections avec priorité à droite. Je ne circule donc pas sur une route à caractère prioritaire : à chaque intersection, je devrai céder le passage aux véhicules venant de ma droite.",
+    "frame": "234.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "234.0.jpg",
+      "246.0.jpg",
+      "255.0.jpg",
+      "264.0.jpg",
+      "267.0.jpg"
+    ],
+    "window": [
+      231.0,
+      279.0
+    ]
+  },
+  {
+    "ref": "v25q06",
+    "theme": "passage-à-niveau",
+    "question_text": "Si je suis engagé sur un passage à niveau et que les barrières se sont fermées",
+    "options": {
+      "A": "Je klaxonne pour prévenir le conducteur du train que je suis coincé",
+      "B": "J'avance et je brise la barrière",
+      "C": "Je sors de mon véhicule et je m'éloigne du passage à niveau"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Les barrières d'un passage à niveau sont conçues pour se plier et ne pas immobiliser un automobiliste sur les voies. Dans cette situation d'urgence, la bonne réaction est d'avancer et de briser la barrière pour dégager le passage.",
+    "frame": "288.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "285.0.jpg",
+      "288.0.jpg",
+      "297.0.jpg",
+      "306.0.jpg",
+      "312.0.jpg"
+    ],
+    "window": [
+      279.0,
+      330.0
+    ]
+  },
+  {
+    "ref": "v25q08",
+    "theme": "priorités",
+    "question_text": "L'absence de clignotant dans un carrefour à sens giratoire est une source d'accident",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "L'absence de clignotant dans un rond-point est effectivement une source d'accident. Mettre son clignotant permet de communiquer avec les autres usagers et d'exprimer clairement son intention, notamment pour sortir du giratoire.",
+    "frame": "393.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "381.0.jpg",
+      "390.0.jpg",
+      "393.0.jpg",
+      "402.0.jpg",
+      "408.0.jpg"
+    ],
+    "window": [
+      375.0,
+      417.0
+    ]
+  },
+  {
+    "ref": "v25q09",
+    "theme": "mécanique-entretien",
+    "question_text": "En général, sur le tableau de bord, les voyants rouges alertent le conducteur d'un problème urgent",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Les voyants rouges du tableau de bord signalent une alerte ou un problème urgent. À l'allumage d'un voyant rouge, le conducteur doit s'arrêter le plus rapidement possible en sécurité, sauf pour quelques voyants comme le frein à main ou les feux de détresse.",
+    "frame": "435.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "429.0.jpg",
+      "435.0.jpg",
+      "444.0.jpg",
+      "453.0.jpg",
+      "459.0.jpg"
+    ],
+    "window": [
+      417.0,
+      465.0
+    ]
+  },
+  {
+    "ref": "v25q10",
+    "theme": "circulation",
+    "question_text": "Le moteur est coupé et le frein à main serré, je peux sortir du véhicule",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Avant de sortir de mon véhicule, je dois vérifier que je ne vais pas gêner la circulation. Ici, le rétroviseur montre clairement qu'une voiture arrive : je dois la laisser passer avant d'ouvrir ma portière et de descendre.",
+    "frame": "477.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "471.0.jpg",
+      "477.0.jpg",
+      "486.0.jpg",
+      "501.0.jpg",
+      "507.0.jpg"
+    ],
+    "window": [
+      465.0,
+      528.0
+    ]
+  }
+]

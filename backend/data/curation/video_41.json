@@ -1,0 +1,237 @@
+[
+  {
+    "ref": "v41q01",
+    "theme": "éclairage-visibilité",
+    "question_text": "Dans cette situation, je circule",
+    "options": {
+      "A": "En feux de brouillard",
+      "B": "En feux de route",
+      "C": "Ils sont bien adaptés à la situation : oui",
+      "D": "Ils sont bien adaptés à la situation : non"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "explanation": "Le voyant bleu m'indique que je circule actuellement en feux de route. Il fait nuit et je roule hors agglomération sur une chaussée non éclairée. Dans cette situation, les feux de route sont les plus appropriés et donc bien adaptés.",
+    "frame": "30.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "30.0.jpg",
+      "45.0.jpg",
+      "60.0.jpg",
+      "63.0.jpg"
+    ],
+    "window": [
+      14.0,
+      65.0
+    ]
+  },
+  {
+    "ref": "v41q02",
+    "theme": "vitesse",
+    "question_text": "Je suis en excès de vitesse",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Le panneau de limitation à 80 km/h est complété par un panonceau \"3,5 t\" : la limitation ne s'applique qu'aux véhicules de plus de 3,5 tonnes. Au volant d'une voiture, je peux circuler à 90 km/h sur cette voie ; je ne suis donc pas en infraction.",
+    "frame": "84.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "84.0.jpg",
+      "102.0.jpg",
+      "108.0.jpg"
+    ],
+    "window": [
+      68.0,
+      109.0
+    ]
+  },
+  {
+    "ref": "v41q03",
+    "theme": "écomobilité",
+    "question_text": "Je souhaite faire le trajet Lille-Lyon en voiture électrique",
+    "options": {
+      "A": "Je vérifie l'état de charge des batteries avant le départ : oui",
+      "B": "Je vérifie l'état de charge des batteries avant le départ : non",
+      "C": "Je recherche les stations de recharge sur cet itinéraire : oui",
+      "D": "Je recherche les stations de recharge sur cet itinéraire : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Avant d'effectuer un long trajet en voiture électrique, il est important de contrôler l'état de charge des batteries. Il faut également repérer à l'avance les stations de recharge présentes sur l'itinéraire pour éviter de tomber en panne.",
+    "frame": "120.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "120.0.jpg",
+      "144.0.jpg",
+      "159.0.jpg"
+    ],
+    "window": [
+      109.0,
+      165.0
+    ]
+  },
+  {
+    "ref": "v41q04",
+    "theme": "piétons",
+    "question_text": "Dans cette situation",
+    "options": {
+      "A": "Les piétons créent une zone d'incertitude : oui",
+      "B": "Les piétons créent une zone d'incertitude : non",
+      "C": "Je dois circuler à allure réduite : oui",
+      "D": "Je dois circuler à allure réduite : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Les nombreux piétons présents dans cette rue créent une zone d'incertitude. Je dois donc rester particulièrement vigilant et circuler à allure réduite afin de limiter le risque de collision.",
+    "frame": "204.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "204.0.jpg",
+      "213.0.jpg",
+      "216.0.jpg"
+    ],
+    "window": [
+      168.0,
+      225.0
+    ]
+  },
+  {
+    "ref": "v41q05",
+    "theme": "stationnement",
+    "question_text": "Pour me stationner en créneau derrière ce véhicule blanc",
+    "options": {
+      "A": "J'actionne mon clignotant droit : oui",
+      "B": "J'actionne mon clignotant droit : non",
+      "C": "Je m'arrête sur la bande cyclable pour pouvoir reculer : oui",
+      "D": "Je m'arrête sur la bande cyclable pour pouvoir reculer : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Pour me garer en créneau derrière ce véhicule blanc, j'actionne mon clignotant droit afin d'avertir les autres usagers de mon intention. Comme le stationnement borde une bande cyclable, je dois m'arrêter à sa hauteur pour disposer de l'espace nécessaire à ma manœuvre de recul.",
+    "frame": "240.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "240.0.jpg",
+      "270.0.jpg",
+      "282.0.jpg"
+    ],
+    "window": [
+      230.0,
+      285.0
+    ]
+  },
+  {
+    "ref": "v41q06",
+    "theme": "panneaux",
+    "question_text": "Ce panneau de signalisation m'indique",
+    "options": {
+      "A": "L'orientation du vent : oui",
+      "B": "L'orientation du vent : non",
+      "C": "Une zone exposée au vent : oui",
+      "D": "Une zone exposée au vent : non"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "explanation": "Ce panneau de danger signale une zone particulièrement exposée au vent latéral. Il ne renseigne toutefois pas sur l'orientation ni la force du vent : pour cela, la présence d'une manche à air serait nécessaire.",
+    "frame": "300.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "300.0.jpg",
+      "330.0.jpg",
+      "333.0.jpg"
+    ],
+    "window": [
+      285.0,
+      336.0
+    ]
+  },
+  {
+    "ref": "v41q07",
+    "theme": "mécanique-entretien",
+    "question_text": "Le réservoir du liquide de frein est correctement rempli en",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Le niveau du liquide de frein doit se situer entre les repères \"mini\" et \"maxi\", sans les dépasser. C'est le cas sur l'image B, où le liquide affleure juste sous le repère maxi. Le réservoir est donc correctement rempli en B.",
+    "frame": "348.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "348.0.jpg",
+      "378.0.jpg",
+      "381.0.jpg"
+    ],
+    "window": [
+      336.0,
+      383.0
+    ]
+  },
+  {
+    "ref": "v41q09",
+    "theme": "alcool-stupéfiants",
+    "question_text": "En général, les doses d'alcool servies sont plus importantes",
+    "options": {
+      "A": "Dans la situation A",
+      "B": "Dans la situation B"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Dans un bar, les verres servis contiennent tous à peu près la même quantité d'alcool pur, correspondant à environ 0,25 g par litre de sang. À la maison, en revanche, le dosage est plus approximatif et les doses d'alcool servies sont souvent plus importantes.",
+    "frame": "456.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "456.0.jpg",
+      "489.0.jpg"
+    ],
+    "window": [
+      440.0,
+      492.0
+    ]
+  },
+  {
+    "ref": "v41q10",
+    "theme": "permis-à-points",
+    "question_text": "En cas de perte totale des points, un conducteur expérimenté doit repasser",
+    "options": {
+      "A": "L'examen du Code : oui",
+      "B": "L'examen du Code : non",
+      "C": "La conduite : oui",
+      "D": "La conduite : non"
+    },
+    "correct": [
+      "A",
+      "D"
+    ],
+    "explanation": "En cas de perte totale des points, le permis est invalidé et la conduite interdite pendant six mois. Pour le récupérer, un conducteur expérimenté (permis obtenu depuis plus de trois ans) doit passer une visite médicale et réussir de nouveau l'examen du Code, mais il n'a pas à repasser l'épreuve de conduite.",
+    "frame": "510.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "510.0.jpg",
+      "537.0.jpg",
+      "549.0.jpg"
+    ],
+    "window": [
+      492.0,
+      552.0
+    ]
+  }
+]

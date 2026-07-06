@@ -1,0 +1,158 @@
+[
+  {
+    "ref": "v22q01",
+    "theme": "alcool-stupéfiants",
+    "question_text": "Je viens de prendre un médicament possédant le pictogramme suivant. Je peux prendre ma voiture pour me rendre chez le pharmacien",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": ["B"],
+    "explanation": "Ce pictogramme indique que le médicament est de niveau 3 : il peut fortement altérer la vigilance du conducteur. Avec un médicament de niveau 3, il est interdit de conduire, quelles que soient les circonstances. L'avis d'un médecin est indispensable avant de reprendre le volant.",
+    "frame": "30.0.jpg",
+    "crop": null,
+    "candidate_frames": ["30.0.jpg", "45.0.jpg", "54.0.jpg"],
+    "window": [15.0, 66.0]
+  },
+  {
+    "ref": "v22q02",
+    "theme": "commandes",
+    "question_text": "La technologie Bluetooth intégrée au véhicule est la seule solution pour téléphoner en conduisant",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": ["A"],
+    "explanation": "La technologie Bluetooth intégrée au véhicule est la seule solution autorisée pour téléphoner en conduisant. Les casques, les écouteurs et les oreillettes sont interdits au volant.",
+    "frame": "72.0.jpg",
+    "crop": null,
+    "candidate_frames": ["72.0.jpg", "96.0.jpg", "99.0.jpg"],
+    "window": [66.0, 111.0]
+  },
+  {
+    "ref": "v22q03",
+    "theme": "priorités",
+    "question_text": "Quand un piéton s'engage sur la chaussée, je dois lui céder le passage",
+    "options": {
+      "A": "Tout le temps",
+      "B": "Uniquement s'il est sur un passage piéton",
+      "C": "Uniquement s'il est sur un passage piéton ou qu'aucun passage piéton n'est présent à moins de 50 mètres"
+    },
+    "correct": ["A"],
+    "explanation": "Lorsqu'un piéton s'engage sur la chaussée, il est prioritaire et vous devez lui céder le passage. Cette obligation s'applique en toutes circonstances, même si le piéton ne se trouve pas sur un passage piéton.",
+    "frame": "120.0.jpg",
+    "crop": null,
+    "candidate_frames": ["120.0.jpg", "135.0.jpg", "144.0.jpg"],
+    "window": [111.0, 156.0]
+  },
+  {
+    "ref": "v22q04",
+    "theme": "mécanique-entretien",
+    "question_text": "La valeur de la pression des pneus dépend de la charge du véhicule",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": ["A"],
+    "explanation": "Oui, lorsque le véhicule est chargé, il faut augmenter la pression des pneus. Les valeurs de pression selon la charge sont précisées pour chaque modèle de voiture.",
+    "frame": "168.0.jpg",
+    "crop": null,
+    "candidate_frames": ["168.0.jpg", "228.0.jpg"],
+    "window": [156.0, 201.0]
+  },
+  {
+    "ref": "v22q05",
+    "theme": "équipements-de-sécurité",
+    "question_text": "Je peux être dispensé du port de la ceinture de sécurité si je dispose d'un certificat médical",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": ["A"],
+    "explanation": "Oui, un certificat médical est obligatoire pour être dispensé du port de la ceinture de sécurité. Sans ce document, la ceinture reste obligatoire.",
+    "frame": "258.0.jpg",
+    "crop": null,
+    "candidate_frames": ["240.0.jpg", "246.0.jpg", "258.0.jpg"],
+    "window": [201.0, 253.0]
+  },
+  {
+    "ref": "v22q06",
+    "theme": "signalisation",
+    "question_text": "Je ne dispose pas d'une carte de stationnement pour handicapés, ce panneau m'indique que je peux",
+    "options": {
+      "A": "M'arrêter : Oui",
+      "B": "M'arrêter : Non",
+      "C": "Stationner : Oui",
+      "D": "Stationner : Non"
+    },
+    "correct": ["B", "D"],
+    "explanation": "Ce panneau d'arrêt et de stationnement interdits, barré de deux traits rouges, s'accompagne d'un panonceau \"SAUF\" réservé aux personnes handicapées titulaires d'une carte de stationnement. Si vous n'avez pas cette carte, vous ne pouvez ni vous arrêter ni stationner.",
+    "frame": "288.0.jpg",
+    "crop": null,
+    "candidate_frames": ["288.0.jpg", "264.0.jpg", "303.0.jpg"],
+    "window": [253.0, 306.0]
+  },
+  {
+    "ref": "v22q07",
+    "theme": "distances-de-sécurité",
+    "question_text": "Le temps de réaction est ce qui se passe mentalement avant d'agir, après avoir perçu un indice",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": ["A"],
+    "explanation": "Oui, le temps de réaction correspond au délai qui s'écoule entre la perception d'un événement et notre réaction. C'est ce qui se passe mentalement avant d'agir.",
+    "frame": "324.0.jpg",
+    "crop": null,
+    "candidate_frames": ["324.0.jpg", "345.0.jpg"],
+    "window": [306.0, 348.0]
+  },
+  {
+    "ref": "v22q08",
+    "theme": "mécanique-entretien",
+    "question_text": "Je dois changer mes essuie-glaces en moyenne",
+    "options": {
+      "A": "Une fois par mois",
+      "B": "Une fois par an",
+      "C": "Une fois tous les 5 ans"
+    },
+    "correct": ["B"],
+    "explanation": "Les balais d'essuie-glaces sont en caoutchouc et s'usent avec le temps. Il faut les changer en moyenne une fois par an pour conserver une bonne visibilité.",
+    "frame": "354.0.jpg",
+    "crop": null,
+    "candidate_frames": ["354.0.jpg", "378.0.jpg", "390.0.jpg"],
+    "window": [348.0, 396.0]
+  },
+  {
+    "ref": "v22q09",
+    "theme": "premiers-secours",
+    "question_text": "Une sieste de 20 minutes permet de récupérer 50% de ses capacités physiques",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": ["A"],
+    "explanation": "Oui, une sieste de 20 minutes permet de récupérer environ 50% de ses capacités physiques. Il est conseillé de s'arrêter dès les premiers signes de fatigue.",
+    "frame": "396.0.jpg",
+    "crop": null,
+    "candidate_frames": ["396.0.jpg", "414.0.jpg", "432.0.jpg"],
+    "window": [396.0, 447.0]
+  },
+  {
+    "ref": "v22q10",
+    "theme": "distances-de-sécurité",
+    "question_text": "Il pleut",
+    "options": {
+      "A": "Ma distance de freinage est multipliée par deux : Oui",
+      "B": "Ma distance de freinage est multipliée par deux : Non",
+      "C": "La mauvaise pression des pneumatiques peut favoriser l'aquaplaning : Oui",
+      "D": "La mauvaise pression des pneumatiques peut favoriser l'aquaplaning : Non"
+    },
+    "correct": ["A", "C"],
+    "explanation": "Sur route mouillée, la distance de freinage est multipliée par deux : la voiture met plus de temps à s'arrêter, d'où la nécessité de réduire sa vitesse. La pression et l'état des pneus, ainsi que la vitesse, jouent un rôle important dans le risque d'aquaplaning.",
+    "frame": "450.0.jpg",
+    "crop": null,
+    "candidate_frames": ["450.0.jpg", "474.0.jpg", "495.0.jpg"],
+    "window": [447.0, 507.0]
+  }
+]

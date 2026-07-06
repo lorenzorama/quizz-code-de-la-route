@@ -1,0 +1,162 @@
+[
+  {
+    "ref": "v26q01",
+    "theme": "alcool-stupéfiants",
+    "question_text": "Pour un jeune conducteur, la limite d'alcoolémie pour conduire est de",
+    "options": {
+      "A": "0,20 g/l de sang",
+      "B": "0,50 g/l de sang",
+      "C": "0,80 g/l de sang",
+      "D": "1,00 g/l de sang"
+    },
+    "correct": ["A"],
+    "explanation": "Pour un jeune conducteur, la limite d'alcoolémie autorisée est de 0,20 g/l de sang, ce qui équivaut à 0,10 mg/l d'air expiré. Pour un conducteur expérimenté, cette limite est de 0,50 g/l de sang.",
+    "frame": "45.0.jpg",
+    "crop": null,
+    "candidate_frames": ["30.0.jpg", "45.0.jpg", "60.0.jpg", "72.0.jpg"],
+    "window": [14.0, 60.0]
+  },
+  {
+    "ref": "v26q02",
+    "theme": "vitesse",
+    "question_text": "Je circule sur une route avec une visibilité inférieure à 50 m, la vitesse maximale autorisée est de",
+    "options": {
+      "A": "30 km/h",
+      "B": "50 km/h",
+      "C": "70 km/h",
+      "D": "80 km/h"
+    },
+    "correct": ["B"],
+    "explanation": "Lorsque la visibilité est inférieure à 50 mètres, la vitesse est limitée à 50 km/h, même sur l'autoroute.",
+    "frame": "105.0.jpg",
+    "crop": null,
+    "candidate_frames": ["90.0.jpg", "105.0.jpg", "120.0.jpg", "126.0.jpg"],
+    "window": [62.0, 132.0]
+  },
+  {
+    "ref": "v26q03",
+    "theme": "équipements-de-sécurité",
+    "question_text": "Pour placer un siège bébé à l'avant du véhicule dos à la route, je dois obligatoirement désactiver l'airbag côté passager",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": ["A"],
+    "explanation": "Pour installer un siège bébé dos à la route à l'avant du véhicule, il faut obligatoirement désactiver l'airbag côté passager. À défaut, son déclenchement pourrait gravement blesser l'enfant en cas d'accident.",
+    "frame": "135.0.jpg",
+    "crop": null,
+    "candidate_frames": ["135.0.jpg", "165.0.jpg", "174.0.jpg"],
+    "window": [134.0, 177.0]
+  },
+  {
+    "ref": "v26q04",
+    "theme": "permis-à-points",
+    "question_text": "Un conducteur en circulation qui téléphone en tenant le téléphone à la main risque une perte de",
+    "options": {
+      "A": "2 points",
+      "B": "3 points",
+      "C": "4 points",
+      "D": "6 points"
+    },
+    "correct": ["B"],
+    "explanation": "Téléphoner au volant en tenant le téléphone à la main est sanctionné par un retrait de trois points sur le permis de conduire.",
+    "frame": "180.0.jpg",
+    "crop": null,
+    "candidate_frames": ["180.0.jpg", "210.0.jpg", "225.0.jpg"],
+    "window": [178.0, 237.0]
+  },
+  {
+    "ref": "v26q05",
+    "theme": "alcool-stupéfiants",
+    "question_text": "Les médicaments vendus sans ordonnance peuvent avoir des effets indésirables sur la conduite",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": ["A"],
+    "explanation": "Même les médicaments vendus sans ordonnance peuvent avoir des effets indésirables sur la conduite. Il est important de toujours regarder les pictogrammes présents sur leur emballage.",
+    "frame": "240.0.jpg",
+    "crop": null,
+    "candidate_frames": ["240.0.jpg", "264.0.jpg"],
+    "window": [238.0, 270.0]
+  },
+  {
+    "ref": "v26q06",
+    "theme": "premiers-secours",
+    "question_text": "Sur le lieu d'un accident je peux contacter le SAMU au",
+    "options": {
+      "A": "15",
+      "B": "18"
+    },
+    "correct": ["A"],
+    "explanation": "Sur le lieu d'un accident, le SAMU se joint en composant le 15. Le 18, quant à lui, permet de contacter les pompiers.",
+    "frame": "291.0.jpg",
+    "crop": null,
+    "candidate_frames": ["291.0.jpg", "303.0.jpg", "315.0.jpg", "324.0.jpg"],
+    "window": [288.0, 327.0]
+  },
+  {
+    "ref": "v26q07",
+    "theme": "cyclistes",
+    "question_text": "Dans cette situation",
+    "options": {
+      "A": "Je ralentis et je passe",
+      "B": "Je m'arrête",
+      "C": "Je fais des appels lumineux",
+      "D": "Je klaxonne"
+    },
+    "correct": ["A"],
+    "explanation": "On voit que le cycliste nous a vus, qu'il a un pied posé au sol et que le feu est rouge pour lui. Je peux donc ralentir et passer.",
+    "frame": "330.0.jpg",
+    "crop": null,
+    "candidate_frames": ["330.0.jpg", "345.0.jpg", "357.0.jpg"],
+    "window": [328.0, 372.0]
+  },
+  {
+    "ref": "v26q08",
+    "theme": "circulation",
+    "question_text": "Je peux me rabattre immédiatement sur la droite",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": ["B"],
+    "explanation": "Une voiture est présente sur la voie de droite. Je dois attendre que la voie soit libre pour me rabattre. Face à ce type de situation, pensez à contrôler vos rétroviseurs.",
+    "frame": "375.0.jpg",
+    "crop": null,
+    "candidate_frames": ["375.0.jpg", "399.0.jpg", "411.0.jpg"],
+    "window": [373.0, 417.0]
+  },
+  {
+    "ref": "v26q09",
+    "theme": "alcool-stupéfiants",
+    "question_text": "L'organisme met plus de temps à éliminer le cannabis que l'alcool",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": ["A"],
+    "explanation": "L'organisme met beaucoup plus de temps à éliminer le cannabis que l'alcool : environ trois jours pour éliminer un joint de cannabis contre trois heures pour un verre d'alcool.",
+    "frame": "420.0.jpg",
+    "crop": null,
+    "candidate_frames": ["420.0.jpg", "435.0.jpg", "450.0.jpg"],
+    "window": [418.0, 453.0]
+  },
+  {
+    "ref": "v26q10",
+    "theme": "premiers-secours",
+    "question_text": "Il est conseillé de faire une pause au moins toutes les",
+    "options": {
+      "A": "Heures",
+      "B": "Deux heures",
+      "C": "Trois heures",
+      "D": "Quatre heures"
+    },
+    "correct": ["B"],
+    "explanation": "Il est conseillé de faire une pause au moins toutes les deux heures pour lutter contre la fatigue au volant.",
+    "frame": "456.0.jpg",
+    "crop": null,
+    "candidate_frames": ["456.0.jpg", "471.0.jpg", "489.0.jpg"],
+    "window": [454.0, 495.0]
+  }
+]

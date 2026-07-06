@@ -1,0 +1,164 @@
+[
+  {
+    "ref": "v46q01",
+    "theme": "panneaux",
+    "question_text": "L'entrée dans une voie verte est représenté par le panneau",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct": [
+      "D"
+    ],
+    "explanation": "Le panneau D indique une voie verte. Les voies vertes sont exclusivement réservées à la circulation des véhicules non motorisés, des piétons et des cavaliers.",
+    "frame": "45.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "45.0.jpg",
+      "51.0.jpg",
+      "57.0.jpg",
+      "63.0.jpg"
+    ],
+    "window": [
+      30.0,
+      70.0
+    ]
+  },
+  {
+    "ref": "v46q04",
+    "theme": "priorités",
+    "question_text": "Dans cette situation",
+    "options": {
+      "A": "Ces piétons bénéficient de la priorité de passage : oui",
+      "B": "Ces piétons bénéficient de la priorité de passage : non",
+      "C": "Je m'arrête : oui",
+      "D": "Je m'arrête : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Ces piétons manifestent leur intention de traverser au niveau d'un passage piéton sans feu : ils sont prioritaires. Je dois donc m'arrêter et leur laisser la priorité de passage.",
+    "frame": "240.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "228.0.jpg",
+      "240.0.jpg",
+      "264.0.jpg",
+      "267.0.jpg"
+    ],
+    "window": [
+      222.0,
+      270.0
+    ]
+  },
+  {
+    "ref": "v46q05",
+    "theme": "écomobilité",
+    "question_text": "Un moteur",
+    "options": {
+      "A": "Pollue plus à froid qu'à chaud : oui",
+      "B": "Pollue plus à froid qu'à chaud : non",
+      "C": "Je laisse chauffer le moteur à l'arrêt avant de prendre la route : oui",
+      "D": "Je laisse chauffer le moteur à l'arrêt avant de prendre la route : non"
+    },
+    "correct": [
+      "A",
+      "D"
+    ],
+    "explanation": "Au démarrage, le moteur est froid et peut consommer jusqu'à 50 % de carburant en plus sur le premier kilomètre : il pollue donc davantage à froid. Il faut accélérer doucement sur les premiers kilomètres pour limiter la surconsommation et les émissions de CO2. En revanche, faire chauffer le moteur à l'arrêt pendant plusieurs minutes avant de partir est inutile.",
+    "frame": "300.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "294.0.jpg",
+      "300.0.jpg",
+      "312.0.jpg",
+      "324.0.jpg",
+      "330.0.jpg"
+    ],
+    "window": [
+      271.0,
+      331.0
+    ]
+  },
+  {
+    "ref": "v46q07",
+    "theme": "circulation",
+    "question_text": "Je souhaite dépasser. Je peux mettre mon clignotant et entamer mon dépassement",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Une voiture arrive sur ma gauche pour me dépasser. Je ne peux pas entamer mon dépassement : je ralentis et j'attends d'avoir la voie libre avant de dépasser.",
+    "frame": "390.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "390.0.jpg",
+      "408.0.jpg",
+      "414.0.jpg"
+    ],
+    "window": [
+      375.0,
+      414.0
+    ]
+  },
+  {
+    "ref": "v46q08",
+    "theme": "panneaux",
+    "question_text": "Je circule sur",
+    "options": {
+      "A": "Une route européenne",
+      "B": "Une autoroute",
+      "C": "Une nationale",
+      "D": "Une départementale"
+    },
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "Le cartouche au-dessus du panneau indique que je circule sur l'autoroute A71, qui est également la route européenne E11. Je roule donc à la fois sur une autoroute et sur une route européenne.",
+    "frame": "447.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "423.0.jpg",
+      "441.0.jpg",
+      "447.0.jpg",
+      "453.0.jpg"
+    ],
+    "window": [
+      414.0,
+      459.0
+    ]
+  },
+  {
+    "ref": "v46q09",
+    "theme": "priorités",
+    "question_text": "Le camion tourne à gauche. La moto tourne à droite. Quel usager passe en premier ?",
+    "options": {
+      "A": "Le camion",
+      "B": "La moto",
+      "C": "La voiture"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "La voiture est placée devant un « Cédez le passage » : elle doit céder à gauche comme à droite. Le camion souhaite tourner à gauche et doit donc laisser passer le véhicule qui arrive en face. La moto passe donc en première, le camion peut ensuite tourner à gauche, et la voiture passe en dernier.",
+    "frame": "477.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "477.0.jpg",
+      "504.0.jpg",
+      "513.0.jpg",
+      "519.0.jpg"
+    ],
+    "window": [
+      459.0,
+      519.0
+    ]
+  }
+]

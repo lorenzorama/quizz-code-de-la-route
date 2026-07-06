@@ -1,0 +1,83 @@
+[
+  {
+    "ref": "v34q02",
+    "theme": "piétons",
+    "question_text": "Je dois particulièrement faire attention à la zone",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "Je place mon pied au-dessus du frein : oui",
+      "D": "Je place mon pied au-dessus du frein : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "La zone B est dégagée : on voit qu'aucun piéton ne peut surgir. En revanche, la visibilité dans la zone A est très mauvaise à cause de la végétation, et un piéton pourrait traverser sans être vu. Je fais donc particulièrement attention à la zone A et je place mon pied au-dessus du frein.",
+    "frame": "63.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "63.0.jpg",
+      "72.0.jpg",
+      "84.0.jpg",
+      "93.0.jpg",
+      "111.0.jpg"
+    ],
+    "window": [
+      51.0,
+      112.0
+    ]
+  },
+  {
+    "ref": "v34q03",
+    "theme": "éclairage-visibilité",
+    "question_text": "Je peux allumer mes feux de brouillard arrière en cas de",
+    "options": {
+      "A": "Forte pluie",
+      "B": "Brouillard",
+      "C": "Chute de neige"
+    },
+    "correct": [
+      "B",
+      "C"
+    ],
+    "explanation": "Les feux de brouillard arrière peuvent être utilisés en cas de brouillard ou de chute de neige. Ils sont interdits en cas de forte pluie, car ils risqueraient d'éblouir les usagers qui vous suivent.",
+    "frame": "150.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "150.0.jpg",
+      "156.0.jpg",
+      "180.0.jpg"
+    ],
+    "window": [
+      148.0,
+      184.0
+    ]
+  },
+  {
+    "ref": "v34q08",
+    "theme": "documents",
+    "question_text": "Pour les véhicules de plus de 4 ans, le contrôle technique est obligatoire",
+    "options": {
+      "A": "Tous les ans",
+      "B": "Tous les deux ans",
+      "C": "Tous les trois ans",
+      "D": "Tous les quatre ans"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Pour un véhicule mis en circulation il y a plus de 4 ans, le contrôle technique doit être effectué tous les deux ans.",
+    "frame": "390.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "390.0.jpg",
+      "405.0.jpg",
+      "420.0.jpg"
+    ],
+    "window": [
+      379.0,
+      424.0
+    ]
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "ref": "v37q01",
+    "theme": "écomobilité",
+    "question_text": "Le covoiturage",
+    "options": {
+      "A": "Diminue le nombre de véhicules sur les routes : oui",
+      "B": "Diminue le nombre de véhicules sur les routes : non",
+      "C": "Réduit les émissions polluantes : oui",
+      "D": "Réduit les émissions polluantes : non"
+    },
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Le covoiturage consiste à partager un même véhicule à plusieurs. Il diminue donc le nombre de véhicules en circulation et, par conséquent, réduit les émissions polluantes.",
+    "frame": "30.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "30.0.jpg",
+      "45.0.jpg",
+      "54.0.jpg"
+    ],
+    "window": [
+      0.0,
+      57.0
+    ]
+  },
+  {
+    "ref": "v37q03",
+    "theme": "mécanique-entretien",
+    "question_text": "Sur un même essieu, la différence d'usure entre deux pneumatiques doit être au maximum de",
+    "options": {
+      "A": "5 mm",
+      "B": "10 mm",
+      "C": "15 mm",
+      "D": "20 mm"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Sur un même essieu, la différence d'usure entre les deux pneumatiques ne doit pas dépasser 5 mm afin de garantir un comportement homogène du véhicule.",
+    "frame": "150.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "150.0.jpg",
+      "180.0.jpg",
+      "183.0.jpg"
+    ],
+    "window": [
+      119.0,
+      187.0
+    ]
+  },
+  {
+    "ref": "v37q05",
+    "theme": "équipements-de-sécurité",
+    "question_text": "L'usage d'un casque audio pour téléphoner en conduisant est",
+    "options": {
+      "A": "Autorisé",
+      "B": "Interdit"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "L'usage d'un casque audio, d'écouteurs ou d'oreillettes au volant est interdit. Pour téléphoner en conduisant, seule la technologie Bluetooth intégrée au véhicule est autorisée.",
+    "frame": "240.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "240.0.jpg",
+      "267.0.jpg",
+      "273.0.jpg"
+    ],
+    "window": [
+      234.0,
+      275.0
+    ]
+  },
+  {
+    "ref": "v37q07",
+    "theme": "commandes",
+    "question_text": "Une voiture à boîte automatique",
+    "options": {
+      "A": "Libère en partie le conducteur des contraintes techniques : oui",
+      "B": "Libère en partie le conducteur des contraintes techniques : non",
+      "C": "Ne possède pas la pédale : d'accélérateur",
+      "D": "Ne possède pas la pédale : d'embrayage"
+    },
+    "correct": [
+      "A",
+      "D"
+    ],
+    "explanation": "Une voiture à boîte automatique ne possède pas de pédale d'embrayage. Le changement des vitesses se faisant automatiquement, elle libère en partie le conducteur des contraintes techniques.",
+    "frame": "348.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "348.0.jpg",
+      "378.0.jpg"
+    ],
+    "window": [
+      334.0,
+      382.0
+    ]
+  },
+  {
+    "ref": "v37q08",
+    "theme": "commandes",
+    "question_text": "Ces commandes permettent de contrôler",
+    "options": {
+      "A": "Le limiteur de vitesse",
+      "B": "Le régulateur de vitesse",
+      "C": "L'autoradio",
+      "D": "Le système ABS"
+    },
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "Sur cette commande on reconnaît le symbole du limiteur de vitesse (LIM) ainsi que celui du régulateur de vitesse. Ces boutons permettent donc de contrôler le limiteur et le régulateur de vitesse.",
+    "frame": "399.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "399.0.jpg",
+      "423.0.jpg",
+      "426.0.jpg"
+    ],
+    "window": [
+      385.0,
+      428.0
+    ]
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "ref": "v51q04",
+    "theme": "stationnement",
+    "question_text": "Je circule dans un véhicule électrique. Je suis autorisé à stationner mon véhicule à droite",
+    "options": {
+      "A": "Si je mets celui-ci en charge",
+      "B": "Dans tous les cas"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "La signalisation indique que les places à droite sont réservées aux véhicules électriques pendant leur recharge. Il est donc interdit de s'y stationner sans recharger, y compris pour les autres véhicules électriques. Je ne peux stationner que si je mets mon véhicule en charge.",
+    "frame": "195.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "195.0.jpg",
+      "228.0.jpg",
+      "234.0.jpg"
+    ],
+    "window": [
+      179.0,
+      238.0
+    ]
+  },
+  {
+    "ref": "v51q05",
+    "theme": "éclairage-visibilité",
+    "question_text": "Dans ces conditions, j'allume mes feux",
+    "options": {
+      "A": "De position seuls",
+      "B": "De croisement",
+      "C": "De route"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Par temps de pluie, la visibilité est réduite. Je dois allumer au minimum mes feux de croisement pour bien voir et être vu des autres usagers.",
+    "frame": "246.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "246.0.jpg",
+      "255.0.jpg",
+      "258.0.jpg",
+      "261.0.jpg"
+    ],
+    "window": [
+      238.0,
+      261.0
+    ]
+  },
+  {
+    "ref": "v51q07",
+    "theme": "cyclistes",
+    "question_text": "Dans cette situation",
+    "options": {
+      "A": "Je fais un appel lumineux",
+      "B": "Je reste dans cette voie",
+      "C": "Je dépasse"
+    },
+    "correct": [
+      "B"
+    ],
+    "explanation": "Un véhicule arrive en face, je ne peux pas m'écarter suffisamment pour dépasser le cycliste en sécurité. Je reste donc dans ma voie et je ne dépasserai qu'une fois les véhicules venant d'en face passés.",
+    "frame": "327.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "327.0.jpg",
+      "360.0.jpg",
+      "366.0.jpg"
+    ],
+    "window": [
+      325.0,
+      366.0
+    ]
+  },
+  {
+    "ref": "v51q09",
+    "theme": "signalisation",
+    "question_text": "La signalisation m'annonce la présence d'un passage piéton",
+    "options": {
+      "A": "Immédiatement : oui",
+      "B": "Immédiatement : non",
+      "C": "Dans 50 mètres : oui",
+      "D": "Dans 50 mètres : non"
+    },
+    "correct": [
+      "A",
+      "D"
+    ],
+    "explanation": "Le panneau est de forme carrée et de couleur bleue : c'est un panneau d'indication implanté à l'endroit même de ce qu'il signale. Il s'agit d'un signal de position. La signalisation m'annonce donc la présence immédiate d'un passage piéton, et non dans 50 mètres.",
+    "frame": "450.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "450.0.jpg",
+      "459.0.jpg"
+    ],
+    "window": [
+      385.0,
+      462.0
+    ]
+  },
+  {
+    "ref": "v51q10",
+    "theme": "équipements-de-sécurité",
+    "question_text": "En période hivernale, si mon véhicule ne possède pas de pneus hiver, je suis en règle si j'ai à bord des chaussettes à neige",
+    "options": {
+      "A": "Oui",
+      "B": "Non"
+    },
+    "correct": [
+      "A"
+    ],
+    "explanation": "Dans une trentaine de départements situés en zones de montagne, une obligation d'équipement hivernal s'applique du 1er novembre au 31 mars. Elle peut être satisfaite en montant des pneus hiver ou en ayant à bord des dispositifs antidérapants comme des chaussettes à neige. Je suis donc en règle avec des chaussettes à neige même sans pneus hiver.",
+    "frame": "480.0.jpg",
+    "crop": null,
+    "candidate_frames": [
+      "480.0.jpg",
+      "510.0.jpg",
+      "519.0.jpg",
+      "525.0.jpg"
+    ],
+    "window": [
+      462.0,
+      528.0
+    ]
+  }
+]
